@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+#share_button{
+  background-color: #BE0027;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#logo  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 16%;
+  margin-top: 10px;
+  margin-bottom: 8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#mobileLine {
+  visibility: hidden;
+  margin: 0;
+}
+
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+  #logo  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 10px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* sm */
+@media screen and (min-width: 768px) {
+  #logo  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    margin-top: 10px;
   }
-  to {
-    transform: rotate(360deg);
+
+  #mobileLine {
+    visibility: visible;
+    color: black;
+    width: 70%;
+    border-top: 2px solid #bcbcbc;
+    margin: auto;
+  }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+  #logo  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    margin-top: 10px;
+  }
+  #mobileLine {
+    visibility: hidden;
+  }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+  #logo  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 21%;
+    margin-top: 25px;
+  }
+  #mobileLine {
+    visibility: hidden;
   }
 }

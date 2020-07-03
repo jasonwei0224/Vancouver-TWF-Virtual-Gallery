@@ -1,0 +1,90 @@
+.uploadBtn {
+    text-align: center;
+    border-radius: 20px;
+    background-color: #707070;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:2%;
+    padding-bottom:2%;
+    margin: auto;
+    margin-top:60px;
+    font-weight: bold;
+    font-size: 30px;
+    width:80%;
+    border: none !important;
+}
+.uploadBtn:hover{
+  background-color: #0C3866;
+  color:white;
+}
+.mobileShareBtn {
+    text-align: center;
+    border-radius: 20px;
+    background-color: #4E9B16;
+    color: #0C3866;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:2%;
+    padding-bottom:2%;
+    margin: auto;
+    font-weight: bold;
+    font-size: 30px;
+    width:80%;
+    color: white;
+}
+.uploadBtnLong {
+    text-align: center;
+    border-radius: 20px;
+    background-color: #246f79;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:2%;
+    padding-bottom:2%;
+    margin: auto;
+    font-weight: bold;
+    font-size: 15px;
+    width:80%;
+    border: none !important;
+}
+.uploadBtnLong:hover{
+  background-color: #0C3866;
+  color:white;
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+    .uploadBtnLong {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    .uploadBtn {
+        margin-top:30px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+    .mobileShareBtn {
+        display:none;
+
+    }
+    .uploadBtn {
+
+        font-size: 18px;
+        margin-top:50px;
+    }
+    .uploadBtnLong {
+
+        font-size: 18px;
+        margin-top:100px;
+    }
+
+}

@@ -1,0 +1,124 @@
+
+
+.PI-contents_ch {
+    margin-top: 2%;
+    font-family: 'adonis-web';
+    overflow: hidden;
+}
+
+.PI-subtitle_ch {
+    color: #246f79;
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.PI-title_ch {
+    color:#EF5797;
+    font-size: 50px;
+    margin-bottom: 45px;
+    font-weight:bold;
+    font-family: 'adonis-web';
+}
+
+.PI-last {
+    margin-bottom: 70px;
+}
+
+.PI-artist_ch {
+    color: #246f79;
+    font-size: 19pt;
+    padding: 0;
+}
+
+a.PI-shareButton_ch {
+    border-color: #4E9B16;
+    background-color: #4E9B16;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 25px;
+    height: fit-content;
+    width: fit-content;
+    font-family: "sofia-pro", Sans-serif;
+    overflow: hidden;
+
+}
+a.PI-shareButton_ch:hover{
+  background-color: #246f79;
+}
+.PI-colButton {
+    display: grid;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  a.PI-shareButton_ch {
+      font-size: 10px;
+      padding: 5px 36px 5px 36px;
+      display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .PI-subtitle_ch {
+      font-size: 50px;
+  }
+
+  .PI-title_ch {
+      font-size: 60px;
+  }
+
+  .PI-artist_ch {
+      font-size: 42px;
+  }
+
+  a.PI-shareButton_ch {
+      font-size: 10px;
+      padding: 5px 36px 5px 36px;
+      display: none;
+  }
+  @media only screen and (min-width: 992px) {
+
+      .PI-subtitle_ch {
+          font-size: 50px;
+      }
+
+      .PI-title_ch {
+          font-size: 60px;
+      }
+
+      .PI-artist_ch {
+          font-size: 50px;
+      }
+
+      a.PI-shareButton_ch {
+          font-size: 10px;
+          padding: 5px 32px 5px 32px;
+          display: None;
+      }
+  }
+
+@media screen and (min-width: 1200px) {
+  .PI-subtitle_ch {
+      font-size: 40px;
+  }
+
+  .PI-title_ch {
+      font-size: 50px;
+      margin-bottom: 7.5%;
+  }
+
+  .PI-artist_ch {
+      font-size: 28px;
+      margin-bottom: 0px !important;
+  }
+
+  a.PI-shareButton_ch {
+      font-size: 20px;
+      padding: 5px 32px 5px 32px;
+      margin-bottom: 0px !important;
+      display: block;
+    }
+  }
+}

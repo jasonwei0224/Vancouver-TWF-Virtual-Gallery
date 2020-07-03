@@ -1,0 +1,46 @@
+/* p {
+  font-family: 'adonis-web';
+} */
+/* * {
+  overflow-x: hidden;
+} */
+.main_image{
+  margin: 0px;
+  width:100%;
+  height: auto;
+  overflow: hidden;
+
+}
+.image_col{
+  padding: 0px;
+  margin-bottom: -100px!important;
+}
+
+.mainSection {
+  margin-top: 100px;
+  margin-bottom:50px;
+}
+.slick-slider {
+  overflow-x: hidden;
+  height:auto;
+  overflow-y:hidden;
+}
+.slick-dots {
+  position:initial;
+  width:100%;
+  height:auto;
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (min-width: 992px) {
+}
+
+
+@media screen and (min-width: 1200px) {
+}
