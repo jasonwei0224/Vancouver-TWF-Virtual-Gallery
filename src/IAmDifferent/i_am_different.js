@@ -69,7 +69,7 @@ function IAmDifferent() {
 
 
 
-             <Button2 onclick={goToForm} title="UPLOAD FRONT-LINE HERO PHOTO"></Button2>
+             <Button2 onclick={goToForm} title="UPLOAD FRONT-LINE HERO PHOTO" sharedUrl="https://www.facebook.com/sharer/sharer.php?u=https://www.acsea.ca/"></Button2>
 
       </Container>
       <div

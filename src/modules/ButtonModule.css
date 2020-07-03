@@ -32,6 +32,7 @@
     font-size: 30px;
     width:80%;
     color: white;
+    display: inline-block;
 }
 .uploadBtnLong {
     text-align: center;
@@ -51,6 +52,11 @@
 .uploadBtnLong:hover{
   background-color: #0C3866;
   color:white;
+}
+.mobileShareBtn:hover {
+    background-color: #0C3866;
+    color:white;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 767px) {
