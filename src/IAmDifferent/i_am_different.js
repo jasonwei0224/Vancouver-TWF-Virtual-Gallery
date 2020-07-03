@@ -50,7 +50,7 @@ function IAmDifferent() {
           subtitle="I'm different, just like you"
           title="WE ARE ALL IN THIS TOGETHER"
           artistName="TAIWANfest"
-          url="https://www.facebook.com/sharer/sharer.php?u=https://www.acsea.ca/"
+          url="https://www.facebook.com/sharer/sharer.php?u=https://gallery.vancouvertaiwanfest.ca/#/IAmDifferent"
           color="#246f79"
         ></ProgramInfo>
 

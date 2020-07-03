@@ -149,7 +149,7 @@ class SkyV1_ch extends Component {
               <img className="main_image" src={mainImage}/>
             </Col>
         </Row>
-      <ProgramInfo_ch subtitle="我跟你的相同, 就是我們都不同" title="頭頂同一片天計畫" artistName="台灣文化節" url="https://www.facebook.com/sharer/sharer.php?u=https://gallery.vancouvertaiwanfest.ca/#/sky" color="#246f79">
+      <ProgramInfo_ch subtitle="我跟你的相同, 就是我們都不同" title="頭頂同一片天計畫" artistName="台灣文化節" url="https://www.facebook.com/sharer/sharer.php?u=https://gallery.vancouvertaiwanfest.ca/#/sky-ch" color="#246f79">
       </ProgramInfo_ch>
 
       <MainContents_First_ch contents="在同一片藍天下，當一切顏色歸零(Colour Zero)，回到一個個獨立的個體，人們究竟有何不同?"></MainContents_First_ch>

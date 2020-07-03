@@ -186,7 +186,7 @@ class IAmDifferentForm extends Component {
 
             <FormFile FormId="subjectFile" onChange={this.onChange} hint="檔案格式必須為jpg或png，且檔案大小在1MB以下"></FormFile>
 
-            <FormConsent_ch inputId="checkbox-3" consent="我同意台灣文化節將我上傳的照片作為「共同面對我」節目的內容與相關宣傳使用。"></FormConsent_ch>
+            <FormConsent_ch inputId="checkbox-3" consent="我同意台灣文化節將我上傳的照片作為「共同面對的我們」節目的內容與相關宣傳使用。"></FormConsent_ch>
 
 
 
