@@ -67,7 +67,7 @@ class IAmDifferentForm extends Component {
     var subjectCityLength=document.getElementById('subjectCity').value.length;
     var subjectFile=document.getElementById('subjectFile').value.length;
     var result=senderFullNameLength*senderCityLength*senderEmailLength*subjectFirstNameLength*subjectOccupationLength*subjectEthnicityLength*subjectCityLength*subjectFile;
-    console.log(result);
+
     if(result==0) {
         return true;
       }else {
