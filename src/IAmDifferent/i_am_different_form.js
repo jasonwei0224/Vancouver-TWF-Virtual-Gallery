@@ -100,8 +100,9 @@ class IAmDifferentForm extends Component {
         subjectFirstName:subjectFirstName,
         subjectOccupation: subjectOccupation,
         subjectEthnicity:subjectEthnicity,
-        subjectCity:subjectCity
-        }
+        subjectCity:subjectCity,
+        from:"vancouvertaiwanfest"
+      }
       await this.uploadFile(this.state.file, testFinal);
     }
   }
