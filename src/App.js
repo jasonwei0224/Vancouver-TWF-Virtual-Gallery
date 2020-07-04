@@ -32,7 +32,7 @@ function App() {
 
         {/* <hr id="mobileLine"/> */}
         <HeaderV1 />
-          <Route path="/" exact component={Home} />
+          <Route path="/" exact component={IAmDifferent} />
           {/*<Route path="/" component={() => {
      window.location.href = "https://torontotaiwanfest.ca/";}}/>*/}
           <Route path="/PaulsApple" component={PaulsApple} />
