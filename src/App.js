@@ -22,6 +22,7 @@ import Mirror_ch from "./ch/Mirror-ch/mirror-ch";
 import HeaderV1 from "./header_v1.js";
 import twftorlogo from "./assets/twftorlogo.png";
 import twfvanlogo from "./assets/vantwflogo.png";
+import featureImage from "./assets/van-feature-image1.jpg";
 // import"./sky_v1.css";
 
 function App() {

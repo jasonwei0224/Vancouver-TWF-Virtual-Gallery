@@ -87,7 +87,7 @@ export default class HeaderV1 extends React.Component {
             <Nav className="m-auto" id="navLinkContainer" style={{alignItems:"end"}}>
               {this.state.english?
               <>
-                <Nav.Link bsPrefix="navitem" href="https://torontotaiwanfest.ca/">HOME</Nav.Link>
+                <Nav.Link bsPrefix="navitem" href="https://vancouvertaiwanfest.ca/vancouver-2020/">HOME</Nav.Link>
                 <div className="borderClass">
                   <NavDropdown bsPrefix="navitem-dropdown"title="ABOUT US" renderMenuOnMount={true}>
                     <div className="dropdownbg">
