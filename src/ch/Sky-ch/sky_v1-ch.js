@@ -98,7 +98,7 @@ class SkyV1_ch extends Component {
 
       var testFinal={
         firstName:firstName,
-        lastNaem:lastName,
+        lastName:lastName,
         userEmail:userEmail,
         description:description,
         location:location,
