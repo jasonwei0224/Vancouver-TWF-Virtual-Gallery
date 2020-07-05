@@ -29,8 +29,6 @@ function App() {
   return (
       <div className="App">
         <HashRouter>
-          <a href="https://vancouvertaiwanfest.ca/vancouver-2020/"><img src={twfvanlogo} id="logo" ></img></a>
-
         {/* <hr id="mobileLine"/> */}
         <HeaderV1 />
           <Route path="/" exact component={IAmDifferent} />
