@@ -3,7 +3,7 @@ import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 import "./header_v1.css";
 import en from "./assets/en.png";
 import ch from "./assets/ch.png";
-
+import twfvanlogo from "./assets/vantwflogo.png";
 
 export default class HeaderV1 extends React.Component {
 
@@ -74,6 +74,16 @@ export default class HeaderV1 extends React.Component {
 
   render(){
     return (
+      <div>
+        {this.state.english?
+          <>
+      <a href="https://vancouvertaiwanfest.ca/vancouver-2020/"><img src={twfvanlogo} id="logo" ></img></a>
+      </>
+      :
+        <>
+      <a href="https://vancouvertaiwanfest.ca/%e6%ba%ab%e5%93%a5%e8%8f%af%e5%8f%b0%e7%81%a3%e6%96%87%e5%8c%96%e7%af%802020/?lang=zh-hant"><img src={twfvanlogo} id="logo" ></img></a>
+      </>
+  }
     <div id="headerFinal" style={{
       position: this.state.position,
       top: this.state.top,
@@ -117,7 +127,7 @@ export default class HeaderV1 extends React.Component {
               </>
               :
               <>
-                <Nav.Link bsPrefix="navitemCh" href="/">首頁</Nav.Link>
+                <Nav.Link bsPrefix="navitemCh" href="https://vancouvertaiwanfest.ca/%e6%ba%ab%e5%93%a5%e8%8f%af%e5%8f%b0%e7%81%a3%e6%96%87%e5%8c%96%e7%af%802020/?lang=zh-hant">首頁</Nav.Link>
                 <div className="borderClass">
                   <NavDropdown bsPrefix="navitemCh-dropdown" title="關於我們" id="basic-nav-dropdown" renderMenuOnMount={true}>
                     <NavDropdown.Item bsPrefix="dropdownCh-item" href="#">活動足跡</NavDropdown.Item>
@@ -148,6 +158,7 @@ export default class HeaderV1 extends React.Component {
           </Navbar.Collapse>
         </Navbar>
       </Container>
+    </div>
     </div>
     );
   }
