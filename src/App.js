@@ -26,6 +26,12 @@ import featureImage from "./assets/van-feature-image1.jpg";
 // import"./sky_v1.css";
 
 function App() {
+  const history = createBrowserHistory();
+ReactGA.initialize('UA-2521987-18');
+history.listen(location => {
+  ReactGA.set({ page: location.pathname }); // Update the user's current page
+  ReactGA.pageview(location.pathname); // Record a pageview for the given page
+});
   return (
       <div className="App">
         <HashRouter>
