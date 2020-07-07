@@ -23,15 +23,18 @@ import HeaderV1 from "./header_v1.js";
 import twftorlogo from "./assets/twftorlogo.png";
 import twfvanlogo from "./assets/vantwflogo.png";
 import featureImage from "./assets/van-feature-image1.jpg";
+import ReactGA from 'react-ga';
+import { createBrowserHistory } from 'history';
 // import"./sky_v1.css";
 
 function App() {
-  const history = createBrowserHistory();
+  // const history = createBrowserHistory();
 ReactGA.initialize('UA-2521987-18');
-history.listen(location => {
-  ReactGA.set({ page: location.pathname }); // Update the user's current page
-  ReactGA.pageview(location.pathname); // Record a pageview for the given page
-});
+
+// history.listen(location => {
+//   ReactGA.set({ page: location.pathname }); // Update the user's current page
+//   ReactGA.pageview(location.pathname); // Record a pageview for the given page
+// });
   return (
       <div className="App">
         <HashRouter>
