@@ -73,13 +73,13 @@ div.dropdown-menu{
 
 }
 .dropdown-item:hover{
-  background: white !important;
-  color:black!important;
+  background: #246F79 !important;
+  color:white!important;
   text-decoration: none;
 }
 .dropdownCh-item:hover{
-  background: white !important;
-  color:black!important;
+  background: #246F79 !important;
+  color:white!important;
   text-decoration: none;
 }
 
