@@ -101,10 +101,10 @@ export default class HeaderV1 extends React.Component {
                 <div className="borderClass">
                   <NavDropdown bsPrefix="navitem-dropdown"title="ABOUT US" renderMenuOnMount={true}>
                     <div className="dropdownbg">
-                    <NavDropdown.Item bsPrefix="dropdown-item" href="#">HISTORY</NavDropdown.Item>
-                    <NavDropdown.Item bsPrefix="dropdown-item" href="#">ARTIST VISION</NavDropdown.Item>
-                    <NavDropdown.Item bsPrefix="dropdown-item" href="#">MEDIA</NavDropdown.Item>
-                    <NavDropdown.Item bsPrefix="dropdown-item" href="#">OUR TEAM</NavDropdown.Item>
+                    <NavDropdown.Item bsPrefix="dropdown-item" href="https://vancouvertaiwanfest.ca/vancouver-history/">HISTORY</NavDropdown.Item>
+                    <NavDropdown.Item bsPrefix="dropdown-item" href="https://vancouvertaiwanfest.ca/artist-vision/">ARTIST VISION</NavDropdown.Item>
+                    <NavDropdown.Item bsPrefix="dropdown-item" href="https://vancouvertaiwanfest.ca/media/">MEDIA</NavDropdown.Item>
+                    <NavDropdown.Item bsPrefix="dropdown-item" href="https://vancouvertaiwanfest.ca/our-team/">OUR TEAM</NavDropdown.Item>
                     </div>
                   </NavDropdown>
                 </div>
@@ -122,7 +122,7 @@ export default class HeaderV1 extends React.Component {
                 <Nav.Link bsPrefix="navitem" href="#">BOOKSTORE</Nav.Link>
                 <Nav.Link bsPrefix="navitem" href="#">FILMS</Nav.Link>
                 <Nav.Link bsPrefix="navitem" href="#">SPONSORS</Nav.Link>
-                <Nav.Link bsPrefix="navitem" href="#">VOLUNTEER</Nav.Link>
+                <Nav.Link bsPrefix="navitem" href="https://www.acsea.ca/volunteer/join-us/">VOLUNTEER</Nav.Link>
                 <Nav.Link className="langNavLink" bsPrefix = "langNavLink"><img className="langIcon" src={ch} onClick={this.languageBtnListener}/></Nav.Link>
               </>
               :
@@ -130,9 +130,9 @@ export default class HeaderV1 extends React.Component {
                 <Nav.Link bsPrefix="navitemCh" href="https://vancouvertaiwanfest.ca/%e6%ba%ab%e5%93%a5%e8%8f%af%e5%8f%b0%e7%81%a3%e6%96%87%e5%8c%96%e7%af%802020/?lang=zh-hant">首頁</Nav.Link>
                 <div className="borderClass">
                   <NavDropdown bsPrefix="navitemCh-dropdown" title="關於我們" id="basic-nav-dropdown" renderMenuOnMount={true}>
-                    <NavDropdown.Item bsPrefix="dropdownCh-item" href="#">活動足跡</NavDropdown.Item>
-                    <NavDropdown.Item bsPrefix="dropdownCh-item" href="#">藝術方針</NavDropdown.Item>
-                    <NavDropdown.Item bsPrefix="dropdownCh-item" href="#">媒體資訊</NavDropdown.Item>
+                    <NavDropdown.Item bsPrefix="dropdownCh-item" href="https://vancouvertaiwanfest.ca/%e6%b4%bb%e5%8b%95%e8%b6%b3%e8%b7%a1/?lang=zh-hant">活動足跡</NavDropdown.Item>
+                    <NavDropdown.Item bsPrefix="dropdownCh-item" href="https://vancouvertaiwanfest.ca/%e8%97%9d%e8%a1%93%e6%96%b9%e9%87%9d/?lang=zh-hant">藝術方針</NavDropdown.Item>
+                    <NavDropdown.Item bsPrefix="dropdownCh-item" href="https://vancouvertaiwanfest.ca/%e5%aa%92%e9%ab%94%e8%b3%87%e8%a8%8a/?lang=zh-hant">媒體資訊</NavDropdown.Item>
                     <NavDropdown.Item bsPrefix="dropdownCh-item" href="#">我們團隊</NavDropdown.Item>
                   </NavDropdown>
                 </div>
@@ -149,7 +149,7 @@ export default class HeaderV1 extends React.Component {
                 <Nav.Link bsPrefix="navitemCh" href="#">台灣書店</Nav.Link>
                 <Nav.Link bsPrefix="navitemCh" href="#">電影櫥窗</Nav.Link>
                 <Nav.Link bsPrefix="navitemCh" href="#">贊助單位</Nav.Link>
-                <Nav.Link bsPrefix="navitemCh" href="#">義工專區</Nav.Link>
+                <Nav.Link bsPrefix="navitemCh" href="https://vancouvertaiwanfest.ca/our-team/?lang=zh-hant">義工專區</Nav.Link>
                 <Nav.Link className="langNavLinkCh"><img className="langIconCh" src={en} onClick={this.languageBtnListener}/></Nav.Link>
               </>
               }

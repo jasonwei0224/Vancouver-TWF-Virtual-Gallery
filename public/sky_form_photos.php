@@ -8,7 +8,7 @@
         $description = trim($_POST['description']);
         $location = trim($_POST['location']);
         $date = trim($_POST['date']);
-        $filename = $firstName . $userEmail . $description  . $location . $date;
+        $filename = rand(0,1000) . $firstName . $userEmail . $description  . $location . $date . ".jpg";
     }
 
     if($_FILES['skyPhoto'])
