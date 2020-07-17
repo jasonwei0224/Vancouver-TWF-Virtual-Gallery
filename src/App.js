@@ -20,6 +20,7 @@ import PaulsApple_ch from "./ch/PaulsApple-ch/pauls_apple-ch";
 import PeopleAndMask_ch from "./ch/PeopleAndMask-ch/people_and_mask-ch";
 import Mirror_ch from "./ch/Mirror-ch/mirror-ch";
 import HeaderV1 from "./header_v1.js";
+import HeaderV2 from "./header_v2.js";
 import twftorlogo from "./assets/twftorlogo.png";
 import twfvanlogo from "./assets/vantwflogo.png";
 import featureImage from "./assets/van-feature-image1.jpg";
@@ -38,9 +39,13 @@ ReactGA.initialize('UA-2521987-18');
   return (
       <div className="App">
         <HashRouter>
+          {/* <a href="https://vancouvertaiwanfest.ca/vancouver-2020/"><img src={twfvanlogo} id="logo" ></img></a> */}
+
         {/* <hr id="mobileLine"/> */}
-        <HeaderV1 />
-          <Route path="/" exact component={IAmDifferent} />
+        {/* <HeaderV1 /> */}
+        {/* <Route path="/" exact component={IAmDifferent} /> */}
+        <HeaderV2 />
+          <Route path="/" exact component={Home} />
           {/*<Route path="/" component={() => {
      window.location.href = "https://torontotaiwanfest.ca/";}}/>*/}
           <Route path="/PaulsApple" component={PaulsApple} />
