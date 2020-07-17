@@ -68,8 +68,8 @@ class IAmDifferentForm extends Component {
     var subjectFile=document.getElementById('subjectFile').value.length;
     var result=senderFullNameLength*senderCityLength*senderEmailLength*subjectFirstNameLength*subjectOccupationLength*subjectEthnicityLength*subjectCityLength*subjectFile;
 
-    var checkbox=document.getElementById('iamdiff-consent-en').checked;
-    console.log(checkbox);
+    // var checkbox=document.getElementById('iamdiff-consent-en').checked;
+    // console.log(checkbox);
     if(result==0) {
       return true;
     }else {

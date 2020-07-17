@@ -20,6 +20,7 @@ import PaulsApple_ch from "./ch/PaulsApple-ch/pauls_apple-ch";
 import PeopleAndMask_ch from "./ch/PeopleAndMask-ch/people_and_mask-ch";
 import Mirror_ch from "./ch/Mirror-ch/mirror-ch";
 import HeaderV1 from "./header_v1.js";
+import HeaderV2 from "./header_v2.js";
 import twftorlogo from "./assets/twftorlogo.png";
 import twfvanlogo from "./assets/vantwflogo.png";
 // import"./sky_v1.css";
@@ -28,10 +29,11 @@ function App() {
   return (
       <div className="App">
         <HashRouter>
-          <a href="https://vancouvertaiwanfest.ca/vancouver-2020/"><img src={twfvanlogo} id="logo" ></img></a>
+          {/* <a href="https://vancouvertaiwanfest.ca/vancouver-2020/"><img src={twfvanlogo} id="logo" ></img></a> */}
 
         {/* <hr id="mobileLine"/> */}
-        <HeaderV1 />
+        {/* <HeaderV1 /> */}
+        <HeaderV2 />
           <Route path="/" exact component={Home} />
           {/*<Route path="/" component={() => {
      window.location.href = "https://torontotaiwanfest.ca/";}}/>*/}
