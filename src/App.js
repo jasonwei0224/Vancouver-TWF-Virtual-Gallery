@@ -37,9 +37,10 @@ ReactGA.initialize('UA-2521987-18');
 // });
   return (
       <div className="App">
-        <HashRouter>
-        {/* <hr id="mobileLine"/> */}
         <HeaderV1 />
+        <Router>
+        {/* <hr id="mobileLine"/> */}
+        <Switch>
           <Route path="/" exact component={IAmDifferent} />
           {/*<Route path="/" component={() => {
      window.location.href = "https://torontotaiwanfest.ca/";}}/>*/}
@@ -59,7 +60,8 @@ ReactGA.initialize('UA-2521987-18');
           <Route path="/PeopleAndMask-ch" component={PeopleAndMask_ch}/>
           <Route path="/Mirror-ch" component={Mirror_ch}/>
           <Route path="/-ch" exact component={IAmDifferent_ch} />
-          </HashRouter>
+          </Switch>
+          </Router>
       </div>
   );
 }
