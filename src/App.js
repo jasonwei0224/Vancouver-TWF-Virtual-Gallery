@@ -38,14 +38,13 @@ ReactGA.initialize('UA-2521987-18');
 // });
   return (
       <div className="App">
-        <HashRouter>
-          {/* <a href="https://vancouvertaiwanfest.ca/vancouver-2020/"><img src={twfvanlogo} id="logo" ></img></a> */}
 
+        <HeaderV1 />
+        <Router>
         {/* <hr id="mobileLine"/> */}
-        {/* <HeaderV1 /> */}
-        {/* <Route path="/" exact component={IAmDifferent} /> */}
-        <HeaderV2 />
-          <Route path="/" exact component={Home} />
+        <Switch>
+          <Route path="/" exact component={IAmDifferent} />
+
           {/*<Route path="/" component={() => {
      window.location.href = "https://torontotaiwanfest.ca/";}}/>*/}
           <Route path="/PaulsApple" component={PaulsApple} />
@@ -64,7 +63,8 @@ ReactGA.initialize('UA-2521987-18');
           <Route path="/PeopleAndMask-ch" component={PeopleAndMask_ch}/>
           <Route path="/Mirror-ch" component={Mirror_ch}/>
           <Route path="/-ch" exact component={IAmDifferent_ch} />
-          </HashRouter>
+          </Switch>
+          </Router>
       </div>
   );
 }
