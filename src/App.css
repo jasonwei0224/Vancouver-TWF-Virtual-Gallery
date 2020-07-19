@@ -15,7 +15,15 @@
   visibility: hidden;
   margin: 0;
 }
+.row {
+  margin-right:0px !important;
 
+}
+
+.container-fluid{
+  padding-left: 0px!important;
+  padding-right:0px !important;
+}
 /* xs < 768 */
 @media screen and (max-width: 767px) {
   #logo  {
@@ -36,7 +44,10 @@
     width: 45%;
     margin-top: 10px;
   }
+  .row {
+    margin-right:0px !important;
 
+}
   #mobileLine {
     visibility: visible;
     color: black;
@@ -72,4 +83,8 @@
   #mobileLine {
     visibility: hidden;
   }
+  .row {
+margin-right:0px !important;
+
+}
 }

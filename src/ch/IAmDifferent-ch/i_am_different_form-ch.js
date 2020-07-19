@@ -4,7 +4,7 @@ import ProgramInfo_ch from "../programInfo-ch"
 import different_img from "../../assets/Different.jpg";
 
 import './IAmDifferentForm-ch.css'
-import Footer from '../../footer-temp';
+import FooterCH from '../footer-ch';
 import fire from '../../firebase/file';
 import ButtonCh from "../../modules/ButtonCh"
 import FormSectionTitle_ch from "../../modules/FormSection_Title_ch"
@@ -201,7 +201,7 @@ class IAmDifferentForm extends Component {
         <InvalidFileModal show={this.state.showInvalidFile} onClick={()=>this.invalidFile()} />
 
     </Container>
-    <Footer content ="&copy; 2020 加拿大亞裔活動協會"/>
+    <FooterCH/>
   </div>
     );
   }
