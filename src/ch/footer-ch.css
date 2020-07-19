@@ -1,5 +1,5 @@
 
-.footer{
+.footer_ch{
   background-color:#636569;
   height: 10%;
   padding: 10px;
@@ -10,18 +10,18 @@
   font-size: 15px;
   font-family: "sofia-pro", Sans-serif !important;
 }
-.footer_content{
+.footer_content_ch{
 color: #FFFFFF;
 font-weight:normal;
 font-family: "sofia-pro", Sans-serif !important;
 }
 
-.footer_form_container{
+.footer_form_container_ch{
   margin-bottom: 40px;
   border-top: 2px solid grey;
 }
 
-.footer_submit_btn:hover ,.footer_subscribe_btn:hover{
+.footer_submit_btn_ch:hover ,.footer_subscribe_btn_ch:hover{
   background-color: #0C3866;
   color:white;
 }
@@ -37,24 +37,22 @@ font-family: "sofia-pro", Sans-serif !important;
 :-ms-input-placeholder {
     color: rgba(96, 96, 96);
 }
-
 @media screen and (max-width: 767px) {
-  .footer{
+  .footer_ch{
     font-size: 18px;
   }
-  #newsletter_name, #newsletter_email, #contact_name, #contact_email, #contact_message{
+  .newsletter_name_ch, .newsletter_email_ch, .contact_name_ch, .contact_email_ch, .contact_message_ch{
     font-size: 40px;
     border-radius: 25px;
     text-align: center;
-    /* color: rgba(96, 96, 96); */
-    color:black;
+    color: black;
     border-color: #D0D0D0;
     border-style: solid;
     border-width: 2px;
     outline:none;
-    resize:unset;
+    resize:none;
   }
-  #newsletter_name{
+  .newsletter_name_ch{
     margin-bottom: 20px;
     border-color: #D0D0D0;
     border-style: solid;
@@ -62,24 +60,24 @@ font-family: "sofia-pro", Sans-serif !important;
     width:100%;
     margin:auto;
   }
-  #newsletter_email, #contact_message{
+  .newsletter_email_ch, .contact_message_ch{
     margin-bottom: 20px;
   }
-  #contact_name, #contact_email{
+  .contact_name_ch, .contact_email_ch{
     margin-bottom: 40px;
     width:100%;
     border-color: #D0D0D0;
     border-style: solid;
     border-width: 2px;
   }
-  #contact_name{
+  .contact_name_ch{
     margin-left: 0px;
     border: 2px;
     border-color: #D0D0D0;
     border-style: solid;
     border-width: 2px;
   }
-  #newsletter_email{
+  .newsletter_email_ch{
     border-color: #D0D0D0;
     border-style: solid;
     border-width: 2px;
@@ -88,7 +86,7 @@ font-family: "sofia-pro", Sans-serif !important;
     margin-top: 40px;
     margin-bottom: 40px;
   }
-  #contact_message{
+  .contact_message_ch{
     width:100%;
     margin-left: 20px;
     margin: auto;
@@ -98,7 +96,7 @@ font-family: "sofia-pro", Sans-serif !important;
     border-color: #D0D0D0;
     border-style: solid;
   }
-  .footer_form_container{
+  .footer_form_container_ch{
     border-top: none;
     margin-left: 0% !important;
     margin-right: 0% !important;
@@ -106,22 +104,20 @@ font-family: "sofia-pro", Sans-serif !important;
     margin-bottom:60px;
   }
 
-  .footer_newsletter_container{
+  .footer_newsletter_container_ch{
     margin-top:30px;
   }
-  .footer_contact_container{
+  .footer_contact_container_ch{
     /* border-left: 2px;
     border-left-color:  #D0D0D0;
     border-left-style: solid; */
     margin-top:30px;
-    /* margin-bottom: 20px; */
-
 
   }
-  .footer_button_row{
+  .footer_button_row_ch{
     text-align: center;
   }
-  .footer_submit_btn, .footer_subscribe_btn{
+  .footer_submit_btn_ch, .footer_subscribe_btn_ch{
     background-color:#D0D0D0;
     color:#606060;
     border-radius: 35px;
@@ -134,22 +130,22 @@ font-family: "sofia-pro", Sans-serif !important;
     border: none;
     font-size:30px;
   }
-  .footer_subscribe_btn{
+  .footer_subscribe_btn_ch{
     margin-top: 10px;
     margin-bottom:50px;
   }
 
-  .footer_title{
+  .footer_title_ch{
     font-size: 40px;
     font-family: "sofia-pro", sans-serif;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-left: 0px !important;
     border-top: 2px solid;
     color:#606060;
-    margin-bottom:20px;
+      margin-bottom:20px;
   }
-  .footer_subtitle{
+  .footer_subtitle_ch{
     font-size: 25px;
     font-family: "sofia-pro", sans-serif;
     text-align: center;
@@ -168,14 +164,14 @@ font-family: "sofia-pro", Sans-serif !important;
   :-ms-input-placeholder {
       color: rgba(96, 96, 96);
   }
-
 }
 
+
 @media screen and (min-width: 768px) {
-  .footer{
+  .footer_ch{
     font-size: 18px;
   }
-  #newsletter_name, #newsletter_email, #contact_name, #contact_email, #contact_message{
+  .newsletter_name_ch, .newsletter_email_ch, .contact_name_ch, .contact_email_ch, .contact_message_ch{
     font-size: 40px;
     border-radius: 25px;
     text-align: center;
@@ -184,8 +180,9 @@ font-family: "sofia-pro", Sans-serif !important;
     border-style: solid;
     border-width: 2px;
     outline:none;
+    resize:none;
   }
-  #newsletter_name{
+  .newsletter_name_ch{
     margin-bottom: 20px;
     border-color: #D0D0D0;
     border-style: solid;
@@ -193,24 +190,24 @@ font-family: "sofia-pro", Sans-serif !important;
     width:100%;
     margin:auto;
   }
-  #newsletter_email, #contact_message{
+  .newsletter_email_ch, .contact_message_ch{
     margin-bottom: 20px;
   }
-  #contact_name, #contact_email{
+  .contact_name_ch, .contact_email_ch{
     margin-bottom: 40px;
     width:100%;
     border-color: #D0D0D0;
     border-style: solid;
     border-width: 2px;
   }
-  #contact_name{
+  .contact_name_ch{
     margin-left: 0px;
     border: 2px;
     border-color: #D0D0D0;
     border-style: solid;
     border-width: 2px;
   }
-  #newsletter_email{
+  .newsletter_email_ch{
     border-color: #D0D0D0;
     border-style: solid;
     border-width: 2px;
@@ -219,7 +216,7 @@ font-family: "sofia-pro", Sans-serif !important;
     margin-top: 40px;
     margin-bottom: 40px;
   }
-  #contact_message{
+  .contact_message_ch{
     width:100%;
     margin-left: 20px;
     margin: auto;
@@ -229,7 +226,7 @@ font-family: "sofia-pro", Sans-serif !important;
     border-color: #D0D0D0;
     border-style: solid;
   }
-  .footer_form_container{
+  .footer_form_container_ch{
     border-top: none;
     margin-left: 0% !important;
     margin-right: 0% !important;
@@ -237,21 +234,20 @@ font-family: "sofia-pro", Sans-serif !important;
     margin-bottom:60px;
   }
 
-  .footer_newsletter_container{
+  .footer_newsletter_container_ch{
     margin-top:30px;
   }
-  .footer_contact_container{
+  .footer_contact_container_ch{
     /* border-left: 2px;
     border-left-color:  #D0D0D0;
     border-left-style: solid; */
     margin-top:30px;
-    /* margin-bottom: 20px; */
 
   }
-  .footer_button_row{
+  .footer_button_row_ch{
     text-align: center;
   }
-  .footer_submit_btn, .footer_subscribe_btn{
+  .footer_submit_btn_ch, .footer_subscribe_btn_ch{
     background-color:#D0D0D0;
     color:#606060;
     border-radius: 35px;
@@ -264,15 +260,16 @@ font-family: "sofia-pro", Sans-serif !important;
     border: none;
     font-size:30px;
   }
-  .footer_subscribe_btn{
+  .footer_subscribe_btn_ch{
     margin-top: 10px;
     margin-bottom:50px;
   }
-  .footer_submit_btn{
+  .footer_submit_btn_ch{
    margin-top: 10px;
    margin-bottom:25px;
  }
-  .footer_title{
+
+  .footer_title_ch{
     font-size: 40px;
     font-family: "sofia-pro", sans-serif;
     text-align: center;
@@ -280,9 +277,9 @@ font-family: "sofia-pro", Sans-serif !important;
     padding-left: 0px !important;
     border-top: 2px solid;
     color:#606060;
-    margin-bottom:20px;
+      margin-bottom:20px;
   }
-  .footer_subtitle{
+  .footer_subtitle_ch{
     font-size: 25px;
     font-family: "sofia-pro", sans-serif;
     text-align: center;
@@ -305,10 +302,10 @@ font-family: "sofia-pro", Sans-serif !important;
 
 
 @media screen and (min-width: 992px) {
-  .footer{
+  .footer_ch{
     font-size: 18px;
   }
-  #newsletter_name, #newsletter_email, #contact_name, #contact_email, #contact_message{
+  .newsletter_name_ch, .newsletter_email_ch, .contact_name_ch, .contact_email_ch, .contact_message_ch{
     font-size: 40px;
     border-radius: 25px;
     text-align: center;
@@ -317,8 +314,9 @@ font-family: "sofia-pro", Sans-serif !important;
     border-style: solid;
     border-width: 2px;
     outline:none;
+    resize:none;
   }
-  #newsletter_name{
+  .newsletter_name_ch{
     margin-bottom: 20px;
     border-color: #D0D0D0;
     border-style: solid;
@@ -326,24 +324,24 @@ font-family: "sofia-pro", Sans-serif !important;
     width:100%;
     margin:auto;
   }
-  #newsletter_email, #contact_message{
+  .newsletter_email_ch, .contact_message_ch{
     margin-bottom: 20px;
   }
-  #contact_name, #contact_email{
+  .contact_name_ch, .contact_email_ch{
     margin-bottom: 40px;
     width:100%;
     border-color: #D0D0D0;
     border-style: solid;
     border-width: 2px;
   }
-  #contact_name{
+  .contact_name_ch{
     margin-left: 0px;
     border: 2px;
     border-color: #D0D0D0;
     border-style: solid;
     border-width: 2px;
   }
-  #newsletter_email{
+  .newsletter_email_ch{
     border-color: #D0D0D0;
     border-style: solid;
     border-width: 2px;
@@ -352,7 +350,7 @@ font-family: "sofia-pro", Sans-serif !important;
     margin-top: 40px;
     margin-bottom: 40px;
   }
-  #contact_message{
+  .contact_message_ch{
     width:100%;
     margin-left: 20px;
     margin: auto;
@@ -362,7 +360,7 @@ font-family: "sofia-pro", Sans-serif !important;
     border-color: #D0D0D0;
     border-style: solid;
   }
-  .footer_form_container{
+  .footer_form_container_ch{
     border-top: none;
     margin-left: 0% !important;
     margin-right: 0% !important;
@@ -370,20 +368,20 @@ font-family: "sofia-pro", Sans-serif !important;
     margin-bottom:60px;
   }
 
-  .footer_newsletter_container{
+  .footer_newsletter_container_ch{
     margin-top:30px;
   }
-  .footer_contact_container{
+  .footer_contact_container_ch{
     /* border-left: 2px;
     border-left-color:  #D0D0D0;
     border-left-style: solid; */
     margin-top:30px;
 
   }
-  .footer_button_row{
+  .footer_button_row_ch{
     text-align: center;
   }
-  .footer_submit_btn, .footer_subscribe_btn{
+  .footer_submit_btn_ch, .footer_subscribe_btn_ch{
     background-color:#D0D0D0;
     color:#606060;
     border-radius: 35px;
@@ -396,16 +394,15 @@ font-family: "sofia-pro", Sans-serif !important;
     border: none;
     font-size:30px;
   }
-  .footer_subscribe_btn{
+  .footer_subscribe_btn_ch{
     margin-top: 10px;
     margin-bottom:50px;
   }
-  .footer_submit_btn{
+  .footer_submit_btn_ch{
    margin-top: 10px;
    margin-bottom:30px;
  }
-
-  .footer_title{
+  .footer_title_ch{
     font-size: 40px;
     font-family: "sofia-pro", sans-serif;
     text-align: center;
@@ -413,9 +410,9 @@ font-family: "sofia-pro", Sans-serif !important;
     padding-left: 0px !important;
     border-top: 2px solid;
     color:#606060;
-    margin-bottom:20px;
+      margin-bottom:20px;
   }
-  .footer_subtitle{
+  .footer_subtitle_ch{
     font-size: 25px;
     font-family: "sofia-pro", sans-serif;
     text-align: center;
@@ -438,7 +435,7 @@ font-family: "sofia-pro", Sans-serif !important;
 
 
 @media screen and (min-width: 1200px) {
-  #newsletter_name, #newsletter_email, #contact_name, #contact_email, #contact_message{
+  .newsletter_name_ch, .newsletter_email_ch, .contact_name_ch, .contact_email_ch, .contact_message_ch{
     font-size: 20px;
     border-radius: 25px;
     text-align: center;
@@ -448,7 +445,7 @@ font-family: "sofia-pro", Sans-serif !important;
     border-width: 2px;
     outline:none;
   }
-  #newsletter_name{
+  .newsletter_name_ch{
     margin-bottom: 20px;
     border-color: #D0D0D0;
     border-style: solid;
@@ -456,25 +453,24 @@ font-family: "sofia-pro", Sans-serif !important;
     width:80%;
     margin:auto;
   }
-  #newsletter_email, #contact_message{
+  .newsletter_email_ch, .contact_message_ch{
     margin-bottom: 20px;
   }
-  #contact_name, #contact_email{
+  .contact_name_ch, .contact_email_ch{
     margin-bottom: 20px;
     width:85%;
     border-color: #D0D0D0;
     border-style: solid;
     border-width: 2px;
-
   }
-  #contact_name{
+  .contact_name_ch{
     margin-left: 25px;
     border: 2px;
     border-color: #D0D0D0;
     border-style: solid;
     border-width: 2px;
   }
-  #newsletter_email{
+  .newsletter_email_ch{
     border-color: #D0D0D0;
     border-style: solid;
     border-width: 2px;
@@ -483,7 +479,7 @@ font-family: "sofia-pro", Sans-serif !important;
     margin-top: 20px;
     margin-bottom: 40px;
   }
-  #contact_message{
+  .contact_message_ch{
     width:90%;
     margin-left: 20px;
     margin: auto;
@@ -493,10 +489,10 @@ font-family: "sofia-pro", Sans-serif !important;
     border-color: #D0D0D0;
     border-style: solid;
   }
-  .footer_form_border{
+  .footer_form_border_ch{
     border-top:2px solid #D0D0D0;
   }
-  .footer_form_container{
+  .footer_form_container_ch{
     /* width: 100%; */
     /* width:80%;
     margin:auto; */
@@ -505,25 +501,26 @@ font-family: "sofia-pro", Sans-serif !important;
     /* border-top: 2px solid; */
   }
 
-  .footer_newsletter_container{
+  .footer_newsletter_container_ch{
     border-right: 2px;
     border-right-color:  #D0D0D0;
     border-right-style: solid;
     margin-top:30px;
     padding-top:30px;
   }
-  .footer_contact_container{
+  .footer_contact_container_ch{
     /* border-left: 2px;
     border-left-color:  #D0D0D0;
     border-left-style: solid; */
     margin-top:30px;
     padding-top:30px;
     margin-left:25px!important
+
   }
-  .footer_button_row{
+  .footer_button_row_ch{
     text-align: center;
   }
-  .footer_submit_btn, .footer_subscribe_btn{
+  .footer_submit_btn_ch, .footer_subscribe_btn_ch{
     background-color:#D0D0D0;
     color:#606060;
     border-radius: 25px;
@@ -536,11 +533,11 @@ font-family: "sofia-pro", Sans-serif !important;
     border: none;
     font-size:18px;
   }
-  .footer_subscribe_btn{
+  .footer_subscribe_btn_ch{
     margin-top: 10px;
   }
 
-  .footer_title{
+  .footer_title_ch{
     font-size: 30px;
     font-family: "sofia-pro", sans-serif;
     text-align: center;
@@ -549,41 +546,39 @@ font-family: "sofia-pro", Sans-serif !important;
     border-top: 0px;
     color:#606060;
   }
-  .footer_subtitle{
+  .footer_subtitle_ch{
     font-size: 16px;
     font-family: "sofia-pro", sans-serif;
     text-align: center;
     padding-bottom: 20px;
     color:#606060;
   }
-  ::-webkit-input-placeholder {
+    ::-webkit-input-placeholder {
+          color: #D0D0D0;
+    }
+    ::-moz-placeholder {
+          color: #D0D0D0;
+    }
+    ::-moz-placeholder {
         color: #D0D0D0;
-  }
-  ::-moz-placeholder {
+    }
+    :-ms-input-placeholder {
         color: #D0D0D0;
+    }
   }
-  ::-moz-placeholder {
-      color: #D0D0D0;
+  @media screen and (min-width: 1501px) {
+    #contact_name{
+      margin-left: 50px;
+      border: 2px;
+      border-color: #D0D0D0;
+      border-style: solid;
+      border-width: 2px;
+    }
+    #contact_email{
+      margin-bottom: 20px;
+      width:88%;
+      border-color: #D0D0D0;
+      border-style: solid;
+      border-width: 2px;
+    }
   }
-  :-ms-input-placeholder {
-      color: #D0D0D0;
-  }
-}
-@media screen and (min-width: 1501px) {
-  #contact_name{
-    margin-left: 50px;
-    border: 2px;
-    border-color: #D0D0D0;
-    border-style: solid;
-    border-width: 2px;
-  }
-  #contact_email{
-    margin-bottom: 20px;
-    width:88%;
-    border-color: #D0D0D0;
-    border-style: solid;
-    border-width: 2px;
-
-  }
-
-}

@@ -141,7 +141,7 @@ a.navitem-v2{
 }
 a.dropdown-toggle.navitem-dropdown{
   font-size: 30px !important;
-  color:#0C3866!important;
+  color:white!important;
   width:100%;
   background-color: #2F6E79;
   text-decoration: none;
@@ -249,6 +249,12 @@ img.langIcon-v2{
   margin-top: 30px;
   margin-right: 0px;
 }
+img.langIconCh-v2{
+  width:20%;
+  height:20%;
+  margin-top: 30px;
+  margin-right: 0px;
+}
 #logo{
   /* max-width: 100%; */
   width: 40%;
@@ -267,10 +273,7 @@ img.langIcon-v2{
     margin-top: 30px!important;
     margin-bottom: 20px!important;
   }
-  #navbar-brand-v2 {
-    width: 364px;
-  }
-  
+
 #responsive-navbar-nav{
   margin-top:50px;
   margin-left:250px;
@@ -332,7 +335,7 @@ img.langIcon-v2{
   margin-bottom: 20px;
 }
 img.langIconCh-v2{
-  width:60%;
+  width:70%;
   margin:auto;
   margin-left:80px;
   margin-bottom: 20px;
@@ -344,14 +347,14 @@ img.langIconCh-v2{
   width:10%;
 }
 }
-@media screen and (min-width: 1501px) {
+/* @media screen and (min-width: 1501px) {
 
   div.ml-auto{
     text-align: right;
     align-items: center!important;
     margin-left: 70% !important;
   }
-}
+} */
 
 @media screen and (min-width: 1501px) {
   #responsive-navbar-nav{

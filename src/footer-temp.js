@@ -41,17 +41,17 @@ const FooterPage = (props) => {
   }
     return (
       <Container fluid>
-        {/*}<Row className="footer_form_container">
-          <Col xl={{span:8, offset:2}} className="footer_form_border"></Col>
-          <Col  className ="footer_newsletter_container"xl={{span:4, offset:2}} lg={{span:10, offset:1}} md={{span:10, offset:1}}  xs={{span:10, offset:1}}>
+      <Row className="footer_form_container">
+          <Col xl={{span:10, offset:1}} className="footer_form_border"></Col>
+          <Col  className ="footer_newsletter_container"xl={{span:5, offset:1}} lg={{span:10, offset:1}} md={{span:10, offset:1}}  xs={{span:10, offset:1}}>
             <Row><Col className="footer_title">JOIN OUR NEWSLETTER</Col></Row>
-            <Row><Col className="footer_subtitle">For Early Announcements And More</Col></Row>
+            <Row><Col className="footer_subtitle">FOR EARLY ANNOUNCEMENTS AND MORE</Col></Row>
             <Row><Form.Control id='newsletter_name' type="text" placeholder="Name" required size="lg"></Form.Control></Row>
             <Row><Form.Control id='newsletter_email' type="email" placeholder="Email" required size="lg"></Form.Control></Row>
-            <Row><Col className="footer_button_row"><Button  bsPrefix="footer_submit_btn" className="footer_subscribe_btn">Join</Button></Col></Row>
+            <Row><Col className="footer_button_row"><Button  bsPrefix="footer_subscribe_btn" className="footer_subscribe_btn">JOIN</Button></Col></Row>
           </Col>
 
-          <Col className="footer_contact_container" xl={{span:4, offset:0}} lg={{span:10, offset:1}} md={{span:10, offset:1}}  xs={{span:10, offset:1}}>
+          <Col className="footer_contact_container" xl={{span:5, offset:0}} lg={{span:10, offset:1}} md={{span:10, offset:1}}  xs={{span:10, offset:1}}>
             <Row><Col className="footer_title">CONTACT US</Col></Row>
             <Row><Col className="footer_subtitle">PERFORMANCE / VENDOR / SPONSORSHIP OPPORTUNITIES</Col></Row>
             <Row><Col><Form.Control id="contact_name" type="text" placeholder="Name"required size="lg"></Form.Control></Col>
@@ -60,9 +60,9 @@ const FooterPage = (props) => {
             <Row><Col className="footer_textarea_container">
             <Form.Control id="contact_message" type="text"  as="textArea" placeholder="Message" required size="lg"></Form.Control>
           </Col></Row>
-            <Row><Col className="footer_button_row"><Button bsPrefix="footer_submit_btn" className="footer_submit_btn">Submit</Button></Col></Row>
+        <Row><Col className="footer_button_row"><Button bsPrefix="footer_submit_btn" className="footer_submit_btn">SUBMIT</Button></Col></Row>
         </Col>
-        </Row>*/}
+      </Row>
         <Row className="footer" >
           <Col xl={{span:12, offset:0}} style={{textAlign:"center"}}>
             <p className="footer_content">{props.content}</p>

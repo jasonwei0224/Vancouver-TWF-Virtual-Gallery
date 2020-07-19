@@ -25,6 +25,8 @@ import twftorlogo from "./assets/twftorlogo.png";
 import twfvanlogo from "./assets/vantwflogo.png";
 import featureImage from "./assets/van-feature-image1.jpg";
 import ReactGA from 'react-ga';
+import Home2 from "./homeComponents/home_v2";
+import Home2_ch from "./ch/Home-ch/home_v2_ch";
 import { createBrowserHistory } from 'history';
 // import"./sky_v1.css";
 
@@ -39,7 +41,8 @@ ReactGA.initialize('UA-2521987-18');
   return (
       <div className="App">
 
-        <HeaderV1 />
+      {/*  <HeaderV1 />*/}
+      <HeaderV2/>
         <Router>
         {/* <hr id="mobileLine"/> */}
         <Switch>
@@ -63,6 +66,8 @@ ReactGA.initialize('UA-2521987-18');
           <Route path="/PeopleAndMask-ch" component={PeopleAndMask_ch}/>
           <Route path="/Mirror-ch" component={Mirror_ch}/>
           <Route path="/-ch" exact component={IAmDifferent_ch} />
+          <Route path="/Home2" component={Home2}/>
+          <Route path="/Home2-ch" component={Home2_ch}/>
           </Switch>
           </Router>
       </div>

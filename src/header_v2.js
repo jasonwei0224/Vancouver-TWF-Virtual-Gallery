@@ -1,8 +1,8 @@
 import React from "react";
 import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 import "./header_v2.css";
-import en from "./assets/en.png";
-import ch from "./assets/ch.png";
+import en from "./assets/en.jpg";
+import ch from "./assets/ch.jpg";
 import twfvanlogo from "./assets/vantwflogo.png";
 
 
@@ -78,7 +78,7 @@ export default class HeaderV2 extends React.Component {
       <div>
         {this.state.english?
           <>
-      <a href="https://vancouvertaiwanfest.ca/vancouver-2020/"><img src={twfvanlogo} id="logo" ></img></a>
+      <a href="https://vancouvertaiwanfest.ca/toronto-2020/"><img src={twfvanlogo} id="logo" ></img></a>
       </>
       :
         <>
@@ -87,7 +87,7 @@ export default class HeaderV2 extends React.Component {
   }
       <Container fluid bsPrefix="container">
         <Navbar id="navbar-v2" collapseOnSelect expand="xl" >
-          <Navbar.Brand id="navbar-brand-v2" href="https://vancouvertaiwanfest.ca/vancouver-2020/"><img id="logo-image" src={twfvanlogo}></img></Navbar.Brand>
+          <Navbar.Brand href="https://vancouvertaiwanfest.ca/vancouver-2020/"><img id="logo-image" src={twfvanlogo}></img></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" id="nav_bar_toggle_icon"/>
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto"style={{alignItems:"end"}}>
@@ -97,8 +97,8 @@ export default class HeaderV2 extends React.Component {
                   <div className="nav-dropdown-wrapper">
                     <div className="nav-dropdown-wrapper2">
                       <NavDropdown bsPrefix="navitem-dropdown"title="GALLERY" alignCenter renderMenuOnMount={true}>
-                        <NavDropdown.Item bsPrefix="dropdown-item"href="#sky">SKY</NavDropdown.Item>
-                        <NavDropdown.Item bsPrefix="dropdown-item"href="#IAmDifferent">I'M DIFFERENT, JUST LIKE YOU</NavDropdown.Item>
+                        <NavDropdown.Item bsPrefix="dropdown-item"href="/sky">SKY</NavDropdown.Item>
+                        <NavDropdown.Item bsPrefix="dropdown-item"href="/IAmDifferent">I'M DIFFERENT, JUST LIKE YOU</NavDropdown.Item>
                         <NavDropdown.Item bsPrefix="dropdown-item"href="#">MIRRORS</NavDropdown.Item>
                         <NavDropdown.Item bsPrefix="dropdown-item"href="#">PAUL'S APPLE</NavDropdown.Item>
                         <NavDropdown.Item bsPrefix="dropdown-item"href="#">THE OTHER SIDE OF MASKS</NavDropdown.Item>
@@ -116,18 +116,18 @@ export default class HeaderV2 extends React.Component {
                       <div className="nav-dropdown-wrapper">
                         <div className="nav-dropdown-wrapper2">
                       <NavDropdown bsPrefix="navitem-dropdown"title="線上藝廊" renderMenuOnMount={true}>
-                        <NavDropdown.Item bsPrefix="dropdown-item"href="#sky">SKY</NavDropdown.Item>
-                        <NavDropdown.Item bsPrefix="dropdown-item"href="#IAmDifferent">I'M DIFFERENT, JUST LIKE YOU</NavDropdown.Item>
-                        <NavDropdown.Item bsPrefix="dropdown-item"href="#">MIRRORS</NavDropdown.Item>
-                        <NavDropdown.Item bsPrefix="dropdown-item"href="#">PAUL'S APPLE</NavDropdown.Item>
-                        <NavDropdown.Item bsPrefix="dropdown-item"href="#">THE OTHER SIDE OF MASKS</NavDropdown.Item>
-                        <NavDropdown.Item bsPrefix="dropdown-item"href="#">"UN" BEGIND CHINESE</NavDropdown.Item>
+                        <NavDropdown.Item bsPrefix="dropdown-item"href="/sky-ch">天空</NavDropdown.Item>
+                        <NavDropdown.Item bsPrefix="dropdown-item"href="/IAmDifferent=ch">共同面對的我們</NavDropdown.Item>
+                        <NavDropdown.Item bsPrefix="dropdown-item"href="#">鏡子</NavDropdown.Item>
+                        <NavDropdown.Item bsPrefix="dropdown-item"href="#">保羅的蘋果</NavDropdown.Item>
+                        <NavDropdown.Item bsPrefix="dropdown-item"href="#">一罩之隔</NavDropdown.Item>
+                        <NavDropdown.Item bsPrefix="dropdown-item"href="#">「趣」中國化</NavDropdown.Item>
                       </NavDropdown>
                     </div>
 
 
                   </div>
-                    <Nav.Link className="langNavLinkCh-v2"><img className="langIconCh-v2" src={en} onClick={this.languageBtnListener}/></Nav.Link>
+                    <Nav.Link bsPrefix="langNavLinkCh-v2"><img className="langIconCh-v2" src={en} onClick={this.languageBtnListener}/></Nav.Link>
                 </>
                 }
               </Nav>
