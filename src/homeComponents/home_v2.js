@@ -39,8 +39,8 @@ function Home2() {
         <div id="homeThirdSection">
 
             <HomeColoredHeader title="I'M DIFFERENT, JUST LIKE YOU!"/>
-            <img href= "" className="home_image"src={sky_home_van} style={{width:'100%', height:"auto"}}></img>
-            <img className="home_image" src={we_are_all_home_van} style={{width:'100%', height:"auto"}}></img>
+            <a href="/sky"><img className="home_image"src={sky_home_van} style={{width:'100%', height:"auto"}}></img></a>
+            <a href="/IAmDifferent"><img className="home_image" src={we_are_all_home_van} style={{width:'100%', height:"auto"}}></img></a>
             {/*}<img className="home_image" src={chinese_home} style={{width:'100%', height:"auto"}}></img>*/}
             <img className="home_image" src={mirror_home_van} style={{width:'100%', height:"auto"}}></img>
 
@@ -53,14 +53,14 @@ function Home2() {
         </div>
         <div id="homeThirdSectionMobile">
             <HomeColoredHeader title="I'M DIFFERENT, JUST LIKE YOU!"/>
-            <HomeMobileProject type="INTERACTIVE DESIGN" title="UNDER THE SAME SKY PROJECT" image={homepage_placeholder_lg}/>
-            <HomeMobileProject type="INTERACTIVE DESIGN" title="WE ARE ALL IN THIS TOGETHER" image={homepage_placeholder_lg}/>
-            <HomeMobileProject type="GRAPHIC ART" title="(UN) BEING CHINESE" image={homepage_placeholder_lg}/>
-            <HomeMobileProject type="ILLUSTRATION" title="MIRRORS" image={homepage_placeholder_lg}/>
+            <HomeMobileProject url="/Sky"type="INTERACTIVE DESIGN" title="UNDER THE SAME SKY PROJECT" image={homepage_placeholder_lg}/>
+            <HomeMobileProject url="IAmDifferent" type="INTERACTIVE DESIGN" title="WE ARE ALL IN THIS TOGETHER" image={homepage_placeholder_lg}/>
+            <HomeMobileProject url="" type="GRAPHIC ART" title="(UN) BEING CHINESE" image={homepage_placeholder_lg}/>
+            <HomeMobileProject url="" type="ILLUSTRATION" title="MIRRORS" image={homepage_placeholder_lg}/>
             <HomeColoredHeader title="BEHIND THE MASK" image={homepage_placeholder_lg}/>
-            <HomeMobileProject type="CREATIVE ART" title="THE OTHER SIDE OF MASK" image={homepage_placeholder_lg}/>
-            <HomeMobileProject type="FINE ART" title="PAUL'S APPLE" image={homepage_placeholder_lg}/>
-            <HomeMobileProject type="SKETCH ART" title="PEOPLE AND MASK"image={homepage_placeholder_lg}/>
+            <HomeMobileProject url="" type="CREATIVE ART" title="THE OTHER SIDE OF MASK" image={homepage_placeholder_lg}/>
+            <HomeMobileProject url="" type="FINE ART" title="PAUL'S APPLE" image={homepage_placeholder_lg}/>
+            <HomeMobileProject url="" type="SKETCH ART" title="PEOPLE AND MASK"image={homepage_placeholder_lg}/>
 
         </div>
           <Footer content="&copy; 2020 ASIAN-CANADIAN SPECIAL EVENTS ASSOCIATION"></Footer>

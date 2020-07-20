@@ -3,7 +3,7 @@ import { Row, Col } from 'react-bootstrap';
 import ProjectScrollable from './ProjectsScrollable';
 import HomeTopSection from './homeTopSection';
 import HomeSecondSection from './homeSecondSection';
-import "./homeMain.css";
+import "./homeMain-ch.css";
 import HomeProjectRight from './HomeProjectRight';
 import HomeProjectLeft from './HomeProjectLeft';
 import SponsorImgSlider from './SponsorImgSlider';
@@ -33,28 +33,28 @@ function Home2() {
         <HomeSecondSection id="homeSecondSection" header={text}/>
         <div id="homeThirdSection">
           <HomeColoredHeader title="I'M DIFFERENT, JUST LIKE YOU!"/>
-          <img href= "" className="home_image"src={sky_home_tor} style={{width:'100%', height:"auto"}}></img>
-          <img className="home_image" src={we_are_all_home_tor} style={{width:'100%', height:"auto"}}></img>
+            <a href="/Sky-ch"><img className="home_image"src={sky_home_tor} style={{width:'100%', height:"auto"}}></img></a>
+          <a href="/IAmDifferent-ch"><img className="home_image" src={we_are_all_home_tor} style={{width:'100%', height:"auto"}}></img></a>
           {/*}<img className="home_image" src={chinese_home} style={{width:'100%', height:"auto"}}></img>*/}
-          <img className="home_image" src={mirror_home_tor} style={{width:'100%', height:"auto"}}></img>
+          <a href=""><img className="home_image" src={mirror_home_tor} style={{width:'100%', height:"auto"}}></img></a>
 
         <HomeColoredHeader2 title="口罩之說 " image={homepage_placeholder_lg}/>
-          <img className="home_image" src={otherside_tor} style={{width:'100%', height:"auto"}}></img>
-          <img className="home_image" src={apple_home} style={{width:'100%', height:"auto"}}></img>
-          <img className="home_image" src={people_and_mask_tor} style={{width:'100%', height:"auto"}}></img>
+          <a href=""><img className="home_image" src={otherside_tor} style={{width:'100%', height:"auto"}}></img></a>
+          <a href=""><img className="home_image" src={apple_home} style={{width:'100%', height:"auto"}}></img></a>
+          <a href=""><img className="home_image" src={people_and_mask_tor} style={{width:'100%', height:"auto"}}></img></a>
 
           {/*}  <SponsorImgSlider id="sponsorSlider"/>*/}
         </div>
         <div id="homeThirdSectionMobile">
             <HomeColoredHeader title="我跟你的相同，就是我們都不同"/>
-            <HomeMobileProject type="互動設計" title="頭頂同一片天計畫" image={homepage_placeholder_lg}/>
-            <HomeMobileProject type="互動設計" title="共同面對的我們" image={homepage_placeholder_lg}/>
-            <HomeMobileProject type="平面藝術" title="「趣」中國化" image={homepage_placeholder_lg}/>
-            <HomeMobileProject type="插畫創作" title="鏡子" image={homepage_placeholder_lg}/>
-            <HomeColoredHeader title="口罩之說" image={homepage_placeholder_lg}/>
-            <HomeMobileProject type="創意藝術" title="一罩之隔" image={homepage_placeholder_lg}/>
-            <HomeMobileProject type="純藝術" title="保羅的蘋果" image={homepage_placeholder_lg}/>
-            <HomeMobileProject type="人像素描" title="傲慢與偏見"image={homepage_placeholder_lg}/>
+            <HomeMobileProject url="/sky-ch" type="互動設計" title="頭頂同一片天計畫" image={homepage_placeholder_lg}/>
+            <HomeMobileProject url="/IAmDifferent-ch"type="互動設計" title="共同面對的我們" image={homepage_placeholder_lg}/>
+            <HomeMobileProject url=""type="平面藝術" title="「趣」中國化" image={homepage_placeholder_lg}/>
+            <HomeMobileProject url=""type="插畫創作" title="鏡子" image={homepage_placeholder_lg}/>
+            <HomeColoredHeader url=""title="口罩之說" image={homepage_placeholder_lg}/>
+            <HomeMobileProject url=""type="創意藝術" title="一罩之隔" image={homepage_placeholder_lg}/>
+            <HomeMobileProject url=""type="純藝術" title="保羅的蘋果" image={homepage_placeholder_lg}/>
+            <HomeMobileProject url=""type="人像素描" title="傲慢與偏見"image={homepage_placeholder_lg}/>
 
         </div>
           <FooterCH></FooterCH>
