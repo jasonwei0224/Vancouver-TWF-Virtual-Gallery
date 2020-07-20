@@ -15,13 +15,13 @@ import people_and_mask_top from '../assets/people_and_mask_top_van.jpg';
 function ProjectScrollable(props) {
     return (
         <div id="projectsScrollingSection">
-          <ProjectNameRight image={sky_top} name="Sky"/>
-                    <ProjectNameLeft image={different_top} name="I am different, just like you"/>
-          <ProjectNameRight image={mirror_top} name="Mirrors"/>
+          <ProjectNameRight url="/sky" image={sky_top} name="Sky"/>
+          <ProjectNameLeft url="/IAmDifferent" image={different_top} name="I am different, just like you"/>
+          <ProjectNameRight url=""image={mirror_top} name="Mirrors"/>
 
-            <ProjectNameRight image={people_and_mask_top} name=""/>
-          <ProjectNameLeft image={apple_top} name="Paul's Apples"/>
-          <ProjectNameRight image={otherside_top} name="The Other Side of Mask"/>
+            <ProjectNameRight url="" image={people_and_mask_top} name=""/>
+          <ProjectNameLeft url="" image={apple_top} name="Paul's Apples"/>
+          <ProjectNameRight url="" image={otherside_top} name="The Other Side of Mask"/>
 
 
             {/*}<ProjectNameLeft image={homepage_placeholder_sm_3} name="(UN) Being Chinese"/>*/}
