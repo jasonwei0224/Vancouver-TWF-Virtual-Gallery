@@ -1,5 +1,7 @@
 import React from 'react';
 import {Row, Col} from 'react-bootstrap';
+import "../../homeComponents/homeCss/homeMain.css";
+import "./homeMain-ch.css"
 /**
  * Third section in Homepage.
  * Props: title - project title.

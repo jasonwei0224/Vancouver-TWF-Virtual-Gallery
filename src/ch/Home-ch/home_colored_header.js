@@ -1,4 +1,6 @@
 import React from 'react';
+import "../../homeComponents/homeCss/homeMain.css";
+import "./homeMain-ch.css"
 
 function HomeColoredHeader(props) {
     return (

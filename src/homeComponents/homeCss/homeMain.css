@@ -13,6 +13,7 @@
 /* projectsScrollable.js */
 #projectsScrollingSection {
     background-color:#2F6E79;
+    overflow-y: scroll;
 }
 #emptySpace {
     height: 30px;
@@ -444,6 +445,31 @@
     /* .projectRows2{
       border-bottom:2px solid;
     } */
+    .firstColTitle{
+      text-align: center;
+      margin: auto;
+      margin-top: 70px;
+      border-left: 2px solid;
+      border-right: 2px solid;
+      padding-left: 10px;
+      padding-right: 10px;
+      width:50%;
+      color: white;
+      font-size:23px;
+    }
+    .ScrollableTitle{
+      text-align: center;
+      margin: auto;
+      margin-top: 70px;
+      border-left: 2px solid;
+      border-right: 2px solid;
+      padding-left: 10px;
+      padding-right: 10px;
+      width:50%;
+      color: white;
+      font-size:23px;
+      /* font-weight: bold; */
+    }
     .projectCols{
       padding:0px!important
     }
@@ -452,7 +478,7 @@
         font-size: 30px;
     }
     #homeTopSection #projectsScroll {
-        height: 70vh;
+        height: 600px;
     }
     #topSectionRow .firstCols #leftImage{
         height: 70vh;
@@ -501,7 +527,10 @@
 
     }
 }
-/* @media screen and (min-width: 1500px) {
+@media screen and (min-width: 2560px) {
+  #homeTopSection #projectsScroll {
+      height: 70vh;
+      /* height:800px; */
+  }
 
-
-} */
+}
