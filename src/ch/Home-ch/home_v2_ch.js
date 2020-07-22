@@ -3,7 +3,8 @@ import { Row, Col } from 'react-bootstrap';
 import ProjectScrollable from './ProjectsScrollable';
 import HomeTopSection from './homeTopSection';
 import HomeSecondSection from './homeSecondSection';
-import "./homeMain-ch.css";
+import "../../homeComponents/homeCss/homeMain.css";
+import "./homeMain-ch.css"
 import HomeProjectRight from './HomeProjectRight';
 import HomeProjectLeft from './HomeProjectLeft';
 import SponsorImgSlider from './SponsorImgSlider';

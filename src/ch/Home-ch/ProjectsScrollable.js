@@ -11,10 +11,13 @@ import otherside_top_tor from '../../assets/otherside_top_van.jpg';
 import apple_top_tor from '../../assets/apple_top_van.jpg';
 import mirror_top_tor from '../../assets/mirror_top_van.jpg';
 import people_and_mask_top_tor from '../../assets/people_and_mask_top_van.jpg';
+import "../../homeComponents/homeCss/homeMain.css";
+import "./homeMain-ch.css"
 
 function ProjectScrollable(props) {
     return (
         <div id="projectsScrollingSection">
+          <div className="ScrollableTitle">請點選藝廊主題欣賞精采作品 </div>
           <ProjectNameRight url="/sky-ch"image={sky_top_tor} name="Sky"/>
           <ProjectNameLeft url="/IAmDifferent-ch"image={different_top_tor} name="I am different, just like you"/>
           <ProjectNameRight url="" image={mirror_top_tor} name="Mirrors"/>

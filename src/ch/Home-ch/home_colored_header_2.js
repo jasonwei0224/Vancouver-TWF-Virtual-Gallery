@@ -1,5 +1,6 @@
 import React from 'react';
-
+import "../../homeComponents/homeCss/homeMain.css";
+import "./homeMain-ch.css"
 function HomeColoredHeader2(props) {
     return (
         <div id="home_colored_header">
