@@ -9,6 +9,7 @@
     margin-bottom:10px;
     font-family: "adonis-web";
     color:#246f79;
+      white-space: pre-line;
 }
 .mainSection_Important_Row {
     font-family: "sofia-pro", Sans-serif;
@@ -27,6 +28,7 @@
     margin-bottom:10px;
     font-family: "adonis-web";
     color:#246f79;
+      white-space: pre-line;
 }
 .mainSection_Important_Row_ch {
     font-family: "sofia-pro", Sans-serif;

@@ -16,7 +16,7 @@ import people_and_mask_top from '../assets/people_and_mask_top_van.jpg';
 function ProjectScrollable(props) {
     return (
         <div id="projectsScrollingSection">
-          <div className="ScrollableTitle">CHOOSE A GALLERY TO VIEW THE ARTWORKS </div>
+          <div className="ScrollableTitle">CHOOSE A GALLERY <br></br>TO VIEW THE ARTWORKS </div>
           <ProjectNameRight url="/sky"image={sky_top} name="Sky"/>
           <ProjectNameLeft url="/IAmDifferent"image={different_top} name="I am different, just like you"/>
           <ProjectNameRight url="" image={mirror_top} name="Mirrors"/>
