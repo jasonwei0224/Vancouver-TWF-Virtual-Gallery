@@ -4,7 +4,7 @@ import Navigation from "./navigation";
 import PaulsApple from "./pauls_apple";
 import Home from "./home";
 import IAmDifferent from "./IAmDifferent/i_am_different";
-import PeopleAndMask from "./people_and_mask";
+import PeopleAndMask from "./PeopleAndMask/people_and_mask";
 import OtherSideOfMask from "./other_side_of_mask";
 import Mirror from "./mirror";
 import Sky from "./sky";
@@ -46,10 +46,7 @@ ReactGA.initialize('UA-2521987-18');
         <Router>
         {/* <hr id="mobileLine"/> */}
         <Switch>
-          <Route path="/" exact component={IAmDifferent} />
-
-          {/*<Route path="/" component={() => {
-     window.location.href = "https://torontotaiwanfest.ca/";}}/>*/}
+          <Route path="/" exact component={Home2} />
           <Route path="/PaulsApple" component={PaulsApple} />
           <Route path="/IAmDifferent" component={IAmDifferent} />
           <Route path="/PeopleAndMask" component={PeopleAndMask} />
@@ -58,16 +55,18 @@ ReactGA.initialize('UA-2521987-18');
           <Route path="/SkyV2" component={Sky} />
           <Route path="/IAmDifferentForm" component={IAmDifferentForm}/>
           <Route path="/Sky" component={SkyV1}/>
+
+          <Route path="/-ch" exact component={Home2_ch} />
           <Route path="/Sky-ch" component={SkyV1_ch}/>
           <Route path="/IAmDifferent-ch" component={IAmDifferent_ch}/>
           <Route path="/IAmDifferentForm-ch" component={IAmDifferentForm_ch}/>
-          <Route path="/Home-ch" component={IAmDifferent_ch}/>
+          {/*}<Route path="/Home-ch" component={IAmDifferent_ch}/>*/}
           <Route path="/PaulsApple-ch" component={PaulsApple_ch}/>
           <Route path="/PeopleAndMask-ch" component={PeopleAndMask_ch}/>
           <Route path="/Mirror-ch" component={Mirror_ch}/>
-          <Route path="/-ch" exact component={IAmDifferent_ch} />
-          <Route path="/Home2" component={Home2}/>
-          <Route path="/Home2-ch" component={Home2_ch}/>
+
+          {/*<Route path="/Home2" component={Home2}/>*/}
+          {/*<Route path="/Home2-ch" component={Home2_ch}/>*/}
           </Switch>
           </Router>
       </div>
