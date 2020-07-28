@@ -68,11 +68,24 @@ import $ from "jquery";
 function Home3() {
 
   const section1 = useRef(null);
+  const section2 = useRef(null);
+  const section3 = useRef(null);
+
   const gotoSection1 = () =>
     window.scrollTo ({
       top: section1.current.offsetTop,
       behavior: "smooth"
     });
+  const gotoSection2 = () =>
+  window.scrollTo ({
+    top: section2.current.offsetTop,
+    behavior: "smooth"
+  });
+  const gotoSection3 = () =>
+  window.scrollTo ({
+    top: section3.current.offsetTop,
+    behavior: "smooth"
+  });
 
   // elmnt.scrollIntoView();
   const myRef = useRef(null)
@@ -97,12 +110,12 @@ function Home3() {
                         </Row>            
                         <Row id="mainRow">
                             <Col xl={{span:12, offset:0}} className="projectCols">
-                                <img id="projectImage" src={behind_top}/>
+                                <img id="projectImage" src={behind_top} onClick={() => gotoSection2()}/>
                             </Col>
                         </Row>   
                         <Row id="mainRow">
                             <Col xl={{span:16, offset:0}} className="projectCols">
-                              <img  id="projectImage" src={together_top}/>
+                              <img  id="projectImage" src={together_top} onClick={() => gotoSection3()}/>
                             </Col>
                         </Row>           
                       <div id="emptySpace"></div>
@@ -125,11 +138,11 @@ function Home3() {
             <a href="/IAmDifferent"><HoverImage className="home_image" src={we_are_all_home_van1}  hoverSrc={we_are_all_home_van1_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
             <a href=""><HoverImage className="home_image" src={mirror_home_van}  hoverSrc={mirror_home_van_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
             <a href=""><HoverImage className="home_image" src={chinese_home}   hoverSrc={chinese_home_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
-          <HomeColoredHeader2 title="BEHIND THE MASK" image={homepage_placeholder_lg}/>
+            <div ref={section2}><HomeColoredHeader2 title="BEHIND THE MASK" image={homepage_placeholder_lg}/></div>
             <a href=""><HoverImage className="home_image" src={otherside_van}  hoverSrc={otherside_van_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
             <a href=""><HoverImage className="home_image" src={apple_home}  hoverSrc={apple_home_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
             <a href=""><HoverImage className="home_image" src={people_and_mask_van}  hoverSrc={people_and_mask_van_hove} style={{width:'100%', height:"auto"}}></HoverImage></a>
-            <HomeColoredHeader2 title="SHARE YOUR PHOTOS" image={homepage_placeholder_lg}/>
+            <div ref={section3}><HomeColoredHeader2 title="SHARE YOUR PHOTOS" image={homepage_placeholder_lg}/></div>
                 <a href="/IAmDifferentForm"><HoverImage className="home_image" src={we_are_all_home_van}  hoverSrc={we_are_all_home_van_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
                 <a href="/sky"><HoverImage className="home_image" src={sky_home_van2}  hoverSrc={sky_home_van2_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
           {/*}  <SponsorImgSlider id="sponsorSlider"/>*/}
