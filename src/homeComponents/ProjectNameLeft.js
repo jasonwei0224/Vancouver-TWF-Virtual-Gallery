@@ -10,7 +10,7 @@ function ProjectNameRight(props) {
 
                 </Col>*/}
                 <Col xl={{span:12, offset:0}} className="projectCols">
-                    <a href={props.url}><img id="projectImage" src={props.image}/></a>
+                    <img id="projectImage" src={props.image} onClick={() => props.gotoSection2()}/>
                 </Col>
             </Row>
 

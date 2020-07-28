@@ -55,38 +55,60 @@ import pauls_mobile_hover from '../assets/V-Puals Apple-en.jpg';
 import people_and_mask_mobile from '../assets/V-People and mask-en word.jpg';
 import people_and_mask_mobile_hover from '../assets/V-People & mask-en.jpg';
 
+import behind_top from '../assets/behind.jpg'
+import diversity_top from '../assets/diversity.jpg';
+import together_top from '../assets/together.jpg';
+import Slider_home from "../modules/img_slider_final_home2";
+
+
 import $ from "jquery";
 
 
 
-function Home2() {
+function Home3() {
 
   const section1 = useRef(null);
-  const section2 = useRef(null);
-  const section3 = useRef(null);
-
   const gotoSection1 = () =>
     window.scrollTo ({
       top: section1.current.offsetTop,
       behavior: "smooth"
     });
-  const gotoSection2 = () =>
-  window.scrollTo ({
-    top: section2.current.offsetTop,
-    behavior: "smooth"
-  });
-  const gotoSection3 = () =>
-  window.scrollTo ({
-    top: section3.current.offsetTop,
-    behavior: "smooth"
-  });
 
   // elmnt.scrollIntoView();
   const myRef = useRef(null)
     return (
         <div id="homeMainDiv">
         <Row id="homeFirstRow">
-            <HomeTopSection gotoSection1={gotoSection1} gotoSection2={gotoSection2} gotoSection3={gotoSection3}/>
+            {/* <HomeTopSection/> */}
+            <div id="homeTopSection">
+            <Row id="topSectionRow">
+                <Col className="firstCols">
+                  <div className="firstColTitle">SELECTED SKY PHOTOS <br></br>FROM PEOPLE LIKE YOU</div>
+                    <Slider_home/>
+                </Col>
+                <Col id="projectsScroll">
+                    {/* <ProjectScrollable/> */}
+                      <div className="ScrollableTitle">CHOOSE A GALLERY <br></br>TO VIEW THE ARTWORKS </div>
+                        {/* <ProjectNameRight image={diversity_top} name="Mirrors"/> */}
+                        <Row id="mainRow">
+                            <Col xl={{span:16, offset:0}} className="projectCols">
+                              <img  id="projectImage" src={diversity_top} onClick={() => gotoSection1()}/>
+                            </Col>
+                        </Row>            
+                        <Row id="mainRow">
+                            <Col xl={{span:12, offset:0}} className="projectCols">
+                                <img id="projectImage" src={behind_top}/>
+                            </Col>
+                        </Row>   
+                        <Row id="mainRow">
+                            <Col xl={{span:16, offset:0}} className="projectCols">
+                              <img  id="projectImage" src={together_top}/>
+                            </Col>
+                        </Row>           
+                      <div id="emptySpace"></div>
+                </Col>
+            </Row>
+        </div>
         </Row>
         <HomeMobileIntro/>
         <HomeSecondSection id="homeSecondSection" header="The world seems to have
@@ -98,16 +120,16 @@ function Home2() {
           artists here, time and space are all is required."/>
         <div id="homeThirdSection">
 
-          <div ref={section1}><HomeColoredHeader id="section1" title="I'M DIFFERENT, JUST LIKE YOU!"/></div>
+            <div ref={section1}><HomeColoredHeader id="section1" title="I'M DIFFERENT, JUST LIKE YOU!"/></div>
             <a href="/sky"><HoverImage src={sky_home_van}  hoverSrc={sky_home_van_hover} className="home_image" style={{width:'100%', height:"auto"}}></HoverImage></a>
             <a href="/IAmDifferent"><HoverImage className="home_image" src={we_are_all_home_van1}  hoverSrc={we_are_all_home_van1_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
             <a href=""><HoverImage className="home_image" src={mirror_home_van}  hoverSrc={mirror_home_van_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
             <a href=""><HoverImage className="home_image" src={chinese_home}   hoverSrc={chinese_home_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
-          <div ref={section2}><HomeColoredHeader2 title="BEHIND THE MASK" image={homepage_placeholder_lg}/></div>
+          <HomeColoredHeader2 title="BEHIND THE MASK" image={homepage_placeholder_lg}/>
             <a href=""><HoverImage className="home_image" src={otherside_van}  hoverSrc={otherside_van_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
             <a href=""><HoverImage className="home_image" src={apple_home}  hoverSrc={apple_home_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
             <a href=""><HoverImage className="home_image" src={people_and_mask_van}  hoverSrc={people_and_mask_van_hove} style={{width:'100%', height:"auto"}}></HoverImage></a>
-          <div ref={section3}><HomeColoredHeader2 title="SHARE YOUR PHOTOS" image={homepage_placeholder_lg}/></div>
+            <HomeColoredHeader2 title="SHARE YOUR PHOTOS" image={homepage_placeholder_lg}/>
                 <a href="/IAmDifferentForm"><HoverImage className="home_image" src={we_are_all_home_van}  hoverSrc={we_are_all_home_van_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
                 <a href="/sky"><HoverImage className="home_image" src={sky_home_van2}  hoverSrc={sky_home_van2_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
           {/*}  <SponsorImgSlider id="sponsorSlider"/>*/}
@@ -132,4 +154,4 @@ function Home2() {
     )
 }
 
-export default Home2;
+export default Home3;

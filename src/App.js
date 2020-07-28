@@ -26,6 +26,7 @@ import twfvanlogo from "./assets/vantwflogo.png";
 import featureImage from "./assets/van-feature-image1.jpg";
 import ReactGA from 'react-ga';
 import Home2 from "./homeComponents/home_v2";
+import Home3 from "./homeComponents/home_v3";
 import Home2_ch from "./ch/Home-ch/home_v2_ch";
 import { createBrowserHistory } from 'history';
 // import"./sky_v1.css";

@@ -11,7 +11,7 @@ function ProjectNameRight(props) {
         <div id="projectInScroll">
             <Row id="mainRow">
                 <Col xl={{span:16, offset:0}} className="projectCols">
-                  <a href={props.url}><img  id="projectImage" src={props.image}/></a>
+                  <img  id="projectImage" src={props.image} onClick={() => props.gotoSection1()}/>
                 </Col>
               {/*}  <Col xl={{span:5, offset:1}} lg={{span:10, offset:1}} md= {{span:10, offset:1}} xs={{span:10, offset:1}} className="projectCols2">
 

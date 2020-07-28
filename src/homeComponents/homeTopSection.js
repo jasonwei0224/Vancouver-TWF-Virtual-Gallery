@@ -13,7 +13,7 @@ function HomeTopSection(props) {
                     {/* <img id='leftImage' src={placeHolder}/> */}
                 </Col>
                 <Col id="projectsScroll">
-                    <ProjectScrollable/>
+                    <ProjectScrollable gotoSection1={props.gotoSection1} gotoSection2={props.gotoSection2} gotoSection3={props.gotoSection3}/>
                 </Col>
             </Row>
         </div>
