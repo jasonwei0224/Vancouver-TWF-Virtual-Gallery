@@ -3,7 +3,7 @@ import { Row, Col } from 'react-bootstrap';
 import ProjectScrollable from './ProjectsScrollable';
 import placeHolder from "../assets/placeholder.jpg";
 import Slider_home from "../modules/img_slider_final_home2";
-function HomeTopSection() {
+function HomeTopSection(props) {
     return (
         <div id="homeTopSection">
             <Row id="topSectionRow">

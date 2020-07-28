@@ -1,5 +1,6 @@
 import React from 'react';
 import homepage_placeholder from "../assets/placeholder.jpg";
+import HoverImage from "react-hover-image"
 /**
  * Third section in Homepage.
  * Props: title - project title.
@@ -13,7 +14,7 @@ function HomeMobileProject(props) {
                 <Col xs="4"className="homeProjectTitleCol">{props.title}</Col>
             </Row> */}
             <div>
-                <img id="homeMobileProjectImg" src={props.image}/>
+                <HoverImage style={{width:'100%', height:"auto"}} id="homeMobileProjectImg" src={props.image} hoverSrc={props.hover}/>
             </div>
             <div id="homeMobileProjectBottomSection">
                 <div id="homeMobileProjectType">{props.type}</div>

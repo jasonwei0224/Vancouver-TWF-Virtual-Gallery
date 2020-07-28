@@ -1,3 +1,11 @@
+.home_image:hover{
+  background: url('../../assets/V-We are all in this toghther - online word .jpg');
+}
+.home_image{
+  width:100% ;   
+  height:auto
+}
+
 /* home_v2.js  */
 #homeFirstRow {
     width: 100%;
@@ -157,11 +165,12 @@
 }
 #home_colored_header_title2 { /*changed*/
     background-color:#2F6E79;
-    padding-left: 5%;
+    /* padding-left: 5%; */
     color: white;
     font-size: 24pt;
     font-family: sofia-pro, sans-serif; /*changed*/
     margin-top: 60px;
+    text-align: center;
 }
 
 #home_colored_header_line {
@@ -311,6 +320,7 @@
      #home_colored_header_title2 {
          padding-top: 5%;
          padding-bottom: 5%;
+         text-align: center;
       }
 
     #homeThirdSection {
@@ -532,6 +542,7 @@
       padding-top:5px;
       padding-bottom:5px;
       margin-top:120px;
+      text-align: center;
     }
     .home_image{
       display:block;

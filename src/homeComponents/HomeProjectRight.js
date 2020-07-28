@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component, useRef, useEffect } from 'react';
 import {Row, Col} from 'react-bootstrap';
 import homepage_placeholder from "../assets/homepage_placeholder_lg.jpg";
 /**
@@ -7,6 +7,10 @@ import homepage_placeholder from "../assets/homepage_placeholder_lg.jpg";
  * @param {*} props
  */
 function HomeProjectRight(props) {
+  // const myRef = useRef(null)
+  // const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)
+  // const useMountEffect = (fun) => useEffect(fun, [])
+  // useMountEffect(() => scrollToRef(props.ref1))
     return (
         <div id="homeProjectRight">
             <Row className="thirdSectionHomeProjectRow no-gutters">
