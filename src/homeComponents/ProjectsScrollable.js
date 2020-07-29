@@ -21,9 +21,11 @@ function ProjectScrollable(props) {
         <div id="projectsScrollingSection">
           <div className="ScrollableTitle">CHOOSE A GALLERY <br></br>TO VIEW THE ARTWORKS </div>
 
-            <ProjectNameRight  url="#section1" image={diversity_top} name="Mirrors"/>
-          <ProjectNameLeft image={behind_top} name="I am different, just like you"/>
-                <ProjectNameRight url="/#section1" image={together_top} name="Sky"/>
+            <ProjectNameRight  url="" image={diversity_top} name="Mirrors"/>
+
+            <ProjectNameLeft image={behind_top} name="I am different, just like you"/>
+
+            <ProjectNameRight url="" image={together_top} name="Sky"/>
             {/*}<ProjectNameLeft image={homepage_placeholder_sm_3} name="(UN) Being Chinese"/>*/}
             <div id="emptySpace"></div>
         </div>
