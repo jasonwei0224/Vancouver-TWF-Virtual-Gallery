@@ -64,13 +64,16 @@ import ProjectNameRight from "./ProjectNameRight";
 import ProjectNameLeft from "./ProjectNameLeft";
 
 
-function Home2() {
-  const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)
+const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)
   const useMountEffect = (fun) => useEffect(fun, [])
-  useMountEffect(() => scrollToRef(myRef))
+function Home2() {
+
+
   const myRef = useRef(null)
   const myRef2 = useRef(null)
   const myRef3 = useRef(null)
+  useMountEffect(() => scrollToRef(myRef))
+
     return (
         <div id="homeMainDiv">
         <Row id="homeFirstRow">
@@ -87,21 +90,21 @@ function Home2() {
                         <div id="projectInScroll">
                             <Row id="mainRow">
                                 <Col xl={{span:16, offset:0}} className="projectCols">
-                                  <a href=""><img  onClick={()=>scrollToRef(myRef)} id="projectImage" src={diversity_top}/></a>
+                                  <img  onClick={()=>scrollToRef(myRef)} id="projectImage" src={diversity_top}/>
                                 </Col>
                             </Row>
                         </div>
                         <div id="projectInScroll">
                             <Row id="mainRow">
                                 <Col xl={{span:16, offset:0}} className="projectCols">
-                                  <a href=""><img  onClick={()=>scrollToRef(myRef2)} id="projectImage" src={behind_top}/></a>
+                                  <img  onClick={()=>scrollToRef(myRef2)} id="projectImage" src={behind_top}/>
                                 </Col>
                             </Row>
                         </div>
                         <div id="projectInScroll">
                             <Row id="mainRow2">
                                 <Col xl={{span:16, offset:0}} className="projectCols">
-                                  <a href=""><img  onClick={()=>scrollToRef(myRef3)} id="projectImage" src={together_top}/></a>
+                                  <img  onClick={()=>scrollToRef(myRef3)} id="projectImage" src={together_top}/>
                                 </Col>
                             </Row>
                         </div>

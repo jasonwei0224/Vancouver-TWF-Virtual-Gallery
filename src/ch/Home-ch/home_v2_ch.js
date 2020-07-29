@@ -125,8 +125,8 @@ function Home2() {
           <a href=""><HoverImage className="home_image" hoverSrc ={apple_home_hover} src={apple_home} style={{width:'100%', height:"auto"}}></HoverImage></a>
           <a href=""><HoverImage className="home_image" hoverSrc ={people_and_mask_hover} src={people_and_mask_tor} style={{width:'100%', height:"auto"}}></HoverImage></a>
         <span  ref ={myRef3} ><HomeColoredHeader2 title="分享你的照片 " image={homepage_placeholder_lg}/></span>
-          <a href=""><HoverImage className="home_image" hoverSrc ={diff_online_hover} src={diff_online} style={{width:'100%', height:"auto"}}></HoverImage></a>
-          <a href=""><HoverImage className="home_image" hoverSrc ={sky_online_hover} src={sky_online} style={{width:'100%', height:"auto"}}></HoverImage></a>
+          <a href="/IAmDifferentForm-ch"><HoverImage className="home_image" hoverSrc ={diff_online_hover} src={diff_online} style={{width:'100%', height:"auto"}}></HoverImage></a>
+          <a href="/Sky-ch"><HoverImage className="home_image" hoverSrc ={sky_online_hover} src={sky_online} style={{width:'100%', height:"auto"}}></HoverImage></a>
 
           {/*}  <SponsorImgSlider id="sponsorSlider"/>*/}
         </div>
@@ -143,8 +143,8 @@ function Home2() {
             <HomeMobileProject url=""type="純藝術" title="保羅的蘋果" image={apple_mobile}  hover={apple_mobile_hover}/>
             <HomeMobileProject url=""type="人像素描" title="傲慢與偏見"image={mask_mobile}  hover={mask_mobile_hover}/>
           <HomeColoredHeader title="分享你的照片 " image={homepage_placeholder_lg}/>
-            <HomeMobileProject url=""type="純藝術" title="保羅的蘋果" image={diff_online_mobile}  hover={diff_online_mobile_hover}/>
-            <HomeMobileProject url=""type="人像素描" title="傲慢與偏見"image={sky_online_mobile}  hover={sky_online_mobile_hover}/>
+            <HomeMobileProject url="/IAmDifferentForm-ch"type="純藝術" title="保羅的蘋果" image={diff_online_mobile}  hover={diff_online_mobile_hover}/>
+            <HomeMobileProject url="/sky-ch"type="人像素描" title="傲慢與偏見"image={sky_online_mobile}  hover={sky_online_mobile_hover}/>
 
         </div>
           <FooterCH></FooterCH>
