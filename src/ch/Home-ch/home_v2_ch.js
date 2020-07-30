@@ -70,7 +70,7 @@ function Home2() {
   const myRef2 = useRef(null)
   const myRef3 = useRef(null)
 
-  var text = `世界的紛亂，可能是我們人 沒有給彼此空間；\n 大自然的抗議，可能是我們沒有跟它保持距離。\n 藝術家具有冒險的精神，挑戰現實的勇氣。\n文字無法傳達的，讓畫面來說話；\n 感受不到的溫度，讓顏色來點燃。\n在這裡欣賞藝術家的作品，唯一需要的是時間與空間`
+  var text = `世界的紛亂，可能是我們人 沒有給彼此空間；\n 大自然的抗議，可能是我們沒有跟它保持距離。\n 藝術家具有冒險的精神，挑戰現實的勇氣。\n文字無法傳達的，讓畫面來說話；\n 感受不到的溫度，讓顏色來點燃。\n在這裡欣賞藝術家的作品，唯一需要的是時間與空間 \n\n 「分享系列藝廊」已開放，其他藝廊將於八月二十八日開放 `
     return (
 
         <div id="homeMainDiv">
@@ -87,21 +87,21 @@ function Home2() {
                         <div id="projectInScroll">
                             <Row id="mainRow">
                                 <Col xl={{span:12, offset:0}} className="projectCols">
-                                    <a href=""><img  id="projectImage" src={diversity_ch}/></a>
+                                    <img  onClick={()=>scrollToRef(myRef)} id="projectImage" src={diversity_ch}/>
                                 </Col>
                             </Row>
                         </div>
                         <div id="projectInScroll">
                             <Row id="mainRow">
                                 <Col xl={{span:12, offset:0}} className="projectCols">
-                                    <a href=""><img  id="projectImage" src={behind_ch}/></a>
+                                    <img  onClick={()=>scrollToRef(myRef2)} id="projectImage" src={behind_ch}/>
                                 </Col>
                             </Row>
                         </div>
                         <div id="projectInScroll">
                             <Row id="mainRow2">
                                 <Col xl={{span:12, offset:0}} className="projectCols">
-                                    <a href=""><img  id="projectImage" src={together_ch}/></a>
+                                    <img  onClick={()=>scrollToRef(myRef3)} id="projectImage" src={together_ch}/>
                                 </Col>
                             </Row>
                         </div>
@@ -133,18 +133,18 @@ function Home2() {
         <div id="homeThirdSectionMobile">
 
           <HomeColoredHeader title="我跟你的相同，就是我們都不同"/>
-            <HomeMobileProject url="/sky-ch" type="互動設計" title="頭頂同一片天計畫" image={sky_mobile}  hover={sky_mobile_hover}/>
-            <HomeMobileProject url="/IAmDifferent-ch"type="互動設計" title="共同面對的我們" image={diff_mobile}  hover={diff_mobile_hover}/>
+            <HomeMobileProject url="/sky-ch" type="裝置藝術" title="頭頂同一片天計畫" image={sky_mobile}  hover={sky_mobile_hover}/>
+            <HomeMobileProject url="/IAmDifferent-ch"type=" 線上互動" title="共同面對的我們" image={diff_mobile}  hover={diff_mobile_hover}/>
             <HomeMobileProject url=""type="平面藝術" title="「趣」中國化" image={chinese_mobile}  hover={chinese_mobile_hover}/>
             <HomeMobileProject url=""type="插畫創作" title="鏡子" image={mirror_mobile}  hover={mirror_mobile_hover}/>
 
           <HomeColoredHeader url=""title="口罩之說" image={homepage_placeholder_lg}/>
-            <HomeMobileProject url=""type="創意藝術" title="一罩之隔" image={otherside_mobile}  hover={otherside_mobile_hover}/>
-            <HomeMobileProject url=""type="純藝術" title="保羅的蘋果" image={apple_mobile}  hover={apple_mobile_hover}/>
-            <HomeMobileProject url=""type="人像素描" title="傲慢與偏見"image={mask_mobile}  hover={mask_mobile_hover}/>
+            <HomeMobileProject url=""type=" 數位創作" title="一罩之隔" image={otherside_mobile}  hover={otherside_mobile_hover}/>
+            <HomeMobileProject url=""type="數位創作" title="保羅的蘋果" image={apple_mobile}  hover={apple_mobile_hover}/>
+            <HomeMobileProject url=""type="素描創作" title="傲慢與偏見"image={mask_mobile}  hover={mask_mobile_hover}/>
           <HomeColoredHeader title="分享你的照片 " image={homepage_placeholder_lg}/>
-            <HomeMobileProject url="/IAmDifferentForm-ch"type="純藝術" title="保羅的蘋果" image={diff_online_mobile}  hover={diff_online_mobile_hover}/>
-            <HomeMobileProject url="/sky-ch"type="人像素描" title="傲慢與偏見"image={sky_online_mobile}  hover={sky_online_mobile_hover}/>
+            <HomeMobileProject url="/IAmDifferentForm-ch"type=" 線上互動" title="共同面對的我們" image={diff_online_mobile}  hover={diff_online_mobile_hover}/>
+            <HomeMobileProject url="/sky-ch"type="線上互動" title="頭頂同一片天計畫"image={sky_online_mobile}  hover={sky_online_mobile_hover}/>
 
         </div>
           <FooterCH></FooterCH>

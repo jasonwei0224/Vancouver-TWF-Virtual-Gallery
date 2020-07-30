@@ -93,7 +93,7 @@ class Slider_home extends React.Component {
   const Slide = ({ image }) => {
     const styles = {
       backgroundImage: `url(${image})`,
-      backgroundSize: '100% 100%',
+      backgroundSize: 'contain',
       backgroundRepeat: 'no-repeat',
       backgroundPosition: '50% 40%'
     }
