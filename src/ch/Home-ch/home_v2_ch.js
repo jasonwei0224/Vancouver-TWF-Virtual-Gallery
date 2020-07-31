@@ -135,11 +135,11 @@ function Home2() {
           <HomeColoredHeader title="我跟你的相同，就是我們都不同"/>
             <HomeMobileProject url="/sky-ch" type="裝置藝術" title="頭頂同一片天計畫" image={sky_mobile}  hover={sky_mobile_hover}/>
             <HomeMobileProject url="/IAmDifferent-ch"type=" 線上互動" title="共同面對的我們" image={diff_mobile}  hover={diff_mobile_hover}/>
-            <HomeMobileProject url=""type="平面藝術" title="「趣」中國化" image={chinese_mobile}  hover={chinese_mobile_hover}/>
+            <HomeMobileProject url=""type="數位創作" title="「趣」中國化" image={chinese_mobile}  hover={chinese_mobile_hover}/>
             <HomeMobileProject url=""type="插畫創作" title="鏡子" image={mirror_mobile}  hover={mirror_mobile_hover}/>
 
           <HomeColoredHeader url=""title="口罩之說" image={homepage_placeholder_lg}/>
-            <HomeMobileProject url=""type=" 數位創作" title="一罩之隔" image={otherside_mobile}  hover={otherside_mobile_hover}/>
+            <HomeMobileProject url=""type="數位創作" title="一罩之隔" image={otherside_mobile}  hover={otherside_mobile_hover}/>
             <HomeMobileProject url=""type="數位創作" title="保羅的蘋果" image={apple_mobile}  hover={apple_mobile_hover}/>
             <HomeMobileProject url=""type="素描創作" title="傲慢與偏見"image={mask_mobile}  hover={mask_mobile_hover}/>
           <HomeColoredHeader title="分享你的照片 " image={homepage_placeholder_lg}/>

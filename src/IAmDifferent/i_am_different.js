@@ -50,7 +50,7 @@ function IAmDifferent() {
           subtitle="I'm different, just like you"
           title="WE ARE ALL IN THIS TOGETHER"
           artistName="TAIWANfest"
-          url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2F%23%2FIAmDifferent&amp;src=sdkpreparse"
+          url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FIAmDifferent&amp;src=sdkpreparse"
           color="#246f79"
         ></ProgramInfo>
 
@@ -69,7 +69,7 @@ function IAmDifferent() {
 
 
 
-             <Button2 onclick={goToForm} title="UPLOAD FRONT-LINE HERO PHOTO" togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2F%23%2FIAmDifferent&amp;src=sdkpreparse"></Button2>
+             <Button2 onclick={goToForm} title="UPLOAD FRONT-LINE HERO PHOTO" togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FIAmDifferent&amp;src=sdkpreparse"></Button2>
 
       </Container>
       <div
