@@ -1,16 +1,37 @@
 
 
+.PI-secondlast{
+  margin-bottom: 0px!important;
+  font-style: italic;
+}
+.PI-Artist-p{
+  margin-bottom: 0px !important;
+}
 .PI-contents {
     margin-top: 2%;
     font-family: 'adonis-web';
     overflow: hidden;
 }
+.PI-contents_two{
+  border-top: 2px solid ;
+  margin-top: 2%;
+  font-family: 'adonis-web';
+  overflow: hidden;
+}
+
 
 .PI-subtitle {
     color: #246f79;
     margin-top: 5%;
     font-weight: bold;
     font-size: 40px;
+}
+.PI-subtitle_twoArtist {
+    color: #246f79;
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 40px;
+    /* font-family: adonis-web !important; */
 }
 
 .PI-title {
@@ -20,8 +41,16 @@
     font-weight:bold;
     font-family: 'adonis-web';
 }
+.PI-title_twoArtist {
+  color:#EF5797;
+  font-size: 50px;
+  margin-bottom: 45px;
+  font-weight:bold;
+  /* font-family: adonis-web !important; */
+}
 
 .PI-last {
+  margin-top: 0px;
     margin-bottom: 70px;
 }
 
@@ -29,6 +58,16 @@
     color: #246f79;
     font-size: 19pt;
     padding: 0;
+    font-style: italic;
+    padding-left: 0px!important;
+}
+.PI-artist-two{
+  color: #246f79;
+  font-size: 19pt;
+  padding: 0;
+  font-style: italic;
+    padding-left: 0px!important;
+    margin-bottom: 0px!important;
 }
 
 a.PI-shareButton {
@@ -57,6 +96,25 @@ a.PI-shareButton:hover{
       padding: 5px 36px 5px 36px;
       display: none;
   }
+  .PI-title_twoArtist{
+    font-family: sofia-pro, sans-serif;
+  }
+  .PI-subtitle_twoArtist{
+    font-family: sofia-pro, sans-serif;
+  }
+  .PI-Artist-p{
+    font-size:30px;
+    font-family: sofia-pro, sans-serif;
+  }
+  .PI-artist-two{
+    color: #246f79;
+    /* font-size: 32px; */
+    padding: 0;
+    font-style: italic;
+      padding-left: 0px!important;
+      margin-bottom: 0px!important;
+      font-family: sofia-pro, sans-serif;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -64,7 +122,24 @@ a.PI-shareButton:hover{
   .PI-subtitle {
       font-size: 50px;
   }
+  .PI-subtitle_twoArtist {
+      font-size: 50px;
+  }
 
+  .PI-title_twoArtist {
+      font-size: 60px;
+  }
+  .PI-Artist-p{
+    font-size:35px;
+  }
+  .PI-artist-two{
+    color: #246f79;
+    /* font-size: 32px; */
+    padding: 0;
+    font-style: italic;
+      padding-left: 0px!important;
+      margin-bottom: 0px!important;
+  }
   .PI-title {
       font-size: 60px;
   }
@@ -83,15 +158,30 @@ a.PI-shareButton:hover{
       .PI-subtitle {
           font-size: 50px;
       }
-
+      .PI-subtitle_twoArtist {
+          font-size: 50px;
+      }
       .PI-title {
           font-size: 60px;
       }
+      .PI-title_twoArtist {
+          font-size: 60px;
 
+      }
       .PI-artist {
           font-size: 50px;
       }
-
+      .PI-Artist-p{
+        font-size:42px;
+      }
+      .PI-artist-two{
+        color: #246f79;
+        /* font-size: 32px; */
+        padding: 0;
+        font-style: italic;
+          padding-left: 0px!important;
+          margin-bottom: 0px!important;
+      }
       a.PI-shareButton {
           font-size: 10px;
           padding: 5px 32px 5px 32px;
@@ -103,17 +193,28 @@ a.PI-shareButton:hover{
   .PI-subtitle {
       font-size: 40px;
   }
-
+  .PI-subtitle_twoArtist {
+      font-size: 40px;
+      font-weight:bold;
+      font-family: adonis-web, serif;
+  }
   .PI-title {
       font-size: 50px;
       margin-bottom: 7.5%;
   }
-
+  .PI-title_twoArtist {
+      font-size: 50px;
+      margin-bottom: 3.5%;
+      font-weight: bold;
+      font-family: adonis-web, serif;
+  }
   .PI-artist {
       font-size: 32px;
       margin-bottom: 0px !important;
   }
-
+  .PI-Artist-p{
+    font-size:25px;
+  }
   a.PI-shareButton {
       font-size: 20px;
       padding: 5px 32px 5px 32px;

@@ -15,8 +15,8 @@ import HomeMobileProject from './HomeMobileProject';
 import homepage_placeholder_lg from '../../assets/homepage_placeholder_lg.jpg';
 import FooterCH from "../footer-ch";
 
-import we_are_all_home_tor from '../../assets/V-共同面對的我們  word.jpg';
-import we_are_all_home_hover from '../../assets/V-共同面對的我們  only.jpg'
+import we_are_all_home_tor from '../../assets/V2-共同面對的我們  word.jpg';
+import we_are_all_home_hover from '../../assets/V2-共同面對的我們  only.jpg'
 import apple_home from'../../assets/V-保羅的蘋果 Word.jpg';
 import apple_home_hover from '../../assets/V-保羅的蘋果 only.jpg';
 import chinese_home from '../../assets/V-趣中國化 word.jpg';
@@ -65,7 +65,7 @@ import HoverImage from "react-hover-image"
 function Home2() {
   const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)
   const useMountEffect = (fun) => useEffect(fun, [])
-  useMountEffect(() => scrollToRef(myRef))
+  // useMountEffect(() => scrollToRef(myRef))
   const myRef = useRef(null)
   const myRef2 = useRef(null)
   const myRef3 = useRef(null)
@@ -115,7 +115,7 @@ function Home2() {
         <HomeSecondSection id="homeSecondSection" header={text}/>
         <div id="homeThirdSection">
           <span ref ={myRef}><HomeColoredHeader2 title="我跟你的相同，就是我們都不同"/></span>
-            <a href="/Sky-ch"><HoverImage className="home_image"hoverSrc ={sky_home_hover}src={sky_home_tor} style={{width:'100%', height:"auto"}}></HoverImage></a>
+            <a href=""><HoverImage className="home_image"hoverSrc ={sky_home_hover}src={sky_home_tor} style={{width:'100%', height:"auto"}}></HoverImage></a>
           <a href="/IAmDifferent-ch"><HoverImage className="home_image" hoverSrc ={we_are_all_home_hover} src={we_are_all_home_tor} style={{width:'100%', height:"auto"}}></HoverImage></a>
 
           <a href=""><HoverImage className="home_image" hoverSrc ={mirror_home_hover} src={mirror_home_tor} style={{width:'100%', height:"auto"}}></HoverImage></a>
@@ -133,8 +133,8 @@ function Home2() {
         <div id="homeThirdSectionMobile">
 
           <HomeColoredHeader title="我跟你的相同，就是我們都不同"/>
-            <HomeMobileProject url="/sky-ch" type="裝置藝術" title="頭頂同一片天計畫" image={sky_mobile}  hover={sky_mobile_hover}/>
-            <HomeMobileProject url="/IAmDifferent-ch"type=" 線上互動" title="共同面對的我們" image={diff_mobile}  hover={diff_mobile_hover}/>
+            <HomeMobileProject url="" type="裝置藝術" title="天空" image={sky_mobile}  hover={sky_mobile_hover}/>
+            <HomeMobileProject url="/IAmDifferent-ch"type=" 線上互動" title="我跟你的相同，就是我們都不同" image={diff_mobile}  hover={diff_mobile_hover}/>
             <HomeMobileProject url=""type="數位創作" title="「趣」中國化" image={chinese_mobile}  hover={chinese_mobile_hover}/>
             <HomeMobileProject url=""type="插畫創作" title="鏡子" image={mirror_mobile}  hover={mirror_mobile_hover}/>
 

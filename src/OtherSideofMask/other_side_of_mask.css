@@ -1,0 +1,30 @@
+.model3D-col{
+  display: flex;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+  .middle_text_other{
+    display:none;
+  }
+}

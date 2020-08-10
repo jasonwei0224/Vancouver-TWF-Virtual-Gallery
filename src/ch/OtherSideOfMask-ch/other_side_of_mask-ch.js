@@ -1,13 +1,26 @@
-
 import React, { Component } from 'react';
-// import './other_side_of_mask_ch.css';
-import {OBJModel, GLTFModel} from 'react-3d-viewer'
-import {ModelViewer} from 'react-3d-model-viewer';
+import './other_side_of_mask-ch.css';
+import {OBJModel} from 'react-3d-viewer'
 import image1 from '../../assets/image1.jpg';
+import ladyhaohao from '../../assets/Lady Hao Hao.jpg'
+import walter from '../../assets/Walter.jpg'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Button} from 'react-bootstrap';
+import ProgramInfoTwoArtistCH from "../programInfoTwoArtist-ch"
+import Second_Title_ch from "../../modules/Second_TitleCh"
+import MainContents_Middle from "../../modules/MainContents_Middle"
+import MainContents_Important_With_Border from "../../modules/MainContents_Important_with_border"
+import MainContents_TwoArtistPic_CH from "../../modules/MainContents_TwoArtistPic_CH"
+import MobileShareButton_ch from "../../modules/mobileShareButton-ch";
+import ImageWithDescriptionCH from"../../modules/MainContent_ImageWithDescription_Ch";
+import FooterCH from "../footer-ch";
+
+var text = `口罩是這次疫情保護人類、對抗病毒的武器；但是當它翻轉180度後，竟然發現口罩內側最貼近我們、隔著自己與別人的那一面，色彩張狂，圖案詭譎，即使你想仔細觀看卻看不清楚！那貌似美麗的畫面是什麼？為什麼這樣美麗的創作，卻包裹在口罩裡面？這是我們希望每一位觀看者看見作品時，都能產生的好奇與疑問。\n
+透過這樣的作品呈現，讓人不禁懷疑，到底那一面是「保護」？那一面是我們應該相信的「真實」？我們常常經由語言與行為，表達傷害與歧視；在這次的疫情裡，我們也看見了許多美麗包裝下的話術，說出來的卻是醜陋的意涵與不實的陳述。這次的疫情如此嚴重，究竟是因為病毒肆虐，還是我們選擇性無視那真實的訊息？\n
+「我在創作這幅畫作時，非常清楚的想要呈現一個美麗的畫面，而這個美麗的畫面卻是人們所害怕的事實。我足足花了兩個星期思考：『它』是什麼樣子？人們何時成為了病毒滋生的溫床，習慣它並與它共存？！\n
+「內心信仰的藝術品，又該如何說服自己，它很美卻又是病毒。」－ 藝術家Lady Hao Hao
+`
 
 class OtherSideOfMask_ch extends Component {
     render() {
@@ -20,171 +33,49 @@ class OtherSideOfMask_ch extends Component {
         return (
           <div>
             <Container fluid>
-            <Row>
-              <Col lg={12} style={{display:"flex", width:"100%", textAlign:"center",
-                overFlow:"hidden", alignItems:"center", justifyContent:"center", borderBottom: "1px solid"}}>
-              <div>
-                <OBJModel src="./Bee.obj" textPath="" width="500" height="500"
-                   position={{x:0,y:-10,z:0}} style={{backgroundColor:"black"}}/>
-               </div>
-              </Col>
-            </Row>
-            <Row style={{marginBottom:"5%", marginTop: "2%"}}>
-              <Col lg={{span:8, offset:2}} xs={{span:8, offset:2}}>
-                <Row>
-                  <h2 style={{color: "#0C3866"}}>Behind the Masks</h2>
-                </Row>
-                <Row>
-                  <h1 style={{color:"#BE0027"}}>THE OTHER SIDE OF MASK</h1>
-                </Row>
-                <Row>
-                  <p style={{fontSize:"25px", marginRight:"30%"}}>Artist: xxx</p>
-                  <Col xl={{span:3, offset:4}}lg={{span:4, offset:2}} md={{span:4, offset:2}} sm={{span:4, offset:2}} xs={{span:4, offset:4}}>
-                    <Button style={{display:"inline", backgroundColor: "#BE0027", paddingLeft:"30%", paddingRight:"30%", borderRadius:"25px"}}>SHARE IT</Button>
-                  </Col>
-                </Row>
-              </Col>
-            </Row>
-            <Row style={{borderBottom: "1px solid"}}></Row>
-            <Row>
-              <Col lg={{span:6, offset:3}} xs={{span:8, offset:2}} style={{marginTop:"5%", marginBottom:"2%"}} className='contents'>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Praesent eget tincidunt felis, sit amet congue lectus.
-                Praesent auctor sodales ligula sed dignissim. Orci varius
-                natoque penatibus et magnis dis parturient montes, nascetur
-                ridiculus mus. Proin facilisis orci finibus magna aliquet, a
-                elementum purus dignissim. Fusce sed nisl rhoncus, imperdiet
-                elit vel, imperdiet ex. Quisque lacus ex, pulvinar eget tellus
-                id, suscipit cursus enim. Integer nec erat non leo vulputate
-                fermentum sed at massa. Cras et turpis sagittis, malesuada
-                velit at, semper velit. Sed porta nibh et mauris malesuada,
-                vel placerat tellus feugiat. Cras cursus magna diam, at mollis
-                lorem porta eget. Nunc rutrum nibh suscipit rutrum posuere.
-                In aliquam semper leo. Cras ligula ligula, mattis sit amet
-                lacinia ut, efficitur a ante. Sed in nunc nisi.Cras eget velit
-                a mauris imperdiet ultrices in nec nunc. Proin viverra, sem
-                sed fermentum commodo, elit tortor eleifend urna, vehicula
-                dapibus tortor augue at nisl. Ut nec venenatis mi. Nunc in
-                justo sem. Vestibulum non vehicula erat. Donec eu ipsum sed
-                turpis vestibulum rhoncus in ut tellus. Suspendisse tincidunt
-                nisi sed tortor efficitur, ac sodales ipsum blandit. Praesent
-                lorem justo, rhoncus eu porttitor a, molestie eget ligula.
-                In accumsan diam eget eleifend posuere. Donec et quam turpis.
-                Aenean in enim vitae libero efficitur cursus. In hac
-                habitasse platea dictumst. Etiam sollicitudin nisi a enim
-                vestibulum, eu rutrum est hendrerit. Sed ornare dui dui, a
-                cursus dolor congue vitae. Phasellus massa erat, mollis
-                quis egestas sit amet, facilisis at orci. Nunc ullamcorper
-                orem vel dolor venenatis congue. Aenean a laoreet leo, quis
-                ornare metus. Praesent erat sem, rhoncus quis mollis eu,
-                ullamcorper vitae sem. Ut semper ante sit amet nulla dictum
-                tincidunt. In hac habitasse platea dictumst. Fusce vel
-                scelerisque dolor. Aenean in metus varius, dictum metus
-                vel, convallis dolor. Donec ut tellus tristique, condimentum
-                nisl in, iaculis ante. Nam dictum placerat est, a placerat
-                dolor suscipit ut. Class aptent taciti sociosqu ad litora
-                torquent per conubia nostra, per inceptos himenaeos.
-                Fusce eu eros at odio feugiat condimentum. Vivamus quis
-                sem dolor.</p>
-              </Col>
-            </Row>
-            <Row>
-            <Col lg={{span:6, offset:3}} xs={{span:8, offset:2}} >
-              <img src={image1} style={{display:'block',
-                maxWidth: "100%", height: "auto", width:"100%"}} class="img-responsive"></img>
-            </Col>
-            </Row>
-            <Row>
-              <Col lg={{span:6, offset:3}} xs={{span:8, offset:2}} style={{marginTop:"2%", marginBottom:"2%"}} className='contents'>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Praesent eget tincidunt felis, sit amet congue lectus.
-                Praesent auctor sodales ligula sed dignissim. Orci varius
-                natoque penatibus et magnis dis parturient montes, nascetur
-                ridiculus mus. Proin facilisis orci finibus magna aliquet, a
-                elementum purus dignissim. Fusce sed nisl rhoncus, imperdiet
-                elit vel, imperdiet ex. Quisque lacus ex, pulvinar eget tellus
-                id, suscipit cursus enim. Integer nec erat non leo vulputate
-                fermentum sed at massa. Cras et turpis sagittis, malesuada
-                velit at, semper velit. Sed porta nibh et mauris malesuada,
-                vel placerat tellus feugiat. Cras cursus magna diam, at mollis
-                lorem porta eget. Nunc rutrum nibh suscipit rutrum posuere.
-                In aliquam semper leo. Cras ligula ligula, mattis sit amet
-                lacinia ut, efficitur a ante. Sed in nunc nisi.Cras eget velit
-                a mauris imperdiet ultrices in nec nunc. Proin viverra, sem
-                sed fermentum commodo, elit tortor eleifend urna, vehicula
-                dapibus tortor augue at nisl. Ut nec venenatis mi. Nunc in
-                justo sem. Vestibulum non vehicula erat. Donec eu ipsum sed
-                turpis vestibulum rhoncus in ut tellus. Suspendisse tincidunt
-                nisi sed tortor efficitur, ac sodales ipsum blandit. Praesent
-                lorem justo, rhoncus eu porttitor a, molestie eget ligula.
-                In accumsan diam eget eleifend posuere. Donec et quam turpis.
-                Aenean in enim vitae libero efficitur cursus. In hac
-                habitasse platea dictumst. Etiam sollicitudin nisi a enim
-                vestibulum, eu rutrum est hendrerit. Sed ornare dui dui, a
-                cursus dolor congue vitae. Phasellus massa erat, mollis
-                quis egestas sit amet, facilisis at orci. Nunc ullamcorper
-                orem vel dolor venenatis congue. Aenean a laoreet leo, quis
-                ornare metus. Praesent erat sem, rhoncus quis mollis eu,
-                ullamcorper vitae sem. Ut semper ante sit amet nulla dictum
-                tincidunt. In hac habitasse platea dictumst. Fusce vel
-                scelerisque dolor. Aenean in metus varius, dictum metus
-                vel, convallis dolor. Donec ut tellus tristique, condimentum
-                nisl in, iaculis ante. Nam dictum placerat est, a placerat
-                dolor suscipit ut. Class aptent taciti sociosqu ad litora
-                torquent per conubia nostra, per inceptos himenaeos.
-                Fusce eu eros at odio feugiat condimentum. Vivamus quis
-                sem dolorh </p>
-              </Col>
-            </Row>
-            <Row>
-            <Col lg={{span:6, offset:3}} xs={{span:8, offset:2}}>
-              <img src={image1} style={{display:'block',
-                maxWidth: "100%", height: "auto", width:"100%"}} class="img-responsive"></img>
-            </Col>
-            </Row>
-            <Row>
-              <Col lg={{span:6, offset:3}} xs={{span:8, offset:2}} style={{marginTop:"2%", marginBottom:"2%"}} className='contents'>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Praesent eget tincidunt felis, sit amet congue lectus.
-                Praesent auctor sodales ligula sed dignissim. Orci varius
-                natoque penatibus et magnis dis parturient montes, nascetur
-                ridiculus mus. Proin facilisis orci finibus magna aliquet, a
-                elementum purus dignissim. Fusce sed nisl rhoncus, imperdiet
-                elit vel, imperdiet ex. Quisque lacus ex, pulvinar eget tellus
-                id, suscipit cursus enim. Integer nec erat non leo vulputate
-                fermentum sed at massa. Cras et turpis sagittis, malesuada
-                velit at, semper velit. Sed porta nibh et mauris malesuada,
-                vel placerat tellus feugiat. Cras cursus magna diam, at mollis
-                lorem porta eget. Nunc rutrum nibh suscipit rutrum posuere.
-                In aliquam semper leo. Cras ligula ligula, mattis sit amet
-                lacinia ut, efficitur a ante. Sed in nunc nisi.Cras eget velit
-                a mauris imperdiet ultrices in nec nunc. Proin viverra, sem
-                sed fermentum commodo, elit tortor eleifend urna, vehicula
-                dapibus tortor augue at nisl. Ut nec venenatis mi. Nunc in
-                justo sem. Vestibulum non vehicula erat. Donec eu ipsum sed
-                turpis vestibulum rhoncus in ut tellus. Suspendisse tincidunt
-                nisi sed tortor efficitur, ac sodales ipsum blandit. Praesent
-                lorem justo, rhoncus eu porttitor a, molestie eget ligula.
-                In accumsan diam eget eleifend posuere. Donec et quam turpis.
-                Aenean in enim vitae libero efficitur cursus. In hac
-                habitasse platea dictumst. Etiam sollicitudin nisi a enim
-                vestibulum, eu rutrum est hendrerit. Sed ornare dui dui, a
-                cursus dolor congue vitae. Phasellus massa erat, mollis
-                quis egestas sit amet, facilisis at orci. Nunc ullamcorper
-                orem vel dolor venenatis congue. Aenean a laoreet leo, quis
-                ornare metus. Praesent erat sem, rhoncus quis mollis eu,
-                ullamcorper vitae sem. Ut semper ante sit amet nulla dictum
-                tincidunt. In hac habitasse platea dictumst. Fusce vel
-                scelerisque dolor. Aenean in metus varius, dictum metus
-                vel, convallis dolor. Donec ut tellus tristique, condimentum
-                nisl in, iaculis ante. Nam dictum placerat est, a placerat
-                dolor suscipit ut. Class aptent taciti sociosqu ad litora
-                torquent per conubia nostra, per inceptos himenaeos.
-                Fusce eu eros at odio feugiat condimentum. Vivamus quis
-                sem dolor. </p>
-              </Col>
-            </Row>
-          </Container>
+              <Row>
+                <Col xl={{span:6, offset:0}} lg={{span:12, offset:0}} md= {{span:12, offset:0}} xs={{span:12, offset:0}}className="model3D-col" >
+                  <div>
+                    <OBJModel src="./Bee.obj" textPath="" width="1800" height="600"
+                      position={{x:0,y:-10,z:0}} style={{backgroundColor:"black"}}/>
+                  </div>
+                </Col>
+                {/*}<Col className="middle_text_other" xl={{span:0, offset:0}} lg={{span:11, offset:1}} md= {{span:10, offset:1}} xs={{span:10, offset:1}}>
+                  <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text}>          </MainContents_Middle_Adonis>
+                </Col>*/}
+                <Col xl={{span:6, offset:0}} lg={{span:12, offset:0}} md= {{span:12, offset:0}} xs={{span:12, offset:0}} className="model3D-col" >
+                <div>
+                  <OBJModel src="./Bee.obj" textPath="" width="1800" height="600"
+                      position={{x:0,y:-10,z:0}} style={{backgroundColor:"black"}}/>
+                  </div>
+                </Col>
+              </Row>
+            {/*<Row className="other-side-hint-ch"><p>Click and drag or scroll to look around</p></Row>*/}
+
+            <ProgramInfoTwoArtistCH
+            subtitle="口罩之說"
+            title="一罩之隔"
+            artistitle1="創作： "
+            artistName1="Lady Hao Hao"
+            artistitle2="3D  藝術： "
+            artistName2="高于翔"
+            url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2F%23%2FOtherSideOfMask-ch&amp;src=sdkpreparse"
+            color="#246f79">
+          </ProgramInfoTwoArtistCH>
+
+          <Second_Title_ch secondTitle="作品互動方式：" style={{fontFamily: "sofia-pro Sans-serif"}}></Second_Title_ch>
+          <MainContents_Important_With_Border style={{color:"#0C3866"}} contents="asdfasdfasdfasdfasdfS"></MainContents_Important_With_Border>
+          <MainContents_Middle style={{color:"#0C3866"}} contents={text}></MainContents_Middle>
+
+
+          <MainContents_TwoArtistPic_CH pic1={ladyhaohao} title1="Lady Hao Hao"contents1="asdf
+            我是藝術家" pic2={walter} title2="高宇翔" contents2="asdf
+                我是藝術家二"></MainContents_TwoArtistPic_CH>
+          <div className="people_padding"></div>
+
+          <MobileShareButton_ch togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2F%23%2FOtherSideOfMask-ch&amp;src=sdkpreparse"></MobileShareButton_ch>
+        </Container>
+          <FooterCH/>
         </div>
         );
     }

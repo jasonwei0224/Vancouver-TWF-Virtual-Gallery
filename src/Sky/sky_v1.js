@@ -1,25 +1,27 @@
 import React, {Component} from 'react';
-import ImageSlider from './imageSlider';
-import ProgramInfo from "./programInfo";
+import ImageSlider from '../imageSlider';
+import ProgramInfo from "../programInfo";
 import {Link} from 'react-router-dom'
 import {Container, Row, Col, Form, Button, Modal} from 'react-bootstrap';
-import banner from './assets/placeholder.png';
-import Footer from './footer-temp';
+import banner from '../assets/placeholder.png';
+import Footer from '../footer-temp';
 import'./sky_v1.css';
-import fire from './firebase/file';
-import Button1 from "./modules/Button1";
-import Second_Title from "./modules/Second_Title"
-import FormSectionTitle from "./modules/FormSection_Title"
-import MainContents_First from "./modules/MainContents_First"
-import MainContents_Middle from "./modules/MainContents_Middle"
-import MainContents_Important from "./modules/MainContents_Important"
-import FormComponent from "./modules/formComponent"
-import FormConsent from "./modules/FormConsent"
-import FormFile from "./modules/FormFile"
-import IncompleteFormModal from "./incompleteFormModal";
-import SuccessModal from './successModal';
-import InvalidFileModal from './invalidFileModal';
-import mainImage from './assets/sky4.jpeg';
+import fire from '../firebase/file';
+import Button1 from "../modules/Button1";
+import Second_Title_Bold from "../modules/Second_Title_Bold"
+import FormSectionTitle from "../modules/FormSection_Title"
+import MainContents_First from "../modules/MainContents_First"
+import MainContents_Middle from "../modules/MainContents_Middle"
+import MainContents_Important from "../modules/MainContents_Important"
+import FormComponent from "../modules/formComponent"
+import FormConsent from "../modules/FormConsent"
+import FormFile from "../modules/FormFile"
+import IncompleteFormModal from "../incompleteFormModal";
+import SuccessModal from '../successModal';
+import InvalidFileModal from '../invalidFileModal';
+import mainImage from '../assets/sky4.jpeg';
+import {Helmet} from "react-helmet";
+import Slider from './img_slider_final_sky'
 
 class SkyV1 extends Component {
 
@@ -190,7 +192,7 @@ class SkyV1 extends Component {
                   not hold ACSEA or our programming partners liable for your health."></MainContents_Middle>
 
 
-        <Second_Title secondTitle="Under the same sky project"></Second_Title>
+        <Second_Title_Bold secondTitle="Under the same sky project"></Second_Title_Bold>
 
         <MainContents_Important contents="Be part of the art with our Under the same sky project. Follow us on social media to find out when to take a photo of the sky wherever you are globally and upload your photo for a chance to be featured. Click the link below for more details."></MainContents_Important>
 

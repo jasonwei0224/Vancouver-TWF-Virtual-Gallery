@@ -1,0 +1,80 @@
+.SIM-container {
+  margin-bottom: 5%;
+}
+.SIM-blue {
+  background-color: #4E9B16;
+  color: white;
+  font-family: "sofia";
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.SIM-red {
+  background-color: #EF5797;
+}
+.SIM-Title{
+  font-family: sofia-pro, sans-serif;
+}
+.SIM-artist{
+  font-family: sofia-pro, sans-serif;
+}
+
+/*  xs < 768  */
+@media screen and (max-width: 767px) {
+  .SIM-artist {
+    font-size: 20px;
+    margin-bottom: 0 !important;
+  }
+  .SIM-container{
+    display: none
+  }
+}
+
+/*  sm  */
+@media screen and (min-width: 768px) {
+  .SIM-artist {
+    font-size: 32px;
+  }
+  .SIM-container{
+    display: none
+  }
+}
+
+/*  md  */
+@media screen and (min-width: 992px) {
+  .SIM-artist {
+    font-size: 50px;
+  }
+  .SIM-container{
+    display: none
+  }
+}
+
+/*  lg  */
+@media screen and (min-width: 1200px) {
+  .SIM-container{
+    display: flex;
+  }
+  .SIM-artist {
+    font-size: 32px;
+  }
+  .SIM-artist-row1{
+    margin-top: 80px;
+  }
+  .SIM-Title{
+    font-size:32px;
+    margin-top: 80px;
+  }
+}
+@media screen and (min-width: 2560px){
+  .SIM-artist {
+    font-size: 40px;
+  }
+  .SIM-artist-row1{
+    margin-top: 80px;
+  }
+  .SIM-Title{
+    font-size:40px;
+    margin-top: 80px;
+  }
+}

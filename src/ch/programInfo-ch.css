@@ -2,7 +2,7 @@
 
 .PI-contents_ch {
     margin-top: 2%;
-    font-family: 'adonis-web';
+    /* font-family: 'adonis-web'; */
     overflow: hidden;
 }
 
@@ -50,13 +50,75 @@ a.PI-shareButton_ch:hover{
     display: grid;
     overflow: hidden;
 }
-
+.PI-artist-two-ch{
+  color: #246f79;
+  font-size: 25px;
+  padding: 0;
+  font-style: italic;
+    padding-left: 0px!important;
+    margin-bottom: 0px!important;
+    /* font-family: "sofia-pro", Sans-serif !important; */
+}
+.PI-title_twoArtist-ch{
+  color:#EF5797;
+  font-size: 35px;
+  margin-bottom: 45px;
+  font-weight:bold;
+  /* font-family: "sofia-pro", Sans-serif !important; */
+}
+.PI-subtitle-ch {
+    color: #246f79;
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 30px;
+    /* font-family: sofia-pro, sans-serif; */
+}
+.PI-Artist-p-ch{
+    margin-bottom: 0px !important;
+}
 @media screen and (max-width: 767px) {
   a.PI-shareButton_ch {
       font-size: 10px;
       padding: 5px 36px 5px 36px;
       display: none;
   }
+  .PI-subtitle_ch {
+      font-size: 50px;
+        font-family: sofia-pro, sans-serif;
+  }
+  .PI-subtitle-ch {
+      color: #246f79;
+      margin-top: 5%;
+      /* font-weight: bold; */
+      font-size: 40px;
+      font-family: sofia-pro, sans-serif;
+  }
+  .PI-title_twoArtist-ch{
+    color:#EF5797;
+    font-size: 50px;
+    margin-bottom: 45px;
+    /* font-weight:bold; */
+      font-family: sofia-pro, sans-serif;
+  }
+  .PI-title_ch {
+      font-size: 60px;
+        font-family: sofia-pro, sans-serif;
+  }
+
+  .PI-artist_ch {
+      font-size: 42px;
+        font-family: sofia-pro, sans-serif;
+  }
+  .PI-artist-two-ch{
+    color: #246f79;
+    font-size: 30px;
+    padding: 0;
+    font-style: italic;
+      padding-left: 0px!important;
+      margin-bottom: 0px!important;
+      font-family: sofia-pro, sans-serif;
+  }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -64,7 +126,29 @@ a.PI-shareButton_ch:hover{
   .PI-subtitle_ch {
       font-size: 50px;
   }
-
+  .PI-subtitle-ch {
+      color: #246f79;
+      margin-top: 5%;
+      /* font-weight: bold; */
+      font-size: 40px;
+      /* font-family: sofia-pro, sans-serif; */
+  }
+  .PI-title_twoArtist-ch{
+    color:#EF5797;
+    font-size: 50px;
+    margin-bottom: 45px;
+    /* font-weight:bold; */
+    /* font-family: sofia-pro, sans-serif; */
+  }
+  .PI-artist-two-ch{
+    color: #246f79;
+    font-size: 30px;
+    padding: 0;
+    font-style: italic;
+      padding-left: 0px!important;
+      margin-bottom: 0px!important;
+      /* font-family: "sofia-pro", Sans-serif !important; */
+  }
   .PI-title_ch {
       font-size: 60px;
   }
@@ -97,6 +181,13 @@ a.PI-shareButton_ch:hover{
           padding: 5px 32px 5px 32px;
           display: None;
       }
+      .PI-title_twoArtist-ch{
+        color:#EF5797;
+        font-size: 60px;
+        margin-bottom: 45px;
+        /* font-weight:bold; */
+      /* font-family: sofia-pro, sans-serif; */
+      }
   }
 
 @media screen and (min-width: 1200px) {
@@ -119,6 +210,22 @@ a.PI-shareButton_ch:hover{
       padding: 5px 32px 5px 32px;
       margin-bottom: 0px !important;
       display: block;
+    }
+    .PI-title_twoArtist-ch{
+      color:#EF5797;
+      font-size: 35px;
+      margin-bottom: 45px;
+      font-family: adonis-web, serif;
+      /* font-weight:bold; */
+
+      /* font-family: sofia-pro, sans-serif !important; */
+    }
+    .PI-subtitle-ch {
+        color: #246f79;
+        margin-top: 5%;
+        /* font-weight: bold; */
+        font-size: 30px;
+        /* font-family: sofia-pro, sans-serif !important; */
     }
   }
 }

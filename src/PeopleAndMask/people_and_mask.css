@@ -3,17 +3,32 @@
     height:100%;
 }
 @media screen and (max-width: 767px) {
-
+  .desktop_artist{
+    display:none;
+  }
+  .people_padding{
+    padding: 50px
+  }
 }
 
 
 @media screen and (min-width: 768px) {
-
+  .desktop_artist{
+    display:none;
+  }
+  .people_padding{
+    padding: 50px
+  }
 }
 
 
 @media screen and (min-width: 992px) {
-
+  .desktop_artist{
+    display:none;
+  }
+  .people_padding{
+    padding:30px
+  }
 }
 
 
@@ -22,4 +37,10 @@
         width:100%;
         height:100%;
     }
+  .display_artist{
+    display:hidden;
+  }
+  .people_padding{
+    padding:10px
+  }
 }

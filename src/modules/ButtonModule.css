@@ -1,7 +1,7 @@
 .uploadBtn {
     text-align: center;
     border-radius: 20px;
-    background-color: #707070;
+    background-color: #EF5797;
     color: white;
     padding-left: 5%;
     padding-right: 5%;
@@ -33,6 +33,9 @@
     width:80%;
     color: white;
     display: inline-block;
+    box-shadow:none!important;
+    outline: none !important;
+    border:none;
 }
 .uploadBtnLong {
     text-align: center;
@@ -60,7 +63,13 @@
 }
 
 @media screen and (max-width: 767px) {
-
+  .uploadBtnLong {
+      font-size: 30px;
+      margin-top: 50px;
+  }
+  .uploadBtn {
+      margin-top:30px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -74,7 +83,13 @@
 }
 
 @media only screen and (min-width: 992px) {
-
+  .uploadBtnLong {
+      font-size: 30px;
+      margin-top: 50px;
+  }
+  .uploadBtn {
+      margin-top:30px;
+  }
 }
 
 @media screen and (min-width: 1200px) {

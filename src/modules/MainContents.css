@@ -1,13 +1,32 @@
+
+.mainSection_two_img{
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
 .mainSection_First_Row {
     margin-top: 50px;
     margin-bottom:30px;
     font-family: "adonis-web";
     color:#246f79;
 }
+.mainSection_Row_adonis{
+  margin-top:10px;
+  margin-bottom:10px;
+  /* font-family: "adonis-web"; */
+  color:#2f6e79;
+  /* font-family: adonis-web, serif; */
+  /* font-weight: normal; */
+
+  font-size: 20px;
+  white-space: pre-line;
+}
 .mainSection_Row {
     margin-top:10px;
     margin-bottom:10px;
-    font-family: "adonis-web";
+    /* font-family: "adonis-web"; */
     color:#246f79;
       white-space: pre-line;
 }
@@ -17,11 +36,61 @@
     color: #707070;
     font-size: 20px;
 }
+.mainSection_Important_Row_border{
+  font-family: "sofia-pro", Sans-serif;
+  font-weight: normal;
+  color: #707070;
+  font-size: 20px;
+}
 .mainSection_First_Row_ch {
     margin-top: 50px;
     margin-bottom:30px;
     font-family: "adonis-web";
       color:#246f79;
+}
+.mainSection_Img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+.mainSection_Img_wd{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  padding-top:60px;
+  padding-bottom:30px;
+}
+.mainSection_Img_wd_ch{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  padding-top:60px;
+  padding-bottom:30px;
+}
+.mainSection_Img_ch {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+.mainSection_Img2 {
+    display:block;
+
+    width:100%;
+    height:auto;
+}
+.mainSection_First_Row_ch {
+    margin-top: 50px;
+    margin-bottom:30px;
+    font-family: "adonis-web";
+      color:#0C3866;
 }
 .mainSection_Row_ch {
     margin-top:10px;
@@ -36,12 +105,136 @@
     color: #707070;
     font-size: 20px;
 }
+.image_description{
+  font-family: "sofia-pro", Sans-serif;
+  font-size:20px;
+  color:#707070;
+  bottom:80px;
+}
+
+.image_description_ch{
+  font-family: "sofia-pro", Sans-serif;
+  font-size:20px;
+  color:#707070;
+}
+.main_borderline{
+  /* padding-top:0px; */
+  margin-top: 70px;
+  margin-bottom:70px;
+
+}
+.picture_description_title{
+  font-family: "sofia-pro", Sans-serif;
+}
 
 @media screen and (max-width: 767px) {
+  .main_borderline{
+    margin-top: 70px;
+    margin-bottom:20px;
+    border-top: 2px solid #D9C739
+  }
+  .maincontent_withpic{
+    display:none;
+  }
+  .mainSection_First_Row {
+      font-size: 42px;
+      margin-top:50px;
+      margin-bottom:10px;
+      color:#0C3866;
+  }
+  .mainSection_Row {
+      font-size: 42px;
+      margin-top:50px;
+      margin-bottom:10px;
+      color:#0C3866;
+  }
+  .mainSection_Row_adonis{
+    margin-top:10px;
+    margin-bottom:10px;
+    /* font-family: "adonis-web"; */
+    color:#2f6e79;
+    font-family: sofia-pro, Sans-serif;
+    font-size:28px;
+    /* font-weight: normal; */
+
+    font-size: 20px;
+    white-space: pre-line;
+  }
+  .mainSection_Important_Row_border{
+    font-size: 35px;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  .mainSection_Important_Row {
+      font-size: 35px;
+      margin-top:10px;
+      margin-bottom:10px;
+  }
+  .mainSection_First_Row_ch {
+      font-size: 42px;
+      margin-top: 50px;
+      margin-bottom:10px;
+
+  }
+  .mainSection_Row_ch {
+      font-size: 42px;
+      margin-top:5px;
+      margin-bottom:5px;
+  }
+  .mainSection_Important_Row_ch {
+      font-family: "sofia-pro", Sans-serif;
+      font-weight: normal;
+      color: #707070;
+      font-size: 40px;
+  }
+  .image_description{
+    font-family: "sofia-pro", Sans-serif;
+    font-size:30px;
+    color:#707070;
+  }
+  .image_description_ch{
+    font-family: "sofia-pro", Sans-serif;
+    font-size:30px;
+    color:#707070;
+  }
+  .block{
+    /* width:45px;
+    height:50px;
+    background-color:red; */
+    display:none;
+  }
+  .main_content_text_column{
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+
+  .picture_description_main_content{
+    display:inline;
+    color: #707070;
+    font-size: 40px;
+  }
+  .picture_description_main_content_ch{
+    display:block;
+    color: #707070;
+  }
+  .picture_description_title{
+    font-weight: bold
+  }
+  #mainSection_withPicture_div {
+  display: none !important;
+  }
 
 }
 
 @media only screen and (min-width: 768px) {
+  .main_borderline{
+    margin-top: 70px;
+    margin-bottom:20px;
+    border-top: 2px solid #D9C739
+  }
+  .maincontent_withpic{
+    display:none;
+  }
     .mainSection_First_Row {
         font-size: 42px;
         margin-top:50px;
@@ -54,11 +247,35 @@
         margin-bottom:10px;
 
     }
+    .mainSection_Row_twoArtist{
+      font-size: 40px;
+      margin-top:50px;
+      /* margin-bottom:10px; */
+      color:#2f6e79;
+    }
+    .mainSection_Row_adonis{
+      font-size: 42px;
+      margin-top:50px;
+      margin-bottom:10px;
+      color:#2f6e79;
+      font-family: sofia-pro, Sans-serif;
+    }
+    .mainSection_Row_twoArtist_second{
+      font-size: 40px;
+      margin-top:0px;
+      margin-bottom:10px;
+      color:#2f6e79;
+    }
     .mainSection_Important_Row {
-        font-size: 40px;
+        font-size: 35px;
         margin-top:10px;
         margin-bottom:10px;
     }
+      .mainSection_Important_Row_border{
+        font-size: 35px;
+        margin-top:10px;
+        margin-bottom:10px;
+      }
     .mainSection_First_Row_ch {
         font-size: 42px;
         margin-top: 50px;
@@ -75,16 +292,117 @@
         font-weight: normal;
         color: #707070;
         font-size: 40px;
+    }
+    .image_description{
+      font-family: "sofia-pro", Sans-serif;
+      font-size:30px;
+      color:#707070;
+    }
+    .image_description_ch{
+      font-family: "sofia-pro", Sans-serif;
+      font-size:30px;
+      color:#707070;
+    }
+    .block{
+      /* width:45px;
+      height:50px;
+      background-color:red; */
+      display:none;
+    }
+    .main_content_text_column{
+      margin-top: 50px;
+      margin-bottom: 100px;
+    }
+    .picture_description_main_content{
+      display:block;
+      color: #707070;
+      font-size:40px;
+    }
+    .picture_description_main_content_twoartist{
+      margin-top: 40px;
+      margin-bottom: 10px;
+      font-size: 20px !important;
 
+    }
+    .picture_description_main_content_ch{
+      display:block;
+      color: #707070;
+    }
+    .picture_description_title{
+      margin-bottom:50px;
+      font-weight: bold;
+      font-size:40px;
     }
 
 }
 
 @media only screen and (min-width: 992px) {
+  .main_borderline{
+    margin-top: 70px;
+    margin-bottom:20px;
+    border-top: 2px solid #D9C739
+  }
+  .maincontent_withpic{
+    display:none;
+  }
+  .block{
+    /* width:45px;
+    height:50px;
+    background-color:red; */
+    display:none;
+  }
+  .main_content_text_column{
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .picture_description_main_content_twoartist{
+        margin-top: 40px;
+        margin-bottom: 10px;
+        font-size: 20px !important;
 
+      }
+  .picture_description_main_content_twoartist_bottom{
+    /* margin-top: 50px; */
+    margin-bottom: 30px;
+      font-size: 20px!important;
+  }
+  .picture_description_main_content_oneartist{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .picture_description_main_content{
+    display:block;
+    color: #707070;
+  }
+  .picture_description_main_content_ch{
+    display:block;
+    color: #707070;
+  }
 }
 
 @media screen and (min-width: 1200px) {
+  .main_borderline{
+    margin-top: 70px;
+    margin-bottom:0px;
+    border-top: 1px solid #D9C739
+
+  }
+  .twoArtistPic{
+    display:block;
+  }
+  .maincontent_withpic{
+    display:block;
+  }
+  .image_description{
+    font-size:20px;
+    margin-top:30px;
+    /* margin-bottom: 30px; */
+  }
+  .image_description_ch{
+    font-size:20px;
+    margin-top:30px;
+  }
     .mainSection_First_Row {
         margin-top: 100px;
         font-size: 23px;
@@ -96,11 +414,24 @@
         margin-bottom:10px;
         font-size: 23px;
     }
+    .mainSection_Row_adonis{
+      margin-top:30px;
+      margin-bottom:10px;
+      font-size: 28px;
+      color:#2f6e79;
+      font-family: adonis-web, serif;
+    }
     .mainSection_Important_Row {
         font-family: "sofia-pro", Sans-serif!important;
         font-size: 20px;
         margin-top:10px;
         margin-bottom:10px;
+    }
+    .mainSection_Important_Row_border{
+      font-family: "sofia-pro", Sans-serif!important;
+      font-size: 20px;
+      margin-top:10px;
+      margin-bottom:70px;
     }
     .mainSection_First_Row_ch {
         font-size: 23px;
@@ -117,5 +448,62 @@
         font-weight: normal;
         color: #707070;
         font-size: 20px;
+    }
+    .mainSection_Img2 {
+        display:inline-block;
+        width:90%;
+        height:auto;
+        /* margin-left: 12px; */
+    }
+    .image_description{
+      font-family: "sofia-pro", Sans-serif;
+      font-size:20px;
+      color:#707070;
+    }
+    .image_description_ch{
+      font-family: "sofia-pro", Sans-serif;
+      font-size:20px;
+      color:#707070;
+    }
+    .block{
+      width:45px;
+      height:50px;
+      background-color:red;
+      display:inline-block;
+    }
+    .main_content_text_column{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      /* margin-left: 30px!important; */
+    }
+    .picture_description_main_content{
+      display:inline;
+      color: #707070;
+      font-size: 20px;
+    }
+    .picture_description_main_content_ch{
+      display:inline;
+      color: #707070;
+      font-size: 20px;
+    }
+    #mainSection_withPicture_div {
+      display: inline-block !important;
+    }
+
+    #mainSection_withPicture_Col {
+      margin-left: 0px;
+      padding-right: 0px;
+    }
+    .picture_description_title{
+      font-weight: bold;
+      font-size:20px;
+      margin-bottom:40px;
+      font-family: "sofia-pro", Sans-serif;
+    }
+    .picture_description_main_content_twoartist{
+      margin-top: 40px;
+      margin-bottom: 10px;
+      /* font-size: 20px !important; */
+
     }
 }

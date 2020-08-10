@@ -16,8 +16,8 @@ import HomeMobileProject from './HomeMobileProject';
 import homepage_placeholder_lg from '../assets/homepage_placeholder_lg.jpg';
 import Footer from '../footer-temp';
 import homeImage from './homeImage';
-import we_are_all_home_van1 from '../assets/V-We are all in this toghther word.jpg'
-import we_are_all_home_van1_hover from '../assets/V-We are all in this toghther only.jpg'
+import we_are_all_home_van1 from '../assets/V2-We are all in this toghther word.jpg'
+import we_are_all_home_van1_hover from '../assets/V2-We are all in this toghther only.jpg'
 import we_are_all_home_van from '../assets/V-We are all in this toghther - online word .jpg';
 import we_are_all_home_van_hover from "../assets/V-We are all in this toghther - online only .jpg";
 
@@ -64,17 +64,19 @@ import ProjectNameRight from "./ProjectNameRight";
 import ProjectNameLeft from "./ProjectNameLeft";
 
 
-var text = `The world seems to have lost its order because we forget to give others space; nature seems to be protesting because we forget to be humble. Artists are risk takers and they dare to challenge the reality of our society.  For things words can’t express, let pictures do the talking.  For the warmth people can’t feel, maybe colours can ignite.  To appreciate our artists here, time and space are all is required. \n\n  The galleries of your photos are open now. Galleries of all participating artists will be open starting Septebmer 5th.`
+var text = `The world seems to have lost its order because we forget to give others space; nature seems to be protesting because we forget to be humble. Artists are risk takers and they dare to challenge the reality of our society.  For things words can’t express, let pictures do the talking.  For the warmth people can’t feel, maybe colours can ignite.  To appreciate our artists here, time and space are all that is required. \n\n  The galleries of your photos are open now. Galleries of all participating artists will be open starting Septebmer 5th.`
 
 const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)
   const useMountEffect = (fun) => useEffect(fun, [])
+
+
+
 function Home2() {
-
-
   const myRef = useRef(null)
   const myRef2 = useRef(null)
   const myRef3 = useRef(null)
-  useMountEffect(() => scrollToRef(myRef))
+// useMountEffect(() => scrollToRef(myRef))
+
 
     return (
         <div id="homeMainDiv">
@@ -127,7 +129,7 @@ function Home2() {
 
             <span  ref ={myRef} ><HomeColoredHeader2 id="section1" title="I'M DIFFERENT, JUST LIKE YOU!"></HomeColoredHeader2></span>
 
-            <a href="/sky"><HoverImage src={sky_home_van}  hoverSrc={sky_home_van_hover} className="home_image" style={{width:'100%', height:"auto"}}></HoverImage></a>
+            <a href=""><HoverImage src={sky_home_van}  hoverSrc={sky_home_van_hover} className="home_image" style={{width:'100%', height:"auto"}}></HoverImage></a>
             <a href="/IAmDifferent"><HoverImage className="home_image" src={we_are_all_home_van1}  hoverSrc={we_are_all_home_van1_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
             <a href=""><HoverImage className="home_image" src={mirror_home_van}  hoverSrc={mirror_home_van_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
             <a href=""><HoverImage className="home_image" src={chinese_home}   hoverSrc={chinese_home_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
@@ -142,7 +144,7 @@ function Home2() {
         </div>
         <div id="homeThirdSectionMobile">
             <HomeColoredHeader title="I'M DIFFERENT, JUST LIKE YOU!"/>
-            <HomeMobileProject url="/Sky"type="INTSTALLATION" title="SKY" image={sky_mobile} hover={sky_mobile_hover}/>
+            <HomeMobileProject url=""type="INTSTALLATION" title="SKY" image={sky_mobile} hover={sky_mobile_hover}/>
             <HomeMobileProject url="IAmDifferent" type="INTERACTIVE GAME" title="WE ARE ALL IN THIS TOGETHER" image={diff_mobile}  hover={diff_mobile_hover}/>
               <HomeMobileProject url="" type="ILLUSTRATION" title="MIRRORS" image={mirror_mobile}  hover={mirror_mobile_hover}/>
 

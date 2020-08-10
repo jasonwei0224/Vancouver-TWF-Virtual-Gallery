@@ -1,0 +1,28 @@
+
+
+/*  xs < 768  */
+@media screen and (max-width: 767px) {
+
+}
+
+/*  sm  */
+@media screen and (min-width: 768px) {
+
+}
+
+/*  md  */
+@media screen and (min-width: 992px) {
+
+}
+
+/*  lg  */
+@media screen and (min-width: 1200px) {
+  .AL_Container{
+    display:none
+  }
+}
+@media screen and (min-width: 2560px){
+  .AL_Container{
+    display:none
+  }
+}
