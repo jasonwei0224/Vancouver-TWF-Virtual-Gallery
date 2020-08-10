@@ -13,7 +13,7 @@ import SkyOtherArtists from '../skyOtherArtists';
 import Slider from '../modules/img_slider_final'
 
 
-function SkyArtist() {
+function SkyArtist(props) {
   return (
     <div>
       <Container fluid style={{padding:"0"}}>
