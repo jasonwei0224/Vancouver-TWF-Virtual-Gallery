@@ -30,14 +30,19 @@ import Home2_ch from "./ch/Home-ch/home_v2_ch";
 import UnbeingChinese from "./unbeingChinese/unbeingChinese";
 import UnbeingChineseCH from "./ch/unbeingChinese/unbeingChineseCH"
 import OtherSideOfMask_ch from "./ch/OtherSideOfMask-ch/other_side_of_mask-ch";
-import SkyArtist from "./Sky/skyArtist";
+// import SkyArtist from "./Sky/skyArtist";
 import SkyArtist1 from "./Sky/skyArtist1";
 import SkyArtist2 from "./Sky/skyArtist2";
 import SkyArtist3 from "./Sky/skyArtist3";
-import SkyArtist_ch from "./ch/Sky-ch/skyArtist_ch";
+import SkyArtist4 from "./Sky/skyArtist4";
+import SkyArtist5 from "./Sky/skyArtist5";
+import SkyArtist6 from "./Sky/skyArtist6";
 import SkyArtist_ch1 from "./ch/Sky-ch/skyArtist1_ch";
 import SkyArtist_ch2 from "./ch/Sky-ch/skyArtist2_ch";
 import SkyArtist_ch3 from "./ch/Sky-ch/skyArtist3_ch";
+import SkyArtist_ch4 from "./ch/Sky-ch/skyArtist4_ch";
+import SkyArtist_ch5 from "./ch/Sky-ch/skyArtist5_ch";
+import SkyArtist_ch6 from "./ch/Sky-ch/skyArtist6_ch";
 import { createBrowserHistory } from 'history';
 // import"./sky_v1.css";
 
@@ -66,10 +71,12 @@ ReactGA.initialize('UA-2521987-18');
           <Route path="/IAmDifferentForm" component={IAmDifferentForm}/>
           <Route path="/SkyV2" component={Sky} />
           <Route path="/Sky" component={SkyV1}/>
-          <Route path="/SkyArtist" component={SkyArtist}/>
           <Route path="/SkyArtist1" component={SkyArtist1}/>
           <Route path="/SkyArtist2" component={SkyArtist2}/>
           <Route path="/SkyArtist3" component={SkyArtist3}/>
+          <Route path="/SkyArtist4" component={SkyArtist4}/>
+          <Route path="/SkyArtist5" component={SkyArtist5}/>
+          <Route path="/SkyArtist6" component={SkyArtist6}/>
           <Route path="/UnbeingChinese" component={UnbeingChinese}/>
 
           <Route path="/-ch" exact component={Home2_ch} />
@@ -78,10 +85,12 @@ ReactGA.initialize('UA-2521987-18');
           <Route path="/OtherSideOfMask-ch" component={OtherSideOfMask_ch}/>
           <Route path="/Mirror-ch" component={Mirror_ch}/>
           <Route path="/Sky-ch" component={SkyV1_ch}/>
-          <Route path="/SkyArtist-ch" component={SkyArtist_ch}/>
           <Route path="/SkyArtist1-ch" component={SkyArtist_ch1}/>
           <Route path="/SkyArtist2-ch" component={SkyArtist_ch2}/>
           <Route path="/SkyArtist3-ch" component={SkyArtist_ch3}/>
+          <Route path="/SkyArtist4-ch" component={SkyArtist_ch4}/>
+          <Route path="/SkyArtist5-ch" component={SkyArtist_ch5}/>
+          <Route path="/SkyArtist6-ch" component={SkyArtist_ch6}/>
           <Route path="/IAmDifferent-ch" component={IAmDifferent_ch}/>
           <Route path="/IAmDifferentForm-ch" component={IAmDifferentForm_ch}/>
           <Route path="/UnbeingChinese-ch" component={UnbeingChineseCH}/>

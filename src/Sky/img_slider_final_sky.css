@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     margin: 0 auto;
-    height: 855px;
+    height: 1022px;
     overflow: hidden;
     white-space: nowrap;
   }
@@ -89,17 +89,38 @@
   justify-content: center;
 }
 @media screen and (max-width: 767px) {
-
+  .slider_sky {
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+      height: 655px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
 }
 
 /* sm */
 @media screen and (min-width: 768px) {
-
+  .slider_sky {
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+      height: 655px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
 }
 
 /* md */
 @media screen and (min-width: 992px) {
-
+  .slider_sky {
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+      height: 1022px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
 }
 
 /* lg */

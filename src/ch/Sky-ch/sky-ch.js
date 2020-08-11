@@ -1,28 +1,28 @@
 import React from 'react';
-import ImgSlider from '../img_slider';
+import ImgSlider from '../../../img_slider';
 import { Container } from "react-bootstrap";
-import ProgramInfoThinLine from '../programInfoThinLine';
-import image1 from '../assets/image1.jpg';
-import image2 from '../assets/image2.jpg';
-import Second_Title from "../modules/Second_Title"
-import MainContents_First from "../modules/MainContents_First"
-import MainContents_Middle_Adonis from "../modules/MainContents_Middle_Adonis"
-import MainContents_Important from "../modules/MainContents_Important"
-import Button1 from "../modules/Button1";
-import Footer from "../footer-temp";
+import ProgramInfoThinLine from '../../programInfoThinLine';
+import image1 from '../../assets/image1.jpg';
+import image2 from '../../assets/image2.jpg';
+import Second_Title from "../../modules/Second_Title"
+import MainContents_First from "../../modules/MainContents_First"
+import MainContents_Middle_Adonis from "../../modules/MainContents_Middle_Adonis"
+import MainContents_Important from "../../modules/MainContents_Important"
+import Button1 from "../../modules/Button1";
+import Footer from "../footer-ch";
 import SkyImageGallery from "../skyImageGallery";
-import './sky.css'
+import './sky-ch.css'
 import Slider from './img_slider_final_sky'
 import ArtistList from './ArtistList';
 
-import sara1 from '../assets/Sara1.jpg';
-import sara2 from '../assets/Sara2.jpg';
-import valerie from '../assets/Valerie.jpg';
-import star from '../assets/心星.jpg';
-import peter from '../assets/潘小俠.jpg';
-import p1 from '../assets/阿比1.jpg';
-import p2 from '../assets/阿比2.jpg';
-import huang from '../assets/黃約農.jpg'
+import sara1 from '../../assets/Sara1.jpg';
+import sara2 from '../../assets/Sara2.jpg';
+import valerie from '../../assets/Valerie.jpg';
+import star from '../../assets/心星.jpg';
+import peter from '../../assets/潘小俠.jpg';
+import p1 from '../../assets/阿比1.jpg';
+import p2 from '../../assets/阿比2.jpg';
+import huang from '../../assets/黃約農.jpg'
 
 import sara_profile from '../assets/人物照-Sara.jpg';
 import huang_profile from '../assets/人物照 -黃約農.jpg';
