@@ -47,6 +47,7 @@ Inspired by her father’s photo records with her family, and the stunning pictu
 
         artistInfo={artistInfo}
         profile={star_profile}
+          artwork={star}
         fb="https://www.facebook.com/estrella.chuang"
         ig="https://www.instagram.com/estrella_chuang/"
         yt=""
@@ -55,9 +56,13 @@ Inspired by her father’s photo records with her family, and the stunning pictu
         other1={huang_profile}
         other2={huang_profile}
         other3={huang_profile}
-        othername1="DUMAS TEMU"
-        othername2="DUMAS TEMU"
-        othername3="DUMAS TEMU"
+        other4={huang_profile}
+        other5={huang_profile}
+        othername1="Estrella Chuang"
+        othername2="Valerie Durant"
+        othername3="Sara Boychuk"
+        othername4="Hsiao-Hsia Pan"
+        othername5="Hsien-ling Yin"
         url1=""
         url2=""
         url3=""

@@ -87,7 +87,7 @@ class Slider extends React.Component {
       backgroundImage: `url(${image})`,
       backgroundSize: 'contain',
       backgroundRepeat: 'no-repeat',
-      backgroundPosition: '50% 60%'
+      backgroundPosition: '50% 0%'
     }
     return <div className="slide_sky" style={styles}></div>
   }

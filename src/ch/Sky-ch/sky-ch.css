@@ -1,4 +1,4 @@
-.sky_space{
+/* .sky_space{
   padding-top: 80px;
 }
 
@@ -18,8 +18,7 @@
 }
 .SA_artistInfo2{
   color:#246f79;
-  /* margin-top:auto; */
-  /* margin-bottom:auto; */
+
   font-weight: bold;
   font-size:20px;
   margin-right: 20px;
@@ -49,7 +48,7 @@
     font-size: 30px;
   }
   .SA_artistInfo2{
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 40px;
   }
   .media_col{
@@ -65,7 +64,7 @@
 @media screen and (min-width: 768px) {
   .artTitle{
     font-size: 60px;
-    /* margin-bottom: 60px; */
+
     font-family: sofia-pro, sans-serif;
   }
   .social-icon{
@@ -76,7 +75,7 @@
     font-size: 30px;
   }
   .SA_artistInfo2{
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 40px;
   }
   .media_col{
@@ -102,7 +101,7 @@
     font-size: 30px;
   }
   .SA_artistInfo2{
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 40px;
   }
   .media_col{
@@ -138,4 +137,4 @@
   .media_col{
     display: block;
   }
-}
+} */

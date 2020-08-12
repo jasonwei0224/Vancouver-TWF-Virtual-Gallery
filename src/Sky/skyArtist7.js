@@ -17,8 +17,9 @@ import p2 from '../assets/阿比2.jpg';
 import huang from '../assets/黃約農.jpg'
 function SkyArtist3() {
 
-    var text =`This image was taken on a day where the sky was ever-changing.  It was a surreal moment of the clouds engulfing all of the sky except for the peak of a mountain.  An interpretation can be seen: of finding the peak in the storm and keeping your head high.  Although the weather is not always in our favour, it's amazing what we can find with the right attitude.
+    var text =`The photo pause was a simple enjoyment of a sunset here in Vancouver.  We all get caught up in the business of our lives and the stressors that understandably come with it.  Sometimes, we just need to pause.  The sky can provide a great reminder and perspective.  This image was taken after a rainy day in which most people flee to the indoors.  With some patience, a beautiful sunset lights up the sky and city.
 `
+
   var artistInfo=`As a Registered Nurse and Photographer, I am constantly reminded that we are all living under the same sky.  I have a huge passion for the outdoors and outdoor imagery as I feel it can bring us all together.`
 
 
@@ -26,15 +27,16 @@ function SkyArtist3() {
 
       return (
       <div>
-      <img src={sara1} style={{width:"100%", height:"auto"}}></img>
+      <img src={sara2} style={{width:"100%", height:"auto"}}></img>
+
       <SkyArtist
-        artName="HIDDEN IN THE CLOUDS"
+        artName="PAUSE"
         title="SARA BOYCHUK"
         location="CANADA"
         content={text}
+        artwork={sara2}
         artistInfo={artistInfo}
         profile={sara_profile}
-        artwork={sara1}
         fb=""
         ig="https://www.instagram.com/saraboychukphoto"
         yt=""

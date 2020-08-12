@@ -1,5 +1,5 @@
 import React from 'react';
-import SkyArtist from '../../Sky/skyArtist';
+import SkyArtist from './skyArtist-ch';
 import huang_profile from '../../assets/人物照 -黃約農.jpg';
 
 import sara_profile from '../../assets/人物照-Sara.jpg';
@@ -21,8 +21,8 @@ import Slider from '../../Sky/img_slider_final_sky'
 
 function SkyArtist3() {
 
-    var text =`這張照片是在某個雲彩多變的日子拍攝的。當所有雲朵漸漸吞噬著天空，僅露出某個山頭，這是個多麼夢幻的時刻呀。彷彿在暴雨來襲時，你依舊昂首。即使天氣無法永遠依我們所願，只要樂觀面對，仍舊能發覺它的美好。
-`
+    var text =`  這張照片訴說著看見溫哥華日落美景的簡單喜悅。人們的生活總是被工作追著跑，其壓力可想而之。有時，我們需要稍做停歇；天空則是能提供適時的提點及展望。這張照片是在人們總愛待在室內的下雨天後拍攝的。只要耐心等候，整片天空及整座城市將籠罩在美麗的夕陽餘暉之下。
+    `
 
   var artistInfo=`身為一位護理師和攝影師，很多事總是不斷地提醒著我，我們每一個人都生活在同一片天空之下。我對於大自然以及戶外攝影有著極大的熱情，因為我總覺得它能夠把每一個人團結相聚在一起。`
 
@@ -31,9 +31,10 @@ function SkyArtist3() {
 
       return (
       <div>
-      <img src={sara1} style={{width:"100%", height:"auto"}}></img>
+        <img src={sara2} style={{width:"100%", height:"auto"}}></img>
+
       <SkyArtist
-        artName="撥雲見日"
+        artName="雲止時刻"
         title="SARA BOYCHUK"
         location="加拿大"
         content={text}

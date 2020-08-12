@@ -1,5 +1,5 @@
 import React from 'react';
-import SkyArtist from './skyArtist';
+import SkyArtist from '../../Sky/skyArtist';
 import huang_profile from '../../assets/人物照 -黃約農.jpg';
 import Slider from '../../modules/img_slider_final'
 
@@ -37,7 +37,7 @@ var artistInfo=`出身台灣台中 Tbulan 部落的泰雅族人，中央警察�
     <img src={huang} style={{width:"100%", height:"auto"}}></img>
     <SkyArtist
       artName="凝視聖稜線"
-      title="黃約農"
+      title="Duma Temu / 黃約農"
       location="台灣"
       content={text}
       bold="策展者的話："
@@ -53,12 +53,12 @@ var artistInfo=`出身台灣台中 Tbulan 部落的泰雅族人，中央警察�
       other2={huang_profile}
       other3={huang_profile}
       othername1="DUMAS TEMU"
-      othername2="DUMAS TEMU"
-      othername3="DUMAS TEMU"
+      othername2="Valerie Durant"
+      othername3="Sara Boychuk"
       url1=""
       url2=""
       url3=""
-      name = "黃約農"
+      name = "Duma Temu / 黃約農"
       ></SkyArtist>
     </div>
   );

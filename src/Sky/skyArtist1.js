@@ -1,14 +1,21 @@
 import React from 'react';
 import SkyArtist from './skyArtist';
+
 import huang_profile from '../assets/人物照 -黃約農.jpg';
 import Slider from '../modules/img_slider_final'
 
 import sara_profile from '../assets/人物照-Sara.jpg';
-
 import valerie_profile from '../assets/人物照-Valerie.jpg';
 import peter_profile from '../assets/人物照-潘小俠.jpg';
 import star_profile from '../assets/人物照-心星.jpg';
-import p1_profile from '../assets/人物照-伊顯玲.jpg'
+import p1_profile from '../assets/人物照-伊顯玲.jpg';
+
+import huang_name from '../assets/黃約農EN.jpg';
+import sara_name from '../assets/SaraEN.jpg';
+import valerie_name from '../assets/ValerieEN.jpg';
+import peter_name from '../assets/潘小俠EN.jpg';
+import star_name from '../assets/心星EN.jpg';
+import p1_name from '../assets/伊顯玲EN.jpg'
 
 import sara1 from '../assets/Sara1.jpg';
 import sara2 from '../assets/Sara2.jpg';
@@ -18,6 +25,8 @@ import peter from '../assets/潘小俠.jpg';
 import p1 from '../assets/阿比1.jpg';
 import p2 from '../assets/阿比2.jpg';
 import huang from '../assets/黃約農.jpg'
+
+
 
 function SkyArtist1() {
   var text =`“What a holy ridgeline! Who can really complete the whole trail from Dabajian Mountain to Xue Mountain, wear the crown of victory, and tell us the true beauty after one’s completion?”
@@ -39,28 +48,35 @@ Ansel Adams, a well-known American photographer, said, “You don't make a photo
     <img src={huang} style={{width:"100%", height:"auto"}}></img>
     <SkyArtist
       artName="Gazing in Holy Ridge"
-      title="DUMAS TEMU"
+      title="DUMAS TEMU / YUEH-NUNG HUANG"
       location="TAIWAN"
       content={text}
       bold="Message from Curator: "
       contents2={text2}
       artistInfo={artistInfo}
+      artwork={huang}
       profile={huang_profile}
       fb="https://www.facebook.com/hyndumas/"
       ig="https://www.instagram.com/hyn_dumas/?hl=en"
       yt=""
       tw=""
       other="https://www.syaximage.com"
-      other1={huang_profile}
-      other2={huang_profile}
-      other3={huang_profile}
-      othername1="DUMAS TEMU"
-      othername2="DUMAS TEMU"
-      othername3="DUMAS TEMU"
-      url1=""
-      url2=""
-      url3=""
-      name = "DUMAS TEMU / "
+      other1={sara_profile}
+      other2={valerie_profile}
+      other3={peter_profile}
+      other4={star_profile}
+      other5={p1_profile}
+      othername1={sara_name}
+      othername2={valerie_name}
+      othername3={peter_name}
+      othername4={star_name}
+      othername5={p1_name}
+      url1="/Hidden-In-The-Clouds"
+      url2="/Infinite-Sky-For-Evertt"
+      url3="/General-Rock-Green-Island"
+      url4="/Boat-In-The-Sun-Moon-Lake"
+      url5="/With-The-Passage-Of-Time"
+      name = "DUMAS TEMU / YUEH-NUNG HUANG "
       ></SkyArtist>
     </div>
   );

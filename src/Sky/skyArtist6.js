@@ -90,6 +90,7 @@ answers?`
         content={text}
         bold="Soaring Sky: Who are you, who am I?"
         contents2={text2}
+        artwork={valerie}
         artistInfo={artistInfo}
         profile={valerie_profile}
         fb="https://www.facebook.com/hyndumas/"

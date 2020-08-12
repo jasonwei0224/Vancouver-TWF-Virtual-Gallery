@@ -37,14 +37,19 @@ import SkyArtist3 from "./Sky/skyArtist3";
 import SkyArtist4 from "./Sky/skyArtist4";
 import SkyArtist5 from "./Sky/skyArtist5";
 import SkyArtist6 from "./Sky/skyArtist6";
+import SkyArtist7 from "./Sky/skyArtist7";
+import SkyArtist8 from "./Sky/skyArtist8";
+
 import SkyArtist_ch1 from "./ch/Sky-ch/skyArtist1_ch";
 import SkyArtist_ch2 from "./ch/Sky-ch/skyArtist2_ch";
 import SkyArtist_ch3 from "./ch/Sky-ch/skyArtist3_ch";
 import SkyArtist_ch4 from "./ch/Sky-ch/skyArtist4_ch";
 import SkyArtist_ch5 from "./ch/Sky-ch/skyArtist5_ch";
 import SkyArtist_ch6 from "./ch/Sky-ch/skyArtist6_ch";
+import SkyArtist_ch7 from "./ch/Sky-ch/skyArtist7_ch";
+import SkyArtist_ch8 from "./ch/Sky-ch/skyArtist8_ch";
 import { createBrowserHistory } from 'history';
-// import"./sky_v1.css";
+import Sky_V2CH from './ch/Sky-ch/sky-ch'
 
 function App() {
   // const history = createBrowserHistory();
@@ -71,12 +76,14 @@ ReactGA.initialize('UA-2521987-18');
           <Route path="/IAmDifferentForm" component={IAmDifferentForm}/>
           <Route path="/SkyV2" component={Sky} />
           <Route path="/Sky" component={SkyV1}/>
-          <Route path="/SkyArtist1" component={SkyArtist1}/>
-          <Route path="/SkyArtist2" component={SkyArtist2}/>
-          <Route path="/SkyArtist3" component={SkyArtist3}/>
-          <Route path="/SkyArtist4" component={SkyArtist4}/>
-          <Route path="/SkyArtist5" component={SkyArtist5}/>
-          <Route path="/SkyArtist6" component={SkyArtist6}/>
+          <Route path="/Gazing-In-Holy-Ridge" component={SkyArtist1}/> {/*黃約農*/}
+          <Route path="/Boat-In-The-Sun-Moon-Lake" component={SkyArtist2}/> {/*莊心瑀*/}
+          <Route path="/General-Rock-Green-Island" component={SkyArtist3}/> {/*潘小俠*/}
+          <Route path="/Visible-Or-Invisible" component={SkyArtist4}/> {/*尹顯玲*/}
+          <Route path="/Hidden-In-The-Clouds" component={SkyArtist5}/> {/*Sara*/}
+          <Route path="/Infinite-Sky-For-Evertt" component={SkyArtist6}/> {/*Valerie*/}
+          <Route path="/Pause" component={SkyArtist7}/> {/*Sara*/}
+          <Route path="/With-The-Passage-Of-Time" component={SkyArtist8}/> {/*尹顯玲*/}
           <Route path="/UnbeingChinese" component={UnbeingChinese}/>
 
           <Route path="/-ch" exact component={Home2_ch} />
@@ -84,13 +91,16 @@ ReactGA.initialize('UA-2521987-18');
           <Route path="/PeopleAndMask-ch" component={PeopleAndMask_ch}/>
           <Route path="/OtherSideOfMask-ch" component={OtherSideOfMask_ch}/>
           <Route path="/Mirror-ch" component={Mirror_ch}/>
+          <Route path="/SkyV2-ch" component={Sky_V2CH} />
           <Route path="/Sky-ch" component={SkyV1_ch}/>
-          <Route path="/SkyArtist1-ch" component={SkyArtist_ch1}/>
-          <Route path="/SkyArtist2-ch" component={SkyArtist_ch2}/>
-          <Route path="/SkyArtist3-ch" component={SkyArtist_ch3}/>
-          <Route path="/SkyArtist4-ch" component={SkyArtist_ch4}/>
-          <Route path="/SkyArtist5-ch" component={SkyArtist_ch5}/>
-          <Route path="/SkyArtist6-ch" component={SkyArtist_ch6}/>
+          <Route path="/Gazing-In-Holy-Ridge-ch" component={SkyArtist_ch1}/>
+          <Route path="/Boat-In-The-Sun-Moon-Lake-ch" component={SkyArtist_ch2}/>
+          <Route path="/General-Rock-Green-Island-ch" component={SkyArtist_ch3}/>
+          <Route path="/Visible-Or-Invisible-ch" component={SkyArtist_ch4}/>
+          <Route path="/Hidden-In-The-Clouds-ch" component={SkyArtist_ch5}/>
+          <Route path="/Infinite-Sky-For-Evertt-ch" component={SkyArtist_ch6}/>
+          <Route path="/Pause-ch" component={SkyArtist_ch7}/>
+          <Route path="/With-The-Passage-Of-Time-ch" component={SkyArtist_ch8}/>
           <Route path="/IAmDifferent-ch" component={IAmDifferent_ch}/>
           <Route path="/IAmDifferentForm-ch" component={IAmDifferentForm_ch}/>
           <Route path="/UnbeingChinese-ch" component={UnbeingChineseCH}/>

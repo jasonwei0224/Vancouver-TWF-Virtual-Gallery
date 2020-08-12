@@ -43,6 +43,7 @@ Photographing in the era of White Terror control, there was no freedom.  He said
         bold="Message from Curator: "
         contents2={text2}
         artistInfo={artistInfo}
+        artwork={peter}
         profile={peter_profile}
         fb="https://www.facebook.com/profile.php?id=100010750592578"
         ig=""

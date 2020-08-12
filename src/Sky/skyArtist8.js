@@ -14,16 +14,10 @@ import p2 from '../assets/阿比2.jpg';
 
 function SkyArtist3() {
 
-    var text =`When close to the mountains, much undiscovered fun will appear,
-When walking into the mountains, much unknown knowledge will be found,
-Study hard and return to the mountain,
-Acknowledge that there is more to learn,
-Realize that there is not only me in this mountain,
-Find that actually I may never be IN the mountain.
+    var text =`In the cities, people spend most of their time inside concrete buildings.  Even though the clock on the wall can tell us the accurate time, the scenery in our daily lives remains the same.    Emotion and Sensation become insensitive.  Here, time is just a term.  No one is able to see it and feel it, despite the fact that scientific research would like to try to stop time, and people always say that time is money.
 
-The me in the mountain, the me outside the clouds, just like the door which keeps opening or closing,
-I travel back and forth through history, within the set thinking, from the narrow viewpoint, and inside the utopian world,
-This mountain and that cloud tell me to keep humble and continue learning.`
+Standing on top of the mountain, the constantly changing clouds and the development of nature can be seen.  Our bodies will get accustomed to nature.  No difference in gender, height, or in colour. Rationales and fairness will leave their remarks and footprints, and then build uniqueness in each of us.  We therefore become the witness who have seen its existence.
+`
 
 
 var artistInfo=`Abby hiked in Nepal several years ago.  She heard many stories.  She then thought that the island where she was born must have had many great stories, and so she began her hiking journey.
@@ -35,15 +29,15 @@ I will continue to use images, writings, and drawing to record life,  design and
 var images = [p1, p2]
     return (
       <div>
-        <img src={p2} style={{width:"100%", height:"auto"}}></img>
+        <img src={p1} style={{width:"100%", height:"auto"}}></img>
       <SkyArtist
-        artName="VISIBLE OR INVISIBLE"
+        artName="WITH THE PASSAGE OF TIME"
         title="HSIEN-LING YIN"
         location="TAIWAN"
         content={text}
         artistInfo={artistInfo}
-        artwork={p2}
         profile={p1_profile}
+        artwork={p1}
         fb=""
         ig="https://www.instagram.com/oh.alphaever/"
         yt=""
@@ -55,11 +49,13 @@ var images = [p1, p2]
         othername1="DUMAS TEMU"
         othername2="DUMAS TEMU"
         othername3="DUMAS TEMU"
+        othername4=""
+        othername5=""
         url1=""
         url2=""
         url3=""
         name = "HSIEN-LING YIN"
-        img={p1}
+        img={p2}
         ></SkyArtist>
       </div>
   );

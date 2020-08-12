@@ -11,8 +11,8 @@ import MobileShareButton from "../modules/mobileShareButton";
 import Footer from "../footer-temp";
 import SkyOtherArtists from '../skyOtherArtists';
 import Slider from '../modules/img_slider_final'
-import MainContents_OneArtist from '../modules/MainContents_OneArtist';
-import MainContents_WithBold from "../modules/MainContents_WithBold"
+import MainContents_OneArtist_TwoPic from '../modules/MainContents_OneArtist_TwoPic';
+import MainContents_WithBold from "../modules/MainContents_WithBold";
 import fb from '../assets/f_logo_RGB-Blue_58.png'
 import {SocialMediaIconsReact} from 'social-media-icons-react';
 import { SocialIcon } from 'react-social-icons';
@@ -32,7 +32,7 @@ function SkyArtist(props) {
         <Row><Col lg={{offset:2}} md={{offset:1}} sm={{offset:1}} xs={{offset:1}}><p className="artTitle">{props.artName}</p></Col></Row>
 
         <MainContents_WithBold contents={props.content} bold={props.bold} contents2={props.contents2}></MainContents_WithBold>
-        <MainContents_OneArtist src={props.profile} title={props.name} contents={props.artistInfo}></MainContents_OneArtist>
+        <MainContents_OneArtist_TwoPic src2={props.artwork} src={props.profile} title={props.name} contents={props.artistInfo}></MainContents_OneArtist_TwoPic>
       <div className="media_col">
       <Row >
           <Col className="SA_artistInfo" xl={{span:10, offset:2}} lg={{span:10, offset:2}} md={{span:1, offset:1}} sm={{ span:1, offset:1}} xs={{span:1, offset:1}}>
@@ -64,8 +64,10 @@ function SkyArtist(props) {
 
 
         <Second_Title secondTitle="OTHER ARTISTS:" style={{fontFamily: "sofia-pro Sans-serif"}}></Second_Title>
-
-        <SkyOtherArtists url1={props.url1} url2={props.url2} url3={props.url3} img1={props.other1} img2={props.other2} img3={props.other3} name1={props.othername1} name2={props.othername2} name3={props.othername3}></SkyOtherArtists>
+        <div className="paddings"></div>
+        <SkyOtherArtists url1={props.url1} url2={props.url2} url3={props.url3} url4={props.url4} url5={props.url5}
+           img1={props.other1} img2={props.other2} img3={props.other3} img4={props.other4} img5={props.other5}
+          name1={props.othername1} name2={props.othername2} name3={props.othername3} name4={props.othername4} name5={props.othername5}></SkyOtherArtists>
 
         <MobileShareButton togoUrl={props.shareURL}></MobileShareButton>
       </Container>

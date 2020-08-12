@@ -1,5 +1,5 @@
 import React from 'react';
-import SkyArtist from './skyArtist';
+import SkyArtist from '../../Sky/skyArtist';
 import huang_profile from '../../assets/人物照 -黃約農.jpg';
 import Slider from '../../Sky/img_slider_final_sky'
 
