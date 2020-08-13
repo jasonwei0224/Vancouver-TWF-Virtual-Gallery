@@ -74,8 +74,8 @@ ReactGA.initialize('UA-2521987-18');
           <Route path="/Mirror" component={Mirror} />
           <Route path="/IAmDifferent" component={IAmDifferent} />
           <Route path="/IAmDifferentForm" component={IAmDifferentForm}/>
-          <Route path="/SkyV2" component={Sky} />
-          <Route path="/Sky" component={SkyV1}/>
+          <Route path="/Sky" component={Sky} />
+          <Route path="/SkyV1" component={SkyV1}/>
           <Route path="/Gazing-In-Holy-Ridge" component={SkyArtist1}/> {/*黃約農*/}
           <Route path="/Boat-In-The-Sun-Moon-Lake" component={SkyArtist2}/> {/*莊心瑀*/}
           <Route path="/General-Rock-Green-Island" component={SkyArtist3}/> {/*潘小俠*/}
@@ -91,8 +91,8 @@ ReactGA.initialize('UA-2521987-18');
           <Route path="/PeopleAndMask-ch" component={PeopleAndMask_ch}/>
           <Route path="/OtherSideOfMask-ch" component={OtherSideOfMask_ch}/>
           <Route path="/Mirror-ch" component={Mirror_ch}/>
-          <Route path="/SkyV2-ch" component={Sky_V2CH} />
-          <Route path="/Sky-ch" component={SkyV1_ch}/>
+          <Route path="/Sky-ch" component={Sky_V2CH} />
+          <Route path="/SkyV1-ch" component={SkyV1_ch}/>
           <Route path="/Gazing-In-Holy-Ridge-ch" component={SkyArtist_ch1}/>
           <Route path="/Boat-In-The-Sun-Moon-Lake-ch" component={SkyArtist_ch2}/>
           <Route path="/General-Rock-Green-Island-ch" component={SkyArtist_ch3}/>

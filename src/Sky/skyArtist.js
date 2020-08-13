@@ -47,12 +47,12 @@ function SkyArtist(props) {
     </div>
     <div className="media_col2">
         <Row >
-          <Col className="SA_artistInfo2" xl={{span:10, offset:2}} lg={{span:10, offset:2}} md={{span:10, offset:1}} sm={{ span:10, offset:1}} xs={{span:10, offset:1}}>
+          <Col className="SA_artistInfo2" xl={{span:10, offset:2}} lg={{span:10, offset:1}} md={{span:10, offset:1}} sm={{ span:10, offset:1}} xs={{span:10, offset:1}}>
             <span className="SA_artistInfo2">ARTIST INFO:</span>
             </Col>
         </Row>
         <Row>
-          <Col xl={{span:10, offset:2}} lg={{span:10, offset:2}} md={{span:10, offset:1}} sm={{ span:10, offset:1}} xs={{span:10, offset:1}}>
+          <Col xl={{span:10, offset:2}} lg={{span:10, offset:1}} md={{span:10, offset:1}} sm={{ span:10, offset:1}} xs={{span:10, offset:1}}>
             <SocialIcon network="facebook" url={props.fb}/>
             <SocialIcon network="instagram" url={props.ig}/>
             <SocialIcon network="youtube" url={props.yt}/>
@@ -63,11 +63,15 @@ function SkyArtist(props) {
         </div>
 
 
-        <Second_Title secondTitle="OTHER ARTISTS:" style={{fontFamily: "sofia-pro Sans-serif"}}></Second_Title>
+
         <div className="paddings"></div>
-        <SkyOtherArtists url1={props.url1} url2={props.url2} url3={props.url3} url4={props.url4} url5={props.url5}
+
+        <SkyOtherArtists t="RETRUN TO SEE OTHER ARTISTS' ARTOWRKS" skyhome="/Sky"
+          url1={props.url1} url2={props.url2} url3={props.url3} url4={props.url4} url5={props.url5} url6={props.url6} url7={props.url7}
            img1={props.other1} img2={props.other2} img3={props.other3} img4={props.other4} img5={props.other5}
-          name1={props.othername1} name2={props.othername2} name3={props.othername3} name4={props.othername4} name5={props.othername5}></SkyOtherArtists>
+          name1={props.othername1} name2={props.othername2} name3={props.othername3} name4={props.othername4} name5={props.othername5}
+          textName1={props.textName1} textName2={props.textName2} textName3={props.textName3}
+          textName4={props.textName4} textName5={props.textName5} textName6={props.textName6} textName7={props.textName7} ></SkyOtherArtists>
 
         <MobileShareButton togoUrl={props.shareURL}></MobileShareButton>
       </Container>

@@ -1,5 +1,5 @@
 import React from 'react';
-import SkyArtist from '../../Sky/skyArtist';
+import SkyArtist from './skyArtist-ch';
 import huang_profile from '../../assets/人物照 -黃約農.jpg';
 
 import sara_profile from '../../assets/人物照-Sara.jpg';
@@ -37,6 +37,7 @@ function SkyArtist3() {
         title="SARA BOYCHUK"
         location="加拿大"
         content={text}
+        artwork={sara1}
         artistInfo={artistInfo}
         profile={sara_profile}
         fb=""
@@ -50,9 +51,20 @@ function SkyArtist3() {
         othername1="DUMAS TEMU"
         othername2="DUMAS TEMU"
         othername3="DUMAS TEMU"
-        url1=""
-        url2=""
-        url3=""
+        url1="/Gazing-In-Holy-Ridge-ch"
+        url2="/General-Rock-Green-Island-ch"
+        url3="/Infinite-Sky-For-Evertt-ch"
+        url4="/Pause-ch"
+        url5="/Boat-In-The-Sun-Moon-Lake-ch"
+        url6="/Visible-Or-Invisible-ch"
+        url7="/With-The-Passage-Of-Time-ch"
+        textName1="凝視聖稜線"
+        textName2="綠島將軍岩"
+        textName3="無垠的天空"
+        textName4="雲止時刻"
+        textName5="日月潭四手網船"
+        textName6="可見與不可見的"
+        textName7="時間的流逝"
         name = "SARA BOYCHUK"
         ></SkyArtist>
       </div>

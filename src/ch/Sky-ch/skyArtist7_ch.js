@@ -40,6 +40,7 @@ function SkyArtist3() {
         content={text}
         artistInfo={artistInfo}
         profile={sara_profile}
+        artwork={sara2}
         fb=""
         ig="https://www.instagram.com/saraboychukphoto"
         yt=""
@@ -51,9 +52,20 @@ function SkyArtist3() {
         othername1="DUMAS TEMU"
         othername2="DUMAS TEMU"
         othername3="DUMAS TEMU"
-        url1=""
-        url2=""
-        url3=""
+        url1="/Gazing-In-Holy-Ridge-ch"
+        url2="/General-Rock-Green-Island-ch"
+        url3="/Hidden-In-The-Clouds-ch"
+        url4="/Infinite-Sky-For-Evertt-ch"
+        url5="/Boat-In-The-Sun-Moon-Lake-ch"
+        url6="/Visible-Or-Invisible-ch"
+        url7="/With-The-Passage-Of-Time-ch"
+        textName1="凝視聖稜線"
+        textName2="綠島將軍岩"
+        textName3="撥雲見日"
+        textName4="無垠的天空"
+        textName5="日月潭四手網船"
+        textName6="可見與不可見的"
+        textName7="時間的流逝"
         name = "SARA BOYCHUK"
         ></SkyArtist>
       </div>

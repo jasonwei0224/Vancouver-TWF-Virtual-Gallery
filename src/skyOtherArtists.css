@@ -18,6 +18,27 @@
 a:hover{
   text-decoration: none !important;
 }
+.otherArtist_button{
+  background-color: grey;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top:1%;
+  padding-bottom:1%;
+  margin: auto;
+  font-weight: bold;
+  color: white
+}
+.otherArtist_button:hover{
+  background-color: #4E9B16 !important;
+  color:white !important;
+}
+.otherArtist_button:active{
+  background-color: #4E9B16 !important;
+  color:white !important;
+}
 @media screen and (max-width: 767px) {
   .SOA-container {
     margin: 0 9% 0 9%;
@@ -25,8 +46,37 @@ a:hover{
   .SOA-name{
     font-size: 20px;
   }
-  .SOA-container {
-    padding-bottom: 60px;
+  .desktop_container {
+    display:none
+  }
+  .soa_button{
+    text-align: center;
+    /* border-radius: 20px; */
+    background-color: #246f79;
+    color: #0C3866;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:2%;
+    padding-bottom:2%;
+    margin: auto;
+    /* font-weight: bold; */
+    font-size: 30px !important;
+    width:100%;
+    color: white;
+    display: inline-block;
+    box-shadow:none!important;
+    outline: none !important;
+    border:none;
+    margin-bottom: 40px;
+  }
+  .soa_button:hover{
+    color:white!important;
+  }
+  .soa_button:active{
+    color:white!important;
+  }
+  .soa_empty{
+    padding-top: 90px;
   }
 }
 
@@ -37,8 +87,37 @@ a:hover{
   .SOA-name{
     font-size: 15px;
   }
-  .SOA-container {
-    padding-bottom: 110px;
+  .desktop_container {
+    display:none
+  }
+  .soa_button{
+    text-align: center;
+    /* border-radius: 20px; */
+    background-color: #246f79;
+    color: #0C3866;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:2%;
+    padding-bottom:2%;
+    margin: auto;
+    /* font-weight: bold; */
+    font-size: 30px !important;
+    width:100%;
+    color: white;
+    display: inline-block;
+    box-shadow:none!important;
+    outline: none !important;
+    border:none;
+    margin-bottom: 40px;
+  }
+  .soa_button:hover{
+    color:white!important;
+  }
+  .soa_button:active{
+    color:white!important;
+  }
+  .soa_empty{
+    padding-top: 90px;
   }
 }
 
@@ -52,13 +131,45 @@ a:hover{
   .SOA-container {
     padding-bottom: 60px;
   }
+  .mobile_container_soa{
+    display:block;
+  }
+  .desktop_container{
+    display:none
+  }
+  .otherArtist_button{
+      margin-bottom:50px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
+  .desktop_container{
+    display:block
+  }
   .SOA-container {
+    display:block;
     margin: 0 17% 0 17%;
   }
   .SOA-name{
     font-size: 15px;
+  }
+  .mobile_container_soa{
+    display:none
+  }
+
+  @media screen and (min-width 2560px){
+    .otherArtist_button{
+      background-color: grey;
+      border: none;
+      border-radius: 25px;
+      font-size: 18px;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top:1%;
+      padding-bottom:1%;
+      margin: auto;
+      font-weight: bold;
+      color: white
+    }
   }
 }

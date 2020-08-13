@@ -53,12 +53,20 @@ Photographing in the era of White Terror control, there was no freedom.  He said
         other1={huang_profile}
         other2={huang_profile}
         other3={huang_profile}
-        othername1="DUMAS TEMU"
-        othername2="DUMAS TEMU"
-        othername3="DUMAS TEMU"
-        url1=""
-        url2=""
-        url3=""
+        url1="/Gazing-In-Holy-Ridge"
+        url2="/Hidden-In-The-Clouds"
+        url3="/Infinite-Sky-For-Evertt"
+        url4="/Pause"
+        url5="/Boat-In-The-Sun-Moon-Lake"
+        url6="/Visible-Or-Invisible"
+        url7="/With-The-Passage-Of-Time"
+        textName1="Gazing in Holy Ridge"
+        textName2="Hidden in the clouds"
+        textName3="Infinite Sky for Evertt"
+        textName4="Pause"
+        textName5="The Boat in the Sun Moon Lake"
+        textName6="Visible or Invisible"
+        textName7="With the Passage of Time"
         name = "HSIAO-HSIA PAN"
         ></SkyArtist>
       </div>

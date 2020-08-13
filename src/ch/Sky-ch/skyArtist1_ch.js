@@ -1,5 +1,5 @@
 import React from 'react';
-import SkyArtist from '../../Sky/skyArtist';
+import SkyArtist from './skyArtist-ch';
 import huang_profile from '../../assets/人物照 -黃約農.jpg';
 import Slider from '../../modules/img_slider_final'
 
@@ -18,6 +18,12 @@ import peter from '../../assets/潘小俠.jpg';
 import p1 from '../../assets/阿比1.jpg';
 import p2 from '../../assets/阿比2.jpg';
 import huang from '../../assets/黃約農.jpg'
+import huang_name from '../..//assets/黃約農ch.jpg';
+import sara_name from '../../assets/Sarach.jpg';
+import valerie_name from '../../assets/Valeriech.jpg';
+import peter_name from '../../assets/潘小俠ch.jpg';
+import star_name from '../../assets/心星ch.jpg';
+import p1_name from '../../assets/伊顯玲ch.jpg'
 
 function SkyArtist1() {
   var text =`「這神聖的稜線阿！誰能真正完成大霸尖山至雪山的縱走，戴上勝利的榮冠，訴說首次完成縱走的真與美？」
@@ -43,21 +49,37 @@ var artistInfo=`出身台灣台中 Tbulan 部落的泰雅族人，中央警察�
       bold="策展者的話："
       contents2={text2}
       artistInfo={artistInfo}
+      artwork={huang}
       profile={huang_profile}
       fb="https://www.facebook.com/hyndumas/"
       ig="https://www.instagram.com/hyn_dumas/?hl=en"
       yt=""
       tw=""
       other="https://www.syaximage.com"
-      other1={huang_profile}
-      other2={huang_profile}
-      other3={huang_profile}
-      othername1="DUMAS TEMU"
-      othername2="Valerie Durant"
-      othername3="Sara Boychuk"
-      url1=""
-      url2=""
-      url3=""
+      other1={sara_profile}
+      other2={valerie_profile}
+      other3={peter_profile}
+      other4={star_profile}
+      other5={p1_profile}
+      othername1={sara_name}
+      othername2={valerie_name}
+      othername3={peter_name}
+      othername4={star_name}
+      othername5={p1_name}
+      url1="/General-Rock-Green-Island-ch"
+      url2="/Hidden-In-The-Clouds-ch"
+      url3="/Infinite-Sky-For-Evertt-ch"
+      url4="/Pause-ch"
+      url5="/Boat-In-The-Sun-Moon-Lake-ch"
+      url6="/Visible-Or-Invisible-ch"
+      url7="/With-The-Passage-Of-Time=ch"
+      textName1="綠島將軍岩"
+      textName2="撥雲見日"
+      textName3="無垠的天空"
+      textName4="雲止時刻"
+      textName5="日月潭四手網船"
+      textName6="可見與不可見的"
+      textName7="時間的流逝"
       name = "Duma Temu / 黃約農"
       ></SkyArtist>
     </div>

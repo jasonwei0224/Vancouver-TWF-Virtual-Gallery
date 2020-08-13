@@ -58,14 +58,20 @@ Inspired by her father’s photo records with her family, and the stunning pictu
         other3={huang_profile}
         other4={huang_profile}
         other5={huang_profile}
-        othername1="Estrella Chuang"
-        othername2="Valerie Durant"
-        othername3="Sara Boychuk"
-        othername4="Hsiao-Hsia Pan"
-        othername5="Hsien-ling Yin"
-        url1=""
-        url2=""
-        url3=""
+        url1="/Gazing-In-Holy-Ridge"
+        url2="/General-Rock-Green-Island"
+        url3="/Hidden-In-The-Clouds"
+        url4="/Infinite-Sky-For-Evertt"
+        url5="/Pause"
+        url6="/Visible-Or-Invisible"
+        url7="/With-The-Passage-Of-Time"
+        textName1="Gazing in Holy Ridge"
+        textName2="General Rock Green Island"
+        textName3="Hidden in the clouds"
+        textName4="Infinite Sky for Evertt"
+        textName5="Pause"
+        textName6="Visible or Invisible"
+        textName7="With the Passage of time"
         name = "ESTRELLA CHUANG"
         ></SkyArtist>
       </div>

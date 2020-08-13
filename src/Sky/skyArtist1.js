@@ -71,11 +71,20 @@ Ansel Adams, a well-known American photographer, said, “You don't make a photo
       othername3={peter_name}
       othername4={star_name}
       othername5={p1_name}
-      url1="/Hidden-In-The-Clouds"
-      url2="/Infinite-Sky-For-Evertt"
-      url3="/General-Rock-Green-Island"
-      url4="/Boat-In-The-Sun-Moon-Lake"
-      url5="/With-The-Passage-Of-Time"
+      url1="/General-Rock-Green-Island"
+      url2="/Hidden-In-The-Clouds"
+      url3="/Infinite-Sky-For-Evertt"
+      url4="/Pause"
+      url5="/Boat-In-The-Sun-Moon-Lake"
+      url6="/Visible-Or-Invisible"
+      url7="/With-The-Passage-Of-Time"
+      textName1="General Rock Green Island"
+      textName2="Hidden in the clouds"
+      textName3="Infinite Sky for Evertt"
+      textName4="Pause"
+      textName5="The Boat in the Sun Moon Lake"
+      textName6="Visible or Invisible"
+      textName7="With the Passage of time"
       name = "DUMAS TEMU / YUEH-NUNG HUANG "
       ></SkyArtist>
     </div>

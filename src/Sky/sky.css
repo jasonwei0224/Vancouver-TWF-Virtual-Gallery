@@ -60,6 +60,9 @@
     margin-top:50px;
     margin-bottom:80px;
   }
+  .sky_desktop_artists{
+    display:none
+  }
 }
 
 
@@ -149,5 +152,14 @@
   }
   .paddings{
     padding-bottom:0px;
+  }
+  .sky_desktop_artists{
+    display:block
+
+  }
+  .text_col{
+    margin-left:0px;
+    padding-left:0px;
+    text-align: center;
   }
 }
