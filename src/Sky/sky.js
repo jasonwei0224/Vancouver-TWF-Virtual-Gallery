@@ -1,6 +1,6 @@
 import React from 'react';
 import ImgSlider from '../img_slider';
-import { Container, Row, Col  } from "react-bootstrap";
+import { Container, Row, Col, Button} from "react-bootstrap";
 import ProgramInfoThinLine from '../programInfoThinLine';
 import image1 from '../assets/image1.jpg';
 import image2 from '../assets/image2.jpg';
@@ -13,8 +13,8 @@ import Footer from "../footer-temp";
 import SkyImageGallery from "../skyImageGallery";
 import './sky.css'
 import Slider from './img_slider_final_sky'
-import ArtistList from './ArtistList';
-
+import Slider2 from './img_slider_final_sky2'
+import ArtistList from './ArtistList'
 
 import sara1 from '../assets/Sara1.jpg';
 import sara2 from '../assets/Sara2.jpg';
@@ -32,13 +32,23 @@ import peter_profile from '../assets/人物照-潘小俠.jpg';
 import star_profile from '../assets/人物照-心星.jpg';
 import p1_profile from '../assets/人物照-伊顯玲.jpg'
 
+import sky_image1 from '../assets/SKY_top_IMAGE-1.jpg'
+import sky_page1 from '../assets/sky_page1.jpg';
+import sky_image2 from '../assets/SKY_top_IMAGE-2.jpg'
+
+import sky_cell_image1 from'../assets/SKY_top_IMAGE-1_Cell.jpg';
+import sky_cell_image2 from'../assets/SKY_top_IMAGE-2_Cell.jpg';
+
+import Dekstop_Artist from './desktop_artist';
+
 function Sky() {
 
   const goToForm=()=> {
     window.location='Sky';
   };
 
-  var images = [sara1, sara2, valerie, star, peter, p1, p2, huang]
+  var images = [sky_page1, sky_image2]
+  var images2 = [sky_cell_image1, sky_cell_image2]
 var text=`What is something that you can see when you look up, no matter wherever you are in the world? The sky is one constant no matter where you are and what time of day, it is there above the horizon.
 
 Working with photographers in Canada and Taiwan, Vancouver TAIWANfest presents Eight massive lanterns at šxʷƛ̓ənəq Xwtl'e7énḵ Square (formally known as Vancouver Art Gallery North Plaza) in downtown Vancouver. These images show that despite our geographical differences, we all look towards that same sky that looms over our heads, further reaffirming that we are all in this together. Sky is built on the concept of removing the influence of colour; by looking past our differences, we can see that we are one and the same.
@@ -52,7 +62,8 @@ As the province is working to reopen the economy in a safe manner and more and m
   return (
     <div>
       <Container fluid style={{padding:"0"}}>
-     <Slider images={images}/>
+        <span className="desktop_slider_sky"><Slider images={images}/></span>
+     <span className="mobile_slider_sky"><Slider2 images={images2}/></span>
 
         <ProgramInfoThinLine
           subtitle="I'm different, just like you!"
@@ -62,42 +73,62 @@ As the province is working to reopen the economy in a safe manner and more and m
           color="#246f79"
           ></ProgramInfoThinLine>
 
-        {/*\\}<SkyImageGallery link1="/SkyArtist1" link2="/SkyArtist2" country="Canadian Artists" artist1="Sara Boychuk" artist2="Valerie Durant" image1={sara_profile} image2={valerie_profile}></SkyImageGallery>
-        <SkyImageGallery link1="/SkyArtist3" link2="/SkyArtist4" country="Taiwanese Artists"artist1="Hsiao-Hsia Pan" artist2="Dumas Temu" image1={peter_profile} image2={huang_profile}></SkyImageGallery>
-        <SkyImageGallery link1="/SkyArtist5" link2="/SkyArtist6" country="Taiwanese Artists"artist1="Hsien-ling Yin" artist2="Estrella Chuang" image1={p1_profile} image2={star_profile}></SkyImageGallery>*/}
 
-        <ArtistList></ArtistList>
         <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text}></MainContents_Middle_Adonis>
-        <div className="sky_desktop_artists">
+      <div className="sky_mobile_artists">
         <Row>
-          <Col xl={{span:3, offset:2}} lg={{span:2, offset:2}} md={{span:1, offset:1}} sm={{ span:1, offset:1}} xs={{span:1, offset:1}}>
-            <Row><Col  xl={{span:12}} lg={{span:12}} style={{textAlign:"center"}}>Text1</Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}}>Text2</Col></Row>
-            <Row><Col  xl={{span:10}} lg={{span:12}} md={{span:1, offset:1}} sm={{ span:1, offset:1}} xs={{span:1, offset:1}} bsPrefix="sky_image"><img style={{width:"100%", height:"auto"}}src={sara_profile}></img></Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}}>Text3</Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}}>Text4</Col></Row>
+          <Col xl={{span:2, offset:3}} lg={{span:3, offset:1}} md={{span:5, offset:1}} sm={{span:8, offset:1}} xs={{span:8, offset:1}}  className="sky_col_border2">
+            <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name" style={{textAlign:"center"}}>Sara Boychuk</Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_country"style={{textAlign:"center"}}>Canadian</Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={sara_profile}></img></Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}  ><a href="/Hidden-In-The-Clouds"><Button Button bsPrefix="sky_art1_btn" className="sky_art1_btn">HIDDENT IN THE CLOUSE</Button></a></Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}  ><a href="/Pause" style={{color:"#EF5797"}} ><Button Button bsPrefix="sky_art2_btn" className="sky_art2_btn">PAUSE</Button></a></Col></Row>
           </Col>
-          <Col xl={{span:3}} lg={{span:2}} md={{span:1}} sm={{ span:1}} xs={{span:1}}>
-            <Row><Col xl={{span:12}} lg={{span:12}} style={{textAlign:"center"}}>Text1</Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}}>Text2</Col></Row>
-            <Row><Col  xl={{span:10}} lg={{span:12}} md={{span:1, offset:1}} sm={{ span:1, offset:1}} xs={{span:1, offset:1}} bsPrefix="sky_image"><img style={{width:"100%", height:"auto"}}src={sara_profile}></img></Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}}>Text3</Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}}>Text4</Col></Row>
+          <Col xl={{span:2}} lg={{span:3}} md={{span:5}} sm={{ span:3}} xs={{span:1}} className="sky_col_border2">
+            <Row><Col xl={{span:12}} lg={{span:12}} style={{textAlign:"center"}} className="sky_artist_name">Valerie Durant</Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}} className="sky_artist_country">Canadian</Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><img style={{width:"100%", height:"auto"}}src={valerie_profile}></img></Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}}><a  href="/Infinite-Sky-For-Evertt"><Button Button bsPrefix="sky_art3_btn" className="sky_art3_btn">INFINITE SKY FOR EVER<span style={{fontStyle:"italic"}}>ETT</span></Button></a></Col></Row>
           </Col>
-          <Col xl={{span:3}} lg={{span:2}} md={{span:1}} sm={{ span:1}} xs={{span:1}}>
-            <Row><Col xl={{span:12}} lg={{span:12}} style={{textAlign:"center"}}>Text1</Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}}>Text2</Col></Row>
-            <Row><Col  xl={{span:10}} lg={{span:12}} md={{span:1, offset:1}} sm={{ span:1, offset:1}} xs={{span:1, offset:1}} bsPrefix="sky_image"><img style={{width:"100%", height:"auto"}}src={sara_profile}></img></Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}}>Text3</Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}}>Text4</Col></Row>
+          <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5 , offset:1}} sm={{ span:5}} xs={{span:1}} className="sky_col_border2">
+            <Row><Col xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name_mobile" style={{textAlign:"center"}}>Hsien-Ling Yin</Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center"}} className="sky_artist_country">Taiwan</Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><img style={{width:"100%", height:"auto"}}src={p1_profile}></img></Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center"}}><a href="/Visible-Or-Invisible"><Button bsPrefix="sky_art4_btn" className="sky_art4_btn">VISIBLE OR INVISIBLE</Button></a> </Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center"}} ><a href="/With-The-Passage-Of-Time"><Button bsPrefix="sky_art5_btn" className="sky_art5_btn">WITH THE PASSAGE OF TIME</Button></a></Col></Row>
           </Col>
+          <div className="sky_space"></div>
+              <Col xl={{span:3}} lg={{span:3}} md={{span:0}} sm={{ span:0}} xs={{span:0}} className="empty_col"></Col>
+          <Col xl={{span:2, offset:3}} lg={{span:3, offset:1}} md={{span:5}} sm={{ span:3}} xs={{span:1}}>
+          <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name2_mobile" style={{textAlign:"center"}}>Hsiao-Hsia Pan</Col></Row>
+          <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}} className="sky_artist_country">Taiwan</Col></Row>
+          <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={peter_profile}></img></Col></Row>
+          <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}}><a href="/General-Rock-Green-Island"><Button bsPrefix="sky_art6_btn" className="sky_art6_btn">GENERAL ROCK GREEN ISLAND</Button></a> </Col></Row>
+
+        </Col>
+        <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5, offset:1 }} sm={{ span:3}} xs={{span:3}}>
+          <Row><Col xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name2_mobile" style={{textAlign:"center"}}>Dumas Temu</Col></Row>
+          <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}} className="sky_artist_country">Taiwan</Col></Row>
+          <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={huang_profile}></img></Col></Row>
+          <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}}> <a  href="/Gazing-In-Holy-Ridge"><Button Button bsPrefix="sky_art7_btn" className="sky_art7_btn">GAZING IN HOLY RIDGE</Button></a></Col></Row>
+
+        </Col>
+        <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5}} sm={{ span:3}} xs={{span:3}}>
+          <Row><Col xl={{span:12}} lg={{span:12}}   md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name2_mobile" style={{textAlign:"center"}}>Estrella Chuang</Col></Row>
+          <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}} className="sky_artist_country">Taiwan</Col></Row>
+          <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={star_profile}></img></Col></Row>
+          <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center"}}> <a href="/Boat-In-The-Sun-Moon-Lake"><Button bsPrefix="sky_art8_btn" className="sky_art8_btn">THE BOAT IN THE SUN MOON LAKE</Button></a></Col></Row>
+        </Col>
         </Row>
+        <div className="sky_space"></div>
         <Row>
-          <Col></Col>
-          <Col></Col>
-          <Col></Col>
+
         </Row>
         </div>
+
+        <Dekstop_Artist></Dekstop_Artist>
+
+
         <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text2}></MainContents_Middle_Adonis>
         <Second_Title secondTitle="UNDER THE SAME SKY PROJECT" style={{fontFamily: "sofia-pro Sans-serif"}}></Second_Title>
         <MainContents_Important contents="This province's condo insurance market is unhealthy and has saddled owners with sudden increases of an estimated 50 percent in Metro Vancouver, according to a three-month investigation by the B.C. Financial Services Authority."></MainContents_Important>

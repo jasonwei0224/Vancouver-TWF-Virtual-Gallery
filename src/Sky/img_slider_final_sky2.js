@@ -1,14 +1,14 @@
 import React from 'react';
 import SimpleImageSlider from "react-simple-image-slider";
-import './img_slider_final_sky.css'
+import './img_slider_final_sky2.css'
 import image1 from '../../src/assets/mask1.jpg'
 import image2 from '../../src/assets/mask2.jpg'
 import image3 from '../../src/assets/mask3.jpg'
 import image4 from '../../src/assets/mask4.jpg'
 import image5 from '../../src/assets/mask5.jpg'
-// import Dots from './img_slider_final_dots_sky_and_mask'
+// import Dots from './img_slider_final_dots_sky2_and_mask'
 
-class Slider extends React.Component {
+class Slider2 extends React.Component {
     constructor(props) {
       super(props)
 
@@ -48,14 +48,14 @@ class Slider extends React.Component {
     }
 
     slideWidth = () => {
-       return document.querySelector('.slide_sky').clientWidth
+       return document.querySelector('.slide_sky2').clientWidth
     }
 
     render() {
       return (
-        <div className="slider_sky">
+        <div className="slider_sky2">
 
-          <div className="slider-wrapper_sky"
+          <div className="slider-wrapper_sky2"
             style={{
               transform: `translateX(${this.state.translateValue}px)`,
               transition: 'transform ease-out 0.45s'
@@ -85,18 +85,18 @@ class Slider extends React.Component {
   const Slide = ({ image }) => {
     const styles = {
       backgroundImage: `url(${image})`,
-      backgroundSize: '100% auto',
+      backgroundSize: 'contain',
       backgroundRepeat: 'no-repeat',
       backgroundPosition: '50% 0%'
     }
-    return <div className="slide_sky" style={styles}></div>
+    return <div className="slide_sky2" style={styles}></div>
   }
 
 
   const LeftArrow = (props) => {
     return (
-      <div className="backArrow_sky arrow_sky" onClick={props.goToPrevSlide}>
-        <i className="fa fa-arrow-left_sky fa-2x" aria-hidden="true"></i>
+      <div className="backArrow_sky2 arrow_sky2" onClick={props.goToPrevSlide}>
+        <i className="fa fa-arrow-left_sky2 fa-2x" aria-hidden="true"></i>
       </div>
     );
   }
@@ -104,9 +104,9 @@ class Slider extends React.Component {
 
   const RightArrow = (props) => {
     return (
-      <div className="nextArrow_sky arrow_sky" onClick={props.goToNextSlide}>
-        <i className="fa fa-arrow-right_sky fa-2x" aria-hidden="true"></i>
+      <div className="nextArrow_sky2 arrow_sky2" onClick={props.goToNextSlide}>
+        <i className="fa fa-arrow-right_sky2 fa-2x" aria-hidden="true"></i>
       </div>
     );
   }
-export default Slider;
+export default Slider2;

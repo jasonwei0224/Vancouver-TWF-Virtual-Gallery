@@ -74,7 +74,7 @@ function SkyOtherArtists(props) {
       </Row>
       <Row>
         <Col xl={{span:10, offset:2}} lg={{span:10, offset:1}} md={{span:10, offset:1}} sm={{ span:10, offset:1}} xs={{span:10, offset:1}}
-          ><Button className="soa_button" bsPrefix="soa_button" href={props.url6}>{props.textName6}</Button></Col>
+          ><Button className="soa_button" bsPrefix="soa_button" href={props.url7}>{props.textName7}</Button></Col>
       </Row>
       <div className="soa_empty"></div>
     </div>

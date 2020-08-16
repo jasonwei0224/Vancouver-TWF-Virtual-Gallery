@@ -98,18 +98,18 @@ export default class HeaderV2 extends React.Component {
                   <div className="nav-dropdown-wrapper">
                     <div className="nav-dropdown-wrapper2">
                       <NavDropdown bsPrefix="navitem-dropdown"title="GALLERY" alignCenter renderMenuOnMount={true}>
-                        <NavDropdown.Item bsPrefix="dropdown-item"href="">SKY</NavDropdown.Item>
+                        <NavDropdown.Item bsPrefix="dropdown-item"href="/Sky">SKY</NavDropdown.Item>
                         <NavDropdown.Item bsPrefix="dropdown-item"href="/IAmDifferent">I'M DIFFERENT JUST LIKE YOU</NavDropdown.Item>
 
 
-                        <NavDropdown.Item bsPrefix="dropdown-item"href="">MIRRORS</NavDropdown.Item>
-                        <NavDropdown.Item bsPrefix="dropdown-item"href="">(UN) BEING CHINESE</NavDropdown.Item>
-                        <NavDropdown.Item bsPrefix="dropdown-item"href="">THE OTHER SIDE OF MASKS</NavDropdown.Item>
-                        <NavDropdown.Item bsPrefix="dropdown-item"href="">PAUL'S APPLE</NavDropdown.Item>
-                        <NavDropdown.Item bsPrefix="dropdown-item"href="">PEOPLE AND MASK</NavDropdown.Item>
+                        <NavDropdown.Item bsPrefix="dropdown-item"href="/Mirror">MIRRORS</NavDropdown.Item>
+                        <NavDropdown.Item bsPrefix="dropdown-item"href="/UnbeingChinese">(UN) BEING CHINESE</NavDropdown.Item>
+                        <NavDropdown.Item bsPrefix="dropdown-item"href="/OtherSideOfMask">THE OTHER SIDE OF MASKS</NavDropdown.Item>
+                        <NavDropdown.Item bsPrefix="dropdown-item"href="/PaulsApple">PAUL'S APPLE</NavDropdown.Item>
+                        <NavDropdown.Item bsPrefix="dropdown-item"href="/PeopleAndMask">PEOPLE AND MASK</NavDropdown.Item>
 
                         <NavDropdown.Item bsPrefix="dropdown-item"href="/IAmDifferentForm">WE ARE ALL IN THIS TOGETHER</NavDropdown.Item>
-                        <NavDropdown.Item bsPrefix="dropdown-item"href="/sky">UNDER THE SAME SKY PROJECT</NavDropdown.Item>
+                        <NavDropdown.Item bsPrefix="dropdown-item"href="/Sky_Form">UNDER THE SAME SKY PROJECT</NavDropdown.Item>
 
                       </NavDropdown>
                     </div>
@@ -133,16 +133,16 @@ export default class HeaderV2 extends React.Component {
                       <div className="nav-dropdown-wrapper">
                         <div className="nav-dropdown-wrapper2">
                       <NavDropdown bsPrefix="navitem-dropdown"title="線上藝廊" renderMenuOnMount={true}>
-                        <NavDropdown.Item bsPrefix="dropdown-item"href="">天空</NavDropdown.Item>
+                        <NavDropdown.Item bsPrefix="dropdown-item"href="/Sky-ch">天空</NavDropdown.Item>
                         <NavDropdown.Item bsPrefix="dropdown-item"href="/IAmDifferent-ch">我跟你的相同，就是我們都不同</NavDropdown.Item>
-                              <NavDropdown.Item bsPrefix="dropdown-item"href="">鏡子</NavDropdown.Item>
-                        <NavDropdown.Item bsPrefix="dropdown-item"href="">「趣」中國化</NavDropdown.Item>
+                              <NavDropdown.Item bsPrefix="dropdown-item"href="/Mirror-ch">鏡子</NavDropdown.Item>
+                        <NavDropdown.Item bsPrefix="dropdown-item"href="/UnbeingChinese-ch">「趣」中國化</NavDropdown.Item>
 
-                        <NavDropdown.Item bsPrefix="dropdown-item"href="">一罩之隔</NavDropdown.Item>
-                        <NavDropdown.Item bsPrefix="dropdown-item"href="">保羅的蘋果</NavDropdown.Item>
-                        <NavDropdown.Item bsPrefix="dropdown-item"href="">傲慢與偏見</NavDropdown.Item>
+                        <NavDropdown.Item bsPrefix="dropdown-item"href="/OtherSideOfMask-ch">一罩之隔</NavDropdown.Item>
+                        <NavDropdown.Item bsPrefix="dropdown-item"href="/PaulsApple-ch">保羅的蘋果</NavDropdown.Item>
+                        <NavDropdown.Item bsPrefix="dropdown-item"href="/PeopleAndMask-ch">傲慢與偏見</NavDropdown.Item>
                           <NavDropdown.Item bsPrefix="dropdown-item"href="/IAmDifferentForm-ch">共同面對的我們</NavDropdown.Item>
-                          <NavDropdown.Item bsPrefix="dropdown-item"href="/sky-ch">頭頂同一片天計畫</NavDropdown.Item>
+                          <NavDropdown.Item bsPrefix="dropdown-item"href="/sky_form-ch">頭頂同一片天計畫</NavDropdown.Item>
 
 
                       </NavDropdown>

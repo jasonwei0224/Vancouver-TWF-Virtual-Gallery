@@ -72,7 +72,7 @@ var artistInfo=`出身台灣台中 Tbulan 部落的泰雅族人，中央警察�
       url4="/Pause-ch"
       url5="/Boat-In-The-Sun-Moon-Lake-ch"
       url6="/Visible-Or-Invisible-ch"
-      url7="/With-The-Passage-Of-Time=ch"
+      url7="/With-The-Passage-Of-Time-ch"
       textName1="綠島將軍岩"
       textName2="撥雲見日"
       textName3="無垠的天空"

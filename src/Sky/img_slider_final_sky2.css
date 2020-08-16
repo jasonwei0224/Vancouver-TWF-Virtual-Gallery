@@ -1,12 +1,12 @@
-/* .slider_people {
+.slider_sky2 {
     position: relative;
     width: 100%;
     margin: 0 auto;
-    height: 800px;
+    height: 1022px;
     overflow: hidden;
     white-space: nowrap;
   }
-  .testPliz_people {
+  .testPliz_sky2 {
     position: relative;
     width: 70%;
     margin: 0 auto;
@@ -15,31 +15,31 @@
     white-space: nowrap;
   }
 
-  .slider-wrapper_people {
+  .slider-wrapper_sky2 {
     position: relative;
     height: 100%;
     width: 100%;
   }
 
-  .slide_people {
+  .slide_sky2 {
     display: inline-block;
     height: 100%;
     width: 100%;
   }
 
-  .arrow_people {
+  .arrow_sky2 {
     height: 30px;
     width: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #D9C739;
+    background: #2f6e79;
     border-radius: 50%;
     cursor: pointer;
     transition: transform ease-in .1s;
   }
 
-  .nextArrow_people {
+  .nextArrow_sky2 {
     position: absolute;
     top: 50%;
     right: 70px;
@@ -47,7 +47,7 @@
     color: #fff;
   }
 
-  .backArrow_people {
+  .backArrow_sky2 {
     position: absolute;
     top: 50%;
     left: 70px;
@@ -55,22 +55,22 @@
     color: #fff;
   }
 
-  .fa-arrow-right_people:before, .fa-arrow-left_people:before {
+  .fa-arrow-right_sky2:before, .fa-arrow-left_sky2:before {
     color: #222
   }
 
-  #vids_people {
+  #vids_sky2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  #vids_people a:first-of-type {
+  #vids_sky2 a:first-of-type {
     margin-bottom: 5px;
   }
 
-  .dotSpan_people {
+  .dotSpan_sky2 {
     padding: 10px;
     margin-right: 5px;
     cursor: default;
@@ -79,7 +79,7 @@
 
   }
 
-.dot_pagination_people {
+.dot_pagination_sky2 {
   position: absolute;
   bottom: 0px;
   width: 100%;
@@ -88,23 +88,63 @@
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 767px) {
+  .slider_sky2 {
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+      height: 800px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+  .slider_sky2 {
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+      height: 700px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+  .slider_sky2 {
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+      height:700px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+
+}
 
 @media screen and (min-width: 2560px) {
-  .slide_people {
+  .slide_sky2 {
     display: inline-block;
     height: 100%;
     width: 100%;
     vertical-align: middle;
   }
-  .slider_people {
+  .slider_sky2 {
       position: relative;
       width: 100%;
       margin: 0 auto;
-      height: 1200px;
+      height: 1710px;
       overflow: hidden;
       white-space: nowrap;
     }
-  .arrow_people {
+
+  .arrow_sky2 {
     height: 50px;
     width: 50px;
     display: flex;
@@ -115,7 +155,7 @@
     cursor: pointer;
     transition: transform ease-in .1s;
   }
-  .dot_pagination_people {
+  .dot_pagination_sky2 {
     position: relative;
     bottom: 40px;
     width: 100%;
@@ -124,7 +164,7 @@
     align-items: center;
     justify-content: center;
   }
-  .dotSpan_people {
+  .dotSpan_sky2 {
     margin-right: 5px;
     cursor: default;
     background-color: gray;
@@ -133,7 +173,7 @@
     height:30px;
 
   }
-  .nextArrow_people {
+  .nextArrow_sky2 {
     position: absolute;
     top: 35%;
     right: 70px;
@@ -141,11 +181,11 @@
     color: #fff;
   }
 
-  .backArrow_people {
+  .backArrow_sky2 {
     position: absolute;
     top: 35%;
     left: 70px;
     z-index: 999;
     color: #fff;
   }
-} */
+}

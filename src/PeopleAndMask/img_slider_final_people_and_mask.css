@@ -33,7 +33,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #4A9C2C;
+    background: #2f6e79;
     border-radius: 50%;
     cursor: pointer;
     transition: transform ease-in .1s;
@@ -110,7 +110,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #D9C739;
+    background: #2f6e79;
     border-radius: 50%;
     cursor: pointer;
     transition: transform ease-in .1s;

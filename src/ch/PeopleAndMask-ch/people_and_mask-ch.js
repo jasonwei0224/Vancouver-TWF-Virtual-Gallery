@@ -19,7 +19,7 @@ import MainContents_Middle from "../../modules/MainContents_Middle"
 import MainContents_Important_With_Border from "../../modules/MainContents_Important_with_border"
 import MainContents_TwoArtistPic_CH from "../../modules/MainContents_TwoArtistPic_CH"
 import Footer from '../../footer-temp';
-import Slider from './img_slider_final_people_and_mask'
+import Slider from '../../PeopleAndMask/img_slider_final_people_and_mask'
 import MobileShareButton from "../../modules/mobileShareButton";
 import "./people_and_mask-ch.css";
 
@@ -69,7 +69,7 @@ class PeopleAndMask extends Component {
     return (
       <div>
         <Container fluid>
-          <div style={{borderTop: "1px solid #D9C739"}}></div>
+          <div style={{borderTop: "1px solid #2f6e79"}}></div>
           <Row>
             <Slider images={images}></Slider>
           </Row>

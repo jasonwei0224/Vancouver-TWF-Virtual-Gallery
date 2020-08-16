@@ -1,140 +1,502 @@
-/* .sky_space{
-  padding-top: 80px;
-}
 
-.artTitle{
-  color:#246f79;
-  font-family: adonis-web, serif;
-  font-weight:bold;
-
+.sky_art1_btn-ch:hover, .sky_art2_btn-ch:hover, .sky_art3_btn-ch:hover, .sky_art4_btn-ch:hover, .sky_art5_btn-ch:hover, .sky_art6_btn-ch:hover, .sky_art7_btn-ch:hover, .sky_art8_btn-ch:hover{
+  background-color:#4E9B16;
+  outline: none
 }
-.SA_artistInfo{
-    color:#246f79;
-    margin-top:auto;
-    margin-bottom:auto;
-    font-weight: bold;
-    font-size:20px;
-    margin-right: 20px;
-}
-.SA_artistInfo2{
-  color:#246f79;
-
-  font-weight: bold;
-  font-size:20px;
-  margin-right: 20px;
+.sky_art1_btn-ch{
+  background-color: #2f6e79;
+  color:white;
+  border: none;
+  margin-top:40px;
   margin-bottom: 20px;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top:2%;
+  padding-bottom:2%;
+  border-radius: 25px;
+  font-size:20px;
 }
-
-.social-icon{
-  margin-right: 20px
+.sky_art2_btn-ch{
+  background-color: #2f6e79;
+  color:white;
+  border: none;
+  /* margin-top:40px; */
+  margin-bottom: 20px;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top:2%;
+  padding-bottom:2%;
+  border-radius: 25px;
+  font-size:20px;
 }
-.media_col{
-  margin-top:60px;
-  margin-bottom:80px;
+.sky_art3_btn-ch{
+  background-color: #2f6e79;
+  color:white;
+  border: none;
+  margin-top:40px;
+  margin-bottom: 20px;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top:2%;
+  padding-bottom:2%;
+  border-radius: 25px;
+  font-size:20px;
 }
-
-
+.sky_art4_btn-ch{
+  background-color: #2f6e79;
+  color:white;
+  border: none;
+  margin-top:40px;
+  margin-bottom: 20px;
+  padding-left: 17%;
+  padding-right: 17%;
+  padding-top:2%;
+  padding-bottom:2%;
+  border-radius: 25px;
+  font-size:20px;
+}
+.sky_art5_btn-ch{
+  background-color: #2f6e79;
+  color:white;
+  border: none;
+  /* margin-top:40px; */
+  margin-bottom: 20px;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top:2%;
+  padding-bottom:2%;
+  border-radius: 25px;
+  font-size:20px;
+}
+.sky_art6_btn-ch{
+  background-color: #2f6e79;
+  color:white;
+  border: none;
+  margin-top:40px;
+  margin-bottom: 20px;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top:2%;
+  padding-bottom:2%;
+  border-radius: 25px;
+  font-size:20px;
+}
+.sky_art7_btn-ch{
+  background-color: #2f6e79;
+  color:white;
+  border: none;
+  margin-top:40px;
+  margin-bottom: 20px;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top:2%;
+  padding-bottom:2%;
+  border-radius: 25px;
+  font-size:20px;
+}
+.sky_art8_btn-ch{
+  background-color: #2f6e79;
+  color:white;
+  border: none;
+  margin-top:40px;
+  margin-bottom: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top:2%;
+  padding-bottom:2%;
+  border-radius: 25px;
+  font-size:20px;
+}
 @media screen and (max-width: 767px) {
-  .artTitle{
-    font-size: 50px;
-    margin-bottom: 60px;
-    font-family: sofia-pro, sans-serif;
-  }
-  .social-icon{
-    height: 100px !important;
-    width: 100px !important;
-  }
-  .SA_artistInfo{
-    font-size: 30px;
-  }
-  .SA_artistInfo2{
-    font-size: 35px;
-    margin-bottom: 40px;
-  }
-  .media_col{
-    display: none;
-  }
-  .media_col2{
-    display: block;
+  .sky_art1_btn-ch{
     margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 29%;
+    padding-right: 30%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:35px;
+    border-radius: 45px;
+  }
+  .sky_art2_btn-ch{
+    margin-bottom: 20px;
+    padding-left: 29%;
+    padding-right: 30%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:35px;
+    border-radius: 45px;
+  }
+  .sky_art3_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 25%;
+    padding-right: 24%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:35px;
+    border-radius: 45px;
+  }
+  .sky_art4_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 15%;
+    padding-right: 14%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:35px;
+    border-radius: 45px;
+  }
+  .sky_art5_btn-ch{
+
+    margin-bottom: 20px;
+    padding-left: 25%;
+    padding-right: 24%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:35px;
+    border-radius: 45px;
+  }
+  .sky_art6_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 25%;
+    padding-right: 24%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:35px;
+    border-radius: 45px;
+  }
+  .sky_art7_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 25%;
+    padding-right: 24%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:35px;
+    border-radius: 45px;
+  }
+  .sky_art8_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 14%;
+    padding-right: 15%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:35px;
+    border-radius: 45px;
   }
 }
 
 
 @media screen and (min-width: 768px) {
-  .artTitle{
-    font-size: 60px;
-
-    font-family: sofia-pro, sans-serif;
-  }
-  .social-icon{
-    height: 100px !important;
-    width: 100px !important;
-  }
-  .SA_artistInfo{
-    font-size: 30px;
-  }
-  .SA_artistInfo2{
-    font-size: 35px;
-    margin-bottom: 40px;
-  }
-  .media_col{
-    display: none;
-  }
-  .media_col2{
-    display: block;
+  .sky_art1_btn-ch{
     margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 29%;
+    padding-right: 30%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:35px;
+    border-radius: 45px;
+  }
+  .sky_art2_btn-ch{
+    margin-bottom: 20px;
+    padding-left: 29%;
+    padding-right: 30%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:35px;
+    border-radius: 45px;
+  }
+  .sky_art3_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 25%;
+    padding-right: 24%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:35px;
+    border-radius: 45px;
+  }
+  .sky_art4_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 15%;
+    padding-right: 14%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:35px;
+    border-radius: 45px;
+  }
+  .sky_art5_btn-ch{
+
+    margin-bottom: 20px;
+    padding-left: 25%;
+    padding-right: 24%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:35px;
+    border-radius: 45px;
+  }
+  .sky_art6_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 25%;
+    padding-right: 24%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:35px;
+    border-radius: 45px;
+  }
+  .sky_art7_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 25%;
+    padding-right: 24%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:35px;
+    border-radius: 45px;
+  }
+  .sky_art8_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 14%;
+    padding-right: 15%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:35px;
+    border-radius: 45px;
   }
 }
 
 @media screen and (min-width: 992px) {
-  .artTitle{
-    font-size: 60px;
-    margin-bottom: 60px;
-    font-family: sofia-pro, sans-serif;
+  .sky_col_border2_ch{
+    border-bottom: solid 1px grey;
+    padding-bottom:98px
   }
-  .social-icon{
-    height: 100px !important;
-    width: 100px !important;
-  }
-  .SA_artistInfo{
-    font-size: 30px;
-  }
-  .SA_artistInfo2{
-    font-size: 35px;
-    margin-bottom: 40px;
-  }
-  .media_col{
-    display: none;
-  }
-  .media_col2{
-    display: block;
+  .sky_art1_btn-ch{
     margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 29%;
+    padding-right: 30%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
+  }
+  .sky_art2_btn-ch{
+    margin-bottom: 20px;
+    padding-left: 29%;
+    padding-right: 30%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
+  }
+  .sky_art3_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 25%;
+    padding-right: 24%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
+  }
+  .sky_art4_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 15%;
+    padding-right: 14%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
+  }
+  .sky_art5_btn-ch{
+
+    margin-bottom: 20px;
+    padding-left: 25%;
+    padding-right: 24%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
+  }
+  .sky_art6_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 25%;
+    padding-right: 24%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
+  }
+  .sky_art7_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 25%;
+    padding-right: 24%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
+  }
+  .sky_art8_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 14%;
+    padding-right: 15%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
   }
 }
 
 
 @media screen and (min-width: 1200px) {
-  .artTitle{
-    font-size: 40px;
-    margin-bottom: 60px;
-    font-family: adonis-web, serif;
+  .sky_art1_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 29%;
+    padding-right: 30%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
   }
-  .social-icon{
-    height: 50px !important;
-    width: 50px !important;
+  .sky_art2_btn-ch{
+    margin-bottom: 20px;
+    padding-left: 29%;
+    padding-right: 30%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
   }
-  .SA_artistInfo{
-    font-size: 18px;
+  .sky_art3_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 25%;
+    padding-right: 24%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
   }
-  .SA_artistInfo2{
-    font-size: 30px;
-    margin-bottom: 10px;
+  .sky_art4_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 15%;
+    padding-right: 14%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
   }
-  .media_col2{
-    display: none;
+  .sky_art5_btn-ch{
+
+    margin-bottom: 20px;
+    padding-left: 25%;
+    padding-right: 24%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
   }
-  .media_col{
-    display: block;
+  .sky_art6_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 25%;
+    padding-right: 24%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
   }
-} */
+  .sky_art7_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 25%;
+    padding-right: 24%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
+  }
+  .sky_art8_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 14%;
+    padding-right: 15%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
+  }
+  .sky_col_border2_ch{
+    border-bottom: solid 1px grey;
+    padding-bottom:98px
+  }
+}
+@media screen and (min-width: 2560px) {
+  .sky_art1_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
+  }
+  .sky_art2_btn-ch{
+    margin-bottom: 20px;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
+  }
+  .sky_art3_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
+  }
+  .sky_art4_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
+  }
+  .sky_art5_btn-ch{
+    margin-bottom: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
+  }
+  .sky_art6_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
+  }
+  .sky_art7_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
+  }
+  .sky_art8_btn-ch{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
+  }
+}

@@ -1,0 +1,23 @@
+.sky_desktop_artists{
+  display:none;
+}
+
+a.DA_artName:hover{
+  color:#2f6e79;
+}
+a.DA_artName{
+ color:#EF5797;
+}
+@media screen and (min-width: 1200px) {
+  .DA_first_col{
+    margin-top: 30px;
+  }
+
+  .sky_desktop_artists{
+    display:block;
+  }
+}
+
+@media screen and (min-width: 2560px){
+
+}

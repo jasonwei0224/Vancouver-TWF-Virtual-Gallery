@@ -115,36 +115,36 @@ function Home2() {
         <HomeSecondSection id="homeSecondSection" header={text}/>
         <div id="homeThirdSection">
           <span ref ={myRef}><HomeColoredHeader2 title="我跟你的相同，就是我們都不同"/></span>
-            <a href=""><HoverImage className="home_image"hoverSrc ={sky_home_hover}src={sky_home_tor} style={{width:'100%', height:"auto"}}></HoverImage></a>
+            <a href="/Sky-ch"><HoverImage className="home_image"hoverSrc ={sky_home_hover}src={sky_home_tor} style={{width:'100%', height:"auto"}}></HoverImage></a>
           <a href="/IAmDifferent-ch"><HoverImage className="home_image" hoverSrc ={we_are_all_home_hover} src={we_are_all_home_tor} style={{width:'100%', height:"auto"}}></HoverImage></a>
 
-          <a href=""><HoverImage className="home_image" hoverSrc ={mirror_home_hover} src={mirror_home_tor} style={{width:'100%', height:"auto"}}></HoverImage></a>
-          <a href=""><HoverImage className="home_image" hoverSrc ={chinese_home_hover} src={chinese_home} style={{width:'100%', height:"auto"}}></HoverImage></a>
+          <a href="/Mirror-ch"><HoverImage className="home_image" hoverSrc ={mirror_home_hover} src={mirror_home_tor} style={{width:'100%', height:"auto"}}></HoverImage></a>
+          <a href="/UnbeingChinese-ch"><HoverImage className="home_image" hoverSrc ={chinese_home_hover} src={chinese_home} style={{width:'100%', height:"auto"}}></HoverImage></a>
         <span  ref ={myRef2} ><HomeColoredHeader2 title="口罩之說 " image={homepage_placeholder_lg}/></span>
-          <a href=""><HoverImage className="home_image" hoverSrc ={otherside_hover} src={otherside_tor} style={{width:'100%', height:"auto"}}></HoverImage></a>
-          <a href=""><HoverImage className="home_image" hoverSrc ={apple_home_hover} src={apple_home} style={{width:'100%', height:"auto"}}></HoverImage></a>
-          <a href=""><HoverImage className="home_image" hoverSrc ={people_and_mask_hover} src={people_and_mask_tor} style={{width:'100%', height:"auto"}}></HoverImage></a>
+          <a href="/OtherSideOfMask-ch"><HoverImage className="home_image" hoverSrc ={otherside_hover} src={otherside_tor} style={{width:'100%', height:"auto"}}></HoverImage></a>
+          <a href="/PaulsApple-ch"><HoverImage className="home_image" hoverSrc ={apple_home_hover} src={apple_home} style={{width:'100%', height:"auto"}}></HoverImage></a>
+          <a href="/PeopleAndMask-ch"><HoverImage className="home_image" hoverSrc ={people_and_mask_hover} src={people_and_mask_tor} style={{width:'100%', height:"auto"}}></HoverImage></a>
         <span  ref ={myRef3} ><HomeColoredHeader2 title="分享你的照片 " image={homepage_placeholder_lg}/></span>
           <a href="/IAmDifferentForm-ch"><HoverImage className="home_image" hoverSrc ={diff_online_hover} src={diff_online} style={{width:'100%', height:"auto"}}></HoverImage></a>
-          <a href="/Sky-ch"><HoverImage className="home_image" hoverSrc ={sky_online_hover} src={sky_online} style={{width:'100%', height:"auto"}}></HoverImage></a>
+          <a href="/Sky_Form-ch"><HoverImage className="home_image" hoverSrc ={sky_online_hover} src={sky_online} style={{width:'100%', height:"auto"}}></HoverImage></a>
 
           {/*}  <SponsorImgSlider id="sponsorSlider"/>*/}
         </div>
         <div id="homeThirdSectionMobile">
 
           <HomeColoredHeader title="我跟你的相同，就是我們都不同"/>
-            <HomeMobileProject url="" type="裝置藝術" title="天空" image={sky_mobile}  hover={sky_mobile_hover}/>
+            <HomeMobileProject url="/Sky-ch" type="裝置藝術" title="天空" image={sky_mobile}  hover={sky_mobile_hover}/>
             <HomeMobileProject url="/IAmDifferent-ch"type=" 線上互動" title="我跟你的相同，就是我們都不同" image={diff_mobile}  hover={diff_mobile_hover}/>
-            <HomeMobileProject url=""type="數位創作" title="「趣」中國化" image={chinese_mobile}  hover={chinese_mobile_hover}/>
-            <HomeMobileProject url=""type="插畫創作" title="鏡子" image={mirror_mobile}  hover={mirror_mobile_hover}/>
+            <HomeMobileProject url="/UnbeingChinese-ch"type="數位創作" title="「趣」中國化" image={chinese_mobile}  hover={chinese_mobile_hover}/>
+            <HomeMobileProject url="/Mirror-ch"type="插畫創作" title="鏡子" image={mirror_mobile}  hover={mirror_mobile_hover}/>
 
           <HomeColoredHeader url=""title="口罩之說" image={homepage_placeholder_lg}/>
-            <HomeMobileProject url=""type="數位創作" title="一罩之隔" image={otherside_mobile}  hover={otherside_mobile_hover}/>
-            <HomeMobileProject url=""type="數位創作" title="保羅的蘋果" image={apple_mobile}  hover={apple_mobile_hover}/>
-            <HomeMobileProject url=""type="素描創作" title="傲慢與偏見"image={mask_mobile}  hover={mask_mobile_hover}/>
+            <HomeMobileProject url="/OtherSideOfMask-ch"type="數位創作" title="一罩之隔" image={otherside_mobile}  hover={otherside_mobile_hover}/>
+            <HomeMobileProject url="/PaulsApple-ch"type="數位創作" title="保羅的蘋果" image={apple_mobile}  hover={apple_mobile_hover}/>
+            <HomeMobileProject url="/PeopleAndMask-ch"type="素描創作" title="傲慢與偏見"image={mask_mobile}  hover={mask_mobile_hover}/>
           <HomeColoredHeader title="分享你的照片 " image={homepage_placeholder_lg}/>
             <HomeMobileProject url="/IAmDifferentForm-ch"type=" 線上互動" title="共同面對的我們" image={diff_online_mobile}  hover={diff_online_mobile_hover}/>
-            <HomeMobileProject url="/sky-ch"type="線上互動" title="頭頂同一片天計畫"image={sky_online_mobile}  hover={sky_online_mobile_hover}/>
+            <HomeMobileProject url="/Sky_Form-ch"type="線上互動" title="頭頂同一片天計畫"image={sky_online_mobile}  hover={sky_online_mobile_hover}/>
 
         </div>
           <FooterCH></FooterCH>

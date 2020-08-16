@@ -33,7 +33,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #D9C739;
+    background: #2f6e79;
     border-radius: 50%;
     cursor: pointer;
     transition: transform ease-in .1s;
@@ -93,7 +93,7 @@
       position: relative;
       width: 100%;
       margin: 0 auto;
-      height: 655px;
+      height: 700px;
       overflow: hidden;
       white-space: nowrap;
     }
@@ -105,7 +105,7 @@
       position: relative;
       width: 100%;
       margin: 0 auto;
-      height: 655px;
+      height: 700px;
       overflow: hidden;
       white-space: nowrap;
     }
@@ -117,7 +117,7 @@
       position: relative;
       width: 100%;
       margin: 0 auto;
-      height: 685px;
+      height:800px;
       overflow: hidden;
       white-space: nowrap;
     }
@@ -125,7 +125,14 @@
 
 /* lg */
 @media screen and (min-width: 1200px) {
-
+  .slider_sky {
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+      height:800px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
 }
 
 @media screen and (min-width: 2560px) {

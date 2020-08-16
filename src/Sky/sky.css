@@ -33,12 +33,163 @@
   margin-top:60px;
   margin-bottom:80px;
 }
+.sky_border{
+    border-bottom: 1px solid #EF5797;
+    width:80%;
+    margin-top:40px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
 
+}
+.sky_no_border{
 
+}
+.sky_art1_btn{
+  /* background-color: #2f6e79; */
+  background-color: #2f6e79;
+  color:white;
+  /* color:#EF5797; */
+  border: none;
+  margin-top:40px;
+  margin-bottom: 20px;
+
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top:4%;
+  padding-bottom:4%;
+  border-radius: 25px;
+  font-size:11px;
+}
+.sky_art2_btn{
+  background-color: #2f6e79;
+  /* background-color: white !important; */
+  /* color:#EF5797 !important; */
+  color:white;
+  border: none;
+  text-align: left !important;
+  margin-top:20px;
+  margin-bottom: 20px;
+  /* padding-left: 40%;
+  padding-right:40%;
+  padding-top:4%;
+  padding-bottom:4%; */
+  border-radius: 25px;
+  font-size:30px;
+}
+.sky_art3_btn{
+  background-color: #2f6e79;
+  color:white;
+  border: none;
+  margin-top:40px;
+  margin-bottom: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top:4%;
+  padding-bottom:4%;
+  border-radius: 25px;
+  font-size:11px;
+}
+.sky_art4_btn{
+  background-color: #2f6e79;
+  color:white;
+  border: none;
+  margin-top:40px;
+  margin-bottom: 20px;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top:4%;
+  padding-bottom:4%;
+  border-radius: 25px;
+  font-size:11px;
+}
+.sky_art5_btn{
+  background-color: #2f6e79;
+  color:white;
+  border: none;
+  /* margin-top:40px; */
+  margin-bottom: 20px;
+  padding-left: 17%;
+  padding-right: 17%;
+  padding-top:4%;
+  padding-bottom:4%;
+  border-radius: 25px;
+  font-size:11px;
+}
+.sky_art6_btn{
+  background-color: #2f6e79;
+  color:white;
+  border: none;
+  margin-top:40px;
+  margin-bottom: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top:4%;
+  padding-bottom:4%;
+  border-radius: 25px;
+  font-size:11px;
+}
+.sky_art7_btn{
+  background-color: #2f6e79;
+  color:white;
+  border: none;
+  margin-top:40px;
+  margin-bottom: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top:4%;
+  padding-bottom:4%;
+  border-radius: 25px;
+  font-size:11px;
+}
+.sky_art8_btn{
+  background-color: #2f6e79;
+  color:white;
+  border: none;
+  margin-top:40px;
+  margin-bottom: 20px;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top:4%;
+  padding-bottom:4%;
+  border-radius: 25px;
+  font-size:11px;
+}
+.sky_art1_btn:hover, .sky_art2_btn:hover, .sky_art3_btn:hover, .sky_art4_btn:hover, .sky_art5_btn:hover, .sky_art6_btn:hover, .sky_art7_btn:hover, .sky_art8_btn:hover{
+  background-color:#4E9B16;
+  outline: none
+}
+.sky_artist_name_mobile{
+  font-family: sofia-pro, Sans-serif;
+  color:#4E9B16;
+}
+.sky_artist_name2_mobile{
+  font-family: sofia-pro, Sans-serif;
+  color:#4E9B16;
+}
+.sky_artist_name{
+  font-family: sofia-pro, Sans-serif;
+  color:#4E9B16;
+  font-size:35px;
+}
+.sky_artist_name2{
+  font-family: sofia-pro, Sans-serif;
+  color:#4E9B16;
+  font-size:35px;
+}
+.sky_artist_country{
+  font-family: sofia-pro, Sans-serif;
+  color:#EF5797;
+  font-size:15px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
 @media screen and (max-width: 767px) {
+  .mobile_slider_sky{
+    display:block
+  }
   .artTitle{
-    font-size: 50px;
-    margin-bottom: 60px;
+    font-size: 60px;
+    /* margin-bottom: 60px; */
     font-family: sofia-pro, sans-serif;
   }
   .social-icon{
@@ -57,10 +208,133 @@
   }
   .media_col2{
     display: block;
-    margin-top:50px;
-    margin-bottom:80px;
+    margin-top:60px;
+    margin-bottom:90px;
   }
-  .sky_desktop_artists{
+  .paddings{
+    padding-bottom:30px;
+  }
+  .sky_art1_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 6%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border-radius: 0px;
+    font-size:30px;
+  }
+  .sky_art2_btn{
+
+    margin-bottom: 20px;
+    padding-left: 37%;
+    padding-right:37%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border-radius: 0px;
+    font-size:30px;
+  }
+  .sky_art3_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 4%;
+    padding-right: 3%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border-radius: 0px;
+    font-size:30px;
+  }
+  .sky_art4_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 12%;
+    padding-right: 11%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border-radius: 0px;
+    font-size:30px;
+  }
+  .sky_art5_btn{
+    margin-bottom: 20px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border-radius: 0px;
+    font-size:30px;
+  }
+  .sky_art6_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border-radius: 0px;
+    font-size:30px;
+  }
+  .sky_art7_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border-radius: 0px;
+    font-size:30px;
+  }
+  .sky_art8_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border-radius: 0px;
+    font-size:30px;
+  }
+  .empty_col{
+    display:none;
+  }
+  .empty_col{
+    display:none;
+  }
+  .sky_artist_name{
+      margin-top: 40px;
+      font-size: 40px;
+      font-weight:bold
+  }
+  .sky_artist_name_mobile{
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight:bold
+  }
+  .sky_artist_name2_mobile{
+    margin-top: 80px;
+    font-size: 40px;
+      font-weight:bold
+  }
+  .sky_artist_name2{
+    margin-top: 40px;
+    font-size: 40px;
+      font-weight:bold
+  }
+  .sky_col_border{
+      border-bottom: none;
+  }
+  .sky_col_border2{
+    border-bottom:none
+  }
+  .sky_artist_country{
+      font-size:35px;
+  }
+  .desktop_slider_sky{
     display:none
   }
 }
@@ -94,6 +368,132 @@
   .paddings{
     padding-bottom:30px;
   }
+  .sky_art1_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 6%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border-radius: 0px;
+    font-size:30px;
+  }
+  .sky_art2_btn{
+
+    margin-bottom: 20px;
+    padding-left: 37%;
+    padding-right:37%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border-radius: 0px;
+    font-size:30px;
+  }
+  .sky_art3_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 4%;
+    padding-right: 3%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border-radius: 0px;
+    font-size:30px;
+  }
+  .sky_art4_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 12%;
+    padding-right: 11%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border-radius: 0px;
+    font-size:30px;
+  }
+  .sky_art5_btn{
+    margin-bottom: 20px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border-radius: 0px;
+    font-size:30px;
+  }
+  .sky_art6_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border-radius: 0px;
+    font-size:30px;
+  }
+  .sky_art7_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border-radius: 0px;
+    font-size:30px;
+  }
+  .sky_art8_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border-radius: 0px;
+    font-size:30px;
+  }
+  .empty_col{
+    display:none;
+  }
+  .empty_col{
+    display:none;
+  }
+  .sky_artist_name{
+      margin-top: 40px;
+      font-size: 40px;
+      font-weight:bold
+  }
+  .sky_artist_name_mobile{
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight:bold
+  }
+  .sky_artist_name2_mobile{
+    margin-top: 80px;
+    font-size: 40px;
+      font-weight:bold
+  }
+  .sky_artist_name2{
+    margin-top: 40px;
+    font-size: 40px;
+      font-weight:bold
+  }
+  .sky_col_border{
+      border-bottom: none;
+  }
+  .sky_col_border2{
+    border-bottom:none
+  }
+  .sky_artist_country{
+      font-size:35px;
+  }
+  .desktop_slider_sky{
+    display:none
+  }
+  .mobile_slider_sky{
+    display:block
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -124,10 +524,142 @@
   .paddings{
     padding-bottom:30px;
   }
+  .sky_art1_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius: 0px;
+    font-size:11px;
+  }
+  .sky_art2_btn{
+
+    margin-bottom: 20px;
+    padding-left: 40%;
+    padding-right:40%;
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius: 0px;
+    font-size:11px;
+  }
+  .sky_art3_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius: 0px;
+    font-size:11px;
+  }
+  .sky_art4_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 23%;
+    padding-right: 23%;
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius: 0px;
+    font-size:11px;
+  }
+  .sky_art5_btn{
+
+
+    margin-bottom: 20px;
+    padding-left: 14%;
+    padding-right: 15%;
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius: 0px;
+    font-size:11px;
+  }
+  .sky_art6_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius: 0px;
+    font-size:11px;
+  }
+  .sky_art7_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius: 0px;
+    font-size:11px;
+  }
+  .sky_art8_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius: 0px;
+    font-size:11px;
+  }
+  .empty_col{
+    display:none;
+  }
+  .sky_artist_name{
+      font-size:20px;
+      font-weight:bold
+  }
+  .sky_artist_name2{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight:bold
+  }
+  .sky_artist_name_mobile{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight:bold
+  }
+  .sky_artist_name2_mobile{
+    margin-top: 40px;
+    font-size: 20px;
+      font-weight:bold
+  }
+  .sky_col_border{
+      border-bottom: solid 1px grey;
+      padding-bottom:40px
+  }
+  .sky_col_border2{
+    border-bottom: solid 1px grey;
+    padding-bottom:93px
+  }
+  .sky_artist_country{
+      font-size:15px;
+  }
+  .desktop_slider_sky{
+    display:none
+  }
+  .mobile_slider_sky{
+    display:block
+  }
 }
 
 
 @media screen and (min-width: 1200px) {
+  .sky_mobile_artists{
+    display:none;
+  }
+  .mobile_slider_sky{
+    display:none;
+  }
   .artTitle{
     font-size: 40px;
     margin-bottom: 60px;
@@ -161,5 +693,211 @@
     margin-left:0px;
     padding-left:0px;
     text-align: center;
+  }
+  .sky_art1_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding:0px;
+    /* padding-left: 0%;
+    padding-right: 0%;
+    padding-top:4%;
+    padding-bottom:4%; */
+    border-radius: 25px;
+    font-size:20px;
+  }
+  .sky_art2_btn{
+
+    margin-bottom: 20px;
+    text-align: left;
+    padding:0;
+    /* padding-left: 35%;
+    padding-right:35%;
+    padding-top:4%;
+    padding-bottom:4%; */
+    /* border-radius: 25px; */
+    font-size:20px;
+  }
+  .sky_art3_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius: 25px;
+    font-size:20px;
+  }
+  .sky_art4_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 1%;
+    padding-right: 2%;
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius: 25px;
+    font-size:20px;
+  }
+  .sky_art5_btn{
+
+
+    margin-bottom: 20px;
+    padding-left: 4%;
+    padding-right: 5%;
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius: 25px;
+    font-size:20px;
+  }
+  .sky_art6_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius: 25px;
+    font-size:20px;
+  }
+  .sky_art7_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius: 25px;
+    font-size:20px;
+  }
+  .sky_art8_btn{
+
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius: 25px;
+    font-size:20px;
+  }
+  .empty_col{
+    display:block;
+  }
+  .sky_artist_name{
+      font-size:20px;
+      font-weight:bold
+  }
+  .sky_artist_name2{
+    margin-top: 40px;
+    font-size: 20px;
+
+  }
+  .sky_artist_name_mobile{
+    font-size:20px;
+    font-weight:bold
+  }
+  .sky_artist_name2_mobile{
+    margin-top: 80px;
+    font-size: 20px;
+
+      font-weight:bold
+  }
+  .sky_col_border{
+      border-bottom: solid 1px grey;
+      padding-bottom:40px
+  }
+  .sky_col_border2{
+    border-bottom: solid 1px grey;
+    padding-bottom:60px
+  }
+  .sky_artist_country{
+      font-size:15px;
+  }
+  .desktop_slider_sky{
+    display:block
+  }
+}
+@media screen and (min-width: 2560px){
+  .sky_art1_btn{
+    margin-top:40px;
+    margin-bottom: 20px;
+    /* padding-left: 28%;
+    padding-right: 29%;
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius: 25px; */
+    font-size:15px;
+  }
+  .sky_art2_btn{
+    margin-bottom: 20px;
+    /* padding-left: 44%;
+    padding-right:45%;
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius: 25px; */
+    font-size:15px;
+  }
+  .sky_art3_btn{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius: 25px;
+    font-size:15px;
+  }
+  .sky_art4_btn{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius: 25px;
+    font-size:14px;
+  }
+  .sky_art5_btn{
+    margin-bottom: 20px;
+    padding-left: 23%;
+    padding-right: 23%;
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius: 25px;
+    font-size:15px;
+  }
+  .sky_art6_btn{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius: 25px;
+    font-size:15px;
+  }
+  .sky_art7_btn{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 28%;
+    padding-right: 29%;
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius: 25px;
+    font-size:15px;
+  }
+  .sky_art8_btn{
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius: 25px;
+    font-size:15px;
   }
 }

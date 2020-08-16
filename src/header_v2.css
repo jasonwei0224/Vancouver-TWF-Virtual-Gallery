@@ -22,7 +22,7 @@ background-color: white;
 }
 
 a.navitem-v2 {
-  color: #2f6e79!important;
+  color: #4a9c2c!important;
   font-size: 14px;
   font-family: "sofia-pro", Sans-serif;
   padding: 5px 12px 3px 12px;
@@ -33,13 +33,13 @@ a.navitem-v2 {
 font-weight: normal;
 font-size: 14px;
 font-family: "sofia-pro", Sans-serif;
-color: #2F6E79 !important;
+color: #4a9c2c !important;
 background-color: white !important;
 border-bottom: solid 1px;
 }
 
 .dropdown-item:hover{
-background-color:#2F6E79!important;
+background-color:#4a9c2c!important;
 color:white!important;
 text-decoration: none;
 }
@@ -134,11 +134,11 @@ a.dropdown-toggle.navitem-dropdown{
 a.dropdown-item{
   font-size: 30px !important;
   text-align: center;
-  border-bottom: solid 3px #2F6E79!important;
+  border-bottom: solid 3px #4a9c2c!important;
 
 }
 a.dropdown-item:hover{
-  background-color: #2F6E79;
+  background-color: #4a9c2c;
   color:white;
 }
 .dropdown-item{
@@ -232,11 +232,11 @@ a.dropdown-toggle.navitem-dropdown{
 a.dropdown-item{
   font-size: 30px !important;
   text-align: center;
-  border-bottom: solid 3px #2F6E79!important;
+  border-bottom: solid 3px #4a9c2c!important;
 
 }
 a.dropdown-item:hover{
-  background-color: #4E9B16;
+  background-color: #4a9c2c;
   color:white;
 }
 .dropdown-item{
@@ -244,7 +244,7 @@ a.dropdown-item:hover{
 }
 div.dropdown-menu.show{
     text-align: center;
-    color:#0C3866;
+    color:#4a9c2c;
     padding-top: 0px;
     padding-bottom: 0px;
     font-size: 30px;
@@ -302,7 +302,7 @@ a.dropdown-item{
 }
 div.dropdown-menu.show{
     text-align: center;
-    color:#0C3866;
+    color:#4a9c2c;
     padding-top: 0px;
     padding-bottom: 0px;
     font-size: 30px;
@@ -364,7 +364,7 @@ div.ml-auto{
 
 }
 a.dropdown-item{
-  border-bottom: 2px solid #4A9C2C;
+  border-bottom: 2px solid #4a9c2c;
   font-size: 14px!important;
 }
 
