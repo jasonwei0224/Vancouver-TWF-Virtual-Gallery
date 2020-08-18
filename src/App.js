@@ -52,8 +52,14 @@ import { createBrowserHistory } from 'history';
 import Sky_V2CH from './ch/Sky-ch/sky-ch'
 
 function App() {
-  // const history = createBrowserHistory();
+const history = createBrowserHistory();
 ReactGA.initialize('UA-2521987-18');
+history.listen(location => {
+  ReactGA.set({ page: location.pathname }); // Update the user's current page
+  // ReactGA.pageview(location.pathname); // Record a pageview for the given page
+  ReactGA.pageview(window.location.pathname + window.location.search);
+});
+  // const history = createBrowserHistory();
 
 // history.listen(location => {
 //   ReactGA.set({ page: location.pathname }); // Update the user's current page

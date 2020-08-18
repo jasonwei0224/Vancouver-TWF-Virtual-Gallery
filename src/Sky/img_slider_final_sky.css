@@ -129,7 +129,88 @@
       position: relative;
       width: 100%;
       margin: 0 auto;
-      height:800px;
+      height:600px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+}
+@media screen and (min-width: 1400px) {
+  .slider_sky {
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+      height:650px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+}
+@media screen and (min-width: 1500px) {
+  .slider_sky {
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+      height:700px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+  .slider_sky {
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+      height: 750px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+}
+@media screen and (min-width: 1700px) {
+  .slider_sky {
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+      height: 800px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+}
+@media screen and (min-width: 1800px) {
+  .slider_sky {
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+      height: 850px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+}
+@media screen and (min-width: 1900px) {
+  .slider_sky {
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+      height: 950px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+}
+@media screen and (min-width: 2200px) {
+  .slider_sky {
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+      height: 1100px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+}
+@media screen and (min-width: 2300px) {
+  .slider_sky {
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+      height: 1200px;
       overflow: hidden;
       white-space: nowrap;
     }
@@ -146,7 +227,7 @@
       position: relative;
       width: 100%;
       margin: 0 auto;
-      height: 1710px;
+      height: 1280px;
       overflow: hidden;
       white-space: nowrap;
     }
@@ -157,7 +238,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #D9C739;
+    background: #2f6e79;
     border-radius: 50%;
     cursor: pointer;
     transition: transform ease-in .1s;

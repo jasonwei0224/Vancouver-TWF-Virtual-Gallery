@@ -125,8 +125,17 @@
 
 /* lg */
 @media screen and (min-width: 1200px) {
-
+  .slider_sky2 {
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+      height:800px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
 }
+
+
 
 @media screen and (min-width: 2560px) {
   .slide_sky2 {

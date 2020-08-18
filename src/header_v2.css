@@ -354,7 +354,7 @@ img.langIconCh-v2{
 div.ml-auto{
   text-align: right;
   align-items: center!important;
-  margin-left: 50% !important;
+  margin-left: 30% !important;
 }
 #logo{
   display: none;
@@ -364,8 +364,10 @@ div.ml-auto{
 
 }
 a.dropdown-item{
-  border-bottom: 2px solid #4a9c2c;
+  border-bottom: 1px solid #4a9c2c;
   font-size: 14px!important;
+  padding-top:8px;
+  padding-bottom:8px;
 }
 
 a.navitem-v2{
@@ -433,7 +435,7 @@ img.langIconCh-v2{
   div.ml-auto{
     text-align: right;
     align-items: center!important;
-    margin-left: 70% !important;
+    margin-left: 60% !important;
   }
   #responsive-navbar-nav{
     margin-top:50px;

@@ -46,26 +46,31 @@ return (
       <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name" style={{textAlign:"center"}}>Sara Boychuk</Col></Row>
       <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_country"style={{textAlign:"center"}}>加拿大</Col></Row>
       <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={sara_profile}></img></Col></Row>
+      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" > <div style={{color:"#2f6e79"}}> | 作品 |</div></Col></Row>
 
-      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="DA_first_col" ><div  ><a className="DA_artName" href="/Hidden-In-The-Clouds-ch">撥雲見日</a></div></Col></Row>
-      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}  ><div style={{borderBottom:"1px solid #EF5797", paddingBottom:"20px" , marginBottom:"20px"}}></div></Col></Row>
+      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}  style={{textAlign:"center", fontWeight:"bold"}}className="DA_first_col" ><div  ><a className="DA_artName" href="/Hidden-In-The-Clouds-ch">撥雲見日</a></div></Col></Row>
+      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}  ><div style={{borderBottom:"1px solid #2f6e79", paddingBottom:"20px" , marginBottom:"20px"}}></div></Col></Row>
 
-    <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}  ><a href="/Pause-ch"  className="DA_artName" >雲止時刻</a></Col></Row>
+    <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}   style={{textAlign:"center", fontWeight:"bold"}}><a href="/Pause-ch"  className="DA_artName" >雲止時刻</a></Col></Row>
     </Col>
     <Col xl={{span:2}} lg={{span:3}} md={{span:5}} sm={{ span:3}} xs={{span:1}} >
       <Row><Col xl={{span:12}} lg={{span:12}} style={{textAlign:"center"}} className="sky_artist_name">Valerie Durant</Col></Row>
       <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}} className="sky_artist_country">加拿大</Col></Row>
       <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><img style={{width:"100%", height:"auto"}}src={valerie_profile}></img></Col></Row>
-      <Row><Col  xl={{span:12}} lg={{span:12}}  className="DA_first_col"><a  href="/Infinite-Sky-For-Evertt-ch" className="DA_artName" >無垠的天空</a></Col></Row>
+        <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" > <div style={{color:"#2f6e79"}}> | 作品 |</div></Col></Row>
+
+    <Row><Col  xl={{span:12}} lg={{span:12}}  className="DA_first_col" style={{textAlign:"center", fontWeight:"bold"}}  ><a  href="/Infinite-Sky-For-Evertt-ch" className="DA_artName" >無垠的天空</a></Col></Row>
     </Col>
     <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5 , offset:1}} sm={{ span:5}} xs={{span:1}}>
       <Row><Col xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name_mobile" style={{textAlign:"center"}}>伊顯玲</Col></Row>
       <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center"}} className="sky_artist_country">台灣</Col></Row>
       <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><img style={{width:"100%", height:"auto"}}src={p1_profile}></img></Col></Row>
-      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="DA_first_col" ><a href="/Visible-Or-Invisible-ch" className="DA_artName">可見與不可見的</a> </Col></Row>
-        <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}  ><div style={{borderBottom:"1px solid #EF5797", paddingBottom:"20px" , marginBottom:"20px"}}></div></Col></Row>
+        <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" > <div style={{color:"#2f6e79"}}> | 作品 |</div></Col></Row>
 
-    <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><a href="/With-The-Passage-Of-Time-ch" className="DA_artName">時間的流逝</a></Col></Row>
+    <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="DA_first_col" style={{textAlign:"center", fontWeight:"bold"}}><a href="/Visible-Or-Invisible-ch" className="DA_artName">可見與不可見的</a> </Col></Row>
+        <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}  ><div style={{borderBottom:"1px solid #2f6e79", paddingBottom:"20px" , marginBottom:"20px"}}></div></Col></Row>
+
+    <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}}  ><a href="/With-The-Passage-Of-Time-ch" className="DA_artName">時間的流逝</a></Col></Row>
     </Col>
   </Row>
   <Row>
@@ -79,21 +84,27 @@ return (
     <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name2_mobile" style={{textAlign:"center"}}>潘小俠</Col></Row>
     <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}} className="sky_artist_country">台灣</Col></Row>
     <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={peter_profile}></img></Col></Row>
-    <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="DA_first_col"  ><a href="/General-Rock-Green-Island-ch" className="DA_artName">綠島將軍岩</a> </Col></Row>
+      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" > <div style={{color:"#2f6e79"}}> | 作品 |</div></Col></Row>
+
+    <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="DA_first_col" style={{textAlign:"center", fontWeight:"bold"}}><a href="/General-Rock-Green-Island-ch" className="DA_artName">綠島將軍岩</a> </Col></Row>
 
   </Col>
   <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5, offset:1 }} sm={{ span:3}} xs={{span:3}}>
     <Row><Col xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name2_mobile" style={{textAlign:"center"}}>黃約農</Col></Row>
     <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}} className="sky_artist_country">台灣</Col></Row>
     <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={huang_profile}></img></Col></Row>
-    <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="DA_first_col" > <a  href="/Gazing-In-Holy-Ridge-ch"className="DA_artName">凝視聖稜線</a></Col></Row>
+      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" > <div style={{color:"#2f6e79"}}> | 作品 |</div></Col></Row>
+
+  <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="DA_first_col" style={{textAlign:"center", fontWeight:"bold"}}> <a  href="/Gazing-In-Holy-Ridge-ch"className="DA_artName">凝視聖稜線</a></Col></Row>
 
   </Col>
   <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5}} sm={{ span:3}} xs={{span:3}}>
     <Row><Col xl={{span:12}} lg={{span:12}}   md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name2_mobile" style={{textAlign:"center"}}>莊心瑀</Col></Row>
     <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}} className="sky_artist_country">台灣</Col></Row>
     <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={star_profile}></img></Col></Row>
-    <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="DA_first_col" > <a href="/Boat-In-The-Sun-Moon-Lake-ch"className="DA_artName">日月潭四手網船</a></Col></Row>
+      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" > <div style={{color:"#2f6e79"}}> | 作品 |</div></Col></Row>
+
+  <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="DA_first_col"style={{textAlign:"center", fontWeight:"bold"}}   > <a href="/Boat-In-The-Sun-Moon-Lake-ch"className="DA_artName">日月潭四手網船</a></Col></Row>
   </Col>
   </Row>
   <div className="sky_space"></div>

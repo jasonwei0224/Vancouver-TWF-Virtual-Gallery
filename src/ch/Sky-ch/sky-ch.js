@@ -89,7 +89,7 @@ var text=`在同一片藍天下，當一切顏色歸零(Colour Zero)，回到一
               <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}} className="sky_col_border2_ch"><a href="/Infinite-Sky-For-Evertt-ch" > <Button bsPrefix="sky_art3_btn-ch" className="sky_art3_btn-ch">無垠的天空</Button></a></Col></Row>
             </Col>
             <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5 , offset:1}} sm={{ span:5}} xs={{span:1}}>
-              <Row><Col xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name" style={{textAlign:"center"}}>伊顯玲</Col></Row>
+              <Row><Col xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name_mobile"  style={{textAlign:"center"}}>伊顯玲</Col></Row>
               <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center"}} className="sky_artist_country">台灣</Col></Row>
               <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><img style={{width:"100%", height:"auto"}}src={p1_profile}></img></Col></Row>
               <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center"}}><a  href="/Visible-Or-Invisible-ch"><Button bsPrefix="sky_art4_btn-ch" className="sky_art4_btn-ch">可見與不可見的</Button></a></Col></Row>
@@ -98,21 +98,21 @@ var text=`在同一片藍天下，當一切顏色歸零(Colour Zero)，回到一
             <div className="sky_space"></div>
                 <Col xl={{span:3}} lg={{span:3}} md={{span:0}} sm={{ span:0}} xs={{span:0}} className="empty_col"></Col>
             <Col xl={{span:2, offset:3}} lg={{span:3, offset:1}} md={{span:5}} sm={{ span:3}} xs={{span:1}}>
-            <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name2" style={{textAlign:"center"}}>潘小俠</Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name2_mobile" style={{textAlign:"center"}}>潘小俠</Col></Row>
             <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}} className="sky_artist_country">台灣</Col></Row>
             <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={peter_profile}></img></Col></Row>
             <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}}><a href="/General-Rock-Green-Island-ch"><Button  bsPrefix="sky_art6_btn-ch" className="sky_art6_btn-ch">綠島將軍岩</Button></a></Col></Row>
 
           </Col>
           <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5, offset:1 }} sm={{ span:3}} xs={{span:3}}>
-            <Row><Col xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name2" style={{textAlign:"center"}}>黃約農</Col></Row>
+            <Row><Col xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name2_mobile"  style={{textAlign:"center"}}>黃約農</Col></Row>
             <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}} className="sky_artist_country">台灣</Col></Row>
             <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={huang_profile}></img></Col></Row>
             <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}}><a href="/Gazing-In-Holy-Ridge-ch" ><Button bsPrefix="sky_art7_btn-ch" className="sky_art7_btn-ch">凝視聖稜線</Button></a></Col></Row>
 
           </Col>
           <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5}} sm={{ span:3}} xs={{span:3}}>
-            <Row><Col xl={{span:12}} lg={{span:12}}   md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name2" style={{textAlign:"center"}}>莊心瑀</Col></Row>
+            <Row><Col xl={{span:12}} lg={{span:12}}   md={{span:12}} sm={{Sspan:12}} xs={{span:12}}  className="sky_artist_name2_mobile" style={{textAlign:"center"}}>莊心瑀</Col></Row>
             <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}} className="sky_artist_country">台灣</Col></Row>
             <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={star_profile}></img></Col></Row>
             <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center"}}><a href="/Boat-In-The-Sun-Moon-Lake-ch"><Button  bsPrefix="sky_art8_btn-ch" className="sky_art8_btn-ch">日月潭四手網船</Button></a></Col></Row>

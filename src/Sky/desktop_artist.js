@@ -48,26 +48,31 @@ return (
       <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name" style={{textAlign:"center"}}>Sara Boychuk</Col></Row>
       <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_country"style={{textAlign:"center"}}>Canada</Col></Row>
       <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={sara_profile}></img></Col></Row>
+        <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" > <div style={{color:"#2f6e79"}}> | Art Works |</div></Col></Row>
 
-      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="DA_first_col" ><div  ><a className="DA_artName" href="/Hidden-In-The-Clouds">Hidden in the Clouds</a></div></Col></Row>
-      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}  ><div style={{borderBottom:"1px solid #EF5797", paddingBottom:"20px" , marginBottom:"20px"}}></div></Col></Row>
+      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" ><div  ><a className="DA_artName" href="/Hidden-In-The-Clouds">Hidden in the Clouds</a></div></Col></Row>
+      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}  ><div style={{borderBottom:"1px solid #2f6e79", paddingBottom:"20px" , marginBottom:"20px"}}></div></Col></Row>
 
-    <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}  ><a href="/Pause"  className="DA_artName" >Pause</a></Col></Row>
+    <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} ><a href="/Pause"  className="DA_artName" >Pause</a></Col></Row>
     </Col>
     <Col xl={{span:2}} lg={{span:3}} md={{span:5}} sm={{ span:3}} xs={{span:1}} >
       <Row><Col xl={{span:12}} lg={{span:12}} style={{textAlign:"center"}} className="sky_artist_name">Valerie Durant</Col></Row>
       <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}} className="sky_artist_country">Canada</Col></Row>
       <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><img style={{width:"100%", height:"auto"}}src={valerie_profile}></img></Col></Row>
-      <Row><Col  xl={{span:12}} lg={{span:12}}  className="DA_first_col"><a  href="/Infinite-Sky-For-Evertt" className="DA_artName" >Infinite Sky for Ever<span style={{fontStyle:"italic"}}>ett</span></a></Col></Row>
+        <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" > <div style={{color:"#2f6e79"}}>| Art Works |</div></Col></Row>
+
+      <Row><Col  xl={{span:12}} lg={{span:12}}  className="DA_first_col" style={{textAlign:"center", fontWeight:"bold"}}><a  href="/Infinite-Sky-For-Evertt" className="DA_artName" >Infinite Sky for Ever<span style={{fontStyle:"italic"}}>ett</span></a></Col></Row>
     </Col>
     <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5 , offset:1}} sm={{ span:5}} xs={{span:1}}>
       <Row><Col xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name_mobile" style={{textAlign:"center"}}>Hsien-Ling Yin</Col></Row>
       <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center"}} className="sky_artist_country">Taiwan</Col></Row>
       <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><img style={{width:"100%", height:"auto"}}src={p1_profile}></img></Col></Row>
-      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="DA_first_col" ><a href="/Visible-Or-Invisible" className="DA_artName">Visibile or Invisible</a> </Col></Row>
-        <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}  ><div style={{borderBottom:"1px solid #EF5797", paddingBottom:"20px" , marginBottom:"20px"}}></div></Col></Row>
+        <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" > <div style={{color:"#2f6e79"}}>| Art Works |</div></Col></Row>
 
-    <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><a href="/With-The-Passage-Of-Time" className="DA_artName">With The Passage of Time</a></Col></Row>
+      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" ><a href="/Visible-Or-Invisible" className="DA_artName">Visibile or Invisible</a> </Col></Row>
+        <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}  ><div style={{borderBottom:"1px solid #2f6e79", paddingBottom:"20px" , marginBottom:"20px"}}></div></Col></Row>
+
+    <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}}><a href="/With-The-Passage-Of-Time" className="DA_artName">With The Passage of Time</a></Col></Row>
     </Col>
   </Row>
   <Row>
@@ -81,21 +86,27 @@ return (
     <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name2_mobile" style={{textAlign:"center"}}>Hsiao-Hsia Pan</Col></Row>
     <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}} className="sky_artist_country">Taiwan</Col></Row>
     <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={peter_profile}></img></Col></Row>
-    <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="DA_first_col"  ><a href="/General-Rock-Green-Island" className="DA_artName">General Rock Green Island</a> </Col></Row>
+      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" > <div style={{color:"#2f6e79"}}>| Art Works |</div></Col></Row>
+
+    <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col"  ><a href="/General-Rock-Green-Island" className="DA_artName">General Rock Green Island</a> </Col></Row>
 
   </Col>
   <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5, offset:1 }} sm={{ span:3}} xs={{span:3}}>
     <Row><Col xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name2_mobile" style={{textAlign:"center"}}>Dumas Temu</Col></Row>
     <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}} className="sky_artist_country">Taiwan</Col></Row>
     <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={huang_profile}></img></Col></Row>
-    <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="DA_first_col" > <a  href="/Gazing-In-Holy-Ridge"className="DA_artName">Gazing in Holy Ridge</a></Col></Row>
+      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" > <div style={{color:"#2f6e79"}}>| Art Works |</div></Col></Row>
+
+  <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" > <a  href="/Gazing-In-Holy-Ridge"className="DA_artName">Gazing in Holy Ridge</a></Col></Row>
 
   </Col>
   <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5}} sm={{ span:3}} xs={{span:3}}>
     <Row><Col xl={{span:12}} lg={{span:12}}   md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name2_mobile" style={{textAlign:"center"}}>Estrella Chuang</Col></Row>
     <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}} className="sky_artist_country">Taiwan</Col></Row>
     <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={star_profile}></img></Col></Row>
-    <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="DA_first_col" > <a href="/Boat-In-The-Sun-Moon-Lake"className="DA_artName">The Boat in the Sun Moon Lake</a></Col></Row>
+      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" > <div style={{color:"#2f6e79"}}>| Art Works |</div></Col></Row>
+
+  <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" > <a href="/Boat-In-The-Sun-Moon-Lake"className="DA_artName">The Boat in the Sun Moon Lake</a></Col></Row>
   </Col>
   </Row>
   <div className="sky_space"></div>
