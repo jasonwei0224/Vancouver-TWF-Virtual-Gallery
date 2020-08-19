@@ -43,6 +43,7 @@ const [isShown, setIsShown] = useState(false);
   return (
     <div>
       <Container fluid style={{padding:"0"}}>
+          <div style={{borderTop: "1px solid rgb(36, 111, 121)"}}></div>
             {/*}{isShown ?
               <img
                 className="image_active"

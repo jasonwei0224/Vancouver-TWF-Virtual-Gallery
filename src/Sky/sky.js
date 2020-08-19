@@ -44,7 +44,7 @@ import Dekstop_Artist from './desktop_artist';
 function Sky() {
 
   const goToForm=()=> {
-    window.location='Sky';
+    window.location='Sky_Form';
   };
 
   var images = [sky_page1, sky_image2]

@@ -16,7 +16,7 @@ import MainContents_WithBold from "../modules/MainContents_WithBold";
 import fb from '../assets/f_logo_RGB-Blue_58.png'
 import {SocialMediaIconsReact} from 'social-media-icons-react';
 import { SocialIcon } from 'react-social-icons';
-function SkyArtist(props) {
+function SkyArtist_Itallic(props) {
   return (
     <div>
       <Container fluid style={{padding:"0"}}>
@@ -29,7 +29,7 @@ function SkyArtist(props) {
           color="#246f79"
           ></ProgramInfo>
 
-        <Row><Col lg={{offset:2}} md={{offset:1}} sm={{offset:1}} xs={{offset:1}}><p className="artTitle">{props.artName}</p></Col></Row>
+        <Row><Col lg={{offset:2}} md={{offset:1}} sm={{offset:1}} xs={{offset:1}}><p className="artTitle">{props.artName1} <span style={{fontStyle:"italic"}}>{props.artName2}</span></p></Col></Row>
 
         <MainContents_WithBold contents={props.content} bold={props.bold} contents2={props.contents2}></MainContents_WithBold>
         <MainContents_OneArtist_TwoPic src2={props.artwork} src={props.profile} title={props.name} contents={props.artistInfo}></MainContents_OneArtist_TwoPic>
@@ -53,11 +53,11 @@ function SkyArtist(props) {
         </Row>
         <Row>
           <Col xl={{span:10, offset:2}} lg={{span:10, offset:1}} md={{span:10, offset:1}} sm={{ span:10, offset:1}} xs={{span:10, offset:1}}>
-            <SocialIcon style={{display: props.fbDisplay}} network="facebook" url={props.fb}/>
-            <SocialIcon style={{display: props.igDisplay}} network="instagram" url={props.ig}/>
-            <SocialIcon style={{display: props.ytDisplay}} network="youtube" url={props.yt}/>
-            <SocialIcon style={{display: props.twitterDisplay}} network="twitter" url={props.tw}/>
-            <SocialIcon style={{display: props.otherDisplay}} url={props.other}/>
+            <SocialIcon network="facebook" url={props.fb}/>
+            <SocialIcon network="instagram" url={props.ig}/>
+            <SocialIcon network="youtube" url={props.yt}/>
+            <SocialIcon network="twitter" url={props.tw}/>
+            <SocialIcon url={props.other}/>
           </Col>
         </Row>
         </div>
@@ -81,4 +81,4 @@ function SkyArtist(props) {
   );
 }
 
-export default SkyArtist;
+export default SkyArtist_Itallic;

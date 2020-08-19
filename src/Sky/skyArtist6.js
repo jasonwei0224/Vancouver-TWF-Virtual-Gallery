@@ -1,5 +1,5 @@
 import React from 'react';
-import SkyArtist from './skyArtist';
+import SkyArtist from './skyArtist_Itallic';
 import huang_profile from '../assets/人物照 -黃約農.jpg';
 import Slider from '../modules/img_slider_final'
 import sara_profile from '../assets/人物照-Sara.jpg';
@@ -84,7 +84,8 @@ answers?`
       <div>
       <img src={valerie} style={{width:"100%", height:"auto"}}></img>
       <SkyArtist
-        artName="INFINITE SKY FOR EVERETT"
+        artName1="INFINITE SKY FOR EVER"
+        artName2="ETT"
         title="VALERIE DURANT"
         location="CANADA"
         content={text}
@@ -97,6 +98,11 @@ answers?`
         ig="https://www.instagram.com/hyn_dumas/?hl=en"
         yt=""
         tw=""
+        fbDisplay="inline-block"
+        igDisplay="inline-block"
+        twitterDisplay="none"
+        ytDisplay="none"
+        otherDisplay="inline-block"
         other="www.valeriedurant.ca"
         other1={huang_profile}
         other2={huang_profile}

@@ -12,7 +12,7 @@ import mulan from '../../assets/mulan.png';
 import animate_sun from '../../assets/sun.gif';
 import sun from '../../assets/sun.png';
 import { Container, Row, Col } from "react-bootstrap";
-import ProgramInfo from '../../programInfo';
+import ProgramInfo from '../programInfo-ch';
 import Second_Title from "../../modules/Second_Title"
 import MainContents_First from "../../modules/MainContents_First"
 import MainContents_Middle from "../../modules/MainContents_Middle"
@@ -37,6 +37,7 @@ function UnbeingChinese() {
   return (
     <div>
       <Container fluid style={{padding:"0"}}>
+          <div style={{borderTop: "1px solid rgb(36, 111, 121)"}}></div>
             {/*}{isShown ?
               <img
                 className="image_active"
@@ -65,7 +66,7 @@ function UnbeingChinese() {
         <ProgramInfo
           subtitle="我跟你的相同，就是我們都不同"
           title='「趣」中國化'
-          artistName="創作：周童"
+          artistName="藝術家：周童"
           url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2F%23%2FPaulsApple&amp;src=sdkpreparse"
           color="#246f79"
         ></ProgramInfo>

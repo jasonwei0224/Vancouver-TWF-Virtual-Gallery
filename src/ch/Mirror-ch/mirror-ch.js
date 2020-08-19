@@ -7,7 +7,7 @@ import { faChevronLeft } from'@fortawesome/free-solid-svg-icons';
 import { faChevronRight } from'@fortawesome/free-solid-svg-icons';
 import {Container, Row, Col} from 'react-bootstrap';
 import image1 from '../../assets/image1.jpg';
-import ProgramInfo from "../../programInfo";
+import ProgramInfo from "../programInfo-ch";
 import Second_Title from "../../modules/Second_Title"
 import MainContents_Middle from "../../modules/MainContents_Middle"
 import MainContents_Important from "../../modules/MainContents_Important"

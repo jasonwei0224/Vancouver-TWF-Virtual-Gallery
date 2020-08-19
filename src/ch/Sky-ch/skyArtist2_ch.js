@@ -51,6 +51,11 @@ function SkyArtist2() {
         yt=""
         tw=""
         other=""
+        fbDisplay="inline-block"
+        igDisplay="inline-block"
+        twitterDisplay="none"
+        ytDisplay="none"
+        otherDisplay="none"
         other1={huang_profile}
         other2={huang_profile}
         other3={huang_profile}

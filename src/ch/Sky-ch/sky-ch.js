@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Button} from "react-bootstrap";
 
-import ProgramInfoThinLine from '../../programInfoThinLine';
+import ProgramInfoThinLineCH from '../programInfoThinLineCH';
 import image1 from '../../assets/image1.jpg';
 import image2 from '../../assets/image2.jpg';
 import Second_Title from "../../modules/Second_Title"
@@ -44,7 +44,7 @@ import sky_cell_image2 from'../../assets/SKY_top_IMAGE-2_Cell.jpg';
 function Sky() {
 
   const goToForm=()=> {
-    window.location='Sky';
+    window.location='Sky_Form-ch';
   };
 
   var images = [sky_page1, sky_image2]
@@ -58,19 +58,28 @@ var text=`在同一片藍天下，當一切顏色歸零(Colour Zero)，回到一
 
 在加拿大台灣文化節活動期間，不只在溫哥華美術館前廣場能看到八座「天空」燈光裝置藝術作品，陪伴溫哥華人度過黎明與黑夜。即使你人不在溫哥華，甚至不在加拿大，你都可以隨時拍下【下午三點】的天空照片上傳分享，立即加入我們 ! 在夏天的尾聲，透過看著同一片天空的不同風景，感受不同的空間氛圍，不受地域和時間限制，貼近彼此，相互作伴 !
 `
+var text3 =`在地球上不同位置的我們，相約在同一時刻拍下天空的包羅萬象。
 
+美麗的天空一直包容著我們每一個人的不一樣，無論是缺陷或完美；
+人類的命運因為疫情改變了，種族之間的歧視日漸嚴重讓人心惶惶；
+我們抬頭望望藍天，看到希望、感受到空間、見識到渺小，誰貴誰賤?
+
+我們都不一樣，我們也都一樣 !
+
+加拿大台灣文化節邀請您追蹤我們的 Facebook 一起拍攝分享【下午三點】的天空，與世界一起反歧視、追求平等。期待有更多人看到您的天空攝影作品 !
+`
   return (
     <div>
       <Container fluid style={{padding:"0"}}>
        <span className="desktop_slider_sky"><Slider images={images}/></span>
  <span className="mobile_slider_sky"><Slider2 images={images2}/></span>
-        <ProgramInfoThinLine
+        <ProgramInfoThinLineCH
           subtitle="大型實體裝置藝術"
           title="天空"
-          artistName="藝術家暨策展人：宋浩芬"
+          artistName="策展人：宋浩芬"
           url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2FSky&amp;src=sdkpreparse"
           color="#246f79"
-          ></ProgramInfoThinLine>
+          ></ProgramInfoThinLineCH>
 
           <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text}></MainContents_Middle_Adonis>
           <div className="sky_mobile_artists">
@@ -126,8 +135,8 @@ var text=`在同一片藍天下，當一切顏色歸零(Colour Zero)，回到一
 
           <Dekstop_Artist></Dekstop_Artist>
           <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text2}></MainContents_Middle_Adonis>
-          <Second_Title secondTitle="頭頂同一片天計畫" style={{fontFamily: "sofia-pro Sans-serif"}}></Second_Title>
-          <MainContents_Important contents="This province's condo insurance market is unhealthy and has saddled owners with sudden increases of an estimated 50 percent in Metro Vancouver, according to a three-month investigation by the B.C. Financial Services Authority."></MainContents_Important>
+          <Second_Title secondTitle="我跟你的相同，就是我們都不同" style={{fontFamily: "sofia-pro Sans-serif"}}></Second_Title>
+          <MainContents_Important contents={text3}></MainContents_Important>
           <div className="sky_space"></div>
         <Button1 onclick={goToForm} title="上傳照片" togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2FSky&amp;src=sdkpreparse"></Button1>
       </Container>

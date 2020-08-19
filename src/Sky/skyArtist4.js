@@ -44,11 +44,17 @@ var images = [p1, p2]
         artistInfo={artistInfo}
         artwork={p2}
         profile={p1_profile}
+
         fb=""
         ig="https://www.instagram.com/oh.alphaever/"
         yt=""
         tw=""
         other="https://abbymoment.blogspot.com/"
+        fbDisplay="none"
+        igDisplay="inline-block"
+        twitterDisplay="none"
+        ytDisplay="none"
+        otherDisplay="inline-block"
         other1={huang_profile}
         other2={huang_profile}
         other3={huang_profile}

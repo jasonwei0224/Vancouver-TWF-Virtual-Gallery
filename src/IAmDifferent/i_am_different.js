@@ -17,8 +17,7 @@ import MainContents_Middle from "../modules/MainContents_Middle"
 import MainContents_Important from "../modules/MainContents_Important"
 import MainContents_WithBold_Impt from "../modules/MainContents_WithBold_Impt"
 import MainContents_With_Bold from "../modules/MainContents_WithBold"
-
-
+import MainContents_Middle_Adonis from "../modules/MainContents_Middle_Adonis"
 
 function IAmDifferent() {
   const diffForm = <Link to="IAmDifferent"></Link>;
@@ -37,7 +36,7 @@ function IAmDifferent() {
   const goToForm=()=> {
     window.location='/IAmDifferentForm';
   };
-
+  var text2=``
   return (
     <div>
       <Container fluid>
@@ -54,7 +53,7 @@ function IAmDifferent() {
           color="#246f79"
         ></ProgramInfo>
 
-      <Second_Title secondTitle="About This Work:" style={{fontFamily: "sofia-pro"}}></Second_Title>
+      <Second_Title secondTitle="How to interact with this work:" style={{fontFamily: "sofia-pro"}}></Second_Title>
 
 
         <MainContents_WithBold_Impt   contents="" bold='“I’m different, just like you! - We are all in this together” ' contents2="is an interactive exhibition piece that grows as people continue to contribute to it. Through these most recent difficult times, we have all come to rely on the skills and hard work of the front-line workers who have all come from different backgrounds to serve their communities. This piece serves to highlight these essential workers and deliver the message that, though we may look different and share varied values, We are all in this together."></MainContents_WithBold_Impt>

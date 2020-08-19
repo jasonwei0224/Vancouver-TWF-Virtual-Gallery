@@ -27,10 +27,10 @@ function SkyArtist(props) {
           title= {props.title}
           artistName= {props.location}
           url="https://www.facebook.com/sharer/sharer.php?u=https://www.acsea.ca/"
-          color="#D9C739"
+          color="#246f79"
           ></ProgramInfoCH>
 
-        <Row><Col xl={{offset:2}} lg={{offset:1}} md={{offset:1}} sm={{offset:1}} xs={{offset:1}}><p className="artTitle">{props.artName}</p></Col></Row>
+        <Row><Col xl={{offset:2}} lg={{offset:2}} md={{offset:1}} sm={{offset:1}} xs={{offset:1}}><p className="artTitle">{props.artName}</p></Col></Row>
 
         <MainContents_WithBold contents={props.content} bold={props.bold} contents2={props.contents2}></MainContents_WithBold>
         <MainContents_OneArtist_TwoPicCH src2={props.artwork} src={props.profile} title={props.name} contents={props.artistInfo}></MainContents_OneArtist_TwoPicCH>
@@ -38,11 +38,11 @@ function SkyArtist(props) {
       <Row >
           <Col className="SA_artistInfo" xl={{span:10, offset:2}} lg={{span:10, offset:2}} md={{span:1, offset:1}} sm={{ span:1, offset:1}} xs={{span:1, offset:1}}>
             <span className="SA_artistInfo">藝術家資訊</span>
-              <SocialIcon network="facebook" url={props.fb}/>
-              <SocialIcon network="instagram" url={props.ig}/>
-              <SocialIcon network="youtube" url={props.yt}/>
-              <SocialIcon network="twitter" url={props.tw}/>
-              <SocialIcon url={props.other}/>
+              <SocialIcon style={{display: props.fbDisplay}} network="facebook" url={props.fb}/>
+              <SocialIcon style={{display: props.igDisplay}} network="instagram" url={props.ig}/>
+              <SocialIcon style={{display: props.ytDisplay}} network="youtube" url={props.yt}/>
+              <SocialIcon style={{display: props.twitterDisplay}} network="twitter" url={props.tw}/>
+              <SocialIcon style={{display: props.otherDisplay}} url={props.other}/>
             </Col>
         </Row>
     </div>
@@ -54,11 +54,11 @@ function SkyArtist(props) {
         </Row>
         <Row>
           <Col xl={{span:10, offset:2}} lg={{span:10, offset:1}} md={{span:10, offset:1}} sm={{ span:10, offset:1}} xs={{span:10, offset:1}}>
-            <SocialIcon network="facebook" url={props.fb}/>
-            <SocialIcon network="instagram" url={props.ig}/>
-            <SocialIcon network="youtube" url={props.yt}/>
-            <SocialIcon network="twitter" url={props.tw}/>
-            <SocialIcon url={props.other}/>
+            <SocialIcon style={{display: props.fbDisplay}} network="facebook" url={props.fb}/>
+            <SocialIcon style={{display: props.igDisplay}} network="instagram" url={props.ig}/>
+            <SocialIcon style={{display: props.ytDisplay}} network="youtube" url={props.yt}/>
+            <SocialIcon style={{display: props.twitterDisplay}} network="twitter" url={props.tw}/>
+            <SocialIcon style={{display: props.otherDisplay}} url={props.other}/>
           </Col>
         </Row>
         </div>

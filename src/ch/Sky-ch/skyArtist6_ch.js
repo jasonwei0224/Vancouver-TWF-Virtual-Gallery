@@ -78,6 +78,11 @@ function SkyArtist3() {
         yt=""
         tw=""
         other="www.valeriedurant.ca"
+        fbDisplay="inline-block"
+        igDisplay="inline-block"
+        twitterDisplay="none"
+        ytDisplay="none"
+        otherDisplay="inline-block"
         other1={huang_profile}
         other2={huang_profile}
         other3={huang_profile}

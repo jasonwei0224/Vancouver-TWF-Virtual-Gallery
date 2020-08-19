@@ -37,7 +37,7 @@ var artistInfo=`出身台灣台中 Tbulan 部落的泰雅族人，中央警察�
 
 前身為警察，每天與社會最黑暗的角落相處，和街頭抗議的孩子們和平對峙，這一個正義角色帶給他很多矛盾與生命裡獨特的歷程。現在的他卸下這個角色成為專職的攝影師，他回頭行走他的文化認同，他朝向未來紀錄著剛剛落地的生命喜悅，現在的他轉彎後看見不一樣的社會角度，用相機來累積他感動的故事。
 
-美國知名攝影家Ansel Adams說過一句話：「我們不只是用相機照相，我們帶到攝影中的，是所有我們讀過的書，看過的電影，聽過的音樂及愛過的人」。`
+美國知名攝影家 Ansel Adams 說過一句話：「我們不只是用相機照相，我們帶到攝影中的，是所有我們讀過的書，看過的電影，聽過的音樂及愛過的人」。`
   return (
     <div>
     <img src={huang} style={{width:"100%", height:"auto"}}></img>
@@ -56,6 +56,11 @@ var artistInfo=`出身台灣台中 Tbulan 部落的泰雅族人，中央警察�
       yt=""
       tw=""
       other="https://www.syaximage.com"
+      fbDisplay="inline-block"
+      igDisplay="inline-block"
+      twitterDisplay="none"
+      ytDisplay="none"
+      otherDisplay="inline-block"
       other1={sara_profile}
       other2={valerie_profile}
       other3={peter_profile}

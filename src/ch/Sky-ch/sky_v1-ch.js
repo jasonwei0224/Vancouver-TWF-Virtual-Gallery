@@ -13,6 +13,7 @@ import FormSectionTitle_ch from "../../modules/FormSection_Title_ch"
 import MainContents_First_ch from "../../modules/MainContents_First_ch"
 import MainContents_Middle_ch from "../../modules/MainContents_Middle_ch"
 import MainContents_Important_ch from "../../modules/MainContents_Important_ch"
+import MainContents_Middle_Adonis from "../../modules/MainContents_Middle_Adonis"
 import FormComponent from "../../modules/formComponent"
 import FormFile from "../../modules/FormFile"
 import FormConsent_ch from "../../modules/FormConsent_ch"
@@ -139,7 +140,15 @@ class SkyV1_ch extends Component {
     })
 
   }
+
   render() {
+      var text = `在同一片藍天下，當一切顏色歸零(Colour Zero)，回到一個個獨立的個體，人們究竟有何不同?
+
+無論我們身在何方，都是看著同一片天空；無論我們的外表、性格多麼不同，都是被同一片天空包覆其下；無論我們背負何種人生境遇，都是在同一片天空下經歷悲歡離合。天空不問我們的身份性別、社經背景；不辨識我們來自什麼文化，說著哪一種語言，我們同樣都能在同一片天空中，看見炎熱的陽光、溫柔的月亮、靜謐的星空、雨後的彩虹。即便我們身體殘缺、內心傷痛，時而因愛歡喜，時而因恨哀愁，依然與世界上的每一個人一樣，每天迎接日出日落，無法避免風起雨落。天空不曾因為個人的不同而排拒過任何一個人，我們每一個人與其他生命萬物相同，都只是大自然的其中一部分。
+
+當數字「8」轉為橫向成為「∞」無限符號，象徵天空的無邊無際、遼闊遠大。膚色、外貌、族裔、語言、文化，不會是限制人類理解彼此的界線；「∞」也象徵愛的永恆，當人們能互相欣賞不一樣的美麗，就能平等地認同彼此的存在價值，共同創造人類永續未來的機會。
+
+在台灣文化節活動期間，不只在溫哥華美術館前廣場能看到八座「天空」燈光裝置藝術作品，陪伴溫哥華人度過黎明與黑夜。即使你人不在溫哥華，甚至不在加拿大，你都可以隨時拍下【中午十二點】的天空照片上傳分享，立即加入我們 ! 在夏天的尾聲，透過看著同一片天空的不同風景，感受不同的空間氛圍，不受地域和時間限制，貼近彼此，相互作伴 !`
     return (
       <div>
       {/*<ImageSlider className="mainImage" />*/}
@@ -152,10 +161,7 @@ class SkyV1_ch extends Component {
       <ProgramInfo_ch subtitle="我跟你的相同, 就是我們都不同" title="頭頂同一片天計畫" artistName="台灣文化節" url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2Fsky-ch&amp;src=sdkpreparse" color="#246f79">
       </ProgramInfo_ch>
 
-      <MainContents_First_ch contents="在同一片藍天下，當一切顏色歸零(Colour Zero)，回到一個個獨立的個體，人們究竟有何不同?"></MainContents_First_ch>
-      <MainContents_Middle_ch contents="無論我們身在何方，都是看著同一片天空；無論我們的外表、性格多麼不同，都是被同一片天空包覆其下；無論我們背負何種人生境遇，都是在同一片天空下經歷悲歡離合。天空不問我們的身份性別、社經背景；不辨識我們來自什麼文化，說著哪一種語言，我們同樣都能在同一片天空中，看見炎熱的陽光、溫柔的月亮、靜謐的星空、雨後的彩虹。即便我們身體殘缺、內心傷痛，時而因愛歡喜，時而因恨哀愁，依然與世界上的每一個人一樣，每天迎接日出日落，無法避免風起雨落。天空不曾因為個人的不同而排拒過任何一個人，我們每一個人與其他生命萬物相同，都只是大自然的其中一部分。"></MainContents_Middle_ch>
-      <MainContents_Middle_ch contents="當數字「8」轉為橫向成為「∞」無限符號，象徵天空的無邊無際、遼闊遠大。膚色、外貌、族裔、語言、文化，不會是限制人類理解彼此的界線；「∞」也象徵愛的永恆，當人們能互相欣賞不一樣的美麗，就能平等地認同彼此的存在價值，共同創造人類永續未來的機會。"></MainContents_Middle_ch>
-      <MainContents_Middle_ch contents="在台灣文化節活動期間，不只在溫哥華美術館前廣場能看到八座「天空」燈光裝置藝術作品，陪伴溫哥華人度過黎明與黑夜。即使你人不在溫哥華，甚至不在加拿大，你都可以隨時拍下【中午十二點】的天空照片上傳分享，立即加入我們 ! 在夏天的尾聲，透過看著同一片天空的不同風景，感受不同的空間氛圍，不受地域和時間限制，貼近彼此，相互作伴 !"></MainContents_Middle_ch>
+        <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text}></MainContents_Middle_Adonis>
 
       <Second_Title_ch secondTitle="我跟你的相同，就是我們都不同"></Second_Title_ch>
 

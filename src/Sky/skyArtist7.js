@@ -42,6 +42,11 @@ function SkyArtist3() {
         yt=""
         tw=""
         other="https://www.saraboychuk.com"
+        fbDisplay="none"
+        igDisplay="inline-block"
+        twitterDisplay="none"
+        ytDisplay="none"
+        otherDisplay="inline-block"
         other1={huang_profile}
         other2={huang_profile}
         other3={huang_profile}

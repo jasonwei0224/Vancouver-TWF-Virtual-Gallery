@@ -50,6 +50,11 @@ Photographing in the era of White Terror control, there was no freedom.  He said
         yt=""
         tw=""
         other=""
+        fbDisplay="inline-block"
+        igDisplay="none"
+        twitterDisplay="none"
+        ytDisplay="none"
+        otherDisplay="none"
         other1={huang_profile}
         other2={huang_profile}
         other3={huang_profile}

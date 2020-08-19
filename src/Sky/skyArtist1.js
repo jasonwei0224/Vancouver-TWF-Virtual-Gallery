@@ -60,6 +60,12 @@ Ansel Adams, a well-known American photographer, said, “You don't make a photo
       ig="https://www.instagram.com/hyn_dumas/?hl=en"
       yt=""
       tw=""
+      other=""
+      fbDisplay="inline-block"
+      igDisplay="inline-block"
+      twitterDisplay="none"
+      ytDisplay="none"
+      otherDisplay="inline-block"
       other="https://www.syaximage.com"
       other1={sara_profile}
       other2={valerie_profile}

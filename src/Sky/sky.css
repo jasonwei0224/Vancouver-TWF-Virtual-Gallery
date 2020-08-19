@@ -634,11 +634,11 @@
       font-weight:bold
   }
   .sky_col_border{
-      border-bottom: solid 1px grey;
+      border-bottom: solid 1px #4E9B16;
       padding-bottom:40px
   }
   .sky_col_border2{
-    border-bottom: solid 1px grey;
+    border-bottom: solid 1px #4E9B16;
     padding-bottom:93px
   }
   .sky_artist_country{
@@ -807,11 +807,11 @@
       font-weight:bold
   }
   .sky_col_border{
-      border-bottom: solid 1px grey;
+      border-bottom: solid 1px #4E9B16;
       padding-bottom:40px
   }
   .sky_col_border2{
-    border-bottom: solid 1px grey;
+    border-bottom: solid 1px #4E9B16;
     padding-bottom:60px
   }
   .sky_artist_country{

@@ -156,7 +156,6 @@ class IAmDifferentForm extends Component {
           <MainContents_WithBold contents="On this page, front-line workers and organizations can submit their photo(s) to be part of the evolving virtual exhibition" bold=' “I’m different, just like you! - We are all in this together”. ' contents2=" It may take a few business days after the listed time above for your photo to be shown. An email will be sent once the photo has been approved."></MainContents_WithBold>
 
 
-
           <FormSectionTitle title="INFO ABOUT THE PHOTO"></FormSectionTitle>
 
           <Form encType="multipart/form-data">

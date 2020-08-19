@@ -16,6 +16,8 @@ import IncompleteFormModal from "../../incompleteFormModal";
 import SuccessModal from '../../successModal';
 import InvalidFileModal from '../../invalidFileModal';
 
+import MainContents_Middle_Adonis from "../../modules/MainContents_Middle_Adonis"
+
 class IAmDifferentForm extends Component {
 
   constructor(props) {
@@ -138,6 +140,7 @@ class IAmDifferentForm extends Component {
 
   }
     render() {
+      var text =`本計畫蒐集醫護人員、警消人員、科學家、衛生官員等防疫幕後英雄的照片，我們邀請您無論身在何處，若您自己或您的家人、朋友是醫護人員、警消人員、科學家、衛生官員等專業人士，請您不吝惜地分享給我們上述職業人士的照片，與我們一起向世界各地的抗疫英雄致敬。`
     return (
       <div>
         <Container fluid>
@@ -148,8 +151,8 @@ class IAmDifferentForm extends Component {
           </Row>
 
           <ProgramInfo_ch subtitle="我跟你的相同，就是我們都不同" title="共同面對的我們" artistName="台灣文化節" url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FIAmDifferentForm-ch&amp;src=sdkpreparse"  color="#246f79"></ProgramInfo_ch>
-          <MainContents_First_ch contents="本計畫蒐集醫護人員、警消人員、科學家、衛生官員等防疫幕後英雄的照片，我們邀請您無論身在何處，若您自己或您的家人、朋友是醫護人員、警消人員、科學家、衛生官員等專業人士，請您不吝惜地分享給我們上述職業人士的照片，與我們一起向世界各地的抗疫英雄致敬。"></MainContents_First_ch>
 
+          <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text}></MainContents_Middle_Adonis>
           <FormSectionTitle_ch title="照片資訊"></FormSectionTitle_ch>
 
           <Form encType="multipart/form-data">
