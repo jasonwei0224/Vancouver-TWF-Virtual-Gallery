@@ -152,7 +152,7 @@ class IAmDifferentForm extends Component {
 
           <ProgramInfo_ch subtitle="我跟你的相同，就是我們都不同" title="共同面對的我們" artistName="台灣文化節" url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FIAmDifferentForm-ch&amp;src=sdkpreparse"  color="#246f79"></ProgramInfo_ch>
 
-          <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text}></MainContents_Middle_Adonis>
+          <MainContents_Middle_Adonis font="adonis-web" contents={text}></MainContents_Middle_Adonis>
           <FormSectionTitle_ch title="照片資訊"></FormSectionTitle_ch>
 
           <Form encType="multipart/form-data">

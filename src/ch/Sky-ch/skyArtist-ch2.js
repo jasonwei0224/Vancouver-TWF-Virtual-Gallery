@@ -2,7 +2,7 @@ import React from 'react';
 
 import Placeholder_Person from "../../assets/Placeholder_Person.jpg";
 import { Container, Row, Col } from "react-bootstrap";
-import ProgramInfoCH from '../programInfo-ch';
+import ProgramInfoCH from '../programInfo-ch2';
 import Second_Title from "../../modules/Second_Title"
 import MainContents_First from "../../modules/MainContents_First"
 import MainContents_Middle_Adonis from "../../modules/MainContents_Middle_Adonis"
@@ -26,7 +26,7 @@ function SkyArtist(props) {
           subtitle="天空"
           title= {props.title}
           artistName= {props.location}
-          artistName2= {props.location2}
+          title2= {props.title2}
           url="https://www.facebook.com/sharer/sharer.php?u=https://www.acsea.ca/"
           color="#246f79"
           ></ProgramInfoCH>

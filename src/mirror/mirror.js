@@ -19,7 +19,7 @@ import firefighter from "../assets/firefighter.jpg";
 import MainContetn_TwoPic from "../modules/MainContent_TwoPic";
 import MirrorBird from "./mirrorBird"
 import MainContents_Middle_Adonis from "../modules/MainContents_Middle_Adonis"
-import MainContents_Important_With_Border from "../modules/MainContents_Important_with_border"
+import MainContents_Important_With_Border_two_bolder from "../modules/MainContents_Important_with_border_two_bold"
 import MainContents_OneArtist from "../modules/MainContents_OneArtist"
 import mina from '../assets/人物照-Mina.jpg'
 import Slider from './img_slider_final_mirror'
@@ -50,6 +50,7 @@ Inspired by the Pop-Up Tunnel book, she has used her talents to build “the way
 
 It is not difficult to discern how her beloved Taiwan influences her works.  She values the land she grew up in, and uses her creations to find the connections and similarities between Taiwan and Canada.
 `
+
         return (
             <div className='mirror'>
 
@@ -65,7 +66,9 @@ It is not difficult to discern how her beloved Taiwan influences her works.  She
               url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2F%23%2FMirror&amp;src=sdkpreparse"
               color="#246f79"/>
             <Second_Title secondTitle="HOW TO INTERACT WITH THIS WORK" style={{fontFamily: "sofia-pro Sans-serif"}}></Second_Title>
-            <MainContents_Important_With_Border  style={{color:"#0C3866"}} contents=" Click Left and right to navigate the art works "></MainContents_Important_With_Border>
+            <MainContents_Important_With_Border_two_bolder  style={{color:"#0C3866"}} bold="Desktop: " contents=" There are a total of 5 pictures. Click on the picture to discover the messages that the artist is trying to convey. If you answer correctly, a joyful melody will be played. If you answer incorrectly, the “view artworks again” button will flash along with an error sound."
+            bold2="Mobile/Tablet: " contents2="There are a total of 5 pictures. To view the animations, please use a laptop with your browser maximized. For tablets and phones, please click on the dots on either side of the screen to navigate between drawings."></MainContents_Important_With_Border_two_bolder>
+
 
               <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text}>
               </MainContents_Middle_Adonis>

@@ -1,5 +1,5 @@
 import React from 'react';
-import SkyArtist from './skyArtist-ch';
+import SkyArtist from './skyArtist-ch2';
 import huang_profile from '../../assets/人物照 -黃約農.jpg';
 import Slider from '../../modules/img_slider_final'
 
@@ -43,7 +43,7 @@ var artistInfo=`出身台灣台中 Tbulan 部落的泰雅族人，中央警察�
     <img src={huang} style={{width:"100%", height:"auto"}}></img>
     <SkyArtist
       artName="凝視聖稜線"
-      title="Duma Temu / 黃約農"
+      title="Duma Temu"
       location="台灣"
       content={text}
       bold="策展者的話："

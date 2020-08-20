@@ -16,7 +16,7 @@ import banner from '../assets/placeholder.png';
 import ProgramInfoTwoArtist from "../programInfoTwoArtist"
 import Second_Title from "../modules/Second_Title"
 import MainContents_Middle_Adonis from "../modules/MainContents_Middle_Adonis"
-import MainContents_Important_With_Border from "../modules/MainContents_Important_with_border"
+import MainContents_Important_With_Border_one_bolder from "../modules/MainContents_Important_with_border_one_bold"
 import MainContents_TwoArtistPic from "../modules/MainContents_TwoArtistPic"
 import Footer from '../footer-temp';
 import Slider from './img_slider_final_people_and_mask'
@@ -100,7 +100,8 @@ class PeopleAndMask extends Component {
 
 
 
-          <MainContents_Important_With_Border style={{color:"#0C3866"}} contents=" Click Left and right to navigate the art works "></MainContents_Important_With_Border>
+          <MainContents_Important_With_Border_one_bolder style={{color:"#0C3866"}} bold="Desktop/Tablet/Mobile: " contents="Click on the dots on either side of the screen to view the art works (total of 6 pieces).
+"></MainContents_Important_With_Border_one_bolder>
           <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text}>
           </MainContents_Middle_Adonis>
 

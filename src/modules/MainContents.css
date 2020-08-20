@@ -23,6 +23,18 @@
   font-size: 20px;
   white-space: pre-line;
 }
+.MainContents_With_Bold{
+  margin-top:10px;
+  margin-bottom:10px;
+  /* font-family: "adonis-web"; */
+  color:#2f6e79;
+  /* font-family: adonis-web, serif; */
+  /* font-weight: normal; */
+
+  font-size: 20px;
+  white-space: pre-line;
+}
+
 .mainSection_Row {
     margin-top:10px;
     margin-bottom:10px;
@@ -41,6 +53,7 @@
   font-weight: normal;
   color: #707070;
   font-size: 20px;
+  white-space: pre-line;
 }
 .mainSection_First_Row_ch {
     margin-top: 50px;
@@ -166,6 +179,18 @@
     font-size: 20px;
     white-space: pre-line;
   }
+  .MainContents_With_Bold{
+    margin-top:10px;
+    margin-bottom:10px;
+    /* font-family: "adonis-web"; */
+    color:#2f6e79;
+    font-family: sofia-pro, Sans-serif;
+    font-size:28px;
+    /* font-weight: normal; */
+
+    font-size: 20px;
+    white-space: pre-line;
+  }
   .mainSection_Important_Row_border{
     font-size: 35px;
     margin-top:10px;
@@ -263,6 +288,13 @@
       color:#2f6e79;
     }
     .mainSection_Row_adonis{
+      font-size: 42px;
+      margin-top:50px;
+      margin-bottom:10px;
+      color:#2f6e79;
+      font-family: sofia-pro, Sans-serif;
+    }
+    .MainContents_With_Bold{
       font-size: 42px;
       margin-top:50px;
       margin-bottom:10px;
@@ -430,6 +462,13 @@
       color:#2f6e79;
       font-family: adonis-web, serif;
     }
+    .MainContents_With_Bold{
+      margin-top:30px;
+      margin-bottom:10px;
+      font-size: 28px;
+      color:#2f6e79;
+      font-family: adonis-web, serif;
+    }
     .mainSection_Important_Row {
         font-family: "sofia-pro", Sans-serif!important;
         font-size: 20px;
@@ -512,6 +551,12 @@
     .picture_description_title{
       font-weight: bold;
       font-size:20px;
+      margin-bottom:40px;
+      font-family: "sofia-pro", Sans-serif;
+    }
+    .picture_description_title_ch{
+      font-weight: bold;
+      font-size:18px;
       margin-bottom:40px;
       font-family: "sofia-pro", Sans-serif;
     }
