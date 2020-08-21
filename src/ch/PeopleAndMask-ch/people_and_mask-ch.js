@@ -3,12 +3,12 @@ import SwipeableViews from 'react-swipeable-views';
 import { virtualize, bindKeyboard } from 'react-swipeable-views-utils';
 import { mod } from 'react-swipeable-views-core';
 import {Container, Row, Col, Button} from 'react-bootstrap';
-import crying from '../../assets/1280-600Crying.jpg';
-import panic from '../../assets/1280-600Panic.jpg';
-import terrified from '../../assets/1280-600Terrified.jpg'
-import crying8 from '../../assets/1280-800Crying.jpg';
-import panic8 from '../../assets/1280-800Panic.jpg';
-import terrified8 from '../../assets/1280-800Terrified.jpg'
+// import crying from '../../assets/1280-600Crying.jpg';
+// import panic from '../../assets/1280-600Panic.jpg';
+// import terrified from '../../assets/1280-600Terrified.jpg'
+// import crying8 from '../../assets/1280-800Crying.jpg';
+// import panic8 from '../../assets/1280-800Panic.jpg';
+// import terrified8 from '../../assets/1280-800Terrified.jpg'
 import ladyhaohao from '../../assets/Lady Hao Hao.jpg'
 import walter from '../../assets/Walter.jpg'
 import Pagination from '../../modules/Pagination';
@@ -18,7 +18,7 @@ import Second_Title_ch from "../../modules/Second_TitleCh"
 import MainContents_Middle from "../../modules/MainContents_Middle"
 import MainContents_Important_With_Border from "../../modules/MainContents_Important_with_border"
 import MainContents_TwoArtistPic_CH from "../../modules/MainContents_TwoArtistPic_CH"
-import Footer from '../../footer-temp';
+import Footer from '../footer-ch';
 import Slider from '../../PeopleAndMask/img_slider_final_people_and_mask'
 import MobileShareButton from "../../modules/mobileShareButton";
 import "./people_and_mask-ch.css";
@@ -50,7 +50,7 @@ const styles2 = {
 
 var text = `聽不見的人，把驚嚇的人當成跳舞的人，把質疑的人當成看書的人\n看不到的人，把哭泣的人當成演戲的人，把沉默的人當成無知的人\n不開口的人，把恐慌的人當成路過的人，把怒吼的人當成唱歌的人\n\n人有自由，選擇讓耳朵塞住了， 眼睛遮住了，嘴巴堵住了\n\n但是，沒有自由可以也讓人，跳不了舞，看不了書，演不了戲，唱不了歌連裝無知、裝路過的選擇都沒了。
 `
-var images = [crying, panic, terrified]
+// var images = [crying, panic, terrified]
 
 var artistTxt1 =`加拿大台裔藝術家，高中時期移民來到加拿大，但因為寄宿家庭的限制不能畫畫，而回到台灣繼續與藝術為伍。在台灣大學畢業後，再次回到加拿大，在多元的土地上吸收養分。
 
@@ -80,7 +80,7 @@ class PeopleAndMask extends Component {
         <Container fluid>
           <div style={{borderTop: "1px solid #2f6e79"}}></div>
           <Row>
-            <Slider images={images}></Slider>
+            <Slider></Slider>
           </Row>
 
           <ProgramInfoTwoArtistCH

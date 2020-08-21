@@ -497,22 +497,6 @@ img.langIconCh-v2{
     margin-left: 56% !important;
   }
 }
-/* @media screen and (min-width: 1501px) {
-
-  div.ml-auto{
-    text-align: right;
-    align-items: center!important;
-    margin-left: 70% !important;
-  }
-} */
-/* @media screen and (min-width: 1400px) {
-  div.ml-auto{
-    text-align: right;
-    align-items: center!important;
-    margin-left: 60% !important;
-  }
-} */
-
 @media screen and (min-width: 2560px) {
   div.ml-auto{
     text-align: right;
