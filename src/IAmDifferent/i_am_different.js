@@ -55,7 +55,7 @@ function IAmDifferent() {
 
       <Second_Title secondTitle="HOW TO INTERACT WITH THIS WORK:" style={{fontFamily: "sofia-pro"}}></Second_Title>
       <MainContents_Important_With_Border_two_bolder  style={{color:"#0C3866"}} bold="Desktop: " contents="This interactive piece is completed by frontline workers who kept us safe during the pandemic. Let us get to know them! Look for all the pictures that are of the occupation shown on the top-left and bottom left of the screen."
-        bold2="Mobile/Tablet: " contents2="Please use a laptop to view this project. For tablets and phones, please click on the dots on either side of the screen to navigate between drawings."></MainContents_Important_With_Border_two_bolder>
+        bold2="Mobile / Tablet: " contents2="Please use a laptop to view this project. For tablets and phones, please click on the dots on either side of the screen to navigate between drawings."></MainContents_Important_With_Border_two_bolder>
 
 
         <MainContents_WithBold_Impt   contents="" bold='“I’m different, just like you! - We are all in this together” ' contents2="is an interactive exhibition piece that grows as people continue to contribute to it. Through these most recent difficult times, we have all come to rely on the skills and hard work of the front-line workers who have all come from different backgrounds to serve their communities. This piece serves to highlight these essential workers and deliver the message that, though we may look different and share varied values, We are all in this together."></MainContents_WithBold_Impt>

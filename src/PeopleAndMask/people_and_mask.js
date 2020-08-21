@@ -100,7 +100,7 @@ class PeopleAndMask extends Component {
 
 
 
-          <MainContents_Important_With_Border_one_bolder style={{color:"#0C3866"}} bold="Desktop/Tablet/Mobile: " contents="Click on the dots on either side of the screen to view the art works (total of 6 pieces).
+          <MainContents_Important_With_Border_one_bolder style={{color:"#0C3866"}} bold="Desktop / Tablet / Mobile: " contents="Click on the dots on either side of the screen to view the art works (total of 6 pieces).
 "></MainContents_Important_With_Border_one_bolder>
           <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text}>
           </MainContents_Middle_Adonis>
