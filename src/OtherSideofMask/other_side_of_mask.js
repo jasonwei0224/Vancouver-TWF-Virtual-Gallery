@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './other_side_of_mask.css';
-import {OBJModel} from 'react-3d-viewer'
 import image1 from '../assets/image1.jpg';
 import ladyhaohao from '../assets/Lady Hao Hao.jpg'
 import walter from '../assets/Walter.jpg'
@@ -16,6 +15,7 @@ import Footer from '../footer-temp';
 import MobileShareButton from "../modules/mobileShareButton";
 import ImageWithDescription from"../modules/MainContent_ImageWithDescription";
 import MainContents_Important_With_Border_two_bolder from "../modules/MainContents_Important_with_border_two_bold"
+import {OBJModel, MTLModel, GLTFModel, AmbientLight,DirectionLight, JSONModel} from 'react-3d-viewer'
 
 var text = `It is said that words can be sharper than a knife, and oftentimes we say things that are hurtful without it ever being our intention. The purpose of masks is to protect us from getting sick or prevent the spreading of disease, but sometimes it is our own actions or words that do more harm.
 
@@ -42,23 +42,28 @@ class OtherSideOfMask extends Component {
       <div>
         <Container fluid>
             <div style={{borderTop: "1px solid rgb(36, 111, 121)"}}></div>
-          <Row>
-            <Col xl={{span:6, offset:0}} lg={{span:12, offset:0}} md= {{span:12, offset:0}} xs={{span:12, offset:0}}className="model3D-col" >
-              <div>
-                <OBJModel src="./Bee.obj" textPath="" width="1800" height="600"
-                  position={{x:0,y:-10,z:0}} style={{backgroundColor:"black"}}/>
-              </div>
-            </Col>
-            {/*}<Col className="middle_text_other" xl={{span:0, offset:0}} lg={{span:11, offset:1}} md= {{span:10, offset:1}} xs={{span:10, offset:1}}>
-              <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text}>          </MainContents_Middle_Adonis>
-            </Col>*/}
-            <Col xl={{span:6, offset:0}} lg={{span:12, offset:0}} md= {{span:12, offset:0}} xs={{span:12, offset:0}} className="model3D-col" >
-            <div>
-              <OBJModel src="./Bee.obj" textPath="" width="1800" height="600"
-                  position={{x:0,y:-10,z:0}} style={{backgroundColor:"black"}}/>
-              </div>
-            </Col>
-          </Row>
+              <Row>
+                <Col xl={{span:6, offset:0}} lg={{span:12, offset:0}} md= {{span:12, offset:0}} xs={{span:12, offset:0}}className="model3D-col" >
+                    {/*}<div ref={ref => (this.mount = ref)} />*/}
+                    <MTLModel src="./MaskModel1.obj" mtl="./MaskModel1.mtl" width="1800" height="800" position={{x:0.5,y:-1.25,z:1}} rotation={{x:-1.3,y:1.20,z:1.5}}>
+                      <AmbientLight color={0xffffff}/>
+                   <DirectionLight color={0xffffff} position={{x:100,y:200,z:100}}/>
+                   <DirectionLight color={0xff00ff} position={{x:-100,y:200,z:-100}}/>
+
+                    </MTLModel>
+                {/*}<ModelDisplay obj="./MaskModel1.obj" mtl="./MaskModel1.mtl"></ModelDisplay>*/}
+           </Col>
+           <Col xl={{span:6, offset:0}} lg={{span:12, offset:0}} md= {{span:12, offset:0}} xs={{span:12, offset:0}}className="model3D-col" >
+
+
+             <MTLModel src="./MaskModel2.obj" mtl="./MaskModel2.mtl" width="1800" height="800" position={{x:0.5,y:-1.25,z:1}} rotation={{x:-1.3,y:1.20,z:1.5}}>
+               <AmbientLight color={0xffffff}/>
+            <DirectionLight color={0xffffff} position={{x:100,y:200,z:100}}/>
+            <DirectionLight color={0xff00ff} position={{x:-100,y:200,z:-100}}/>
+
+             </MTLModel>
+          </Col>
+        </Row>
           <ProgramInfoTwoArtist
             subtitle="Behind the Masks"
             title="THE OTHER SIDE OF MASK"
@@ -72,7 +77,7 @@ class OtherSideOfMask extends Component {
 
           <Second_Title secondTitle="HOW TO INTERACT WITH THIS WORK" style={{fontFamily: "sofia-pro Sans-serif"}}></Second_Title>
             <MainContents_Important_With_Border_two_bolder  style={{color:"#0C3866"}} bold="Desktop: " contents="There are a total of two 3D Models. Click and drag to look at different angles of the 3D models; to see details, scroll to zoom in."
-            bold2="Mobile/Tablet: " contents2="There are a total of two 3D Models. Tap and drag your finger left/right to rotate the 3D model. Pinch in and out to zoom. "></MainContents_Important_With_Border_two_bolder>
+            bold2="Mobile / Tablet: " contents2="There are a total of two 3D Models. Tap and drag your finger left/right to rotate the 3D model. Pinch in and out to zoom. "></MainContents_Important_With_Border_two_bolder>
 
           <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text}>
           </MainContents_Middle_Adonis>

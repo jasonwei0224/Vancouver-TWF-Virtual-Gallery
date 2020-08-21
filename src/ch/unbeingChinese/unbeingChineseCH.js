@@ -74,7 +74,7 @@ function UnbeingChinese() {
 
       <Second_Title secondTitle="作品互動方式：" style={{fontFamily: "sofia-pro Sans-serif"}}></Second_Title>
         <MainContents_Important_With_Border_two_bolder_ch  style={{color:"#0C3866"}} bold="桌機: " contents="請將滑鼠移至每一張圖片的上方，即可發現藝術家的創意"
-        bold2="手機/平板: " contents2="請將手指點擊每一張圖片，即可發現藝術家的創意"></MainContents_Important_With_Border_two_bolder_ch>
+        bold2="手機 / 平板: " contents2="請將手指點擊每一張圖片，即可發現藝術家的創意"></MainContents_Important_With_Border_two_bolder_ch>
 
         <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text}>
         </MainContents_Middle_Adonis>

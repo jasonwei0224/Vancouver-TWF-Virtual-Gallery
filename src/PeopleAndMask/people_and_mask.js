@@ -3,12 +3,16 @@ import SwipeableViews from 'react-swipeable-views';
 import { virtualize, bindKeyboard } from 'react-swipeable-views-utils';
 import { mod } from 'react-swipeable-views-core';
 import {Container, Row, Col, Button} from 'react-bootstrap';
-import crying from '../assets/1280-600Crying.jpg';
-import panic from '../assets/1280-600Panic.jpg';
-import terrified from '../assets/1280-600Terrified.jpg'
-import crying8 from '../assets/1280-800Crying.jpg';
-import panic8 from '../assets/1280-800Panic.jpg';
-import terrified8 from '../assets/1280-800Terrified.jpg'
+
+import scream from '../assets/1-1280-800Scream.jpg'
+import panic from '../assets/2-1280-800Panic.jpg';
+import crying from '../assets/3-1280-800Crying.jpg';
+import doubt from '../assets/4-1280-800Doubt.jpg';
+import terrified from '../assets/5-1280-800Terrified.jpg'
+import silence from '../assets/6-1280-800Silence.jpg'
+
+
+
 import ladyhaohao from '../assets/Lady Hao Hao.jpg'
 import walter from '../assets/Walter.jpg'
 import Pagination from '../modules/Pagination';
@@ -53,7 +57,7 @@ We choose to say nothing - despite seeing people who panic or scream.\n
 People are free to hear nothing, see nothing and say nothing.\n
 But, when the freedom is lost, people may have to live with a life feeling terrified, doubtful, silenced or a life involving constantly screaming, crying or panicking.
 `
-var images = [crying, panic, terrified]
+var images = [scream, panic, crying, doubt, terrified, silence]
 
 var text2=`A Taiwanese artist who immigrated to Canada during her high school years, but as she wasn’t allowed to draw or paint in Canada, she soon returned to Taiwan to pursue those desires. After she graduated from university in Taiwan, she returned to Canada to absorb the essence of this diverse land.
 
@@ -100,7 +104,7 @@ class PeopleAndMask extends Component {
 
 
 
-          <MainContents_Important_With_Border_one_bolder style={{color:"#0C3866"}} bold="Desktop/Tablet/Mobile: " contents="Click on the dots on either side of the screen to view the art works (total of 6 pieces).
+          <MainContents_Important_With_Border_one_bolder style={{color:"#0C3866"}} bold="Desktop / Tablet / Mobile: " contents="Click on the dots on either side of the screen to view the art works (total of 6 pieces).
 "></MainContents_Important_With_Border_one_bolder>
           <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text}>
           </MainContents_Middle_Adonis>
