@@ -9,7 +9,7 @@
 }
 .PI-contents {
     margin-top: 2%;
-    font-family: 'adonis-web';
+    /* font-family: 'adonis-web'; */
     overflow: hidden;
 }
 .PI-contents_two{
@@ -103,17 +103,26 @@ a.PI-shareButton:hover{
     font-family: sofia-pro, sans-serif;
   }
   .PI-Artist-p{
-    font-size:30px;
+    font-size:35px;
+    font-weight:bold;
     font-family: sofia-pro, sans-serif;
   }
   .PI-artist-two{
     color: #246f79;
-    /* font-size: 32px; */
+    font-size: 35px;
     padding: 0;
     font-style: italic;
       padding-left: 0px!important;
       margin-bottom: 0px!important;
       font-family: sofia-pro, sans-serif;
+}
+  .PI-artist {
+      color: #246f79;
+      font-size: 35px;
+      padding: 0;
+      font-style: bold;
+      font-style: italic;
+      padding-left: 0px!important;
   }
 }
 
@@ -131,6 +140,7 @@ a.PI-shareButton:hover{
   }
   .PI-Artist-p{
     font-size:35px;
+        font-weight:bold
   }
   .PI-artist-two{
     color: #246f79;
@@ -145,7 +155,8 @@ a.PI-shareButton:hover{
   }
 
   .PI-artist {
-      font-size: 32px;
+      font-size: 35px;
+      font-weight: bold;
   }
 
   a.PI-shareButton {
@@ -159,7 +170,7 @@ a.PI-shareButton:hover{
           font-size: 50px;
       }
       .PI-subtitle_twoArtist {
-          font-size: 50px;
+          font-size: 40px;
       }
       .PI-title {
           font-size: 60px;
@@ -173,6 +184,7 @@ a.PI-shareButton:hover{
       }
       .PI-Artist-p{
         font-size:42px;
+            font-weight:normal;
       }
       .PI-artist-two{
         color: #246f79;

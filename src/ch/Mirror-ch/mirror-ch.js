@@ -62,7 +62,7 @@ var images = [slide1, slide2, slide3, slide4, slide10]
               id="test"
               subtitle="插畫創作"
               title="鏡子"
-              artistName="創作：盧妍均"
+              artistName="藝術家：盧妍均"
               url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2F%23%2FMirror&amp;src=sdkpreparse"
               color="#246f79"/>
             <Second_Title secondTitle="作品互動方式：" style={{fontFamily: "sofia-pro Sans-serif"}}></Second_Title>

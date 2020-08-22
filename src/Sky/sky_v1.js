@@ -21,7 +21,7 @@ import SuccessModal from '../successModal';
 import InvalidFileModal from '../invalidFileModal';
 import mainImage from '../assets/sky4.jpeg';
 import {Helmet} from "react-helmet";
-import Slider from './img_slider_final_sky'
+import Slider from './img_slider_final_sky3'
 import MainContents_Middle_Adonis from "../modules/MainContents_Middle_Adonis"
 
 class SkyV1 extends Component {
@@ -158,11 +158,12 @@ As the province is working to reopen the economy in a safe manner and more and m
       <div>
         {/*<ImageSlider className="mainImage"/>*/}
         <Container fluid>
-          <Row>
+        {/*}  <Row>
               <Col lg={{ span: 12, offset: 0 }} xs={{ span: 12, offset: 0 }} bsPrefix="image_col">
                 <img className="main_image" src={mainImage}/>
               </Col>
-          </Row>
+          </Row>*/}
+        <Slider></Slider>
 
         <ProgramInfo subtitle="I'm different, just like you!" title="UNDER THE SAME SKY PROJECT" artistName="TAIWANfest" url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FSky&amp;src=sdkpreparse"  color="#246f79">
         </ProgramInfo>
@@ -184,12 +185,13 @@ As the province is working to reopen the economy in a safe manner and more and m
 
           <FormSectionTitle title="PHOTO INFO"></FormSectionTitle>
 
-          <Form.Row style={{marginBottom:"30px"}}>
-
+          {/*}<Form.Row style={{marginBottom:"30px"}}>*/}
+            <Row style={{marginBottom:"30px"}}>
               <Col xl={{span:8, offset:2}} lg={{span:10, offset:1}} xs={{span:10, offset:1}}>
                 <Form.Control id="description" as ="textArea" className="inputfield" type="text" placeholder="Description" size="lg"/>
               </Col>
-          </Form.Row>
+            </Row>
+          {/*}</Form.Row>*/}
 
           <FormComponent formId="location" formClassName="inputfield_form" placeHolder="Location"> </FormComponent>
           <FormComponent formId="date" formClassName="inputfield_form" placeHolder="Date"> </FormComponent>
@@ -200,8 +202,6 @@ As the province is working to reopen the economy in a safe manner and more and m
           <FormFile FormId="subjectFile" onChange={this.onChange} hint="File must be .jpg or .png and under 1MB"></FormFile>
 
           <FormConsent inputId="checkbox-3" consent= "I consent TAIWANfest to use the submitted photo(s) as part of the &quot;Under the same sky&quot; Project."></FormConsent>
-
-
             <Button1 onclick={this.submitForm} title="SUBMIT" togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FSky&amp;src=sdkpreparse"></Button1>
 
         </Form>

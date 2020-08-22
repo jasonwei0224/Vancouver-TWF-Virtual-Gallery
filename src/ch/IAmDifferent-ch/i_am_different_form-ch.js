@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Container, Row, Col, Form, Button, Modal, Dropdown} from 'react-bootstrap';
 import ProgramInfo_ch from "../programInfo-ch"
-import different_img from "../../assets/Different.jpg";
+import different_img from "../../assets/ToghtherPhoto.jpg";
 
 import './IAmDifferentForm-ch.css'
 import FooterCH from '../footer-ch';
@@ -163,8 +163,8 @@ class IAmDifferentForm extends Component {
           <FormComponent formId="subjectFirstName" formClassName="inputfield_form" placeHolder="主角 英文名字"></FormComponent>
 
 
-
-            <Form.Row style={{marginBottom:"30px"}}>
+          <Row style={{marginBottom:"30px"}}>
+            {/*}<Form.Row style={{marginBottom:"30px"}}>*/}
               <Col xl={{span:8, offset:2}} lg={{span:10, offset:1}} xs={{span:10, offset:1}}>
                   <Form.Control bsCustomPrefix = 'inputfield_select_ch' className=  'inputfield_select_ch' id="subjectOccupation" as="select" >
                     <option>主角職業</option>
@@ -181,7 +181,8 @@ class IAmDifferentForm extends Component {
                   </Form.Control>
 
                 </Col>
-            </Form.Row>
+            </Row>
+            {/*}</Form.Row>*/}
 
             <FormComponent formId="subjectEthnicity" formClassName="inputfield_form" placeHolder="主角 族裔 (英文)"></FormComponent>
             <FormComponent formId="subjectCity" formClassName="inputfield_form" placeHolder="主角 城市/國家"></FormComponent>

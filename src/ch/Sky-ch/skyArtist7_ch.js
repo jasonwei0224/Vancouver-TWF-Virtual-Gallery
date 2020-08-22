@@ -60,7 +60,7 @@ function SkyArtist3() {
         url1="/Gazing-In-Holy-Ridge-ch"
         url2="/General-Rock-Green-Island-ch"
         url3="/Hidden-In-The-Clouds-ch"
-        url4="/Infinite-Sky-For-Evertt-ch"
+        url4="/Infinite-Sky-For-Everett-ch"
         url5="/Boat-In-The-Sun-Moon-Lake-ch"
         url6="/Visible-Or-Invisible-ch"
         url7="/With-The-Passage-Of-Time-ch"

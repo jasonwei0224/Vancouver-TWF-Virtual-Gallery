@@ -36,7 +36,7 @@ return(
       <div>
       <img src={peter} style={{width:"100%", height:"auto"}}></img>
       <SkyArtist
-        artName="GENERAL ROCK - GREEN ISLAND"
+        artName="綠島將軍岩"
         title="潘小俠"
         location="台灣"
         content={text}
@@ -63,7 +63,7 @@ return(
         othername3="DUMAS TEMU"
         url1="/Gazing-In-Holy-Ridge-ch"
         url2="/Hidden-In-The-Clouds-ch"
-        url3="/Infinite-Sky-For-Evertt-ch"
+        url3="/Infinite-Sky-For-Everett-ch"
         url4="/Pause-ch"
         url5="/Boat-In-The-Sun-Moon-Lake-ch"
         url6="/Visible-Or-Invisible-ch"

@@ -29,7 +29,7 @@ function SkyArtist_Itallic(props) {
           color="#246f79"
           ></ProgramInfo>
 
-        <Row><Col lg={{offset:2}} md={{offset:1}} sm={{offset:1}} xs={{offset:1}}><p className="artTitle">{props.artName1} <span style={{fontStyle:"italic"}}>{props.artName2}</span></p></Col></Row>
+        <Row><Col lg={{offset:2}} md={{offset:1}} sm={{offset:1}} xs={{offset:1}}><p className="artTitle">{props.artName1}<span style={{fontStyle:"italic"}}>{props.artName2}</span></p></Col></Row>
 
         <MainContents_WithBold contents={props.content} bold={props.bold} contents2={props.contents2}></MainContents_WithBold>
         <MainContents_OneArtist_TwoPic src2={props.artwork} src={props.profile} title={props.name} contents={props.artistInfo}></MainContents_OneArtist_TwoPic>

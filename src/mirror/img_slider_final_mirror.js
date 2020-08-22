@@ -7,13 +7,19 @@ import image3 from '../../src/assets/mask3.jpg'
 import image4 from '../../src/assets/mask4.jpg'
 import image5 from '../../src/assets/mask5.jpg'
 // import Dots from './img_slider_final_dots_mirror_and_mask'
+//
+import slide1 from '../assets/artist_taiwan_color.jpg';
+import slide2 from '../assets/healthcare_professional_taiwan_color.jpg';
+import slide3 from '../assets/fireman_taiwan_color.jpg'
+import slide4 from '../assets/dancer-taiwan_color.jpg'
+import slide10 from '../assets/child_taiwan_color.jpg'
 
 class Slider extends React.Component {
     constructor(props) {
       super(props)
 
       this.state = {
-        images: props.images,
+        images: [slide1, slide2, slide3, slide4, slide10],
         currentIndex: 0,
         translateValue: 0
       }

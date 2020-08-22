@@ -33,7 +33,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #2f6e79;
+    background: white;
     border-radius: 50%;
     cursor: pointer;
     transition: transform ease-in .1s;
@@ -105,7 +105,7 @@
       position: relative;
       width: 100%;
       margin: 0 auto;
-      height: 700px;
+      height: 615px;
       overflow: hidden;
       white-space: nowrap;
     }
@@ -117,7 +117,7 @@
       position: relative;
       width: 100%;
       margin: 0 auto;
-      height:700px;
+      height:640px;
       overflow: hidden;
       white-space: nowrap;
     }

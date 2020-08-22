@@ -4,11 +4,23 @@
     /* font-weight: bold; */
     font-family: "sofia-pro", Sans-serif;
   }
+  .second_Title_P_bold{
+    color:#EF5797;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "sofia-pro", Sans-serif;
+  }
 .second_Title_P_ch {
     color:#EF5797;
     font-size: 40px;
     font-weight: bold;
     font-family: "sofia-pro", Sans-serif;
+    }
+    .second_Title_P_ch_no_margin{
+      color:#EF5797;
+      font-size: 35px;
+      font-weight: bold;
+      font-family: "sofia-pro", Sans-serif;
     }
     .second_Title_P_ch {
         color:#EF5797;
@@ -30,12 +42,13 @@
   .second_Title_P{
       color:#EF5797;
       font-size: 35px;
-      /* font-weight: bold; */
+      font-weight: bold;
       font-family: "sofia-pro", Sans-serif;
+            margin-top: 85px;
     }
   .second_Title_P_ch {
       color:#EF5797;
-      font-size: 35px;
+      font-size: 40px;
       font-weight: bold;
       font-family: "sofia-pro", Sans-serif;
       }
@@ -60,8 +73,9 @@
     .second_Title_P{
         color:#EF5797;
         font-size: 35px;
-        /* font-weight: bold; */
+        font-weight: bold;
         font-family: "sofia-pro", Sans-serif;
+              margin-top: 85px;
     }
     .second_Title_P_bold{
       color:#EF5797;
@@ -71,10 +85,16 @@
     }
     .second_Title_P_ch {
         color:#EF5797;
-        font-size: 35px;
+        font-size: 40px;
         font-weight: bold;
         font-family: "sofia-pro", Sans-serif;
         margin-top: 85px;
+    }
+    .second_Title_P_ch_no_margin{
+      color:#EF5797;
+      font-size: 40px;
+      font-weight: bold;
+      font-family: "sofia-pro", Sans-serif;
     }
     .second_Title_P_ch_bold {
         color:#EF5797;
@@ -103,6 +123,13 @@
       font-size: 40px;
       font-weight: bold;
       font-family: "sofia-pro", Sans-serif;
+      margin-top: 85px;
+  }
+  .second_Title_P_ch_no_margin{
+    color:#EF5797;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "sofia-pro", Sans-serif;
       margin-top: 85px;
   }
   .second_Title_P_ch_bold {
@@ -143,5 +170,13 @@
         font-family: "sofia-pro", Sans-serif;
         margin-bottom: 20px;
         margin-top: 0px;
+    }
+    .second_Title_P_ch_no_margin{
+      color:#BE0027;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: "sofia-pro", Sans-serif;
+      margin-bottom: 20px;
+      margin-top: 0px;
     }
 }

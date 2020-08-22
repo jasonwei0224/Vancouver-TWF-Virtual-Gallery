@@ -1,7 +1,7 @@
 import React from 'react';
 import ImgSlider from '../img_slider';
 import { Container, Row, Col, Button} from "react-bootstrap";
-import ProgramInfoThinLine from '../programInfoThinLine';
+import ProgramInfo from '../programInfo';
 import image1 from '../assets/image1.jpg';
 import image2 from '../assets/image2.jpg';
 import Second_Title from "../modules/Second_Title"
@@ -57,21 +57,20 @@ var text2=`In all that the world has gone through, the unchanging sky gives peop
 
 Your experience and view of the sky will be different depending on the time of day. These lanterns will create a whole new dynamic look and feel through the use of LED lights in the evenings.
 
-As the province is working to reopen the economy in a safe manner and more and more people are getting back to a new normal, please follow all public health guidelines to protect yourself and others from COVID-19. Individuals should monitor their health for signs and symptoms of COVID-19. And if you’re not feeling well, they recommend staying home at this time. Respect social-distancing measures when outdoors and visiting the exhibit. Wear a face covering to protect yourself and others, especially when social-distancing is not possible such as on transit. By visiting the on-site “Sky” activation, you acknowledge that there are inherent risks associated with the COVID-19 Pandemic and will not hold ACSEA or our programming partners liable for your health.
-`
+As the province is working to reopen the economy in a safe manner and more and more people are getting back to a new normal, please follow all public health guidelines to protect yourself and others from COVID-19. Individuals should monitor their health for signs and symptoms of COVID-19. And if you’re not feeling well, they recommend staying home at this time. Respect social-distancing measures when outdoors and visiting the exhibit. Wear a face covering to protect yourself and others, especially when social-distancing is not possible such as on transit. By visiting the on-site “Sky” activation, you acknowledge that there are inherent risks associated with the COVID-19 Pandemic and will not hold ACSEA or our programming partners liable for your health.`
   return (
     <div>
       <Container fluid style={{padding:"0"}}>
         <span className="desktop_slider_sky"><Slider images={images}/></span>
      <span className="mobile_slider_sky"><Slider2 images={images2}/></span>
 
-        <ProgramInfoThinLine
+        <ProgramInfo
           subtitle="I'm different, just like you!"
           title="SKY"
           artistName="Curator: Jessica Sung"
           url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2FSky&amp;src=sdkpreparse"
           color="#246f79"
-          ></ProgramInfoThinLine>
+          ></ProgramInfo>
 
 
         <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text}></MainContents_Middle_Adonis>
@@ -79,44 +78,44 @@ As the province is working to reopen the economy in a safe manner and more and m
         <Row>
           <Col xl={{span:2, offset:3}} lg={{span:3, offset:1}} md={{span:5, offset:1}} sm={{span:8, offset:1}} xs={{span:8, offset:1}}  className="sky_col_border2">
             <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name" style={{textAlign:"center"}}>Sara Boychuk</Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_country"style={{textAlign:"center"}}>Canada</Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={sara_profile}></img></Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_country"style={{textAlign:"center", fontWeight:"bold"}}>Canada</Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><a href="/Hidden-In-The-Clouds"><img style={{width:"100%", height:"auto"}}src={sara_profile}></img></a></Col></Row>
             <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}  ><a href="/Hidden-In-The-Clouds"><Button Button bsPrefix="sky_art1_btn" className="sky_art1_btn">HIDDENT IN THE CLOUSE</Button></a></Col></Row>
             <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}  ><a href="/Pause" style={{color:"#EF5797"}} ><Button Button bsPrefix="sky_art2_btn" className="sky_art2_btn">PAUSE</Button></a></Col></Row>
           </Col>
           <Col xl={{span:2}} lg={{span:3}} md={{span:5}} sm={{ span:3}} xs={{span:1}} className="sky_col_border2">
             <Row><Col xl={{span:12}} lg={{span:12}} style={{textAlign:"center"}} className="sky_artist_name">Valerie Durant</Col></Row>
             <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}} className="sky_artist_country">Canada</Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><img style={{width:"100%", height:"auto"}}src={valerie_profile}></img></Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}}><a  href="/Infinite-Sky-For-Evertt"><Button Button bsPrefix="sky_art3_btn" className="sky_art3_btn">INFINITE SKY FOR EVER<span style={{fontStyle:"italic"}}>ETT</span></Button></a></Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><a  href="/Infinite-Sky-For-Evertt"><img style={{width:"100%", height:"auto"}}src={valerie_profile}></img></a></Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}}><a  href="/Infinite-Sky-For-Evertt"><Button Button bsPrefix="sky_art3_btn" className="sky_art3_btn">INFINITE SKY<br/>FOR EVER<span style={{fontStyle:"italic"}}>ETT</span></Button></a></Col></Row>
           </Col>
           <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5 , offset:1}} sm={{ span:5}} xs={{span:1}} className="sky_col_border2">
             <Row><Col xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name_mobile" style={{textAlign:"center"}}>Hsien-Ling Yin</Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center"}} className="sky_artist_country">Taiwan</Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><img style={{width:"100%", height:"auto"}}src={p1_profile}></img></Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center" , fontWeight:"bold"}} className="sky_artist_country">Taiwan</Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><a href="/Visible-Or-Invisible"><img style={{width:"100%", height:"auto"}}src={p1_profile}></img></a></Col></Row>
             <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center"}}><a href="/Visible-Or-Invisible"><Button bsPrefix="sky_art4_btn" className="sky_art4_btn">VISIBLE OR INVISIBLE</Button></a> </Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center"}} ><a href="/With-The-Passage-Of-Time"><Button bsPrefix="sky_art5_btn" className="sky_art5_btn">WITH THE PASSAGE OF TIME</Button></a></Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", whtieSpace:"pre-line"}} ><a href="/With-The-Passage-Of-Time"><Button bsPrefix="sky_art5_btn" className="sky_art5_btn">WITH THE PASSAGE<br/>OF TIME</Button></a></Col></Row>
           </Col>
           <div className="sky_space"></div>
               <Col xl={{span:3}} lg={{span:3}} md={{span:0}} sm={{ span:0}} xs={{span:0}} className="empty_col"></Col>
           <Col xl={{span:2, offset:3}} lg={{span:3, offset:1}} md={{span:5}} sm={{ span:3}} xs={{span:1}}>
           <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name2_mobile" style={{textAlign:"center"}}>Hsiao-Hsia Pan</Col></Row>
-          <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}} className="sky_artist_country">Taiwan</Col></Row>
-          <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={peter_profile}></img></Col></Row>
+          <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center" , fontWeight:"bold"}} className="sky_artist_country">Taiwan</Col></Row>
+          <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><a href="/General-Rock-Green-Island"><img style={{width:"100%", height:"auto"}}src={peter_profile}></img></a></Col></Row>
           <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}}><a href="/General-Rock-Green-Island"><Button bsPrefix="sky_art6_btn" className="sky_art6_btn">GENERAL ROCK GREEN ISLAND</Button></a> </Col></Row>
 
         </Col>
         <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5, offset:1 }} sm={{ span:3}} xs={{span:3}}>
           <Row><Col xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name2_mobile" style={{textAlign:"center"}}>Dumas Temu</Col></Row>
-          <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}} className="sky_artist_country">Taiwan</Col></Row>
-          <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={huang_profile}></img></Col></Row>
+          <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center" , fontWeight:"bold"}} className="sky_artist_country">Taiwan</Col></Row>
+          <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><a  href="/Gazing-In-Holy-Ridge"><img style={{width:"100%", height:"auto"}}src={huang_profile}></img></a></Col></Row>
           <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}}> <a  href="/Gazing-In-Holy-Ridge"><Button Button bsPrefix="sky_art7_btn" className="sky_art7_btn">GAZING IN HOLY RIDGE</Button></a></Col></Row>
 
         </Col>
         <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5}} sm={{ span:3}} xs={{span:3}}>
           <Row><Col xl={{span:12}} lg={{span:12}}   md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name2_mobile" style={{textAlign:"center"}}>Estrella Chuang</Col></Row>
-          <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}} className="sky_artist_country">Taiwan</Col></Row>
-          <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={star_profile}></img></Col></Row>
+          <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center" , fontWeight:"bold"}} className="sky_artist_country">Taiwan</Col></Row>
+          <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><a href="/Boat-In-The-Sun-Moon-Lake"><img style={{width:"100%", height:"auto"}}src={star_profile}></img></a></Col></Row>
           <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center"}}> <a href="/Boat-In-The-Sun-Moon-Lake"><Button bsPrefix="sky_art8_btn" className="sky_art8_btn">THE BOAT IN THE SUN MOON LAKE</Button></a></Col></Row>
         </Col>
         </Row>
@@ -131,7 +130,7 @@ As the province is working to reopen the economy in a safe manner and more and m
 
         <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text2}></MainContents_Middle_Adonis>
         <Second_Title secondTitle="UNDER THE SAME SKY PROJECT" style={{fontFamily: "sofia-pro Sans-serif"}}></Second_Title>
-        <MainContents_Important contents="This province's condo insurance market is unhealthy and has saddled owners with sudden increases of an estimated 50 percent in Metro Vancouver, according to a three-month investigation by the B.C. Financial Services Authority."></MainContents_Important>
+        <MainContents_Important contents="Be part of the art with our Under the same sky project. Follow us on social media to find out when to take a photo of the sky wherever you are globally and upload your photo for a chance to be featured. Click the link below for more details."></MainContents_Important>
         <div className="sky_space"></div>
         <Button1 onclick={goToForm} title="UPLOAD YOUR PHOTO" togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2FSky&amp;src=sdkpreparse"></Button1>
       </Container>

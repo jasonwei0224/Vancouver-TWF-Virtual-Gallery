@@ -87,7 +87,7 @@ history.listen(location => {
           <Route path="/General-Rock-Green-Island" component={SkyArtist3}/> {/*潘小俠*/}
           <Route path="/Visible-Or-Invisible" component={SkyArtist4}/> {/*尹顯玲*/}
           <Route path="/Hidden-In-The-Clouds" component={SkyArtist5}/> {/*Sara*/}
-          <Route path="/Infinite-Sky-For-Evertt" component={SkyArtist6}/> {/*Valerie*/}
+          <Route path="/Infinite-Sky-For-Everett" component={SkyArtist6}/> {/*Valerie*/}
           <Route path="/Pause" component={SkyArtist7}/> {/*Sara*/}
           <Route path="/With-The-Passage-Of-Time" component={SkyArtist8}/> {/*尹顯玲*/}
           <Route path="/UnbeingChinese" component={UnbeingChinese}/>
@@ -104,7 +104,7 @@ history.listen(location => {
           <Route path="/General-Rock-Green-Island-ch" component={SkyArtist_ch3}/>
           <Route path="/Visible-Or-Invisible-ch" component={SkyArtist_ch4}/>
           <Route path="/Hidden-In-The-Clouds-ch" component={SkyArtist_ch5}/>
-          <Route path="/Infinite-Sky-For-Evertt-ch" component={SkyArtist_ch6}/>
+          <Route path="/Infinite-Sky-For-Everett-ch" component={SkyArtist_ch6}/>
           <Route path="/Pause-ch" component={SkyArtist_ch7}/>
           <Route path="/With-The-Passage-Of-Time-ch" component={SkyArtist_ch8}/>
           <Route path="/IAmDifferent-ch" component={IAmDifferent_ch}/>

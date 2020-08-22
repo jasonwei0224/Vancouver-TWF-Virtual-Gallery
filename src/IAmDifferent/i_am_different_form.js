@@ -4,7 +4,7 @@ import {Container, Row, Col, Form, Button, Modal} from 'react-bootstrap';
 import './IAmDifferentForm.css'
 import Footer from '../footer-temp';
 import fire from '../firebase/file';
-import different_img from "../assets/Different.jpg";
+import different_img from "../assets/ToghtherPhoto.jpg";
 import Button1 from "../modules/Button1";
 import FormSectionTitle from "../modules/FormSection_Title"
 import FormComponent from "../modules/formComponent"
@@ -158,13 +158,14 @@ class IAmDifferentForm extends Component {
 
           <FormSectionTitle title="INFO ABOUT THE PHOTO"></FormSectionTitle>
 
-          <Form encType="multipart/form-data">
+        <Form encType="multipart/form-data">
 
             <FormComponent formId="senderFullName" formClassName="inputfield_form" placeHolder="Sender Full Name"> </FormComponent>
             <FormComponent formId="senderCity" formClassName="inputfield_form" placeHolder="City And Country"> </FormComponent>
             <FormComponent formId="senderEmail" formClassName="inputfield_form" placeHolder="Email"> </FormComponent>
             <FormComponent formId="subjectFirstName" formClassName="inputfield_form" placeHolder="Subject's First Name"> </FormComponent>
-            <Form.Row style={{marginBottom:"30px"}}>
+              {/*}<Form.Row style={{marginBottom:"30px"}}>*/}
+            <Row style={{marginBottom:"30px"}}>
               <Col xl={{span:8, offset:2}} lg={{span:10, offset:1}} xs={{span:10, offset:1}}>
                   <Form.Control bsCustomPrefix = 'inputfield_selection' className=  'inputfield_selection' id="subjectOccupation" as="select" >
                     <option>Doctor</option>
@@ -180,11 +181,11 @@ class IAmDifferentForm extends Component {
                   </Form.Control>
 
                 </Col>
-            </Form.Row>
+            </Row>
+          {/*}  </Form.Row>*/}
 
             <FormComponent formId="subjectEthnicity" formClassName="inputfield_form" placeHolder="Ethnicity"> </FormComponent>
             <FormComponent formId="subjectCity" formClassName="inputfield_form" placeHolder="City, Country"> </FormComponent>
-
 
             <FormFile FormId="subjectFile" onChange={this.onChange} hint="File must be .jpg or .png and under 1MB"></FormFile>
 

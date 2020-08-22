@@ -136,7 +136,8 @@ a.dropdown-item{
   font-size: 30px !important;
   text-align: center;
   border-bottom: solid 3px #4a9c2c!important;
-
+  padding-top:16px;
+  padding-bottom:16px;
 }
 a.dropdown-item:hover{
   background-color: #4a9c2c;
@@ -236,7 +237,8 @@ a.dropdown-item{
   font-size: 30px !important;
   text-align: center;
   border-bottom: solid 3px #4a9c2c!important;
-
+  padding-top:16px;
+  padding-bottom:16px;
 }
 a.dropdown-item:hover{
   background-color: #4a9c2c;
