@@ -58,7 +58,7 @@ function SkyArtist3() {
         othername3="DUMAS TEMU"
         url1="/Gazing-In-Holy-Ridge-ch"
         url2="/General-Rock-Green-Island-ch"
-        url3="/Infinite-Sky-For-Evertt-ch"
+        url3="/Infinite-Sky-For-Everett-ch"
         url4="/Pause-ch"
         url5="/Boat-In-The-Sun-Moon-Lake-ch"
         url6="/Visible-Or-Invisible-ch"

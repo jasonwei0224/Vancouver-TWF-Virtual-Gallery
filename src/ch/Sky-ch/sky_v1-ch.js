@@ -21,7 +21,7 @@ import IncompleteFormModal_ch from "../../incompleteFormModal_ch";
 import SuccessModal_ch from '../../successModal_ch';
 import InvalidFileModal_ch from '../../invalidFileModal_ch';
 import mainImage from '../../assets/sky4.jpeg';
-
+import Slider from '../../Sky/img_slider_final_sky3'
 class SkyV1_ch extends Component {
 
   constructor(props) {
@@ -153,11 +153,12 @@ class SkyV1_ch extends Component {
       <div>
       {/*<ImageSlider className="mainImage" />*/}
       <Container fluid>
-        <Row>
+        <Slider></Slider>
+        {/*<Row>
             <Col lg={{ span: 12, offset: 0 }} xs={{ span: 12, offset: 0 }} bsPrefix="image_col">
               <img className="main_image" src={mainImage}/>
             </Col>
-        </Row>
+        </Row>*/}
       <ProgramInfo_ch subtitle="我跟你的相同, 就是我們都不同" title="頭頂同一片天計畫" artistName="台灣文化節" url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2Fsky-ch&amp;src=sdkpreparse" color="#246f79">
       </ProgramInfo_ch>
 
@@ -183,12 +184,13 @@ class SkyV1_ch extends Component {
 
 
 
-      <Form.Row style={{marginBottom:"30px"}}>
-
+      {/*}<Form.Row style={{marginBottom:"30px"}}>*/}
+          <Row style={{marginBottom:"30px"}}>
           <Col xl={{span:8, offset:2}} lg={{span:10, offset:1}} xs={{span:10, offset:1}}>
             <Form.Control id="description" className="inputfield" as ="textArea" type="text" placeholder="請簡短分享照片的故事" size="lg"/>
           </Col>
-      </Form.Row>
+        </Row>
+      {/*}</Form.Row>*/}
 
       <FormComponent formId="location" formClassName="inputfield_form" placeHolder="拍攝地點"></FormComponent>
       <FormComponent formId="date" formClassName="inputfield_form" placeHolder="拍攝日期"></FormComponent>

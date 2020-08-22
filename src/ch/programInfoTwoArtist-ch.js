@@ -8,8 +8,8 @@ const ProgramInfoTwoArtistCH = (props) => {
         <div style={{marginBottom:"100px"}}>
             {/*}<Row className="PI-contents" style={{borderTop: "1px solid " + props.color }}>*/}
                 <Col lx={{span:8, offset:2}} lg={{span:10, offset:1}} md={{span:10, offset:1}} sm={{span:10, offset:1}}  xs={{span:8, offset:2}}>
-                    <Row><p className="PI-subtitle_twoArtist-ch" >{props.subtitle}</p></Row>
-                    <Row><h1 className="PI-title_twoArtist" >{props.title}</h1></Row>
+                    <Row><p className="PI-subtitle-ch" >{props.subtitle}</p></Row>
+                    <Row><h1 className="PI-title_twoArtist-ch" >{props.title}</h1></Row>
                     <Row className="PI-secondlast">
                         <Col className="PI-artist-two-ch"><p className = "PI-Artist-p-ch" >{props.artistitle1}{props.artistName1}</p></Col>
                     </Row>

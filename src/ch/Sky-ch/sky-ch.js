@@ -8,7 +8,7 @@ import Second_Title from "../../modules/Second_Title"
 import MainContents_First from "../../modules/MainContents_First"
 import MainContents_Middle_Adonis from "../../modules/MainContents_Middle_Adonis"
 import MainContents_Important from "../../modules/MainContents_Important"
-import Button1 from "../../modules/Button1";
+import Button1 from "../../modules/ButtonCh";
 import Footer from "../footer-ch";
 import SkyImageGallery from "../../skyImageGallery";
 import './sky-ch.css'
@@ -86,21 +86,21 @@ var text3 =`在地球上不同位置的我們，相約在同一時刻拍下天�
           <Row>
             <Col xl={{span:2, offset:3}} lg={{span:3, offset:1}} md={{span:5, offset:1}} sm={{ span:8, offset:1}} xs={{span:8, offset:1}} >
               <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name" style={{textAlign:"center"}}>Sara Boychuk</Col></Row>
-              <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_country"style={{textAlign:"center"}}>加拿大</Col></Row>
-              <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={sara_profile}></img></Col></Row>
+              <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_country"style={{textAlign:"center" , fontWeight:"bold"}}>加拿大</Col></Row>
+              <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><a href="/Hidden-In-The-Clouds-ch"><img style={{width:"100%", height:"auto"}}src={sara_profile}></img></a></Col></Row>
               <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}}><a href="/Hidden-In-The-Clouds-ch"><Button bsPrefix="sky_art1_btn-ch" className="sky_art1_btn-ch">撥雲見日</Button></a></Col></Row>
               <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}}  className="sky_col_border" ><a href="/Pause-ch"><Button  bsPrefix="sky_art2_btn-ch" className="sky_art2_btn-ch">雲止時刻</Button></a></Col></Row>
             </Col>
             <Col xl={{span:2}} lg={{span:3}} md={{span:5}} sm={{ span:3}} xs={{span:1}}>
               <Row><Col xl={{span:12}} lg={{span:12}} style={{textAlign:"center"}} className="sky_artist_name">Valerie Durant</Col></Row>
-              <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}} className="sky_artist_country">加拿大</Col></Row>
-              <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><img style={{width:"100%", height:"auto"}}src={valerie_profile}></img></Col></Row>
+              <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center", fontWeight:"bold"}} className="sky_artist_country">加拿大</Col></Row>
+              <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><a href="/Infinite-Sky-For-Evertt-ch" ><img style={{width:"100%", height:"auto"}}src={valerie_profile}></img></a></Col></Row>
               <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}} className="sky_col_border2_ch"><a href="/Infinite-Sky-For-Evertt-ch" > <Button bsPrefix="sky_art3_btn-ch" className="sky_art3_btn-ch">無垠的天空</Button></a></Col></Row>
             </Col>
             <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5 , offset:1}} sm={{ span:5}} xs={{span:1}}>
               <Row><Col xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name_mobile"  style={{textAlign:"center"}}>伊顯玲</Col></Row>
-              <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center"}} className="sky_artist_country">台灣</Col></Row>
-              <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><img style={{width:"100%", height:"auto"}}src={p1_profile}></img></Col></Row>
+              <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center", fontWeight:"bold"}} className="sky_artist_country">台灣</Col></Row>
+              <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><a  href="/Visible-Or-Invisible-ch"><img style={{width:"100%", height:"auto"}}src={p1_profile}></img></a></Col></Row>
               <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center"}}><a  href="/Visible-Or-Invisible-ch"><Button bsPrefix="sky_art4_btn-ch" className="sky_art4_btn-ch">可見與不可見的</Button></a></Col></Row>
               <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center"}}  className="sky_col_border"><a href="/With-The-Passage-Of-Time-ch"><Button bsPrefix="sky_art5_btn-ch" className="sky_art5_btn-ch">時間的流逝</Button></a></Col></Row>
             </Col>
@@ -108,22 +108,22 @@ var text3 =`在地球上不同位置的我們，相約在同一時刻拍下天�
                 <Col xl={{span:3}} lg={{span:3}} md={{span:0}} sm={{ span:0}} xs={{span:0}} className="empty_col"></Col>
             <Col xl={{span:2, offset:3}} lg={{span:3, offset:1}} md={{span:5}} sm={{ span:3}} xs={{span:1}}>
             <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name2_mobile" style={{textAlign:"center"}}>潘小俠</Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}} className="sky_artist_country">台灣</Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={peter_profile}></img></Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="sky_artist_country">台灣</Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><a href="/General-Rock-Green-Island-ch"><img style={{width:"100%", height:"auto"}}src={peter_profile}></img></a></Col></Row>
             <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}}><a href="/General-Rock-Green-Island-ch"><Button  bsPrefix="sky_art6_btn-ch" className="sky_art6_btn-ch">綠島將軍岩</Button></a></Col></Row>
 
           </Col>
           <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5, offset:1 }} sm={{ span:3}} xs={{span:3}}>
             <Row><Col xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name2_mobile"  style={{textAlign:"center"}}>黃約農</Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}} className="sky_artist_country">台灣</Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={huang_profile}></img></Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="sky_artist_country">台灣</Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><a href="/Gazing-In-Holy-Ridge-ch" ><img style={{width:"100%", height:"auto"}}src={huang_profile}></img></a></Col></Row>
             <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}}><a href="/Gazing-In-Holy-Ridge-ch" ><Button bsPrefix="sky_art7_btn-ch" className="sky_art7_btn-ch">凝視聖稜線</Button></a></Col></Row>
 
           </Col>
           <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5}} sm={{ span:3}} xs={{span:3}}>
             <Row><Col xl={{span:12}} lg={{span:12}}   md={{span:12}} sm={{Sspan:12}} xs={{span:12}}  className="sky_artist_name2_mobile" style={{textAlign:"center"}}>莊心瑀</Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}} className="sky_artist_country">台灣</Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={star_profile}></img></Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="sky_artist_country">台灣</Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><a href="/Boat-In-The-Sun-Moon-Lake-ch"><img style={{width:"100%", height:"auto"}}src={star_profile}></img></a></Col></Row>
             <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center"}}><a href="/Boat-In-The-Sun-Moon-Lake-ch"><Button  bsPrefix="sky_art8_btn-ch" className="sky_art8_btn-ch">日月潭四手網船</Button></a></Col></Row>
           </Col>
           </Row>
@@ -137,7 +137,7 @@ var text3 =`在地球上不同位置的我們，相約在同一時刻拍下天�
           <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text2}></MainContents_Middle_Adonis>
           <Second_Title secondTitle="我跟你的相同，就是我們都不同" style={{fontFamily: "sofia-pro Sans-serif"}}></Second_Title>
           <MainContents_Important contents={text3}></MainContents_Important>
-          <div className="sky_space"></div>
+
         <Button1 onclick={goToForm} title="上傳照片" togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2FSky&amp;src=sdkpreparse"></Button1>
       </Container>
 

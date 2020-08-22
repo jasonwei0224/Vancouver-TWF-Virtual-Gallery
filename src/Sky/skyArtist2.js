@@ -66,7 +66,7 @@ Inspired by her father’s photo records with her family, and the stunning pictu
         url1="/Gazing-In-Holy-Ridge"
         url2="/General-Rock-Green-Island"
         url3="/Hidden-In-The-Clouds"
-        url4="/Infinite-Sky-For-Evertt"
+        url4="/Infinite-Sky-For-Everett"
         url5="/Pause"
         url6="/Visible-Or-Invisible"
         url7="/With-The-Passage-Of-Time"
