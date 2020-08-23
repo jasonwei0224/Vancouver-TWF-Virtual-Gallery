@@ -145,7 +145,7 @@ export default class HeaderV2 extends React.Component {
                     <NavDropdown.Item bsPrefix="dropdown-item"href="">保羅的蘋果</NavDropdown.Item>
                     <NavDropdown.Item bsPrefix="dropdown-item"href="">傲慢與偏見</NavDropdown.Item>
                       <NavDropdown.Item bsPrefix="dropdown-item"href="">共同面對的我們</NavDropdown.Item>
-                      <NavDropdown.Item bsPrefix="dropdown-item"href="">頭頂同一片天計畫</NavDropdown.Item>
+                      <NavDropdown.Item bsPrefix="dropdown-item"href="">同一片天計畫</NavDropdown.Item>
 
 
                   </NavDropdown>
@@ -220,7 +220,7 @@ export default class HeaderV2 extends React.Component {
                         <NavDropdown.Item bsPrefix="dropdown-item"href="/PaulsApple-ch">保羅的蘋果</NavDropdown.Item>
                         <NavDropdown.Item bsPrefix="dropdown-item"href="/PeopleAndMask-ch">傲慢與偏見</NavDropdown.Item>
                           <NavDropdown.Item bsPrefix="dropdown-item"href="/IAmDifferentForm-ch">共同面對的我們</NavDropdown.Item>
-                          <NavDropdown.Item bsPrefix="dropdown-item"href="/sky_form-ch">頭頂同一片天計畫</NavDropdown.Item>
+                          <NavDropdown.Item bsPrefix="dropdown-item"href="/sky_form-ch">同一片天計畫</NavDropdown.Item>
 
 
                       </NavDropdown>

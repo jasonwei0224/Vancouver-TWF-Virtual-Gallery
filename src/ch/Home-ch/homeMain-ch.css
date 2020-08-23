@@ -7,6 +7,7 @@
     font-size: 24pt;
     font-family: sofia-pro, sans-serif; /*changed*/
     margin-top: 60px;
+      font-weight: normal!important;
 }
 #home_colored_header_title2_ch { /*changed*/
     background-color:#2F6E79;
@@ -16,6 +17,7 @@
     font-family: sofia-pro, sans-serif; /*changed*/
     margin-top: 60px;
     text-align: center;
+    font-weight: normal!important;
 }
 
 /* xs < 768 */
@@ -27,6 +29,7 @@
         padding-bottom: 5%;
         text-align: center;
         font-size: 50px;
+          font-weight: normal!important;
      }
      #home_colored_header_title2_ch {
        padding-top: 5%;
@@ -42,6 +45,7 @@
      #home_colored_header_title2_ch {
          padding-top: 5%;
          padding-bottom: 5%;
+         font-weight: normal!important;
       }
 
 }
@@ -54,14 +58,14 @@
         padding-bottom: 5%;
         text-align: center;
         font-size: 50px;
-        font-weight:bold
+          font-weight: normal!important;
      }
      #home_colored_header_title2_ch{
        padding-top: 5%;
        padding-bottom: 5%;
        text-align: center;
        font-size: 50px;
-       font-weight:bold
+       font-weight: normal!important;
      }
 }
 
@@ -72,10 +76,12 @@
     #home_colored_header_title_ch {
         padding-top: 0;
         padding-bottom: 0;
+          font-weight: normal!important;
      }
     #home_colored_header_title_ch{
       padding-top:0;
       padding-bottom: 0;
+      font-weight: normal!important;
     }
 
 }
@@ -88,6 +94,7 @@
       font-size:30px;
       padding-top:5px;
       padding-bottom:5px;
+        font-weight: normal!important;
     }
     #home_colored_header_title2_ch{
       /* text-align: left; */
@@ -95,6 +102,7 @@
       padding-top:5px;
       padding-bottom:5px;
       margin-top:120px;
+      font-weight: normal!important;
     }
 
 }
@@ -105,6 +113,7 @@
     padding-top:5px;
     padding-bottom:5px;
     margin-top:240px;
+    font-weight: normal!important;
   }
 
 
