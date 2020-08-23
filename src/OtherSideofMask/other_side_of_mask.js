@@ -16,6 +16,8 @@ import MobileShareButton from "../modules/mobileShareButton";
 import ImageWithDescription from"../modules/MainContent_ImageWithDescription";
 import MainContents_Important_With_Border_two_bolder from "../modules/MainContents_Important_with_border_two_bold"
 import {OBJModel, MTLModel, GLTFModel, AmbientLight,DirectionLight, JSONModel} from 'react-3d-viewer'
+import MaskInfo from './maskInfo'
+
 
 var text = `It is said that words can be sharper than a knife, and oftentimes we say things that are hurtful without it ever being our intention. The purpose of masks is to protect us from getting sick or prevent the spreading of disease, but sometimes it is our own actions or words that do more harm.
 
@@ -53,7 +55,7 @@ class OtherSideOfMask extends Component {
                     </MTLModel>
                 {/*}<ModelDisplay obj="./MaskModel1.obj" mtl="./MaskModel1.mtl"></ModelDisplay>*/}
            </Col>
-           <Col xl={{span:6, offset:0}} lg={{span:12, offset:0}} md= {{span:12, offset:0}} xs={{span:12, offset:0}}className="model3D-col" >
+           <Col xl={{span:6, offset:0}} lg={{span:12, offset:0}} md= {{span:12, offset:0}} xs={{span:12, offset:0}}className="model3D-col2" >
 
 
              <MTLModel src="./MaskModel2.obj" mtl="./MaskModel2.mtl" width="1800" height="800" position={{x:0.5,y:-1.25,z:1}} rotation={{x:-1.3,y:1.20,z:1.5}}>
@@ -81,9 +83,17 @@ class OtherSideOfMask extends Component {
 
           <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text}>
           </MainContents_Middle_Adonis>
-
-
-          <MainContents_TwoArtistPic pic1={ladyhaohao} title1="Lady Hao Hao"contents1={text2} pic2={walter} title2="Walter Kao" contents2={text3}></MainContents_TwoArtistPic>
+          <Row>
+            <Col xl={{span:6, offset:0}} lg={{span:12, offset:0}} md= {{span:12, offset:0}} xs={{span:12, offset:0}}className="model3D-col3" >
+              <MTLModel src="./MaskModel2.obj" mtl="./MaskModel2.mtl" width="1800" height="800" position={{x:0.5,y:-1.25,z:1}} rotation={{x:-1.3,y:1.20,z:1.5}}>
+                <AmbientLight color={0xffffff}/>
+                <DirectionLight color={0xffffff} position={{x:100,y:200,z:100}}/>
+                <DirectionLight color={0xff00ff} position={{x:-100,y:200,z:-100}}/>
+              </MTLModel>
+           </Col>
+          </Row>
+          <MaskInfo></MaskInfo>
+          <MainContents_TwoArtistPic pic1={ladyhaohao} title1="Lady Hao Hao"contents1={text2} pic2={walter} title2="Walter Kao / Yani-X" contents2={text3}></MainContents_TwoArtistPic>
           <div className="people_padding"></div>
 
           <MobileShareButton togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2F%23%2FOtherSideOfMask&amp;src=sdkpreparse"></MobileShareButton>
