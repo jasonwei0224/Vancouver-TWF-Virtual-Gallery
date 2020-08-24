@@ -94,7 +94,7 @@ var text3 =`在地球上不同位置的我們，相約在同一時刻拍下天�
             <Col xl={{span:2}} lg={{span:3}} md={{span:5}} sm={{ span:3}} xs={{span:1}}>
               <Row><Col xl={{span:12}} lg={{span:12}} style={{textAlign:"center"}} className="sky_artist_name">Valerie Durant</Col></Row>
               <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center", fontWeight:"bold"}} className="sky_artist_country">加拿大</Col></Row>
-              <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><a href="/Infinite-Sky-For-Evertt-ch" ><img style={{width:"100%", height:"auto"}}src={valerie_profile}></img></a></Col></Row>
+              <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><a href="/Infinite-Sky-For-Everett-ch" ><img style={{width:"100%", height:"auto"}}src={valerie_profile}></img></a></Col></Row>
               <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}} className="sky_col_border2_ch"><a href="/Infinite-Sky-For-Everett-ch" > <Button bsPrefix="sky_art3_btn-ch" className="sky_art3_btn-ch">無垠的天空</Button></a></Col></Row>
             </Col>
             <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5 , offset:1}} sm={{ span:5}} xs={{span:1}}>
