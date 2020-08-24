@@ -45,7 +45,7 @@ function IAmDifferent() {
 
 上傳照片的民眾，不僅可能在台灣文化節網站看到自己、親友或世界各地相同職業人士的照片，還能在我們的網站上進行影像互動體驗，一起邀更多朋友響應 "I’m different, just like you."
 
-8/28起，分享照片的朋友，可以在網站上，看到自己分享的照片，以及體驗影線互動遊戲 !`
+9/5起，分享照片的朋友，可以在網站上，看到自己分享的照片，以及體驗影線互動遊戲 !`
 
 var instruction1 = `此互動作品是由這次疫情中保護我們的前線作業人員一起完成的互動遊戲，讓我們好好的認識他們！遊戲的問題在左上方，請滑鼠點擊圖片並找出職業相同的前線人員們。
 `
@@ -338,7 +338,7 @@ var pick_job = function (){
         <ProgramInfo_ch
           subtitle="我跟你的相同，就是我們都不同 "
           title="共同面對的我們"
-          artistName="台灣文化節"
+          artistName="策展人：蘇冠誌"
           url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FIAmDifferent-ch&amp;src=sdkpreparse"
           color="#246f79"
         ></ProgramInfo_ch>

@@ -73,11 +73,11 @@ function SkyArtist3() {
         artistInfo={artistInfo}
         artwork={valerie}
         profile={valerie_profile}
-        fb="https://www.facebook.com/hyndumas/"
-        ig="https://www.instagram.com/hyn_dumas/?hl=en"
+        fb="https://www.valeriedurant.ca"
+        ig="https://www.instagram.com/valeriedurantvancouver/?hl=en"
         yt=""
         tw=""
-        other="www.valeriedurant.ca"
+        other="https://www.valeriedurant.ca"
         fbDisplay="inline-block"
         igDisplay="inline-block"
         twitterDisplay="none"

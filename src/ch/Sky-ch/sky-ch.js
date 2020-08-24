@@ -56,7 +56,7 @@ var text=`在同一片藍天下，當一切顏色歸零(Colour Zero)，回到一
 
   var text2=`當數字「8」轉為橫向成為「∞」無限符號，象徵天空的無邊無際、遼闊遠大。膚色、外貌、族裔、語言、文化，不會是限制人類理解彼此的界線；「∞」也象徵愛的永恆，當人們能互相欣賞不一樣的美麗，平等地認同彼此的存在價值，共同創造了人類永續未來的機會。
 
-在加拿大台灣文化節活動期間，不只在溫哥華美術館前廣場能看到八座「天空」燈光裝置藝術作品，陪伴溫哥華人度過黎明與黑夜。即使你人不在溫哥華，甚至不在加拿大，你都可以隨時拍下【下午三點】的天空照片上傳分享，立即加入我們 ! 在夏天的尾聲，透過看著同一片天空的不同風景，感受不同的空間氛圍，不受地域和時間限制，貼近彼此，相互作伴 !
+在加拿大台灣文化節活動期間，不只在溫哥華美術館前廣場能看到八座「天空」燈光裝置藝術作品，陪伴溫哥華人度過黎明與黑夜。即使你人不在溫哥華，甚至不在加拿大，你都可以隨時拍下天空的照片上傳分享，立即加入我們 ! 在夏天的尾聲，透過看著同一片天空的不同風景，感受不同的空間氛圍，不受地域和時間限制，貼近彼此，相互作伴 !
 `
 var text3 =`在地球上不同位置的我們，相約在同一時刻拍下天空的包羅萬象。
 
@@ -66,7 +66,7 @@ var text3 =`在地球上不同位置的我們，相約在同一時刻拍下天�
 
 我們都不一樣，我們也都一樣 !
 
-加拿大台灣文化節邀請您追蹤我們的 Facebook 一起拍攝分享【下午三點】的天空，與世界一起反歧視、追求平等。期待有更多人看到您的天空攝影作品 !
+加拿大台灣文化節邀請您追蹤我們的 Facebook 一起拍攝天空，與世界一起反歧視、追求平等。期待有更多人看到您的天空攝影作品 !
 `
   return (
     <div>
@@ -95,10 +95,10 @@ var text3 =`在地球上不同位置的我們，相約在同一時刻拍下天�
               <Row><Col xl={{span:12}} lg={{span:12}} style={{textAlign:"center"}} className="sky_artist_name">Valerie Durant</Col></Row>
               <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center", fontWeight:"bold"}} className="sky_artist_country">加拿大</Col></Row>
               <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><a href="/Infinite-Sky-For-Evertt-ch" ><img style={{width:"100%", height:"auto"}}src={valerie_profile}></img></a></Col></Row>
-              <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}} className="sky_col_border2_ch"><a href="/Infinite-Sky-For-Evertt-ch" > <Button bsPrefix="sky_art3_btn-ch" className="sky_art3_btn-ch">無垠的天空</Button></a></Col></Row>
+              <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}} className="sky_col_border2_ch"><a href="/Infinite-Sky-For-Everett-ch" > <Button bsPrefix="sky_art3_btn-ch" className="sky_art3_btn-ch">無垠的天空</Button></a></Col></Row>
             </Col>
             <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5 , offset:1}} sm={{ span:5}} xs={{span:1}}>
-              <Row><Col xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name_mobile"  style={{textAlign:"center"}}>伊顯玲</Col></Row>
+              <Row><Col xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name_mobile"  style={{textAlign:"center"}}>尹顯玲</Col></Row>
               <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center", fontWeight:"bold"}} className="sky_artist_country">台灣</Col></Row>
               <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><a  href="/Visible-Or-Invisible-ch"><img style={{width:"100%", height:"auto"}}src={p1_profile}></img></a></Col></Row>
               <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center"}}><a  href="/Visible-Or-Invisible-ch"><Button bsPrefix="sky_art4_btn-ch" className="sky_art4_btn-ch">可見與不可見的</Button></a></Col></Row>
@@ -135,7 +135,7 @@ var text3 =`在地球上不同位置的我們，相約在同一時刻拍下天�
 
           <Dekstop_Artist></Dekstop_Artist>
           <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text2}></MainContents_Middle_Adonis>
-          <Second_Title secondTitle="我跟你的相同，就是我們都不同" style={{fontFamily: "sofia-pro Sans-serif"}}></Second_Title>
+          <Second_Title secondTitle="同一片天計畫" style={{fontFamily: "sofia-pro Sans-serif"}}></Second_Title>
           <MainContents_Important contents={text3}></MainContents_Important>
 
         <Button1 onclick={goToForm} title="上傳照片" togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2FSky&amp;src=sdkpreparse"></Button1>

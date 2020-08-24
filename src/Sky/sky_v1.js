@@ -143,6 +143,9 @@ class SkyV1 extends Component {
         console.log(err);
       })
   }
+  goToSky=()=> {
+    window.location='Sky';
+  };
   render() {
 
     var text =`What is something that you can see when you look up, no matter wherever you are in the world? The sky is one constant no matter where you are and what time of day, it is there above the horizon.
@@ -169,7 +172,11 @@ As the province is working to reopen the economy in a safe manner and more and m
         </ProgramInfo>
 
         <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text}></MainContents_Middle_Adonis>
-
+        <Row>
+          <Col style={{ marginBottom: "0px", textAlign:"center"}} xl={{span:4, offset:4}} lg={{span:8, offset:2}}sm={{span:10, offset:1}}xs={{span:10, offset:1}}>
+              <Button bsPrefix="sky_installation" onClick={this.goToSky}> SKY INSTALLATION ART</Button>
+          </Col>
+          </Row>
         <Second_Title_Bold secondTitle="Under the same sky project"></Second_Title_Bold>
 
         <MainContents_Important contents="Be part of the art with our Under the same sky project. Follow us on social media to find out when to take a photo of the sky wherever you are globally and upload your photo for a chance to be featured. Click the link below for more details."></MainContents_Important>

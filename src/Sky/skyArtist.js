@@ -37,11 +37,11 @@ function SkyArtist(props) {
       <Row >
           <Col className="SA_artistInfo" xl={{span:10, offset:2}} lg={{span:10, offset:2}} md={{span:1, offset:1}} sm={{ span:1, offset:1}} xs={{span:1, offset:1}}>
             <span className="SA_artistInfo">ARTIST INFO:</span>
-              <SocialIcon style={{display: props.fbDisplay}} network="facebook" url={props.fb}/>
-              <SocialIcon style={{display: props.igDisplay}} network="instagram" url={props.ig}/>
-              <SocialIcon style={{display: props.ytDisplay}} network="youtube" url={props.yt}/>
-              <SocialIcon style={{display: props.twitterDisplay}} network="twitter" url={props.tw}/>
-              <SocialIcon style={{display: props.otherDisplay}} url={props.other}/>
+              <SocialIcon target="_blank" rel="noopener noreferrer" style={{display: props.fbDisplay}} network="facebook" url={props.fb}/>
+              <SocialIcon target="_blank" rel="noopener noreferrer" style={{display: props.igDisplay}} network="instagram" url={props.ig}/>
+              <SocialIcon target="_blank" rel="noopener noreferrer" style={{display: props.ytDisplay}} network="youtube" url={props.yt}/>
+              <SocialIcon target="_blank" rel="noopener noreferrer" style={{display: props.twitterDisplay}} network="twitter" url={props.tw}/>
+              <SocialIcon target="_blank" rel="noopener noreferrer" style={{display: props.otherDisplay}} url={props.other}/>
             </Col>
         </Row>
     </div>
@@ -53,11 +53,11 @@ function SkyArtist(props) {
         </Row>
         <Row>
           <Col xl={{span:10, offset:2}} lg={{span:10, offset:1}} md={{span:10, offset:1}} sm={{ span:10, offset:1}} xs={{span:10, offset:1}}>
-            <SocialIcon style={{display: props.fbDisplay}} network="facebook" url={props.fb}/>
-            <SocialIcon style={{display: props.igDisplay}} network="instagram" url={props.ig}/>
-            <SocialIcon style={{display: props.ytDisplay}} network="youtube" url={props.yt}/>
-            <SocialIcon style={{display: props.twitterDisplay}} network="twitter" url={props.tw}/>
-            <SocialIcon style={{display: props.otherDisplay}} url={props.other}/>
+            <SocialIcon target="_blank" rel="noopener noreferrer" style={{display: props.fbDisplay}} network="facebook" url={props.fb}/>
+            <SocialIcon target="_blank" rel="noopener noreferrer" style={{display: props.igDisplay}} network="instagram" url={props.ig}/>
+            <SocialIcon target="_blank" rel="noopener noreferrer" style={{display: props.ytDisplay}} network="youtube" url={props.yt}/>
+            <SocialIcon target="_blank" rel="noopener noreferrer" style={{display: props.twitterDisplay}} network="twitter" url={props.tw}/>
+            <SocialIcon target="_blank" rel="noopener noreferrer" style={{display: props.otherDisplay}} url={props.other}/>
           </Col>
         </Row>
         </div>
