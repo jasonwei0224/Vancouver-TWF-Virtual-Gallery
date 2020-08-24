@@ -89,21 +89,20 @@ answers?`
         title="VALERIE DURANT"
         location="CANADA"
         content={text}
-        bold="Soaring Sky: Who are you, who am I?"
-        contents2={text2}
+
         artwork={valerie}
         artistInfo={artistInfo}
         profile={valerie_profile}
-        fb="https://www.facebook.com/hyndumas/"
-        ig="https://www.instagram.com/hyn_dumas/?hl=en"
+        fb="https://www.valeriedurant.ca"
+        ig="https://www.instagram.com/valeriedurantvancouver/?hl=en"
         yt=""
         tw=""
+        other="https://www.valeriedurant.ca"
         fbDisplay="inline-block"
         igDisplay="inline-block"
         twitterDisplay="none"
         ytDisplay="none"
         otherDisplay="inline-block"
-        other="www.valeriedurant.ca"
         other1={huang_profile}
         other2={huang_profile}
         other3={huang_profile}

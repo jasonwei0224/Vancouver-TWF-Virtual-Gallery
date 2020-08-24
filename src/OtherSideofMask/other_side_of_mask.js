@@ -17,6 +17,7 @@ import ImageWithDescription from"../modules/MainContent_ImageWithDescription";
 import MainContents_Important_With_Border_two_bolder from "../modules/MainContents_Important_with_border_two_bold"
 import {OBJModel, MTLModel, GLTFModel, AmbientLight,DirectionLight, JSONModel} from 'react-3d-viewer'
 import MaskInfo from './maskInfo'
+import other_side_hint from "../assets/otherside_hint.png"
 
 
 var text = `It is said that words can be sharper than a knife, and oftentimes we say things that are hurtful without it ever being our intention. The purpose of masks is to protect us from getting sick or prevent the spreading of disease, but sometimes it is our own actions or words that do more harm.
@@ -40,24 +41,30 @@ class OtherSideOfMask extends Component {
       audio.play()
     }
 
+    setTimeout(function() {
+        document.getElementById("other_side_hint1").style.display ="none"
+        document.getElementById("other_side_hint2").style.display ="none"
+    },5000);
+
     return (
       <div>
         <Container fluid>
             <div style={{borderTop: "1px solid rgb(36, 111, 121)"}}></div>
-              <Row>
-                <Col xl={{span:6, offset:0}} lg={{span:12, offset:0}} md= {{span:12, offset:0}} xs={{span:12, offset:0}}className="model3D-col" >
-                    {/*}<div ref={ref => (this.mount = ref)} />*/}
+              <Row >
+                <Col id="model3D-col" xl={{span:6, offset:0}} lg={{span:12, offset:0}} md= {{span:12, offset:0}} xs={{span:12, offset:0}}className="model3D-col" >
+
+
+                    <img id="other_side_hint1" className="otherside_hint" src={other_side_hint}></img>
                     <MTLModel src="./MaskModel1.obj" mtl="./MaskModel1.mtl" width="1800" height="800" position={{x:0.5,y:-1.25,z:1}} rotation={{x:-1.3,y:1.20,z:1.5}}>
+
                       <AmbientLight color={0xffffff}/>
                    <DirectionLight color={0xffffff} position={{x:100,y:200,z:100}}/>
                    <DirectionLight color={0xff00ff} position={{x:-100,y:200,z:-100}}/>
-
                     </MTLModel>
-                {/*}<ModelDisplay obj="./MaskModel1.obj" mtl="./MaskModel1.mtl"></ModelDisplay>*/}
            </Col>
            <Col xl={{span:6, offset:0}} lg={{span:12, offset:0}} md= {{span:12, offset:0}} xs={{span:12, offset:0}}className="model3D-col2" >
 
-
+             <img id="other_side_hint2" className="otherside_hint2" src={other_side_hint}></img>
              <MTLModel src="./MaskModel2.obj" mtl="./MaskModel2.mtl" width="1800" height="800" position={{x:0.5,y:-1.25,z:1}} rotation={{x:-1.3,y:1.20,z:1.5}}>
                <AmbientLight color={0xffffff}/>
             <DirectionLight color={0xffffff} position={{x:100,y:200,z:100}}/>
@@ -72,7 +79,7 @@ class OtherSideOfMask extends Component {
             artistitle1="Sketch Artist: "
             artistName1="Lady Hao Hao"
             artistitle2="3D Artist: "
-            artistName2="Walter Kao"
+            artistName2="Walter Kao / Yani-X"
             url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2F%23%2FOtherSideOfMask&amp;src=sdkpreparse"
             color="#246f79">
           </ProgramInfoTwoArtist>
@@ -93,7 +100,7 @@ class OtherSideOfMask extends Component {
            </Col>
           </Row>
           <MaskInfo></MaskInfo>
-          <MainContents_TwoArtistPic pic1={ladyhaohao} title1="Lady Hao Hao"contents1={text2} pic2={walter} title2="Walter Kao / Yani-X" contents2={text3}></MainContents_TwoArtistPic>
+          <MainContents_TwoArtistPic pic1={ladyhaohao} title1="Lady Hao Hao"contents1={text2} pic2={walter} title2="Walter Kao" contents2={text3}></MainContents_TwoArtistPic>
           <div className="people_padding"></div>
 
           <MobileShareButton togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2F%23%2FOtherSideOfMask&amp;src=sdkpreparse"></MobileShareButton>

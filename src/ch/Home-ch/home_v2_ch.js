@@ -70,7 +70,7 @@ function Home2() {
   const myRef2 = useRef(null)
   const myRef3 = useRef(null)
 
-  var text = `世界的紛亂，可能是我們人 沒有給彼此空間；\n 大自然的抗議，可能是我們沒有跟它保持距離。\n 藝術家具有冒險的精神，挑戰現實的勇氣。\n文字無法傳達的，讓畫面來說話；\n 感受不到的溫度，讓顏色來點燃。\n在這裡欣賞藝術家的作品，唯一需要的是時間與空間 \n\n 「分享系列藝廊」已開放，其他藝廊將於八月二十八日開放 `
+  var text = `世界的紛亂，可能是我們人沒有給彼此空間；\n 大自然的抗議，可能是我們沒有跟它保持距離。\n 藝術家具有冒險的精神，挑戰現實的勇氣。\n文字無法傳達的，讓畫面來說話；\n 感受不到的溫度，讓顏色來點燃。\n在這裡欣賞藝術家的作品，唯一需要的是時間與空間 \n\n 「分享系列藝廊」已開放，其他藝廊將於九月五日開放 `
     return (
 
         <div id="homeMainDiv">
@@ -112,7 +112,7 @@ function Home2() {
           </div>
         </Row>
         <HomeMobileIntro/>
-          <HomeSecondSection id="homeSecondSection" header={text}/>
+          {/*}<HomeSecondSection id="homeSecondSection" header={text}/>
           <div id="homeThirdSection">
             <span ref ={myRef}><HomeColoredHeader2 title="我跟你的相同，就是我們都不同"/></span>
               <a href=""><HoverImage className="home_image"hoverSrc ={sky_home_hover}src={sky_home_tor} style={{width:'100%', height:"auto"}}></HoverImage></a>
@@ -146,8 +146,8 @@ function Home2() {
               <HomeMobileProject url=""type=" 線上互動" title="共同面對的我們" image={diff_online_mobile}  hover={diff_online_mobile_hover}/>
               <HomeMobileProject url=""type="線上互動" title="頭頂同一片天計畫"image={sky_online_mobile}  hover={sky_online_mobile_hover}/>
 
-          </div>
-        {/*}<HomeSecondSection id="homeSecondSection" header={text}/>
+          </div>*/}
+        <HomeSecondSection id="homeSecondSection" header={text}/>
         <div id="homeThirdSection">
           <span ref ={myRef}><HomeColoredHeader2 title="我跟你的相同，就是我們都不同"/></span>
             <a href="/Sky-ch"><HoverImage className="home_image"hoverSrc ={sky_home_hover}src={sky_home_tor} style={{width:'100%', height:"auto"}}></HoverImage></a>
@@ -181,7 +181,7 @@ function Home2() {
             <HomeMobileProject url="/IAmDifferentForm-ch"type=" 線上互動" title="共同面對的我們" image={diff_online_mobile}  hover={diff_online_mobile_hover}/>
             <HomeMobileProject url="/Sky_Form-ch"type="線上互動" title="頭頂同一片天計畫"image={sky_online_mobile}  hover={sky_online_mobile_hover}/>
 
-        </div>*/}
+        </div>
           <FooterCH></FooterCH>
             {/*}  <SponsorImgSlider id="sponsorSlider"/>*/}
         </div>

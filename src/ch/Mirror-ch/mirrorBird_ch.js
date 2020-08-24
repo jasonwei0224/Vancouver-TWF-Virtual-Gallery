@@ -1,14 +1,11 @@
 import React from 'react';
-import './mirrorBird.css';
+// import './mirrorBird.css';
 import $ from "jquery";
 // window.$ = window.jQuery = jQuery;
-import pigeon from "../assets/pigeon_stop.svg";
+import pigeon from "../../assets/pigeon_stop.svg";
 import { Container, Row, Col, Button, Form } from "react-bootstrap";
-
-import mouseClick2 from '../assets/mirror_hint_red.png'
-import mouseClick3 from '../assets/mirror_hint_white.png'
-
-
+import mouseClick2 from '../../assets/mirror_hint_red.png'
+import mouseClick3 from '../../assets/mirror_hint_white.png'
 class MirrorBird extends React.Component {
   constructor(props) {
     super(props);
@@ -20,7 +17,7 @@ class MirrorBird extends React.Component {
   componentDidMount=() =>{
 
     $('#wrapper_mirror').one('click', function(e) {
-      $('#pointerDiv').css({"display":"none"});
+        $('#pointerDiv').css({"display":"none"});
       $('#box_1').addClass('bird-container bird-container--one')
       $('#bird_1').addClass('bird bird--one')
       setTimeout(function() {
@@ -65,6 +62,7 @@ class MirrorBird extends React.Component {
                         $('#container_box_bird_5').css({"display":"block"});
                         $('#container_box_bird_66').css({"display":"block"});
 
+
                         // $('#container_box_bird_5').one('click', function(e) {
                         //   e.preventDefault();
                         //   $('#box_5').addClass('bird-container bird-container--one')
@@ -102,60 +100,9 @@ class MirrorBird extends React.Component {
   checkAnswer(){
     var answer = document.getElementById("user_input_mirror").value;
     console.log(answer)
-    if(answer.toUpperCase() == "TAIWAN"){
-      var audio=new Audio('./猜對音效.mp3');
-      audio.play()
-      document.getElementById("question_txt").innerText= "Correct!!"
-    }else{
-      document.getElementById("button_mirror1").style.backgroundColor = "red";
-      document.getElementById("button_mirror2").style.backgroundColor = "red";
-      document.getElementById("button_mirror3").style.backgroundColor = "red";
-      var audio=new Audio('./猜錯音效.mp3');
-      audio.play()
-      for(var i = 0; i <200; i++){
-        document.getElementById("button_mirror1").style.backgroundColor = "red";
-        document.getElementById("button_mirror2").style.backgroundColor = "red";
-        document.getElementById("button_mirror3").style.backgroundColor = "red";
-        setTimeout(function(){
-          document.getElementById("button_mirror1").style.backgroundColor = "blue";
-          document.getElementById("button_mirror2").style.backgroundColor = "blue";
-          document.getElementById("button_mirror3").style.backgroundColor = "blue";
-        },500);
-      }
-    }
-  }
-  checkAnswer2(){
-    var answer = document.getElementById("user_input_mirror2").value;
-    console.log(answer)
-    if(answer.toUpperCase() == "TAIWAN"){
-      var audio=new Audio('./猜對音效.mp3');
-      audio.play()
-      document.getElementById("question_txt2").innerText= "Correct!!"
-    }else{
-      document.getElementById("button_mirror1").style.backgroundColor = "red";
-      document.getElementById("button_mirror2").style.backgroundColor = "red";
-      document.getElementById("button_mirror3").style.backgroundColor = "red";
-      var audio=new Audio('./猜錯音效.mp3');
-      audio.play()
-      for(var i = 0; i <200; i++){
-        document.getElementById("button_mirror1").style.backgroundColor = "red";
-        document.getElementById("button_mirror2").style.backgroundColor = "red";
-        document.getElementById("button_mirror3").style.backgroundColor = "red";
-        setTimeout(function(){
-          document.getElementById("button_mirror1").style.backgroundColor = "blue";
-          document.getElementById("button_mirror2").style.backgroundColor = "blue";
-          document.getElementById("button_mirror3").style.backgroundColor = "blue";
-        },500);
-      }
-    }
-  }
-  checkAnswer3(){
-    var answer = document.getElementById("user_input_mirror3").value;
-    console.log(answer)
     if(answer.toUpperCase() == "TAIWAN" || answer =="台灣"){
       var audio=new Audio('./猜對音效.mp3');
       audio.play()
-      document.getElementById("question_txt3").innerText= "Correct!!"
     }else{
       document.getElementById("button_mirror1").style.backgroundColor = "red";
       document.getElementById("button_mirror2").style.backgroundColor = "red";
@@ -293,7 +240,7 @@ class MirrorBird extends React.Component {
                     setTimeout(function() {
                       $('#container_box_bird_17').css({"display":"none"});
                       $('#container_box_bird_101').css({"display":"block"});
-                        $('#container_box_bird_102').css({"display":"block"});
+                      $('#container_box_bird_102').css({"display":"block"});
 
                       // $('#container_box_bird_101').one('click', function(e) {
                       //   $('#box_101').addClass('bird-container bird-container--one')
@@ -367,9 +314,7 @@ class MirrorBird extends React.Component {
             <div id="form_mirror">
               <Row>
                   <Col xl={{span:8, offset:2}} lg={{span:10, offset:1}} sm={{span:10, offset:1}}xs={{span:10, offset:1}}>
-                      <p  id="question_txt" style={{"color":"white"}}>In life, we often see things that are obvious to us and leave out others who are deemed insignificant but valuable.
-                        Other than the pigeon, what is an image that has always been there?
-                        Try again if you have overlooked it.</p>
+                      <p style={{"color":"white"}}>人一生中很容易關注明顯易見的事物而漠視了重要卻被認為微不足道的夥伴. 除了鴿子以外，有哪一個圖像一直都在我們身邊呢? 如果您忽略了它，可以再看一次!</p>
                   </Col>
               </Row>
               <Row>
@@ -420,17 +365,15 @@ class MirrorBird extends React.Component {
             <div id="form_mirror2">
               <Row>
                 <Col xl={{span:8, offset:2}} lg={{span:10, offset:1}} sm={{span:10, offset:1}}xs={{span:10, offset:1}}>
-                    <p id="question_txt2" style={{"color":"white"}}>In life, we often see things that are obvious to us and leave out others who are deemed insignificant but valuable.
-                      Other than the pigeon, what is an image that has always been there?
-                      Try again if you have overlooked it. </p>
+                    <p style={{"color":"white"}}>人一生中很容易關注明顯易見的事物而漠視了重要卻被認為微不足道的夥伴. 除了鴿子以外，有哪一個圖像一直都在我們身邊呢? 如果您忽略了它，可以再看一次! </p>
                 </Col>
             </Row>
             <Row>
                 <Col xl={{span:8, offset:2}} lg={{span:10, offset:1}} sm={{span:10, offset:1}}xs={{span:10, offset:1}}>
-                    <Form.Control id="user_input_mirror2" required size="lg"></Form.Control>
+                    <Form.Control id="user_input_mirror" required size="lg"></Form.Control>
                 </Col>
                 <Col xl={{span:8, offset:2}} lg={{span:10, offset:1}} sm={{span:10, offset:1}}xs={{span:10, offset:1}}>
-                  <Button onClick={this.checkAnswer2}>Submit</Button>
+                  <Button onClick={this.checkAnswer}>Submit</Button>
                   {/*}<p style={{"color":"white"}}>Did you miss something? </p>*/}
                   <Button  id="button_mirror2" onClick={this.refresh2}>View the drawings again</Button>
                 </Col>
@@ -472,17 +415,15 @@ class MirrorBird extends React.Component {
             <div id="form_mirror2">
               <Row>
                 <Col xl={{span:8, offset:2}} lg={{span:10, offset:1}} sm={{span:10, offset:1}}xs={{span:10, offset:1}}>
-                    <p id="question_txt3"style={{"color":"white"}}>In life, we often see things that are obvious to us and leave out others who are deemed insignificant but valuable.
-                      Other than the pigeon, what is an image that has always been there?
-                      Try again if you have overlooked it. </p>
+                    <p style={{"color":"white"}}>人一生中很容易關注明顯易見的事物而漠視了重要卻被認為微不足道的夥伴. 除了鴿子以外，有哪一個圖像一直都在我們身邊呢? 如果您忽略了它，可以再看一次!</p>
                 </Col>
             </Row>
             <Row>
                 <Col xl={{span:8, offset:2}} lg={{span:10, offset:1}} sm={{span:10, offset:1}}xs={{span:10, offset:1}}>
-                    <Form.Control id="user_input_mirror3" required size="lg"></Form.Control>
+                    <Form.Control id="user_input_mirror" required size="lg"></Form.Control>
                 </Col>
                 <Col xl={{span:8, offset:2}} lg={{span:10, offset:1}} sm={{span:10, offset:1}}xs={{span:10, offset:1}}>
-                  <Button  onClick={this.checkAnswer3}>Submit</Button>
+                  <Button  onClick={this.checkAnswer}>Submit</Button>
                   {/*}<p style={{"color":"white"}}>Did you miss something? </p>*/}
                   <Button id ="button_mirror3" onClick={this.refreshPage}>Restart</Button>
                 </Col>

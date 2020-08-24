@@ -86,7 +86,7 @@ As the province is working to reopen the economy in a safe manner and more and m
           <Col xl={{span:2}} lg={{span:3}} md={{span:5}} sm={{ span:3}} xs={{span:1}} className="sky_col_border2">
             <Row><Col xl={{span:12}} lg={{span:12}} style={{textAlign:"center"}} className="sky_artist_name">Valerie Durant</Col></Row>
             <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}} className="sky_artist_country">Canada</Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><a  href="/Infinite-Sky-For-Evertt"><img style={{width:"100%", height:"auto"}}src={valerie_profile}></img></a></Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><a  href="/Infinite-Sky-For-Everett"><img style={{width:"100%", height:"auto"}}src={valerie_profile}></img></a></Col></Row>
             <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}}><a  href="/Infinite-Sky-For-Evertt"><Button Button bsPrefix="sky_art3_btn" className="sky_art3_btn">INFINITE SKY<br/>FOR EVER<span style={{fontStyle:"italic"}}>ETT</span></Button></a></Col></Row>
           </Col>
           <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5 , offset:1}} sm={{ span:5}} xs={{span:1}} className="sky_col_border2">

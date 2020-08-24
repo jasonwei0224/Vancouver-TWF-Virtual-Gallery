@@ -44,7 +44,6 @@ var images = [p1, p2]
         artistInfo={artistInfo}
         artwork={p2}
         profile={p1_profile}
-
         fb=""
         ig="https://www.instagram.com/oh.alphaever/"
         yt=""

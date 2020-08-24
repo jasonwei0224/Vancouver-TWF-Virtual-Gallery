@@ -326,7 +326,7 @@ function IAmDifferent() {
         <ProgramInfo
           subtitle="I'm different, just like you"
           title="WE ARE ALL IN THIS TOGETHER"
-          artistName="TAIWANfest"
+          artistName="Curator: Toy Su"
           url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FIAmDifferent&amp;src=sdkpreparse"
           color="#246f79"
         ></ProgramInfo>
