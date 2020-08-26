@@ -88,7 +88,7 @@ a:hover{
     font-size: 15px;
   }
   .desktop_container {
-    display:none
+    display:block
   }
   .soa_button{
     text-align: center;
@@ -122,6 +122,9 @@ a:hover{
 }
 
 @media screen and (min-width: 992px) {
+  .soa_button{
+    font-size:20px !important;
+  }
   .SOA-container {
     margin: 0 9% 0 9%;
   }
@@ -135,7 +138,7 @@ a:hover{
     display:block;
   }
   .desktop_container{
-    display:none
+    display:block
   }
   .otherArtist_button{
       margin-bottom:50px;

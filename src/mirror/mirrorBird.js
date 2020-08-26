@@ -7,7 +7,7 @@ import { Container, Row, Col, Button, Form } from "react-bootstrap";
 
 import mouseClick2 from '../assets/mirror_hint_red.png'
 import mouseClick3 from '../assets/mirror_hint_white.png'
-
+import mouseClick4 from '../assets/mirror_click_clear.png'
 
 class MirrorBird extends React.Component {
   constructor(props) {
@@ -328,7 +328,7 @@ class MirrorBird extends React.Component {
       <div id="wrapper_mirror" >
 
         <div id="container_box_bird_1" className="mirror-bird-container">
-          <img id="pointerDiv" src={mouseClick3}></img>
+          <img id="pointerDiv" src={mouseClick4}></img>
 
           <div id="box_1">
             <div id="bird_1"></div>

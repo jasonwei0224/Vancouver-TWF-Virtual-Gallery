@@ -3,10 +3,10 @@ import { Button, Row, Col } from 'react-bootstrap';
 import './MainContents.css'
 import Second_Title from './Second_Title'
 import Second_TitleCh_NoMargin from "./Second_TitleCh_NoMargin"
-const MainContents_OneArtist = (props) => {
+const MainContents_OneArtist2 = (props) => {
     return (
         <div className="twoArtistPic">
-          <Second_TitleCh_NoMargin secondTitle="藝術家簡介"></Second_TitleCh_NoMargin>
+          <Second_Title secondTitle="藝術家簡介"></Second_Title>
             <Row className="mainSection_Row">
                 <Col xl={{span:2, offset:2}} lg={{span:5, offset:1}} md={{span:5, offset:1}} sm={{span:5, offset:1}}  xs={{span:5, offset:1}} style={{marginRight:"0px",paddingRight:"0px"}}>
                     <img src={props.src} className="mainSection_Img2"></img>
@@ -24,4 +24,4 @@ const MainContents_OneArtist = (props) => {
     );
 }
 
-export default MainContents_OneArtist;
+export default MainContents_OneArtist2;

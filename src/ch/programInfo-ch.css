@@ -82,6 +82,7 @@ a.PI-shareButton_ch:hover{
 }
 .PI-Artist-p-ch{
     margin-bottom: 0px !important;
+    font-weight: bold
 }
 @media screen and (max-width: 767px) {
   a.PI-shareButton_ch {
@@ -96,7 +97,7 @@ a.PI-shareButton_ch:hover{
   .PI-subtitle-ch {
       color: #246f79;
       margin-top: 5%;
-      /* font-weight: bold; */
+      font-weight: bold;
       font-size: 40px;
       font-family: sofia-pro, sans-serif;
   }
@@ -144,7 +145,7 @@ a.PI-shareButton_ch:hover{
   .PI-subtitle-ch {
       color: #246f79;
       margin-top: 5%;
-      /* font-weight: bold; */
+      font-weight: bold;
       font-size: 40px;
       /* font-family: sofia-pro, sans-serif; */
   }
@@ -268,7 +269,7 @@ a.PI-shareButton_ch:hover{
     .PI-subtitle-ch {
         color: #246f79;
         margin-top: 5%;
-        /* font-weight: bold; */
+        font-weight: bold;
         font-size: 30px;
         /* font-family: sofia-pro, sans-serif !important; */
     }

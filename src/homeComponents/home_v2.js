@@ -64,8 +64,11 @@ import ProjectNameRight from "./ProjectNameRight";
 import ProjectNameLeft from "./ProjectNameLeft";
 
 
-var text = `The world seems to have lost its order because we forget to give others space; nature seems to be protesting because we forget to be humble. Artists are risk takers and they dare to challenge the reality of our society.  For things words can’t express, let pictures do the talking.  For the warmth people can’t feel, maybe colours can ignite.  To appreciate our artists here, time and space are all that is required. \n\n  The galleries of your photos are open now. Galleries of all participating artists will be open starting Septebmer 5th.`
-
+var text = `The world seems to have lost its order because we forget to give others space; nature seems to be protesting because we forget to be humble. Artists are risk takers and they dare to challenge the reality of our society.  For things words can’t express, let pictures do the talking.  For the warmth people can’t feel, maybe colours can ignite.  To appreciate our artists here, time and space are all that is required. \n\n  The galleries of your photos are open now. Galleries of all participating artists will be open starting September 5th.`
+var text2= `The virtuall gallery is made possible with the following people.
+Their hard work and creativity in developing this site is greatly appreciated.`
+var creators = `Jason Wei / Gina Kim / Sangwook Yun / Eric Chang / Jessica Chu / Flemming Chow
+ Yuni Hur / Sherry Guo`
 const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)
   const useMountEffect = (fun) => useEffect(fun, [])
 
@@ -157,6 +160,27 @@ function Home2() {
               <HomeMobileProject url="" type="INTERACTIVE GAME" title="WE ARE ALL IN THIS TOGETHER" image={diff2_mobile} hover={diff2_mobile_hover} />
               <HomeMobileProject url="" type="INTERACTIVE GAME" title="UNDER THE SAME SKY PROJECT" image={sky2_mobile} hover={sky2_mobile_hover}/>
 
+          </div>
+          <div>
+            <Row>
+                <Col xl={{span:8, offset:2}} lg={{span:10, offset:2}} sm={{span:10, offset:1}}>
+                  <div className="home_border_top" style={{borderTop:"solid 2px #4A9C2C"}}/>
+                </Col>
+            </Row>
+            <Row>
+              <Col xl={{span:4, offset:4}} lg={{span:10, offset:1}} sm={{span:10, offset:1}}xs={{span:10, offset:1}} className="ack_title">-ACKNOWLEDGEMENT-</Col>
+            </Row>
+            <Row>
+              <Col xl={{span:6, offset:3}} lg={{span:10, offset:1}} sm={{span:10, offset:1}}xs={{span:10, offset:1}} className="ack_text">{text2}</Col>
+            </Row>
+            <Row>
+              <Col xl={{span:6, offset:3}} lg={{span:10, offset:1}} sm={{span:10, offset:1}}xs={{span:10, offset:1}} className="ack_name">{creators}</Col>
+            </Row>
+            <Row>
+                <Col xl={{span:8, offset:2}} lg={{span:6, offset:2}} sm={{span:10, offset:1}}>
+                  <div className="home_border_bottom"style={{borderTop:"solid 2px #4A9C2C"}}/>
+                </Col>
+            </Row>
           </div>
             <Footer content="&copy; 2020 ASIAN-CANADIAN SPECIAL EVENTS ASSOCIATION"></Footer>
           </div>

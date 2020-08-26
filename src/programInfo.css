@@ -183,8 +183,8 @@ a.PI-shareButton:hover{
           font-size: 50px;
       }
       .PI-Artist-p{
-        font-size:42px;
-            font-weight:normal;
+        font-size:30px;
+            font-weight:bold;
       }
       .PI-artist-two{
         color: #246f79;
@@ -225,7 +225,7 @@ a.PI-shareButton:hover{
       margin-bottom: 0px !important;
   }
   .PI-Artist-p{
-    font-size:25px;
+    font-size:30px;
   }
   a.PI-shareButton {
       font-size: 20px;

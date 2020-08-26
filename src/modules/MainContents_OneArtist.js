@@ -2,11 +2,11 @@ import React from 'react';
 import { Button, Row, Col } from 'react-bootstrap';
 import './MainContents.css'
 import Second_Title from './Second_Title'
-
+import Second_TitleCh_NoMargin from "./Second_TitleCh_NoMargin"
 const MainContents_OneArtist = (props) => {
     return (
         <div className="twoArtistPic">
-          <Second_Title secondTitle="ABOUT THE ARTIST"></Second_Title>
+          <Second_TitleCh_NoMargin secondTitle="ABOUT THE ARTIST"></Second_TitleCh_NoMargin>
             <Row className="mainSection_Row">
                 <Col xl={{span:2, offset:2}} lg={{span:5, offset:1}} md={{span:5, offset:1}}  xs={{span:5, offset:1}} style={{marginRight:"0px",paddingRight:"0px"}}>
                     <img src={props.src} className="mainSection_Img2"></img>

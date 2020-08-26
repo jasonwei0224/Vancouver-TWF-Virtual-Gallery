@@ -9,7 +9,7 @@ import MainContents_Important from "../../modules/MainContents_Important"
 import FooterCH from '../footer-ch';
 import Second_Title from "../../modules/Second_Title"
 import MainContents_Important_With_Border from "../../modules/MainContents_Important_with_border"
-import MainContents_OneArtistCH from "../../modules/MainContents_OneArtistCH"
+import MainContents_OneArtistCH from "../../modules/MainContents_OneArtistCH2"
 import MobileShareButton from "../../modules/mobileShareButton";
 import ladyhaohao from '../../assets/Lady Hao Hao.jpg'
 import ReactCompareImage from 'react-compare-image';
@@ -34,12 +34,21 @@ var text2=`加拿大台裔藝術家，高中時期移民來到加拿大，但因
         <div>
             <Container fluid>
 
+              <div className="compare_slider_desktop">
+                <ReactCompareImage
+                  leftImage={image1}
+                  rightImage={image2}
+                  vertical={true}
+                  sliderPositionPercentage="0.92"
+                />
+              </div>
+              <div className="compare_slider_mobile">
               <ReactCompareImage
-                leftImage={image1}
-                rightImage={image2}
-              />
-
-
+                  leftImage={image1}
+                  rightImage={image2}
+                  sliderPositionPercentage="0.9"
+                />
+            </div>
            <ProgramInfo
              id="test"
              subtitle="口罩之說"

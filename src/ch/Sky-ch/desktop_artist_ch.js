@@ -60,7 +60,7 @@ return (
       <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><a  href="/Infinite-Sky-For-Everett-ch"><img style={{width:"100%", height:"auto"}}src={valerie_profile}></img></a></Col></Row>
         <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" > <div style={{color:"#2f6e79"}}> | 作品 |</div></Col></Row>
 
-    <Row><Col  xl={{span:12}} lg={{span:12}}  className="DA_first_col" style={{textAlign:"center", fontWeight:"bold"}}  ><a  href="/Infinite-Sky-For-Evertt-ch" className="DA_artName_ch" >無垠的天空</a></Col></Row>
+    <Row><Col  xl={{span:12}} lg={{span:12}}  className="DA_first_col" style={{textAlign:"center", fontWeight:"bold"}}  ><a  href="/Infinite-Sky-For-Everett-ch"  className="DA_artName_ch" >無垠的天空</a></Col></Row>
     </Col>
     <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5 , offset:1}} sm={{ span:5}} xs={{span:1}}>
       <Row><Col xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name_mobile" style={{textAlign:"center"}}>尹顯玲</Col></Row>

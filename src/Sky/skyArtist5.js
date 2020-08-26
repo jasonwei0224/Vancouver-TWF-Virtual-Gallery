@@ -17,7 +17,7 @@ import p2 from '../assets/阿比2.jpg';
 import huang from '../assets/黃約農.jpg'
 function SkyArtist3() {
 
-    var text =`This image was taken on a day where the sky was ever-changing.  It was a surreal moment of the clouds engulfing all of the sky except for the peak of a mountain.  An interpretation can be seen: of finding the peak in the storm and keeping your head high.  Although the weather is not always in our favour, it's amazing what we can find with the right attitude.
+    var text =`This image was taken on a day where the sky was ever-changing.  It was a surreal moment of the clouds engulfing all of the sky except for the peak of a mountain.  An interpretation can be seen of finding the peak in the storm and keeping your head high.  Although the weather is not always in our favour, it's amazing what we can find with the right attitude.
 `
   var artistInfo=`As a Registered Nurse and Photographer, I am constantly reminded that we are all living under the same sky.  I have a huge passion for the outdoors and outdoor imagery as I feel it can bring us all together.`
 

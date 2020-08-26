@@ -23,6 +23,7 @@ import mainImage from '../assets/sky4.jpeg';
 import {Helmet} from "react-helmet";
 import Slider from './img_slider_final_sky3'
 import MainContents_Middle_Adonis from "../modules/MainContents_Middle_Adonis"
+import Second_Title_Red from "../modules/Second_Title_Red"
 
 class SkyV1 extends Component {
 
@@ -154,9 +155,9 @@ Working with photographers in Canada and Taiwan, Vancouver TAIWANfest presents E
 
 In all that the world has gone through, the unchanging sky gives people a sense of hope and anticipation for the feeling of a normal day to come again. Furthermore, Indigenous teachings and stories about the sky can guide us in these times. By giving each image a background story, we can implore others to look to the sky and gain strength.
 
-Your experience and view of the sky will be different depending on the time of day. These lanterns will create a whole new dynamic look and feel through the use of LED lights in the evenings.
+Your experience and view of the sky will be different depending on the time of day. These lanterns will create a whole new dynamic look and feel through the use of LED lights in the evenings.`
 
-As the province is working to reopen the economy in a safe manner and more and more people are getting back to a new normal, please follow all public health guidelines to protect yourself and others from COVID-19. Individuals should monitor their health for signs and symptoms of COVID-19. And if you’re not feeling well, they recommend staying home at this time. Respect social-distancing measures when outdoors and visiting the exhibit. Wear a face covering to protect yourself and others, especially when social-distancing is not possible such as on transit. By visiting the on-site “Sky” installation, you acknowledge that there are inherent risks associated with the COVID-19 Pandemic and will not hold ACSEA or our programming partners liable for your health.`
+var public_health=`As the province is working to reopen the economy in a safe manner and more and more people are getting back to a new normal, please follow all public health guidelines to protect yourself and others from COVID-19. Individuals should monitor their health for signs and symptoms of COVID-19. And if you’re not feeling well, they recommend staying home at this time. Respect social-distancing measures when outdoors and visiting the exhibit. Wear a face covering to protect yourself and others, especially when social-distancing is not possible such as on transit. By visiting the on-site “Sky” installation, you acknowledge that there are inherent risks associated with the COVID-19 Pandemic and will not hold ACSEA or our programming partners liable for your health.`
     return (
       <div>
         {/*<ImageSlider className="mainImage"/>*/}
@@ -172,6 +173,9 @@ As the province is working to reopen the economy in a safe manner and more and m
         </ProgramInfo>
 
         <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text}></MainContents_Middle_Adonis>
+
+          <Second_Title_Red secondTitle="PUBLIC HEALTH NOTICE"></Second_Title_Red>
+        <MainContents_Middle style={{color:"#0C3866"}} font="sofia-pro" contents={public_health}></MainContents_Middle>
         <Row>
           <Col style={{ marginBottom: "0px", textAlign:"center"}} xl={{span:4, offset:4}} lg={{span:8, offset:2}}sm={{span:10, offset:1}}xs={{span:10, offset:1}}>
               <Button bsPrefix="sky_installation" onClick={this.goToSky}> SKY INSTALLATION ART</Button>

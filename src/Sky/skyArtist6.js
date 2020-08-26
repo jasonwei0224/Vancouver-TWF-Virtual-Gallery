@@ -64,7 +64,7 @@ nature and human impact on the natural world.
 During my hours of solitude and reflection, I look to the sky and the tree canopy and find
 solace in this shared experience. Apart, on distant shores, the sky unites us in the
 magnificence of our diversity of colour and light. We shutter to the depths of our
-collective core by the two pandemics, that of Covid-19 and the severity of the depths of
+collective core by the two pandemics, that of COVID-19 and the severity of the depths of
 systemic racism. Through this, my hope is that we are awoken to the realization that we
 are one, as sensing humans, connected in the complexity of the web of life. As humans,
 we can share equally and joyfully in the movement of clouds, the soaring of birds and the
@@ -93,7 +93,7 @@ answers?`
         artwork={valerie}
         artistInfo={artistInfo}
         profile={valerie_profile}
-        fb="https://www.valeriedurant.ca"
+        fb="https://www.facebook.com/vdurant"
         ig="https://www.instagram.com/valeriedurantvancouver/?hl=en"
         yt=""
         tw=""

@@ -43,7 +43,7 @@ var artistInfo=`出身台灣台中 Tbulan 部落的泰雅族人，中央警察�
     <img src={huang} style={{width:"100%", height:"auto"}}></img>
     <SkyArtist
       artName="凝視聖稜線"
-      title="Duma Temu"
+      title="Dumas Temu"
       location="台灣"
       content={text}
       bold="策展者的話："
@@ -85,7 +85,7 @@ var artistInfo=`出身台灣台中 Tbulan 部落的泰雅族人，中央警察�
       textName5="日月潭四手網船"
       textName6="可見與不可見的"
       textName7="時間的流逝"
-      name = "Duma Temu / 黃約農"
+      name = "Dumas Temu / 黃約農"
       ></SkyArtist>
     </div>
   );

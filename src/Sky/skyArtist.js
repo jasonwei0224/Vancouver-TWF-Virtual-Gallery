@@ -66,7 +66,7 @@ function SkyArtist(props) {
 
         <div className="paddings"></div>
 
-        <SkyOtherArtists t="RETRUN TO SEE OTHER ARTISTS' ARTOWRKS" skyhome="/Sky"
+        <SkyOtherArtists t="SEE OTHER ARTISTS' ARTOWRKS" skyhome="/Sky"
           url1={props.url1} url2={props.url2} url3={props.url3} url4={props.url4} url5={props.url5} url6={props.url6} url7={props.url7}
            img1={props.other1} img2={props.other2} img3={props.other3} img4={props.other4} img5={props.other5}
           name1={props.othername1} name2={props.othername2} name3={props.othername3} name4={props.othername4} name5={props.othername5}

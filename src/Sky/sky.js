@@ -56,9 +56,8 @@ Working with photographers in Canada and Taiwan, Vancouver TAIWANfest presents E
 var text2=`In all that the world has gone through, the unchanging sky gives people a sense of hope and anticipation for the feeling of a normal day to come again. Furthermore, Indigenous teachings and stories about the sky can guide us in these times. By giving each image a background story, we can implore others to look to the sky and gain strength.
 
 Your experience and view of the sky will be different depending on the time of day. These lanterns will create a whole new dynamic look and feel through the use of LED lights in the evenings.
-
-As the province is working to reopen the economy in a safe manner and more and more people are getting back to a new normal, please follow all public health guidelines to protect yourself and others from COVID-19. Individuals should monitor their health for signs and symptoms of COVID-19. And if you’re not feeling well, they recommend staying home at this time. Respect social-distancing measures when outdoors and visiting the exhibit. Wear a face covering to protect yourself and others, especially when social-distancing is not possible such as on transit. By visiting the on-site “Sky” activation, you acknowledge that there are inherent risks associated with the COVID-19 Pandemic and will not hold ACSEA or our programming partners liable for your health.`
-  return (
+`
+return (
     <div>
       <Container fluid style={{padding:"0"}}>
         <span className="desktop_slider_sky"><Slider images={images}/></span>
@@ -80,14 +79,14 @@ As the province is working to reopen the economy in a safe manner and more and m
             <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name" style={{textAlign:"center"}}>Sara Boychuk</Col></Row>
             <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_country"style={{textAlign:"center", fontWeight:"bold"}}>Canada</Col></Row>
             <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><a href="/Hidden-In-The-Clouds"><img style={{width:"100%", height:"auto"}}src={sara_profile}></img></a></Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}  ><a href="/Hidden-In-The-Clouds"><Button Button bsPrefix="sky_art1_btn" className="sky_art1_btn">HIDDENT IN THE CLOUSE</Button></a></Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}  ><a href="/Hidden-In-The-Clouds"><Button Button bsPrefix="sky_art1_btn" className="sky_art1_btn">HIDDEN IN THE CLOUSE</Button></a></Col></Row>
             <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}  ><a href="/Pause" style={{color:"#EF5797"}} ><Button Button bsPrefix="sky_art2_btn" className="sky_art2_btn">PAUSE</Button></a></Col></Row>
           </Col>
           <Col xl={{span:2}} lg={{span:3}} md={{span:5}} sm={{ span:3}} xs={{span:1}} className="sky_col_border2">
             <Row><Col xl={{span:12}} lg={{span:12}} style={{textAlign:"center"}} className="sky_artist_name">Valerie Durant</Col></Row>
             <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}} className="sky_artist_country">Canada</Col></Row>
             <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><a  href="/Infinite-Sky-For-Everett"><img style={{width:"100%", height:"auto"}}src={valerie_profile}></img></a></Col></Row>
-            <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}}><a  href="/Infinite-Sky-For-Evertt"><Button Button bsPrefix="sky_art3_btn" className="sky_art3_btn">INFINITE SKY<br/>FOR EVER<span style={{fontStyle:"italic"}}>ETT</span></Button></a></Col></Row>
+            <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}}><a  href="/Infinite-Sky-For-Everett"><Button Button bsPrefix="sky_art3_btn" className="sky_art3_btn">INFINITE SKY<br/>FOR EVER<span style={{fontStyle:"italic"}}>ETT</span></Button></a></Col></Row>
           </Col>
           <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5 , offset:1}} sm={{ span:5}} xs={{span:1}} className="sky_col_border2">
             <Row><Col xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} className="sky_artist_name_mobile" style={{textAlign:"center"}}>Hsien-Ling Yin</Col></Row>

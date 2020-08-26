@@ -178,16 +178,10 @@ export default class HeaderV2 extends React.Component {
 
 
 
-                        <NavDropdown bsPrefix="navitem-dropdown"title="SKY"href="/Sky">
-                          <NavDropdown.Item bsPrefix="dropdown-item"href="">PAUSE</NavDropdown.Item>
-                          <NavDropdown.Item bsPrefix="dropdown-item"href="">HIDDEN IN THE CLOUDS</NavDropdown.Item>
-                            <NavDropdown.Item bsPrefix="dropdown-item"href="">PAUSE</NavDropdown.Item>
-                            <NavDropdown.Item bsPrefix="dropdown-item"href="">INFINITE SKY FOREVERETT</NavDropdown.Item>
-                              <NavDropdown.Item bsPrefix="dropdown-item"href="">VISIBLE OR INVISIBLE</NavDropdown.Item>
-                              <NavDropdown.Item bsPrefix="dropdown-item"href="">WITH THE PASSAGE OF TIME</NavDropdown.Item>
+                        <NavDropdown.Item bsPrefix="dropdown-item"href="/Sky">SKY</NavDropdown.Item>
 
-                        </NavDropdown>
 
+      
                         <NavDropdown.Item bsPrefix="dropdown-item"href="/IAmDifferent">I'M DIFFERENT JUST LIKE YOU</NavDropdown.Item>
                         <NavDropdown.Item bsPrefix="dropdown-item"href="/Mirror">MIRRORS</NavDropdown.Item>
                         <NavDropdown.Item bsPrefix="dropdown-item"href="/UnbeingChinese">(UN) BEING CHINESE</NavDropdown.Item>

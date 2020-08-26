@@ -2,12 +2,12 @@ import React from 'react';
 import { Button, Row, Col } from 'react-bootstrap';
 import "./Second_Title.css"
 
-const Second_Title_ch_No_margin = (props) => {
+const Second_Title_Red = (props) => {
     return (
         <div>
-            <Row style={{marginTop:"35px"}}>
+            <Row >
                 <Col xl={{span:8, offset:2}} lg={{span:10, offset:1}} sm={{span:10, offset:1}}xs={{span:10, offset:1}}>
-                    <p className ="second_Title_P_ch_no_margin">{props.secondTitle}</p>
+                    <p className ="Second_Title_Red">{props.secondTitle}</p>
                 </Col>
             </Row>
 
@@ -15,4 +15,4 @@ const Second_Title_ch_No_margin = (props) => {
     );
 }
 
-export default Second_Title_ch_No_margin;
+export default Second_Title_Red;

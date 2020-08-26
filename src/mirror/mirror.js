@@ -20,7 +20,7 @@ import MainContetn_TwoPic from "../modules/MainContent_TwoPic";
 import MirrorBird from "./mirrorBird"
 import MainContents_Middle_Adonis from "../modules/MainContents_Middle_Adonis"
 import MainContents_Important_With_Border_two_bolder from "../modules/MainContents_Important_with_border_two_bold"
-import MainContents_OneArtist from "../modules/MainContents_OneArtist"
+import MainContents_OneArtist2 from "../modules/MainContents_OneArtist2"
 import mina from '../assets/人物照-Mina.jpg'
 import Slider from './img_slider_final_mirror'
 import slide1 from '../assets/artist_taiwan_color.jpg';
@@ -72,7 +72,7 @@ It is not difficult to discern how her beloved Taiwan influences her works.  She
 
               <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text}>
               </MainContents_Middle_Adonis>
-              <MainContents_OneArtist src={mina} title="Yen-Chun Lu" contents={text2}></MainContents_OneArtist>
+              <MainContents_OneArtist2 src={mina} title="Yen-Chun Lu" contents={text2}></MainContents_OneArtist2>
                 <div className="people_padding"></div>
             <MobileShareButton togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2F%23%2FMirror&amp;src=sdkpreparse"></MobileShareButton>
           </Container>

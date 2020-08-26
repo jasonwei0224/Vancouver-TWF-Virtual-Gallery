@@ -20,7 +20,7 @@ import MainContetn_TwoPic from "../../modules/MainContent_TwoPic";
 import MirrorBird from "./mirrorBird_ch"
 import MainContents_Middle_Adonis from "../../modules/MainContents_Middle_Adonis"
 import MainContents_Important_With_Border from "../../modules/MainContents_Important_with_border"
-import MainContents_OneArtistCH from "../../modules/MainContents_OneArtistCH"
+import MainContents_OneArtistCH from "../../modules/MainContents_OneArtistCH2"
 import mina from '../../assets/人物照-Mina.jpg'
 import Slider from '../../mirror/img_slider_final_mirror'
 import slide1 from '../../assets/artist_taiwan_color.jpg';

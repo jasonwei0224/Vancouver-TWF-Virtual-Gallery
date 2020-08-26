@@ -24,7 +24,7 @@ function SkyArtist2() {
 
 Four-handed fishing net boats are the houseboats which were built by the Thao people who lived in the Sun Moon Lake area.  These houseboats were the Thao’s main transportation for fishing.  The ecological changes led to a  huge reduction in fishery harvest.  Not many Thao people are doing it anymore.  Those abandoned boats become old and broken.  In order for those visitors who come to Sun Moon Lake to be able to see the four-handed fishing net boat, this boat shown on the picture is for display only.
 
-This four-handed fishing net boat is my favorite spot when taking sunrise pictures at Sun Moon Lake.  Not only because it is the best decor, but it is also the best location to grab those photographers who would like to seek for their inner peace.
+This four-handed fishing net boat is my favorite spot when taking sunrise pictures at Sun Moon Lake.   Not only because it is the best decor, but it is also the best location to grab those photographers who would like to seek inner peace.
 
 The sea of clouds surrounding Sun Moon Lake is a rare scenery to be seen.  Sometimes the lake becomes foggy, so it is not easy to see this huge and thick sea of clouds.  Just like the destiny of four-handed fishing net boats, it is no longer used.  Lives are unpredictable just like this sky.  Everyone should enjoy every moment and value it under this sky.
 `

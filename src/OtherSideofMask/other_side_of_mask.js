@@ -18,6 +18,9 @@ import MainContents_Important_With_Border_two_bolder from "../modules/MainConten
 import {OBJModel, MTLModel, GLTFModel, AmbientLight,DirectionLight, JSONModel} from 'react-3d-viewer'
 import MaskInfo from './maskInfo'
 import other_side_hint from "../assets/otherside_hint.png"
+import otherside_red_hint from "../assets/otherside_red_hint.png"
+import othersdie_black_hint from '../assets/otherside_black_hint.png'
+
 
 
 var text = `It is said that words can be sharper than a knife, and oftentimes we say things that are hurtful without it ever being our intention. The purpose of masks is to protect us from getting sick or prevent the spreading of disease, but sometimes it is our own actions or words that do more harm.
@@ -54,7 +57,7 @@ class OtherSideOfMask extends Component {
                 <Col id="model3D-col" xl={{span:6, offset:0}} lg={{span:12, offset:0}} md= {{span:12, offset:0}} xs={{span:12, offset:0}}className="model3D-col" >
 
 
-                    <img id="other_side_hint1" className="otherside_hint" src={other_side_hint}></img>
+                    <img id="other_side_hint1" className="otherside_hint" src={otherside_red_hint}></img>
                     <MTLModel src="./MaskModel1.obj" mtl="./MaskModel1.mtl" width="1800" height="800" position={{x:0.5,y:-1.25,z:1}} rotation={{x:-1.3,y:1.20,z:1.5}}>
 
                       <AmbientLight color={0xffffff}/>
@@ -64,7 +67,7 @@ class OtherSideOfMask extends Component {
            </Col>
            <Col xl={{span:6, offset:0}} lg={{span:12, offset:0}} md= {{span:12, offset:0}} xs={{span:12, offset:0}}className="model3D-col2" >
 
-             <img id="other_side_hint2" className="otherside_hint2" src={other_side_hint}></img>
+             <img id="other_side_hint2" className="otherside_hint2" src={otherside_red_hint}></img>
              <MTLModel src="./MaskModel2.obj" mtl="./MaskModel2.mtl" width="1800" height="800" position={{x:0.5,y:-1.25,z:1}} rotation={{x:-1.3,y:1.20,z:1.5}}>
                <AmbientLight color={0xffffff}/>
             <DirectionLight color={0xffffff} position={{x:100,y:200,z:100}}/>
