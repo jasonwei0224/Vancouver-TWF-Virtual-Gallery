@@ -8,7 +8,7 @@ import { Container, Row, Col, Button, Form } from "react-bootstrap";
 import mouseClick2 from '../assets/mirror_hint_red.png'
 import mouseClick3 from '../assets/mirror_hint_white.png'
 import mouseClick4 from '../assets/mirror_click_clear.png'
-
+import mouseHintFinal from '../assets/mirror_click_clear.png'
 class MirrorBird extends React.Component {
   constructor(props) {
     super(props);
@@ -111,6 +111,7 @@ class MirrorBird extends React.Component {
       document.getElementById("button_mirror2").style.backgroundColor = "red";
       document.getElementById("button_mirror3").style.backgroundColor = "red";
       var audio=new Audio('./猜錯音效.mp3');
+      document.getElementById("question_txt").innerText= "InCorrect!!"
       audio.play()
       for(var i = 0; i <200; i++){
         document.getElementById("button_mirror1").style.backgroundColor = "red";
@@ -122,6 +123,9 @@ class MirrorBird extends React.Component {
           document.getElementById("button_mirror3").style.backgroundColor = "blue";
         },500);
       }
+      setTimeout(function(){
+        document.getElementById("question_txt").innerText = "In life, we often see things that are obvious to us and leave out others who are deemed insignificant but valuable. Other than the pigeon, what is an image that has always been there? Try again if you have overlooked it."
+      },1000)
     }
   }
   checkAnswer2(){
@@ -137,6 +141,7 @@ class MirrorBird extends React.Component {
       document.getElementById("button_mirror3").style.backgroundColor = "red";
       var audio=new Audio('./猜錯音效.mp3');
       audio.play()
+      document.getElementById("question_txt2").innerText= "InCorrect!!"
       for(var i = 0; i <200; i++){
         document.getElementById("button_mirror1").style.backgroundColor = "red";
         document.getElementById("button_mirror2").style.backgroundColor = "red";
@@ -147,6 +152,9 @@ class MirrorBird extends React.Component {
           document.getElementById("button_mirror3").style.backgroundColor = "blue";
         },500);
       }
+      setTimeout(function(){
+        document.getElementById("question_txt2").innerText = "In life, we often see things that are obvious to us and leave out others who are deemed insignificant but valuable. Other than the pigeon, what is an image that has always been there? Try again if you have overlooked it."
+      },1000)
     }
   }
   checkAnswer3(){
@@ -162,6 +170,7 @@ class MirrorBird extends React.Component {
       document.getElementById("button_mirror3").style.backgroundColor = "red";
       var audio=new Audio('./猜錯音效.mp3');
       audio.play()
+      document.getElementById("question_txt3").innerText= "InCorrect!!"
       for(var i = 0; i <200; i++){
         document.getElementById("button_mirror1").style.backgroundColor = "red";
         document.getElementById("button_mirror2").style.backgroundColor = "red";
@@ -171,6 +180,9 @@ class MirrorBird extends React.Component {
           document.getElementById("button_mirror2").style.backgroundColor = "blue";
           document.getElementById("button_mirror3").style.backgroundColor = "blue";
         },500);
+        setTimeout(function(){
+          document.getElementById("question_txt3").innerText= "In life, we often see things that are obvious to us and leave out others who are deemed insignificant but valuable. Other than the pigeon, what is an image that has always been there? Try again if you have overlooked it."
+        },1000)
       }
     }
   }
@@ -328,7 +340,7 @@ class MirrorBird extends React.Component {
       <div id="wrapper_mirror" >
 
         <div id="container_box_bird_1" className="mirror-bird-container">
-          <img id="pointerDiv" src={mouseClick4}></img>
+          <img id="pointerDiv" src={mouseHintFinal}></img>
 
           <div id="box_1">
             <div id="bird_1"></div>
@@ -377,7 +389,7 @@ class MirrorBird extends React.Component {
                       <Form.Control id="user_input_mirror" required size="lg"></Form.Control>
                   </Col>
                   <Col xl={{span:8, offset:2}} lg={{span:10, offset:1}} sm={{span:10, offset:1}}xs={{span:10, offset:1}}>
-                    <Button onClick={this.checkAnswer}>Submit</Button>
+                    <Button  className="mirror_submit" onClick={this.checkAnswer}>Submit</Button>
                   {/*}  <p style={{"color":"white"}}>Did you miss something? </p>*/}
                     <Button id="button_mirror1" onClick={this.refresh}>View the drawings again</Button>
                   </Col>
@@ -430,7 +442,7 @@ class MirrorBird extends React.Component {
                     <Form.Control id="user_input_mirror2" required size="lg"></Form.Control>
                 </Col>
                 <Col xl={{span:8, offset:2}} lg={{span:10, offset:1}} sm={{span:10, offset:1}}xs={{span:10, offset:1}}>
-                  <Button onClick={this.checkAnswer2}>Submit</Button>
+                  <Button className="mirror_submit" onClick={this.checkAnswer2}>Submit</Button>
                   {/*}<p style={{"color":"white"}}>Did you miss something? </p>*/}
                   <Button  id="button_mirror2" onClick={this.refresh2}>View the drawings again</Button>
                 </Col>
@@ -482,7 +494,7 @@ class MirrorBird extends React.Component {
                     <Form.Control id="user_input_mirror3" required size="lg"></Form.Control>
                 </Col>
                 <Col xl={{span:8, offset:2}} lg={{span:10, offset:1}} sm={{span:10, offset:1}}xs={{span:10, offset:1}}>
-                  <Button  onClick={this.checkAnswer3}>Submit</Button>
+                  <Button  className="mirror_submit" onClick={this.checkAnswer3}>Submit</Button>
                   {/*}<p style={{"color":"white"}}>Did you miss something? </p>*/}
                   <Button id ="button_mirror3" onClick={this.refreshPage}>Restart</Button>
                 </Col>

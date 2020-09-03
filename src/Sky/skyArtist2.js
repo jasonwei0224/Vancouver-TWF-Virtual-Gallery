@@ -44,7 +44,7 @@ Inspired by her father’s photo records with her family, and the stunning pictu
         title="ESTRELLA CHUANG"
         location="TAIWAN"
         content={text}
-
+        shareURL="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FBoat-In-The-Sun-Moon-Lake&amp;src=sdkpreparse"
         artistInfo={artistInfo}
         profile={star_profile}
           artwork={star}

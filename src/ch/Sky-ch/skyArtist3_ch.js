@@ -40,6 +40,7 @@ return(
         title="潘小俠"
         location="台灣"
         content={text}
+        shareURL="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FGeneral-Rock-Green-Island-ch&amp;src=sdkpreparse"
         bold="策展者的話："
         contents2={text2}
         artwork={peter}

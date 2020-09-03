@@ -74,7 +74,7 @@ const [isShown, setIsShown] = useState(false);
           subtitle="I am different, just like you"
           title='[UN] BEING CHINESE'
           artistName="Artist: Tong Zhou"
-          url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2F%23%2FPaulsApple&amp;src=sdkpreparse"
+          url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FUnbeingChinese&amp;src=sdkpreparse"
           color="#246f79"
         ></ProgramInfo>
 
@@ -89,7 +89,7 @@ const [isShown, setIsShown] = useState(false);
                  <Drawing_Name></Drawing_Name>
         <MainContents_OneArtist src={tong} title="Tong Zhou" contents={artistTxt}></MainContents_OneArtist>
           <div className="people_padding"></div>
-        <MobileShareButton togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2F%23%2FPaulsApple&amp;src=sdkpreparse" ></MobileShareButton>
+        <MobileShareButton togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FUnbeingChinese&amp;src=sdkpreparse"></MobileShareButton>
       </Container>
 
       <Footer content= "&copy; 2020 TAIWANESE CANADIAN ASSOCIATION OF TORONTO"></Footer>

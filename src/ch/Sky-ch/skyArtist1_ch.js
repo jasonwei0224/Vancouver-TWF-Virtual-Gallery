@@ -46,6 +46,7 @@ var artistInfo=`出身台灣台中 Tbulan 部落的泰雅族人，中央警察�
       title="Dumas Temu"
       location="台灣"
       content={text}
+      shareURL="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FGazing-In-Holy-Ridge-ch&amp;src=sdkpreparse"
       bold="策展者的話："
       contents2={text2}
       artistInfo={artistInfo}

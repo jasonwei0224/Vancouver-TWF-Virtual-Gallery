@@ -182,15 +182,15 @@ a.PI-shareButton_ch:hover{
   @media only screen and (min-width: 992px) {
 
       .PI-subtitle_ch {
-          font-size: 50px;
+          font-size: 35px;
       }
 
       .PI-title_ch {
-          font-size: 60px;
+          font-size: 30px;
       }
 
       .PI-artist_ch {
-          font-size: 50px;
+          font-size: 28px;
       }
 
       a.PI-shareButton_ch {
@@ -206,7 +206,7 @@ a.PI-shareButton_ch:hover{
       /* font-family: sofia-pro, sans-serif; */
       }
       .PI-subtitle_twoArtist-ch {
-          font-size: 50px;
+          font-size: 35px;
       }
       .PI-artist-two-ch{
         color: #246f79;
@@ -217,6 +217,26 @@ a.PI-shareButton_ch:hover{
           padding-left: 0px!important;
           margin-bottom: 0px!important;
           /* font-family: "sofia-pro", Sans-serif !important; */
+      }
+      .PI-subtitle-ch {
+          color: #246f79;
+          margin-top: 5%;
+          font-weight: bold;
+          font-size: 30px;
+          /* font-family: sofia-pro, sans-serif !important; */
+      }
+      .PI-title_twoArtist-ch{
+        color:#EF5797;
+        font-size: 35px;
+        margin-bottom: 45px;
+        font-family: adonis-web, serif;
+        /* font-weight:bold; */
+
+        /* font-family: sofia-pro, sans-serif !important; */
+      }
+      .PI-Artist-p-ch{
+          margin-bottom: 0px !important;
+          font-weight: normal;
       }
   }
 
@@ -272,6 +292,10 @@ a.PI-shareButton_ch:hover{
         font-weight: bold;
         font-size: 30px;
         /* font-family: sofia-pro, sans-serif !important; */
+    }
+    .PI-Artist-p-ch{
+        margin-bottom: 0px !important;
+        font-weight: normal;
     }
   }
 }

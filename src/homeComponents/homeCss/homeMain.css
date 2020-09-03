@@ -5,8 +5,21 @@
   width:100% ;
   height:auto
 }
-
-
+.sm_col{
+  text-align: center;
+  margin-bottom: 120px;
+}
+.sm_col_desktop{
+  text-align: center;
+  margin-bottom: 120px;
+}
+.social-icon{
+    margin-right: 20px;
+}
+.sponsor_logo{
+  margin-top: 70px;
+  margin-bottom: 120px;
+}
 /* home_v2.js  */
 #homeFirstRow {
     width: 100%;
@@ -287,7 +300,9 @@
 }
 /* xs < 768 */
 @media screen and (max-width: 767px) {
-
+  .sm_col_desktop{
+    display:none;
+  }
     #projectName {
         font-size: 40px;
     }
@@ -372,10 +387,40 @@
       color: white;
       font-size:23px;
     }
+    .ack_title{
+
+      font-size:45px;
+    }
+    .ack_text{
+      font-size:40px;
+    }
+    .ack_name{
+      font-size:40px
+    }
+    .sm_col{
+      margin-top:30px;
+    }
 }
 
 /* sm */
 @media screen and (min-width: 768px) {
+  .sm_col{
+    margin-top:80px;
+  }
+  .sm_col_desktop{
+    display:none;
+  }
+  .ack_title{
+
+    font-size:45px;
+
+  }
+  .ack_text{
+    font-size:40px;
+  }
+  .ack_name{
+    font-size:40px
+  }
   .ScrollableTitle{
     text-align: center;
     margin: auto;
@@ -457,10 +502,28 @@
       color: white;
       font-size:23px;
     }
+    .sponsor_logo{
+      margin-top: 70px;
+      margin-bottom: 0px;
+    }
 }
 
 /* md */
 @media screen and (min-width: 992px) {
+  .sm_col_desktop{
+    display:block
+  }
+  .ack_title{
+
+    font-size:25px;
+
+  }
+  .ack_text{
+    font-size:20px;
+  }
+  .ack_name{
+    font-size:20px
+  }
   .ScrollableTitle{
     text-align: center;
     margin: auto;
@@ -478,7 +541,7 @@
         margin-top: 40%;
     }
     #homeTopSection #projectsScroll {
-        height: 50vh;
+        height: 80vh;
     }
     #topSectionRow .firstCols #leftImage{
         height: 50vh;
@@ -517,12 +580,12 @@
       padding-top:5px;
       padding-bottom:5px;
     }
-    #home_colored_header_title2{
+    #home_colored_header_title{
       text-align: left;
       font-size:30px;
       padding-top:5px;
       padding-bottom:5px;
-      margin-top:120px;
+      margin-top:150px;
       text-align: center;
     }
     #home_colored_header_title {
@@ -563,6 +626,10 @@
       color: white;
       font-size:23px;
     }
+    .sponsor_logo{
+      margin-top: 70px;
+      margin-bottom: 0px;
+    }
 }
 
 /* lg */
@@ -570,6 +637,23 @@
     /* .projectRows2{
       border-bottom:2px solid;
     } */
+    .sm_col_desktop{
+      display:block
+    }
+    .sm_col{
+      margin-top:0px
+    }
+    .ack_title{
+
+      font-size:25px;
+
+    }
+    .ack_text{
+      font-size:20px;
+    }
+    .ack_name{
+      font-size:20px
+    }
     .home_border_top{
       margin-top: 30px;
     }
@@ -666,6 +750,10 @@
       display:block;
 
     }
+    .sponsor_logo{
+      margin-top: 70px;
+      margin-bottom: 120px;
+    }
 }
 @media screen and (min-width: 1800px) {
   #homeTopSection #projectsScroll {
@@ -703,6 +791,11 @@
       padding-bottom: 40px;
       margin-top:40px
   }
+  .sm_col{
+    text-align: center;
+    margin-bottom: 200px;
+  }
+
 }
 @media screen and (min-wdith: 2560px){
   .home_border_top{
@@ -712,4 +805,5 @@
   .home_border_bottom{
     margin-bottom: 10px;
   }
+
 }

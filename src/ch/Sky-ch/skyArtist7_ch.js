@@ -37,6 +37,7 @@ function SkyArtist3() {
         artName="雲止時刻"
         title="SARA BOYCHUK"
         location="加拿大"
+        shareURL="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FPause-ch&amp;src=sdkpreparse"
         content={text}
         artistInfo={artistInfo}
         profile={sara_profile}

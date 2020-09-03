@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Container, Row, Col, Form, Button, Modal, Dropdown} from 'react-bootstrap';
 import ProgramInfo_ch from "../programInfo-ch"
-import different_img from "../../assets/ToghtherPhoto.jpg";
+import different_img from "../../assets/TogetherPhoto.jpg";
 
 import './IAmDifferentForm-ch.css'
 import FooterCH from '../footer-ch';

@@ -43,6 +43,7 @@ var images = [p1, p2]
         artName="時間的流逝"
         title="尹顯玲"
         location="台灣"
+        shareURL="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FWith-The-Passage-Of-Time-ch&amp;src=sdkpreparse"
         content={text}
         artistInfo={artistInfo}
         artwork={p1}

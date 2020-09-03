@@ -169,7 +169,7 @@ var public_health=`As the province is working to reopen the economy in a safe ma
           </Row>*/}
         <Slider></Slider>
 
-        <ProgramInfo subtitle="I'm different, just like you!" title="UNDER THE SAME SKY PROJECT" artistName="TAIWANfest" url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FSky&amp;src=sdkpreparse"  color="#246f79">
+        <ProgramInfo subtitle="I'm different, just like you!" title="UNDER THE SAME SKY PROJECT" artistName="TAIWANfest" url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FSky_Form&amp;src=sdkpreparse"   color="#246f79">
         </ProgramInfo>
 
         <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text}></MainContents_Middle_Adonis>
@@ -213,7 +213,7 @@ var public_health=`As the province is working to reopen the economy in a safe ma
           <FormFile FormId="subjectFile" onChange={this.onChange} hint="File must be .jpg or .png and under 1MB"></FormFile>
 
           <FormConsent inputId="checkbox-3" consent= "I consent TAIWANfest to use the submitted photo(s) as part of the &quot;Under the same sky&quot; Project."></FormConsent>
-            <Button1 onclick={this.submitForm} title="SUBMIT" togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FSky&amp;src=sdkpreparse"></Button1>
+            <Button1 onclick={this.submitForm} title="SUBMIT" togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FSky_Form&amp;src=sdkpreparse" ></Button1>
 
         </Form>
 

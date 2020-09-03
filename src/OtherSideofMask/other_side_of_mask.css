@@ -88,7 +88,7 @@
     display: none;
   }
   .otherside_hint{
-    display:inline;
+    display:block;
     left:166%;
     width:15%;
     top:-35%;

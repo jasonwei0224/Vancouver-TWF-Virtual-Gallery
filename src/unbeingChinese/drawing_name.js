@@ -67,27 +67,27 @@ return (
     <Row>
       <Col xl={{span:2, offset:3}} lg={{span:3, offset:1}} md={{span:5, offset:1}} sm={{span:8, offset:1}} xs={{span:8, offset:1}}  className="sky_col_border2">
         <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={SonGoku}></img></Col></Row>
-        <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}} ><div className="UB_artName_mobile">MONEY KING</div></Col></Row>
+        <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}} ><div className="DA_artName_mobile">MONEY KING</div></Col></Row>
       </Col>
       <Col xl={{span:2}} lg={{span:3}} md={{span:5}} sm={{ span:3}} xs={{span:1}} className="sky_col_border2">
         <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><img style={{width:"100%", height:"auto"}}src={LuXun}></img></Col></Row>
-        <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}}><div className="UB_artName_mobile">LU XUN</div></Col></Row>
+        <Row><Col  xl={{span:12}} lg={{span:12}}style={{textAlign:"center"}}><div className="DA_artName_mobile">LU XUN</div></Col></Row>
       </Col>
       <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5 , offset:1}} sm={{ span:5}} xs={{span:1}} className="sky_col_border2">
         <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><img style={{width:"100%", height:"auto"}}src={Confucius}></img></Col></Row>
-        <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center"}}><div className="UB_artName_mobile">CONFUCIUS</div></Col></Row>
+        <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center"}}><div className="DA_artName_mobile">CONFUCIUS</div></Col></Row>
       </Col>
       <Col xl={{span:2, offset:3}} lg={{span:3, offset:1}} md={{span:5}} sm={{ span:3}} xs={{span:1}}>
       <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={SunWen}></img></Col></Row>
-      <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}}><div className="UB_artName_mobile">SUN YAT-SEN</div></Col></Row>
+      <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}}><div className="DA_artName_mobile">SUN YAT-SEN</div></Col></Row>
     </Col>
     <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5, offset:1 }} sm={{ span:3}} xs={{span:3}}>
       <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={Mulan}></img></Col></Row>
-      <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}}> <div className="UB_artName_mobile">MULAN</div></Col></Row>
+      <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center"}}> <div className="DA_artName_mobile">MULAN</div></Col></Row>
     </Col>
     <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5}} sm={{ span:3}} xs={{span:3}}>
       <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={Mao}></img></Col></Row>
-      <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center"}}><div className="UB_artName_mobile">MAO ZE-DONG</div></Col></Row>
+      <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}style={{textAlign:"center"}}><div className="DA_artName_mobile">MAO ZE-DONG</div></Col></Row>
     </Col>
     </Row>
       <div className="sky_space"></div>

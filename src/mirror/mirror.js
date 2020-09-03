@@ -28,6 +28,7 @@ import slide2 from '../assets/doctor.jpg';
 import slide3 from '../assets/firefighter.jpg'
 import slide4 from '../assets/dancer.jpg'
 import slide10 from '../assets/child.jpg'
+import { SocialIcon } from 'react-social-icons';
 
 
 
@@ -63,7 +64,7 @@ It is not difficult to discern how her beloved Taiwan influences her works.  She
               subtitle="Illustration"
               title="Mirrors"
               artistName="Artist: Yen-Chun Lu"
-              url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2F%23%2FMirror&amp;src=sdkpreparse"
+              url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FMirror&amp;src=sdkpreparse"
               color="#246f79"/>
             <Second_Title secondTitle="HOW TO INTERACT WITH THIS WORK" style={{fontFamily: "sofia-pro Sans-serif"}}></Second_Title>
             <MainContents_Important_With_Border_two_bolder  style={{color:"#0C3866"}} bold="Desktop: " contents=" There are a total of 5 pictures. Click on the picture to discover the messages that the artist is trying to convey. If you answer correctly, a joyful melody will be played. If you answer incorrectly, the “view artworks again” button will flash along with an error sound."
@@ -73,8 +74,28 @@ It is not difficult to discern how her beloved Taiwan influences her works.  She
               <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text}>
               </MainContents_Middle_Adonis>
               <MainContents_OneArtist2 src={mina} title="Yen-Chun Lu" contents={text2}></MainContents_OneArtist2>
+                <div className="media_col">
+                <Row >
+                    <Col className="SA_artistInfo" xl={{span:10, offset:2}} lg={{span:10, offset:2}} md={{span:1, offset:1}} sm={{ span:1, offset:1}} xs={{span:1, offset:1}}>
+                      <span className="SA_artistInfo">ARTIST INFO:</span>
+                        <SocialIcon target="_blank" rel="noopener noreferrer" network="mailto" url="mailto:mlu@threed.tw"/>
+                      </Col>
+                  </Row>
+              </div>
+                <div className="media_col2">
+                    <Row >
+                      <Col className="SA_artistInfo2" xl={{span:10, offset:2}} lg={{span:10, offset:1}} md={{span:10, offset:1}} sm={{ span:10, offset:1}} xs={{span:10, offset:1}}>
+                        <span className="SA_artistInfo2">ARTIST INFO:</span>
+                        </Col>
+                    </Row>
+                    <Row>
+                      <Col xl={{span:10, offset:2}} lg={{span:10, offset:1}} md={{span:10, offset:1}} sm={{ span:10, offset:1}} xs={{span:10, offset:1}}>
+                        <SocialIcon target="_blank" rel="noopener noreferrer" network="mailto" url="mailto:mlu@threed.tw"/>
+                      </Col>
+                    </Row>
+                    </div>
                 <div className="people_padding"></div>
-            <MobileShareButton togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2F%23%2FMirror&amp;src=sdkpreparse"></MobileShareButton>
+            <MobileShareButton togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FMirror&amp;src=sdkpreparse"></MobileShareButton>
           </Container>
 
           <Footer content= "&copy; 2020 TAIWANESE CANADIAN ASSOCIATION OF TORONTO"></Footer>

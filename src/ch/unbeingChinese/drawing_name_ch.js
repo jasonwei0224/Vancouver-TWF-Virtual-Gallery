@@ -21,15 +21,15 @@ return (
   <Row>
     <Col xl={{span:2, offset:3}} lg={{span:3, offset:1}} md={{span:5, offset:1}} sm={{span:8, offset:1}} xs={{span:8, offset:1}} >
       <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={SonGoku}></img></Col></Row>
-      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" ><div className="DA_artName">孫悟空</div></Col></Row>
+      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" ><div className="UB_artName">孫悟空</div></Col></Row>
     </Col>
     <Col xl={{span:2}} lg={{span:3}} md={{span:5}} sm={{ span:3}} xs={{span:1}} >
       <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><img style={{width:"100%", height:"auto"}}src={LuXun}></img></Col></Row>
-      <Row><Col  xl={{span:12}} lg={{span:12}}  className="DA_first_col" style={{textAlign:"center", fontWeight:"bold"}}><div className="DA_artName">魯迅</div></Col></Row>
+      <Row><Col  xl={{span:12}} lg={{span:12}}  className="DA_first_col" style={{textAlign:"center", fontWeight:"bold"}}><div className="UB_artName">魯迅</div></Col></Row>
     </Col>
     <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5 , offset:1}} sm={{ span:5}} xs={{span:1}}>
       <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><img style={{width:"100%", height:"auto"}}src={Confucius}></img></Col></Row>
-      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" ><div className="DA_artName">孔子</div> </Col></Row>
+      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" ><div className="UB_artName">孔子</div> </Col></Row>
     </Col>
   </Row>
 
@@ -38,17 +38,17 @@ return (
       {/*}  <Col xl={{span:3}} lg={{span:3}} md={{span:0}} sm={{ span:0}} xs={{span:0}} className="empty_col"></Col>*/}
     <Col xl={{span:2, offset:3}} lg={{span:3, offset:1}} md={{span:5}} sm={{ span:3}} xs={{span:1}}>
     <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={SunWen}></img></Col></Row>
-    <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col"  ><div className="DA_artName">孫文</div></Col></Row>
+    <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col"  ><div className="UB_artName">孫文</div></Col></Row>
   </Col>
   <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5, offset:1 }} sm={{ span:3}} xs={{span:3}}>
     <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={Mulan}></img></Col></Row>
 
-  <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" ><div className="DA_artName">花木蘭</div></Col></Row>
+  <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" ><div className="UB_artName">花木蘭</div></Col></Row>
 
   </Col>
   <Col xl={{span:2}} lg={{span:3, offset:0}} md={{span:5}} sm={{ span:3}} xs={{span:3}}>
     <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} ><img style={{width:"100%", height:"auto"}}src={Mao}></img></Col></Row>
-  <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" ><div className="DA_artName">毛澤東</div></Col></Row>
+  <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" ><div className="UB_artName">毛澤東</div></Col></Row>
   </Col>
   </Row>
   {/*}<div className="drawing_space"></div>*/}

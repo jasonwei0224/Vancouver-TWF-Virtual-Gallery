@@ -27,7 +27,7 @@ function SkyArtist(props) {
           title= {props.title}
           artistName= {props.location}
           artistName2= {props.location2}
-          url="https://www.facebook.com/sharer/sharer.php?u=https://www.acsea.ca/"
+          url={props.shareURL}
           color="#246f79"
           ></ProgramInfoCH>
 

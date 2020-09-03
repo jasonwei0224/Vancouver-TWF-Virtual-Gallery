@@ -33,6 +33,7 @@ function SkyArtist3() {
         artName="PAUSE"
         title="SARA BOYCHUK"
         location="CANADA"
+        shareURL="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FPause&amp;src=sdkpreparse"
         content={text}
         artwork={sara2}
         artistInfo={artistInfo}

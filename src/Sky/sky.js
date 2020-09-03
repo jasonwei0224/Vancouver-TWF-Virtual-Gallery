@@ -40,6 +40,9 @@ import sky_cell_image1 from'../assets/SKY_top_IMAGE-1_Cell.jpg';
 import sky_cell_image2 from'../assets/SKY_top_IMAGE-2_Cell.jpg';
 
 import Dekstop_Artist from './desktop_artist';
+import Second_Title_Red from "../modules/Second_Title_Red"
+import Second_Title_Green from "../modules/Second_Title_Green"
+import MainContents_Middle from "../modules/MainContents_Middle"
 
 function Sky() {
 
@@ -57,6 +60,12 @@ var text2=`In all that the world has gone through, the unchanging sky gives peop
 
 Your experience and view of the sky will be different depending on the time of day. These lanterns will create a whole new dynamic look and feel through the use of LED lights in the evenings.
 `
+var public_health=`As the province is working to reopen the economy in a safe manner and more and more people are getting back to a new normal, please follow all public health guidelines to protect yourself and others from COVID-19. Individuals should monitor their health for signs and symptoms of COVID-19. And if you’re not feeling well, they recommend staying home at this time. Respect social-distancing measures when outdoors and visiting the exhibit. Wear a face covering to protect yourself and others, especially when social-distancing is not possible such as on transit. By visiting the on-site “Sky” installation, you acknowledge that there are inherent risks associated with the COVID-19 Pandemic and will not hold ACSEA or our programming partners liable for your health.`
+
+
+var stories = `Inspired by a colourless mindset and the Indigenous peoples' respect for nature, we learn to appreciate many beautiful interpretations of life from our mother earth.  Despite the exhausting and persevering efforts reaching the peaks, under the sky, we know that we are still forever small and insignificant.
+
+Time takes us through different periods of civilization, and under the same sky, our footprints have been imprinted in every corner on earth.  Shall we be humble and brave to embrace the spirits of diversity, equality and freedom so we may deserve the blessings of the sky for generations to come?`
 return (
     <div>
       <Container fluid style={{padding:"0"}}>
@@ -67,7 +76,7 @@ return (
           subtitle="I'm different, just like you!"
           title="SKY"
           artistName="Curator: Jessica Sung"
-          url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2FSky&amp;src=sdkpreparse"
+          url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FSky&amp;src=sdkpreparse"
           color="#246f79"
           ></ProgramInfo>
 
@@ -128,10 +137,19 @@ return (
 
 
         <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text2}></MainContents_Middle_Adonis>
+          <Second_Title_Green secondTitle="THE STORIES"></Second_Title_Green>
+          <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={stories}></MainContents_Middle_Adonis>
+          <div className="sky_space"></div>
+        <Second_Title_Red secondTitle="PUBLIC HEALTH NOTICE"></Second_Title_Red>
+        <MainContents_Middle style={{color:"#0C3866"}} font="sofia-pro" contents={public_health}></MainContents_Middle>
+
+
+
+
         <Second_Title secondTitle="UNDER THE SAME SKY PROJECT" style={{fontFamily: "sofia-pro Sans-serif"}}></Second_Title>
         <MainContents_Important contents="Be part of the art with our Under the same sky project. Follow us on social media to find out when to take a photo of the sky wherever you are globally and upload your photo for a chance to be featured. Click the link below for more details."></MainContents_Important>
         <div className="sky_space"></div>
-        <Button1 onclick={goToForm} title="UPLOAD YOUR PHOTO" togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2FSky&amp;src=sdkpreparse"></Button1>
+        <Button1 onclick={goToForm} title="UPLOAD YOUR PHOTO" togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FSky&amp;src=sdkpreparse" ></Button1>
       </Container>
 
       <Footer content= "&copy; 2020 TAIWANESE CANADIAN ASSOCIATION OF TORONTO"></Footer>

@@ -38,6 +38,7 @@ var images = [p1, p2]
         artistInfo={artistInfo}
         profile={p1_profile}
         artwork={p1}
+        shareURL="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FWith-The-Passage-Of-Time&amp;src=sdkpreparse"
         fb=""
         ig="https://www.instagram.com/oh.alphaever/"
         yt=""

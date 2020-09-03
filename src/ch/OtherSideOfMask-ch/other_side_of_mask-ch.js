@@ -78,7 +78,7 @@ class OtherSideOfMask_ch extends Component {
             artistName1="Lady Hao Hao"
             artistitle2="3D  藝術： "
             artistName2="高于翔 / Yani-X"
-            url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2F%23%2FOtherSideOfMask-ch&amp;src=sdkpreparse"
+            url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FOtherSideOfMask-ch&amp;src=sdkpreparse"
             color="#246f79">
           </ProgramInfoTwoArtistCH>
 
@@ -100,7 +100,7 @@ class OtherSideOfMask_ch extends Component {
 
           <div className="people_padding"></div>
 
-          <MobileShareButton_ch togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2F%23%2FOtherSideOfMask-ch&amp;src=sdkpreparse"></MobileShareButton_ch>
+          <MobileShareButton_ch togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FOtherSideOfMask-ch&amp;src=sdkpreparse"></MobileShareButton_ch>
         </Container>
           <FooterCH/>
         </div>

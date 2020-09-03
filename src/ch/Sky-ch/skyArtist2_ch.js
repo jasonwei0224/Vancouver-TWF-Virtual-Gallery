@@ -42,6 +42,7 @@ function SkyArtist2() {
         artName="日月潭四手網船"
         title="莊心瑀"
         location="台灣"
+        shareURL="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FBoat-In-The-Sun-Moon-Lake-ch&amp;src=sdkpreparse"
         content={text}
         artwork={star}
         artistInfo={artistInfo}

@@ -56,6 +56,7 @@ Ansel Adams, a well-known American photographer, said, “You don't make a photo
       artistInfo={artistInfo}
       artwork={huang}
       profile={huang_profile}
+      shareURL="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FGazing-In-Holy-Ridge&amp;src=sdkpreparse"
       fb="https://www.facebook.com/hyndumas/"
       ig="https://www.instagram.com/hyn_dumas/?hl=en"
       yt=""

@@ -41,6 +41,8 @@ import sky_image2 from '../../assets/SKY_top_IMAGE-2.jpg'
 import sky_cell_image1 from'../../assets/SKY_top_IMAGE-1_Cell.jpg';
 import sky_cell_image2 from'../../assets/SKY_top_IMAGE-2_Cell.jpg';
 
+import Second_Title_Green from "../../modules/Second_Title_Green"
+
 function Sky() {
 
   const goToForm=()=> {
@@ -51,7 +53,7 @@ function Sky() {
   var images2 = [sky_cell_image1, sky_cell_image2]
 var text=`在同一片藍天下，當一切顏色歸零(Colour Zero)，回到一個個獨立的個體，人們究竟有何不同?
 
-無論我們身在方，都是看著同一片天空；無論我們的外表、性格多麼不同，都是被同一片天空包覆其下；無論我們背負何種人生境遇，都是在同一片天空下經歷悲歡離合。天空不問我們的身份性別、社經背景；不辨識我們來自什麼文化，說著哪一種語言，我們同樣都能在同一片天空中，看見炎熱的陽光、溫柔的月亮、靜謐的星空、雨後的彩虹。即便我們身體殘缺、內心傷痛，時而因愛歡喜，時而因恨哀愁，依然與世界上的每一個人一樣，每天迎接日出日落，無法避免風起雨落。天空不曾因為個人的不同而排拒過任何一個人，我們每一個人與其他生命萬物相同，都只是大自然的其中一部分。
+無論我們身在何方，都是看著同一片天空；無論我們的外表、性格多麼不同，都是被同一片天空包覆其下；無論我們背負何種人生境遇，都是在同一片天空下經歷悲歡離合。天空不問我們的身份性別、社經背景；不辨識我們來自什麼文化，說著哪一種語言，我們同樣都能在同一片天空中，看見炎熱的陽光、溫柔的月亮、靜謐的星空、雨後的彩虹。即便我們身體殘缺、內心傷痛，時而因愛歡喜，時而因恨哀愁，依然與世界上的每一個人一樣，每天迎接日出日落，無法避免風起雨落。天空不曾因為個人的不同而排拒過任何一個人，我們每一個人與其他生命萬物相同，都只是大自然的其中一部分。
 `
 
   var text2=`當數字「8」轉為橫向成為「∞」無限符號，象徵天空的無邊無際、遼闊遠大。膚色、外貌、族裔、語言、文化，不會是限制人類理解彼此的界線；「∞」也象徵愛的永恆，當人們能互相欣賞不一樣的美麗，平等地認同彼此的存在價值，共同創造了人類永續未來的機會。
@@ -68,6 +70,9 @@ var text3 =`在地球上不同位置的我們，相約在同一時刻拍下天�
 
 加拿大台灣文化節邀請您追蹤我們的 Facebook 一起拍攝天空，與世界一起反歧視、追求平等。期待有更多人看到您的天空攝影作品 !
 `
+var stories = `從一種無色的心境開始，看到原住民對大自然的尊敬，這個大自然都一直為我們的人生作美麗的詮釋。 無論攀登雲峰的過程是如何的刻骨銘心，在這片天空下，我們永遠無法改變的是人類的渺小與脆弱。
+
+時間帶著我們穿梭過不一樣的時空，也是在這片天空下，我們足跡就這樣層疊在地球上的每一個角落 。 為了可以讓世世代代可以得到這片天的庇蔭，是否我們更應該虛心與勇敢去擁抱多元、平等與自由的價值。`
   return (
     <div>
       <Container fluid style={{padding:"0"}}>
@@ -77,7 +82,7 @@ var text3 =`在地球上不同位置的我們，相約在同一時刻拍下天�
           subtitle="大型實體裝置藝術"
           title="天空"
           artistName="策展人：宋浩芬"
-          url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2FSky&amp;src=sdkpreparse"
+          url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FSky-ch&amp;src=sdkpreparse"
           color="#246f79"
           ></ProgramInfoThinLineCH>
 
@@ -134,11 +139,16 @@ var text3 =`在地球上不同位置的我們，相約在同一時刻拍下天�
           </div>
 
           <Dekstop_Artist></Dekstop_Artist>
+            <Second_Title_Green secondTitle="作品故事："></Second_Title_Green>
+            <MainContents_Middle_Adonis style={{color:"#4e9b16"}} color="#4e9b16" font="adonis-web" contents={stories}></MainContents_Middle_Adonis>
           <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text2}></MainContents_Middle_Adonis>
+
+
+
           <Second_Title secondTitle="同一片天計畫" style={{fontFamily: "sofia-pro Sans-serif"}}></Second_Title>
           <MainContents_Important contents={text3}></MainContents_Important>
 
-        <Button1 onclick={goToForm} title="上傳照片" togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2FSky&amp;src=sdkpreparse"></Button1>
+        <Button1 onclick={goToForm} title="上傳照片" togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FSky-ch&amp;src=sdkpreparse"></Button1>
       </Container>
 
       <Footer content= "&copy; 2020 TAIWANESE CANADIAN ASSOCIATION OF TORONTO"></Footer>

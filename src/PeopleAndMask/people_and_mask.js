@@ -59,7 +59,7 @@ But, when the freedom is lost, people may have to live a life of feeling terrifi
 `
 var images = [scream, panic, crying, doubt, terrified, silence]
 
-var text2=`A Taiwanese artist who immigrated to Canada during her high school years, but as she wasn’t allowed to draw or paint in Canada, she soon returned to Taiwan to pursue those desires. After she graduated from university in Taiwan, she returned to Canada to absorb the essence of this diverse land.
+var text2=`A Taiwanese artist who immigrated to Canada during her high school years, but her home stay wouldn’t allow to draw or paint in Canada. She soon returned to Taiwan to pursue those desires. After she graduated from university in Taiwan, she returned to Canada to absorb the essence of this diverse land.
 
 Art has always been her pride and joy and feeds her spirit. For her, creativity is like asking herself reflective questions and answering them in the process of self-discovery. In recent years, she has been curious about “installation art” and also experiencing the diverse communities in Canada, learning the creative thinking of experts, and accumulating her own creations. Each time she releases a piece, we see “echoes”, “discussions”, “emotions” and “habits” between art and people, exploring and dancing with diversity.`
 
@@ -95,7 +95,7 @@ class PeopleAndMask extends Component {
             artistName1="Lady Hao Hao"
             artistitle2="3D Artist: "
             artistName2="Walter Kao / Yani-X"
-            url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2F%23%2FPeopleAndMask&amp;src=sdkpreparse"
+            url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FPeopleAndMask&amp;src=sdkpreparse"
             color="#246f79">
 
           </ProgramInfoTwoArtist>
@@ -114,7 +114,7 @@ class PeopleAndMask extends Component {
 
 
               <div className="people_padding"></div>
-          <MobileShareButton togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.torontotaiwanfest.ca%2F%23%2FPeopleAndMask&amp;src=sdkpreparse"></MobileShareButton>
+          <MobileShareButton togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FPeopleAndMask&amp;src=sdkpreparse"></MobileShareButton>
 
         </Container>
         <Footer content= "&copy; 2020 TAIWANESE CANADIAN ASSOCIATION OF TORONTO"></Footer>

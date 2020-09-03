@@ -45,6 +45,7 @@ Photographing in the era of White Terror control, there was no freedom.  He said
         artistInfo={artistInfo}
         artwork={peter}
         profile={peter_profile}
+        shareURL="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FGeneral-Rock-Green-Island&amp;src=sdkpreparse"
         fb="https://www.facebook.com/profile.php?id=100010750592578"
         ig=""
         yt=""

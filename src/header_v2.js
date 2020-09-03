@@ -86,7 +86,7 @@ export default class HeaderV2 extends React.Component {
       </>
   }
 
-  {/*<Container fluid bsPrefix="container">
+  {/*}<Container fluid bsPrefix="container">
     {this.state.english?
     <>
     <Navbar id="navbar-v2" collapseOnSelect expand="xl" >
@@ -110,8 +110,8 @@ export default class HeaderV2 extends React.Component {
                     <NavDropdown.Item bsPrefix="dropdown-item"href="">PAUL'S APPLES</NavDropdown.Item>
                     <NavDropdown.Item bsPrefix="dropdown-item"href="">PEOPLE AND MASK</NavDropdown.Item>
 
-                    <NavDropdown.Item bsPrefix="dropdown-item"href="">WE ARE ALL IN THIS TOGETHER</NavDropdown.Item>
-                    <NavDropdown.Item bsPrefix="dropdown-item"href="">UNDER THE SAME SKY PROJECT</NavDropdown.Item>
+                    <NavDropdown.Item bsPrefix="dropdown-item"href="/IAmDifferentForm">WE ARE ALL IN THIS TOGETHER</NavDropdown.Item>
+                    <NavDropdown.Item bsPrefix="dropdown-item"href="/Sky_Form">UNDER THE SAME SKY PROJECT</NavDropdown.Item>
 
                   </NavDropdown>
                 </div>
@@ -144,8 +144,8 @@ export default class HeaderV2 extends React.Component {
                     <NavDropdown.Item bsPrefix="dropdown-item"href="">一罩之隔</NavDropdown.Item>
                     <NavDropdown.Item bsPrefix="dropdown-item"href="">保羅的蘋果</NavDropdown.Item>
                     <NavDropdown.Item bsPrefix="dropdown-item"href="">傲慢與偏見</NavDropdown.Item>
-                      <NavDropdown.Item bsPrefix="dropdown-item"href="">共同面對的我們</NavDropdown.Item>
-                      <NavDropdown.Item bsPrefix="dropdown-item"href="">同一片天計畫</NavDropdown.Item>
+                      <NavDropdown.Item bsPrefix="dropdown-item"href="/IAmDifferentForm-ch">共同面對的我們</NavDropdown.Item>
+                      <NavDropdown.Item bsPrefix="dropdown-item"href="/sky_form-ch">同一片天計畫</NavDropdown.Item>
 
 
                   </NavDropdown>
@@ -181,7 +181,7 @@ export default class HeaderV2 extends React.Component {
                         <NavDropdown.Item bsPrefix="dropdown-item"href="/Sky">SKY</NavDropdown.Item>
 
 
-      
+
                         <NavDropdown.Item bsPrefix="dropdown-item"href="/IAmDifferent">I'M DIFFERENT JUST LIKE YOU</NavDropdown.Item>
                         <NavDropdown.Item bsPrefix="dropdown-item"href="/Mirror">MIRRORS</NavDropdown.Item>
                         <NavDropdown.Item bsPrefix="dropdown-item"href="/UnbeingChinese">(UN) BEING CHINESE</NavDropdown.Item>

@@ -69,6 +69,7 @@ function SkyArtist3() {
         artName="無垠的天空"
         title="VALERIE DURANT"
         location="加拿大"
+        shareURL="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FInfinite-Sky-For-Everett-ch&amp;src=sdkpreparse"
         content={text}
         artistInfo={artistInfo}
         artwork={valerie}

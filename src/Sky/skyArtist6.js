@@ -89,7 +89,7 @@ answers?`
         title="VALERIE DURANT"
         location="CANADA"
         content={text}
-
+        shareURL="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FInfinite-Sky-For-Everett&amp;src=sdkpreparse"
         artwork={valerie}
         artistInfo={artistInfo}
         profile={valerie_profile}

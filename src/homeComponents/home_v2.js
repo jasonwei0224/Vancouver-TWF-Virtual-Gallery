@@ -62,9 +62,12 @@ import diversity_top from '../assets/diversity.jpg';
 import together_top from '../assets/together.jpg';
 import ProjectNameRight from "./ProjectNameRight";
 import ProjectNameLeft from "./ProjectNameLeft";
+import { SocialIcon } from 'react-social-icons';
+
+import DVBIALOGO from "../assets/DVBIA.jpg";
 
 
-var text = `The world seems to have lost its order because we forget to give others space; nature seems to be protesting because we forget to be humble. Artists are risk takers and they dare to challenge the reality of our society.  For things words can’t express, let pictures do the talking.  For the warmth people can’t feel, maybe colours can ignite.  To appreciate our artists here, time and space are all that is required. \n\n  The galleries of your photos are open now. Galleries of all participating artists will be open starting September 5th.`
+var text = `The world seems to have lost its order because we forget to give others space; nature seems to be protesting because we forget to be humble. Artists are risk takers and they dare to challenge the reality of our society.  For things words can’t express, let pictures do the talking.  For the warmth people can’t feel, maybe colours can ignite.  To appreciate our artists here, time and space are all that is required. \n\n`
 var text2= `The virtuall gallery is made possible with the following people.
 Their hard work and creativity in developing this site is greatly appreciated.`
 var creators = `Jason Wei / Gina Kim / Sangwook Yun / Eric Chang / Jessica Chu / Flemming Chow
@@ -128,6 +131,54 @@ function Home2() {
         </Row>
         <HomeMobileIntro/>
           <HomeSecondSection id="homeSecondSection" header={text}/>
+          {/*}<div id="homeThirdSection">
+
+              <span  ref ={myRef} ><HomeColoredHeader id="section1" title="I'M DIFFERENT, JUST LIKE YOU!"></HomeColoredHeader></span>
+
+              <a href=""><HoverImage src={sky_home_van}  hoverSrc={sky_home_van_hover} className="home_image" style={{width:'100%', height:"auto"}}></HoverImage></a>
+              <a href=""><HoverImage className="home_image" src={we_are_all_home_van1}  hoverSrc={we_are_all_home_van1_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
+              <a href=""><HoverImage className="home_image" src={mirror_home_van}  hoverSrc={mirror_home_van_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
+              <a href="" ><HoverImage className="home_image" src={chinese_home}   hoverSrc={chinese_home_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
+            <span  ref ={myRef2} ><HomeColoredHeader title="BEHIND THE MASK" image={homepage_placeholder_lg}/></span>
+              <a href=""><HoverImage className="home_image" src={otherside_van}  hoverSrc={otherside_van_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
+              <a href=""><HoverImage className="home_image" src={apple_home}  hoverSrc={apple_home_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
+              <a href=""><HoverImage className="home_image" src={people_and_mask_van}  hoverSrc={people_and_mask_van_hove} style={{width:'100%', height:"auto"}}></HoverImage></a>
+              <span ref ={myRef3}><HomeColoredHeader  title="SHARE YOUR PHOTOS" image={homepage_placeholder_lg}/></span>
+                  <a href="/IAmDifferentForm" ><HoverImage className="home_image" src={we_are_all_home_van}  hoverSrc={we_are_all_home_van_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
+                  <a href="/Sky_Form"><HoverImage className="home_image" src={sky_home_van2}  hoverSrc={sky_home_van2_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
+
+          </div>
+          <Row>
+            <Col xl={{span:4, offset:4}} lg={{span:4, offset:4}} sm={{span:10, offset:1}} className="sm_col_desktop">
+              <SocialIcon target="_blank" rel="noopener noreferrer" network="facebook" url="https://www.facebook.com/TAIWANfestVancouver/"/>
+              <SocialIcon target="_blank" rel="noopener noreferrer" network="twitter" url="https://twitter.com/VTaiwanfest"/>
+              <SocialIcon target="_blank" rel="noopener noreferrer" network="youtube" url="https://www.youtube.com/channel/UCxi_YzQvxZrSaa_OQDsOtEg"/>
+              <SocialIcon target="_blank" rel="noopener noreferrer" network="instagram" url="https://www.instagram.com/taiwanfest.vancouver/"/>
+            </Col>
+          </Row>
+          <div id="homeThirdSectionMobile">
+              <HomeColoredHeader title="I'M DIFFERENT, JUST LIKE YOU!"/>
+              <HomeMobileProject url=""type="INTSTALLATION" title="SKY" image={sky_mobile} hover={sky_mobile_hover}/>
+              <HomeMobileProject url="" type="INTERACTIVE GAME" title="WE ARE ALL IN THIS TOGETHER" image={diff_mobile}  hover={diff_mobile_hover}/>
+                <HomeMobileProject url="" type="ILLUSTRATION" title="MIRRORS" image={mirror_mobile}  hover={mirror_mobile_hover}/>
+
+              <HomeMobileProject url="" type="GRAPHIC ART" title="(UN) BEING CHINESE" image={chinese_mobile} hover={chinese_mobile_hover}/>
+              <HomeColoredHeader title="BEHIND THE MASK" image={homepage_placeholder_lg}  hover={sky_mobile}/>
+              <HomeMobileProject url="" type="DIGITAL PAINTING" title="THE OTHER SIDE OF MASK" image={mask_mobile}  hover={mask_mobile_hover}/>
+              <HomeMobileProject url="" type="DIGITAL PAINTING" title="PAUL'S APPLE" image={pauls_mobile}  hover={pauls_mobile_hover}/>
+              <HomeMobileProject url="" type="SKETCH" title="PEOPLE AND MASK" image={people_and_mask_mobile} hover={people_and_mask_mobile_hover} />
+              <HomeColoredHeader title="SHARE YOUR PHOTOS" image={homepage_placeholder_lg}/>
+              <HomeMobileProject url="/IAmDifferentForm" type="INTERACTIVE GAME" title="WE ARE ALL IN THIS TOGETHER" image={diff2_mobile} hover={diff2_mobile_hover} />
+              <HomeMobileProject url="/Sky_Form" type="INTERACTIVE GAME" title="UNDER THE SAME SKY PROJECT" image={sky2_mobile} hover={sky2_mobile_hover}/>
+                <Row>
+                  <Col xl={{span:4, offset:4}} lg={{span:4, offset:4}} md={{span:10, offset:1}} sm={{span:10, offset:1}} className="sm_col">
+                    <SocialIcon target="_blank" rel="noopener noreferrer" network="facebook" url="https://www.facebook.com/TAIWANfestVancouver/" style={{ height: 100, width: 100 }} />
+                    <SocialIcon target="_blank" rel="noopener noreferrer" network="instagram" url="https://twitter.com/VTaiwanfest" style={{ height: 100, width: 100 }} />
+                    <SocialIcon target="_blank" rel="noopener noreferrer" network="youtube" url="https://www.youtube.com/channel/UCxi_YzQvxZrSaa_OQDsOtEg" style={{ height: 100, width: 100 }} />
+                    <SocialIcon target="_blank" rel="noopener noreferrer" network="twitter" url="https://www.instagram.com/taiwanfest.vancouver/" style={{ height: 100, width: 100 }} />
+                  </Col>
+                </Row>
+          </div>*/}
           <div id="homeThirdSection">
 
               <span  ref ={myRef} ><HomeColoredHeader2 id="section1" title="I'M DIFFERENT, JUST LIKE YOU!"></HomeColoredHeader2></span>
@@ -145,6 +196,14 @@ function Home2() {
                   <a href="/Sky_Form"><HoverImage className="home_image" src={sky_home_van2}  hoverSrc={sky_home_van2_hover} style={{width:'100%', height:"auto"}}></HoverImage></a>
 
           </div>
+          <Row>
+            <Col xl={{span:4, offset:4}} lg={{span:4, offset:4}} sm={{span:10, offset:1}} className="sm_col_desktop">
+              <SocialIcon target="_blank" rel="noopener noreferrer" network="facebook" url="https://www.facebook.com/TAIWANfestVancouver/"/>
+              <SocialIcon target="_blank" rel="noopener noreferrer" network="twitter" url="https://twitter.com/VTaiwanfest"/>
+              <SocialIcon target="_blank" rel="noopener noreferrer" network="youtube" url="https://www.youtube.com/channel/UCxi_YzQvxZrSaa_OQDsOtEg"/>
+              <SocialIcon target="_blank" rel="noopener noreferrer" network="instagram" url="https://www.instagram.com/taiwanfest.vancouver/"/>
+            </Col>
+          </Row>
           <div id="homeThirdSectionMobile">
               <HomeColoredHeader title="I'M DIFFERENT, JUST LIKE YOU!"/>
               <HomeMobileProject url=""type="INTSTALLATION" title="SKY" image={sky_mobile} hover={sky_mobile_hover}/>
@@ -159,11 +218,18 @@ function Home2() {
               <HomeColoredHeader title="SHARE YOUR PHOTOS" image={homepage_placeholder_lg}/>
               <HomeMobileProject url="" type="INTERACTIVE GAME" title="WE ARE ALL IN THIS TOGETHER" image={diff2_mobile} hover={diff2_mobile_hover} />
               <HomeMobileProject url="" type="INTERACTIVE GAME" title="UNDER THE SAME SKY PROJECT" image={sky2_mobile} hover={sky2_mobile_hover}/>
-
+                <Row>
+                  <Col xl={{span:4, offset:4}} lg={{span:4, offset:4}} md={{span:10, offset:1}} sm={{span:10, offset:1}} className="sm_col">
+                    <SocialIcon target="_blank" rel="noopener noreferrer" network="facebook" url="https://www.facebook.com/TAIWANfestVancouver/" style={{ height: 100, width: 100 }} />
+                    <SocialIcon target="_blank" rel="noopener noreferrer" network="instagram" url="https://twitter.com/VTaiwanfest" style={{ height: 100, width: 100 }} />
+                    <SocialIcon target="_blank" rel="noopener noreferrer" network="youtube" url="https://www.youtube.com/channel/UCxi_YzQvxZrSaa_OQDsOtEg" style={{ height: 100, width: 100 }} />
+                    <SocialIcon target="_blank" rel="noopener noreferrer" network="twitter" url="https://www.instagram.com/taiwanfest.vancouver/" style={{ height: 100, width: 100 }} />
+                  </Col>
+                </Row>
           </div>
           <div>
             <Row>
-                <Col xl={{span:8, offset:2}} lg={{span:10, offset:2}} sm={{span:10, offset:1}}>
+                <Col xl={{span:8, offset:2}} lg={{span:8, offset:2}} sm={{span:10, offset:1}}>
                   <div className="home_border_top" style={{borderTop:"solid 2px #4A9C2C"}}/>
                 </Col>
             </Row>
@@ -177,9 +243,14 @@ function Home2() {
               <Col xl={{span:6, offset:3}} lg={{span:10, offset:1}} sm={{span:10, offset:1}}xs={{span:10, offset:1}} className="ack_name">{creators}</Col>
             </Row>
             <Row>
-                <Col xl={{span:8, offset:2}} lg={{span:6, offset:2}} sm={{span:10, offset:1}}>
+                <Col xl={{span:8, offset:2}} lg={{span:8, offset:2}} sm={{span:10, offset:1}}>
                   <div className="home_border_bottom"style={{borderTop:"solid 2px #4A9C2C"}}/>
                 </Col>
+            </Row>
+            <Row>
+              <Col xl={{span:8, offset:2}} lg={{span:8, offset:2}} sm={{span:10, offset:1}} className="sponsor_logo">
+                <a href="https://www.dtvan.ca/"  target="_blank" rel="noopener noreferrer"><img src={DVBIALOGO} style={{width:"100%", height:"auto"}}></img></a>
+              </Col>
             </Row>
           </div>
             <Footer content="&copy; 2020 ASIAN-CANADIAN SPECIAL EVENTS ASSOCIATION"></Footer>

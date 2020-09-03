@@ -6,7 +6,7 @@ import pigeon from "../../assets/pigeon_stop.svg";
 import { Container, Row, Col, Button, Form } from "react-bootstrap";
 import mouseClick2 from '../../assets/mirror_hint_red.png'
 import mouseClick3 from '../../assets/mirror_hint_white.png'
-import mirror_hint_final from '../../assets/mirror_click_clear.png'
+import mouseHintFinal from '../../assets/mirror_click_clear.png'
 class MirrorBird extends React.Component {
   constructor(props) {
     super(props);
@@ -340,7 +340,7 @@ class MirrorBird extends React.Component {
         <div id="wrapper_mirror" >
 
           <div id="container_box_bird_1" className="mirror-bird-container">
-            <img id="pointerDiv" src={mirror_hint_final}></img>
+            <img id="pointerDiv" src={mouseHintFinal}></img>
 
             <div id="box_1">
               <div id="bird_1"></div>
@@ -387,9 +387,9 @@ class MirrorBird extends React.Component {
                         <Form.Control id="user_input_mirror" required size="lg"></Form.Control>
                     </Col>
                     <Col xl={{span:8, offset:2}} lg={{span:10, offset:1}} sm={{span:10, offset:1}}xs={{span:10, offset:1}}>
-                      <Button onClick={this.checkAnswer}>Submit</Button>
+                      <Button className="mirror_submit" onClick={this.checkAnswer}>提交</Button>
                     {/*}  <p style={{"color":"white"}}>Did you miss something? </p>*/}
-                      <Button id="button_mirror1" onClick={this.refresh}>View the drawings again</Button>
+                      <Button  id="button_mirror1" onClick={this.refresh}>再看一次</Button>
                     </Col>
 
                 </Row>
@@ -438,9 +438,9 @@ class MirrorBird extends React.Component {
                       <Form.Control id="user_input_mirror2" required size="lg"></Form.Control>
                   </Col>
                   <Col xl={{span:8, offset:2}} lg={{span:10, offset:1}} sm={{span:10, offset:1}}xs={{span:10, offset:1}}>
-                    <Button onClick={this.checkAnswer}>Submit</Button>
+                    <Button className="mirror_submit" onClick={this.checkAnswer}>提交</Button>
                     {/*}<p style={{"color":"white"}}>Did you miss something? </p>*/}
-                    <Button  id="button_mirror2" onClick={this.refresh2}>View the drawings again</Button>
+                    <Button  id="button_mirror2" onClick={this.refresh2}>再看一次</Button>
                   </Col>
                 </Row>
               </div>
@@ -488,9 +488,9 @@ class MirrorBird extends React.Component {
                       <Form.Control id="user_input_mirror3" required size="lg"></Form.Control>
                   </Col>
                   <Col xl={{span:8, offset:2}} lg={{span:10, offset:1}} sm={{span:10, offset:1}}xs={{span:10, offset:1}}>
-                    <Button  onClick={this.checkAnswer}>Submit</Button>
+                    <Button className="mirror_submit" onClick={this.checkAnswer}>提交</Button>
                     {/*}<p style={{"color":"white"}}>Did you miss something? </p>*/}
-                    <Button id ="button_mirror3" onClick={this.refreshPage}>Restart</Button>
+                    <Button id ="button_mirror3" onClick={this.refreshPage}>再看一次</Button>
                   </Col>
                 </Row>
               </div>
@@ -501,6 +501,5 @@ class MirrorBird extends React.Component {
     }
 
   }
-
 
   export default MirrorBird;

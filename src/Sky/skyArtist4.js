@@ -40,6 +40,7 @@ var images = [p1, p2]
         artName="VISIBLE OR INVISIBLE"
         title="HSIEN-LING YIN"
         location="TAIWAN"
+        shareURL="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FVisible-Or-Invisible&amp;src=sdkpreparse"
         content={text}
         artistInfo={artistInfo}
         artwork={p2}

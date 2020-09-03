@@ -31,6 +31,7 @@ function SkyArtist3() {
         artName="HIDDEN IN THE CLOUDS"
         title="SARA BOYCHUK"
         location="CANADA"
+        shareURL="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FHidden-In-The-Clouds&amp;src=sdkpreparse"
         content={text}
         artistInfo={artistInfo}
         profile={sara_profile}

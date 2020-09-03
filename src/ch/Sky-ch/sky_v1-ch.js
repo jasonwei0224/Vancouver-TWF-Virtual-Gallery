@@ -161,7 +161,7 @@ class SkyV1_ch extends Component {
               <img className="main_image" src={mainImage}/>
             </Col>
         </Row>*/}
-      <ProgramInfo_ch subtitle="我跟你的相同, 就是我們都不同" title="頭頂同一片天計畫" artistName="台灣文化節" url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2Fsky-ch&amp;src=sdkpreparse" color="#246f79">
+      <ProgramInfo_ch subtitle="我跟你的相同, 就是我們都不同" title="同一片天計畫" artistName="台灣文化節" url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FSky_Form-ch&amp;src=sdkpreparse"  color="#246f79">
       </ProgramInfo_ch>
 
         <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text}></MainContents_Middle_Adonis>
@@ -206,7 +206,7 @@ class SkyV1_ch extends Component {
       <FormConsent_ch inputId="checkbox-3" consent="我同意台灣文化節將我所拍攝的照片作為「頭頂同一片天計畫」節目的內容與相關宣傳使用。"></FormConsent_ch>
 
 
-        <ButtonCh onclick={this.submitForm} title="送出" togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2Fsky-ch&amp;src=sdkpreparse"></ButtonCh>
+        <ButtonCh onclick={this.submitForm} title="送出" togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FSky_Form-ch&amp;src=sdkpreparse" ></ButtonCh>
 
 
       </Form>

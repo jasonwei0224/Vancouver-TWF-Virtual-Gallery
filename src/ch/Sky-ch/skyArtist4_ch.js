@@ -49,6 +49,7 @@ var images = [p1, p2]
         artName="可見與不可見的"
         title="尹顯玲"
         location="台灣"
+        shareURL="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FVisible-Or-Invisible-ch&amp;src=sdkpreparse"
         content={text}
         artistInfo={artistInfo}
         artwork={p2}
