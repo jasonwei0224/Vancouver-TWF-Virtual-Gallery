@@ -1,4 +1,4 @@
-# 2020 TAIWANfest Onlie Art Gallery
+# 2020 TAIWANfest Online Art Gallery
 This is an ReactJS web app that is part of [2020 Vancouver TAIWANfest](http://vancouvertaiwanfest.ca/) which switched to virtual programming due to the ongoing COVID-19 Pandemic.
 The web app provides festival attendees to continue particiapte in the festival through viewing various interactive artworks. 
 
