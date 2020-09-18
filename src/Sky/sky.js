@@ -44,6 +44,16 @@ import Second_Title_Red from "../modules/Second_Title_Red"
 import Second_Title_Green from "../modules/Second_Title_Green"
 import MainContents_Middle from "../modules/MainContents_Middle"
 
+import sky_image_desktop from "../assets/sky_pic_desktop.jpg";
+import sky_image_mobile from "../assets/sky_pic_mobile.jpg";
+
+import MainContents_Middle_Adonis_Notice from "../modules/MainContents_Middle_Adonis_Notice"
+import ReactPlayer from "react-player";
+import sky_video from "../assets/Sky.mp4";
+import YouTube from 'react-youtube';
+import YoutubePlayer from 'react-youtube-player';
+import YouTubeEmbed from 'react-youtube-embed'
+import { Player } from 'video-react';
 function Sky() {
 
   const goToForm=()=> {
@@ -54,11 +64,12 @@ function Sky() {
   var images2 = [sky_cell_image1, sky_cell_image2]
 var text=`What is something that you can see when you look up, no matter wherever you are in the world? The sky is one constant no matter where you are and what time of day, it is there above the horizon.
 
-Working with photographers in Canada and Taiwan, Vancouver TAIWANfest presents Eight massive lanterns at šxʷƛ̓ənəq Xwtl'e7énḵ Square (formally known as Vancouver Art Gallery North Plaza) in downtown Vancouver. These images show that despite our geographical differences, we all look towards that same sky that looms over our heads, further reaffirming that we are all in this together. Sky is built on the concept of removing the influence of colour; by looking past our differences, we can see that we are one and the same.
+Working with photographers in Canada and Taiwan, Vancouver TAIWANfest presents Eight massive lanterns at šxʷƛ̓exən Xwtl’a7shn (formerly QET Plaza) in downtown Vancouver. These images show that despite our geographical differences, we all look towards that same sky that looms over our heads, further reaffirming that we are all in this together. Sky is built on the concept of removing the influence of colour; by looking past our differences, we can see that we are one and the same.
 `
 var text2=`In all that the world has gone through, the unchanging sky gives people a sense of hope and anticipation for the feeling of a normal day to come again. Furthermore, Indigenous teachings and stories about the sky can guide us in these times. By giving each image a background story, we can implore others to look to the sky and gain strength.
 
 Your experience and view of the sky will be different depending on the time of day. These lanterns will create a whole new dynamic look and feel through the use of LED lights in the evenings.
+
 `
 var public_health=`As the province is working to reopen the economy in a safe manner and more and more people are getting back to a new normal, please follow all public health guidelines to protect yourself and others from COVID-19. Individuals should monitor their health for signs and symptoms of COVID-19. And if you’re not feeling well, they recommend staying home at this time. Respect social-distancing measures when outdoors and visiting the exhibit. Wear a face covering to protect yourself and others, especially when social-distancing is not possible such as on transit. By visiting the on-site “Sky” installation, you acknowledge that there are inherent risks associated with the COVID-19 Pandemic and will not hold ACSEA or our programming partners liable for your health.`
 
@@ -66,11 +77,21 @@ var public_health=`As the province is working to reopen the economy in a safe ma
 var stories = `Inspired by a colourless mindset and the Indigenous peoples' respect for nature, we learn to appreciate many beautiful interpretations of life from our mother earth.  Despite the exhausting and persevering efforts reaching the peaks, under the sky, we know that we are still forever small and insignificant.
 
 Time takes us through different periods of civilization, and under the same sky, our footprints have been imprinted in every corner on earth.  Shall we be humble and brave to embrace the spirits of diversity, equality and freedom so we may deserve the blessings of the sky for generations to come?`
+
+var special_notice= `
+Date / Starting from September 15th to September 27th
+Location / šxʷƛ̓exən Xwtl’a7shn (formerly QET Plaza)
+`
+var notice_small=`*Installation darks at 10 pm daily
+`
+
 return (
     <div>
       <Container fluid style={{padding:"0"}}>
-        <span className="desktop_slider_sky"><Slider images={images}/></span>
-     <span className="mobile_slider_sky"><Slider2 images={images2}/></span>
+        {/*}<span className="desktop_slider_sky"><Slider images={images}/></span>*/}
+    <img  className="desktop_sky" src={sky_image_desktop}></img>
+<img className="mobile_sky"src={sky_image_mobile}></img>
+     {/*}<span className="mobile_slider_sky"><Slider2 images={images2}/></span>*/}
 
         <ProgramInfo
           subtitle="I'm different, just like you!"
@@ -80,7 +101,11 @@ return (
           color="#246f79"
           ></ProgramInfo>
 
+          <Col xl={{span:8, offset:2}} lg={{span:10, offset:1}} md={{span:10, offset:1}}  xs={{span:10, offset:1}}>
 
+           <YouTubeEmbed id="FRYSTXVuTOM"/>
+           </Col>
+              <div className="sky_space"></div>
         <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text}></MainContents_Middle_Adonis>
       <div className="sky_mobile_artists">
         <Row>
@@ -137,9 +162,15 @@ return (
 
 
         <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text2}></MainContents_Middle_Adonis>
+
+
           <Second_Title_Green secondTitle="THE STORIES"></Second_Title_Green>
           <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={stories}></MainContents_Middle_Adonis>
-          <div className="sky_space"></div>
+
+<MainContents_Middle_Adonis_Notice style={{fontWeight:"bold"}} color="#EF5797" fontWeight= "bold"font="Sans-serif" contents={special_notice}  contents2={notice_small}></MainContents_Middle_Adonis_Notice>
+
+
+
         <Second_Title_Red secondTitle="PUBLIC HEALTH NOTICE"></Second_Title_Red>
         <MainContents_Middle style={{color:"#0C3866"}} font="sofia-pro" contents={public_health}></MainContents_Middle>
 
@@ -152,7 +183,7 @@ return (
         <Button1 onclick={goToForm} title="UPLOAD YOUR PHOTO" togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FSky&amp;src=sdkpreparse" ></Button1>
       </Container>
 
-      <Footer content= "&copy; 2020 TAIWANESE CANADIAN ASSOCIATION OF TORONTO"></Footer>
+      <Footer content= "&copy; 2020 ASIAN-CANADIAN SPECIAL EVENTS ASSOCIATION"></Footer>
     </div>
   );
 }

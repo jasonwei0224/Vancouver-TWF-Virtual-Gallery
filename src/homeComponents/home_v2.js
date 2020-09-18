@@ -72,6 +72,10 @@ var text2= `The virtuall gallery is made possible with the following people.
 Their hard work and creativity in developing this site is greatly appreciated.`
 var creators = `Jason Wei / Gina Kim / Sangwook Yun / Eric Chang / Jessica Chu / Flemming Chow
  Yuni Hur / Sherry Guo`
+ var info = `Date / Starting from September 15th to September 27th
+ Location / šxʷƛ̓exən Xwtl’a7shn (formerly QET Plaza)
+ `
+ var info2= `*Installation darks at 10 pm daily`
 const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)
   const useMountEffect = (fun) => useEffect(fun, [])
 
@@ -206,18 +210,18 @@ function Home2() {
           </Row>
           <div id="homeThirdSectionMobile">
               <HomeColoredHeader title="I'M DIFFERENT, JUST LIKE YOU!"/>
-              <HomeMobileProject url=""type="INTSTALLATION" title="SKY" image={sky_mobile} hover={sky_mobile_hover}/>
-              <HomeMobileProject url="" type="INTERACTIVE GAME" title="WE ARE ALL IN THIS TOGETHER" image={diff_mobile}  hover={diff_mobile_hover}/>
-                <HomeMobileProject url="" type="ILLUSTRATION" title="MIRRORS" image={mirror_mobile}  hover={mirror_mobile_hover}/>
+              <HomeMobileProject url="/Sky"type="INTSTALLATION" title="SKY" info={info} info2={info2}image={sky_mobile} hover={sky_mobile_hover}/>
+              <HomeMobileProject url="/IAmDifferent" type="INTERACTIVE GAME" title="WE ARE ALL IN THIS TOGETHER" image={diff_mobile}  hover={diff_mobile_hover}/>
+              <HomeMobileProject url="/Mirror" type="ILLUSTRATION" title="MIRRORS" image={mirror_mobile}  hover={mirror_mobile_hover}/>
 
-              <HomeMobileProject url="" type="GRAPHIC ART" title="(UN) BEING CHINESE" image={chinese_mobile} hover={chinese_mobile_hover}/>
+              <HomeMobileProject url="/UnbeingChinese" type="GRAPHIC ART" title="(UN) BEING CHINESE" image={chinese_mobile} hover={chinese_mobile_hover}/>
               <HomeColoredHeader title="BEHIND THE MASK" image={homepage_placeholder_lg}  hover={sky_mobile}/>
-              <HomeMobileProject url="" type="DIGITAL PAINTING" title="THE OTHER SIDE OF MASK" image={mask_mobile}  hover={mask_mobile_hover}/>
-              <HomeMobileProject url="" type="DIGITAL PAINTING" title="PAUL'S APPLE" image={pauls_mobile}  hover={pauls_mobile_hover}/>
-              <HomeMobileProject url="" type="SKETCH" title="PEOPLE AND MASK" image={people_and_mask_mobile} hover={people_and_mask_mobile_hover} />
+              <HomeMobileProject url="/OtherSideOfMask" type="DIGITAL PAINTING" title="THE OTHER SIDE OF MASK" image={mask_mobile}  hover={mask_mobile_hover}/>
+              <HomeMobileProject url="/PaulsApple" type="DIGITAL PAINTING" title="PAUL'S APPLE" image={pauls_mobile}  hover={pauls_mobile_hover}/>
+              <HomeMobileProject url="/PeopleAndMask" type="SKETCH" title="PEOPLE AND MASK" image={people_and_mask_mobile} hover={people_and_mask_mobile_hover} />
               <HomeColoredHeader title="SHARE YOUR PHOTOS" image={homepage_placeholder_lg}/>
-              <HomeMobileProject url="" type="INTERACTIVE GAME" title="WE ARE ALL IN THIS TOGETHER" image={diff2_mobile} hover={diff2_mobile_hover} />
-              <HomeMobileProject url="" type="INTERACTIVE GAME" title="UNDER THE SAME SKY PROJECT" image={sky2_mobile} hover={sky2_mobile_hover}/>
+              <HomeMobileProject url="/IAmDifferentForm" type="INTERACTIVE GAME" title="WE ARE ALL IN THIS TOGETHER" image={diff2_mobile} hover={diff2_mobile_hover} />
+            <HomeMobileProject url="/Sky_Formdo" type="INTERACTIVE GAME" title="UNDER THE SAME SKY PROJECT" image={sky2_mobile} hover={sky2_mobile_hover}/>
                 <Row>
                   <Col xl={{span:4, offset:4}} lg={{span:4, offset:4}} md={{span:10, offset:1}} sm={{span:10, offset:1}} className="sm_col">
                     <SocialIcon target="_blank" rel="noopener noreferrer" network="facebook" url="https://www.facebook.com/TAIWANfestVancouver/" style={{ height: 100, width: 100 }} />

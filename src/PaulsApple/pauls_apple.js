@@ -90,7 +90,7 @@ Art has always been her pride and joy and feeds her spirit. For her, creativity 
         <MobileShareButton togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FPaulsApple&amp;src=sdkpreparse" ></MobileShareButton>
       </Container>
 
-      <Footer content= "&copy; 2020 TAIWANESE CANADIAN ASSOCIATION OF TORONTO"></Footer>
+      <Footer content= "&copy; 2020 ASIAN-CANADIAN SPECIAL EVENTS ASSOCIATION"></Footer>
     </div>
   );
 }

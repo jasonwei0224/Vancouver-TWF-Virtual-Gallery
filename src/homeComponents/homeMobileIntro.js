@@ -11,9 +11,7 @@ function HomeMobileIntro() {
                 reality of our society.
                 For things words can’t express, let pictures do the talking.
                 For the warmth people can’t feel, maybe colours can ignite.
-                To appreciate our artists here, time and space are all is required. <br></br><br></br>
-
-                The galleries of your photos are open now. Galleries of all participating artists will be open starting August 28th.
+                To appreciate our artists here, time and space are all is required. <br></br>
             </div>
 
         </div>

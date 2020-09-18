@@ -69,7 +69,7 @@ return (
       <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}><a href="/Visible-Or-Invisible"><img style={{width:"100%", height:"auto"}}src={p1_profile}></img></a></Col></Row>
         <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" > <div style={{color:"#2f6e79"}}>| Art Works |</div></Col></Row>
 
-      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" ><a href="/Visible-Or-Invisible" className="DA_artName">Visibile or Invisible</a> </Col></Row>
+      <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}} className="DA_first_col" ><a href="/Visible-Or-Invisible" className="DA_artName">Visible or Invisible</a> </Col></Row>
         <Row><Col  xl={{span:12}} lg={{span:12}} md={{span:12}} sm={{Sspan:12}} xs={{span:12}}  ><div style={{borderBottom:"1px solid #2f6e79", paddingBottom:"20px" , marginBottom:"20px"}}></div></Col></Row>
 
     <Row><Col  xl={{span:12}} lg={{span:12}}  md={{span:12}} sm={{Sspan:12}} xs={{span:12}} style={{textAlign:"center", fontWeight:"bold"}}><a href="/With-The-Passage-Of-Time" className="DA_artName">With The Passage of Time</a></Col></Row>

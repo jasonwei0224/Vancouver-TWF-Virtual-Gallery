@@ -171,7 +171,7 @@ export default class HeaderV2 extends React.Component {
                 <Nav className="ml-auto"style={{alignItems:"end"}}>
 
                     <Nav.Link className="navitem-v2" href="https://vancouvertaiwanfest.ca/vancouver-2020/">HOME</Nav.Link>
-                    <Nav.Link className="navitem-v2" href="/">GALLERY DIRECTORY</Nav.Link>
+                    <Nav.Link className="navitem-v2" href="/GalleryHome">GALLERY DIRECTORY</Nav.Link>
                   <div className="nav-dropdown-wrapper">
                     <div className="nav-dropdown-wrapper2">
                       <NavDropdown bsPrefix="navitem-dropdown"title="GALLERY" alignCenter renderMenuOnMount={true}>
@@ -211,7 +211,7 @@ export default class HeaderV2 extends React.Component {
                         <Nav className="ml-auto"style={{alignItems:"end"}}>
 
                     <Nav.Link className="navitem-v2" href="https://vancouvertaiwanfest.ca/%e6%ba%ab%e5%93%a5%e8%8f%af%e5%8f%b0%e7%81%a3%e6%96%87%e5%8c%96%e7%af%802020/?lang=zh-hant">首頁</Nav.Link>
-                    <Nav.Link className="navitem-v2" href="/-ch">線上藝廊首頁</Nav.Link>
+                    <Nav.Link className="navitem-v2" href="/GalleryHome-ch">線上藝廊首頁</Nav.Link>
                       <div className="nav-dropdown-wrapper">
                         <div className="nav-dropdown-wrapper2">
                       <NavDropdown alignCenter bsPrefix="navitem-dropdown"title="線上藝廊" renderMenuOnMount={true}>

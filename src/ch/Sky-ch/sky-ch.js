@@ -42,6 +42,18 @@ import sky_cell_image1 from'../../assets/SKY_top_IMAGE-1_Cell.jpg';
 import sky_cell_image2 from'../../assets/SKY_top_IMAGE-2_Cell.jpg';
 
 import Second_Title_Green from "../../modules/Second_Title_Green"
+import Second_Title_Red from "../../modules/Second_Title_Red"
+import Second_Title_ch_No_margin from "../../modules/Second_TitleCh_NoMargin"
+import MainContents_Middle from "../../modules/MainContents_Middle"
+import MainContents_Middle_ch from "../../modules/MainContents_Middle_ch"
+
+import sky_image_desktop from "../../assets/sky_pic_desktop.jpg";
+import sky_image_mobile from "../../assets/sky_pic_mobile.jpg";
+import MainContents_Middle_Adonis_Notice from "../../modules/MainContents_Middle_Adonis_Notice_CH"
+
+import ReactPlayer from "react-player";
+import YouTubeEmbed from 'react-youtube-embed'
+import sky_video from "../../assets/Sky.mp4";
 
 function Sky() {
 
@@ -58,7 +70,8 @@ var text=`在同一片藍天下，當一切顏色歸零(Colour Zero)，回到一
 
   var text2=`當數字「8」轉為橫向成為「∞」無限符號，象徵天空的無邊無際、遼闊遠大。膚色、外貌、族裔、語言、文化，不會是限制人類理解彼此的界線；「∞」也象徵愛的永恆，當人們能互相欣賞不一樣的美麗，平等地認同彼此的存在價值，共同創造了人類永續未來的機會。
 
-在加拿大台灣文化節活動期間，不只在溫哥華美術館前廣場能看到八座「天空」燈光裝置藝術作品，陪伴溫哥華人度過黎明與黑夜。即使你人不在溫哥華，甚至不在加拿大，你都可以隨時拍下天空的照片上傳分享，立即加入我們 ! 在夏天的尾聲，透過看著同一片天空的不同風景，感受不同的空間氛圍，不受地域和時間限制，貼近彼此，相互作伴 !
+在加拿大台灣文化節活動期間，不只在伊麗莎白女皇劇院廣場能看到八座「天空」燈光裝置藝術作品，陪伴溫哥華人度過黎明與黑夜。即使你人不在溫哥華，甚至不在加拿大，你都可以隨時拍下天空的照片上傳分享，立即加入我們 ! 在夏天的尾聲，透過看著同一片天空的不同風景，感受不同的空間氛圍，不受地域和時間限制，貼近彼此，相互作伴 !
+
 `
 var text3 =`在地球上不同位置的我們，相約在同一時刻拍下天空的包羅萬象。
 
@@ -73,11 +86,23 @@ var text3 =`在地球上不同位置的我們，相約在同一時刻拍下天�
 var stories = `從一種無色的心境開始，看到原住民對大自然的尊敬，這個大自然都一直為我們的人生作美麗的詮釋。 無論攀登雲峰的過程是如何的刻骨銘心，在這片天空下，我們永遠無法改變的是人類的渺小與脆弱。
 
 時間帶著我們穿梭過不一樣的時空，也是在這片天空下，我們足跡就這樣層疊在地球上的每一個角落 。 為了可以讓世世代代可以得到這片天的庇蔭，是否我們更應該虛心與勇敢去擁抱多元、平等與自由的價值。`
+
+var public_health=`由於本省正在努力以安全的方式重新開放經濟，並且讓越來越多的人可以恢復到新的常態，請遵循所有公共衛生準則以保護自己和他人免受COVID-19的侵害。個人應監控自己的健康狀況，若發現COVID-19的徵兆和症狀，或是身體不舒服，建議您此時待在家裡勿外出。在戶外和參觀展覽時，請遵守社交疏導措施。戴上口罩以保護自己和他人，尤其是在無法維持社交隔離（六英呎）的情況下。參與現場 Sky 的裝置藝術，您清楚並瞭解與COVID-19大流行有相關風險，ACSEA和我們的合作夥伴關心您的健康但不對任何因為參觀展覽所延伸的問題負責。`
+
+var special_notice= `展覽日期 / 九月十五日至九月二十七日
+展覽地點 / 女皇劇院廣場展出
+`
+var notice_small=`*每晚10點熄燈
+`
+
+
   return (
     <div>
       <Container fluid style={{padding:"0"}}>
-       <span className="desktop_slider_sky"><Slider images={images}/></span>
- <span className="mobile_slider_sky"><Slider2 images={images2}/></span>
+       {/*}<span className="desktop_slider_sky"><Slider images={images}/></span>
+     <span className="mobile_slider_sky"><Slider2 images={images2}/></span>*/}
+     <img  className="desktop_sky" src={sky_image_desktop}></img>
+     <img className="mobile_sky"src={sky_image_mobile}></img>
         <ProgramInfoThinLineCH
           subtitle="大型實體裝置藝術"
           title="天空"
@@ -85,7 +110,10 @@ var stories = `從一種無色的心境開始，看到原住民對大自然的�
           url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FSky-ch&amp;src=sdkpreparse"
           color="#246f79"
           ></ProgramInfoThinLineCH>
-
+          <Col xl={{span:8, offset:2}} lg={{span:10, offset:1}} md={{span:10, offset:1}}  xs={{span:10, offset:1}}>
+            <YouTubeEmbed id="FRYSTXVuTOM"/>
+            </Col>
+            <div className="sky_space"></div>
           <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text}></MainContents_Middle_Adonis>
           <div className="sky_mobile_artists">
           <Row>
@@ -143,15 +171,18 @@ var stories = `從一種無色的心境開始，看到原住民對大自然的�
             <MainContents_Middle_Adonis style={{color:"#4e9b16"}} color="#4e9b16" font="adonis-web" contents={stories}></MainContents_Middle_Adonis>
           <MainContents_Middle_Adonis style={{color:"#0C3866"}} font="adonis-web" contents={text2}></MainContents_Middle_Adonis>
 
+          <MainContents_Middle_Adonis_Notice style={{fontWeight:"bold"}} color="#EF5797" fontWeight= "bold" font="Sans-serif" contents={special_notice} contents2={notice_small}></MainContents_Middle_Adonis_Notice>
 
-
-          <Second_Title secondTitle="同一片天計畫" style={{fontFamily: "sofia-pro Sans-serif"}}></Second_Title>
+          <Second_Title_Red secondTitle="疫情健康提醒："></Second_Title_Red>
+          <MainContents_Middle style={{color:"#0C3866"}} font="sofia-pro" contents={public_health}></MainContents_Middle>
+          <div className="sky_space2"></div>
+        <Second_Title_ch_No_margin secondTitle="同一片天計畫" style={{fontFamily: "sofia-pro Sans-serif"}}></Second_Title_ch_No_margin>
           <MainContents_Important contents={text3}></MainContents_Important>
 
         <Button1 onclick={goToForm} title="上傳照片" togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FSky-ch&amp;src=sdkpreparse"></Button1>
       </Container>
 
-      <Footer content= "&copy; 2020 TAIWANESE CANADIAN ASSOCIATION OF TORONTO"></Footer>
+      <Footer content= "&copy; 2020 加拿大亞裔活動協會"></Footer>
     </div>
   );
 }

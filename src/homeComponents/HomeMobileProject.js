@@ -17,9 +17,13 @@ function HomeMobileProject(props) {
                 <HoverImage style={{width:'100%', height:"auto"}} id="homeMobileProjectImg" src={props.image} hoverSrc={props.hover}/>
             </div>
             <div id="homeMobileProjectBottomSection">
-                <div id="homeMobileProjectType">{props.type}</div>
+                <div id="homeMobileProjectType">{props.type}
+                </div>
                 <hr id="homeMobileProjectLine"/>
                 <div id="homeMobileProjectTitle">{props.title}</div>
+                <div id="homeMobileProjectNotice" style={{whiteSpace: 'pre-line'}}>{props.info}
+                  <span style={{fontSize:"35px"}}>{props.info2}</span>
+                </div>
             </div>
 
         </div></a>

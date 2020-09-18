@@ -74,7 +74,7 @@ function SkyArtist3() {
         artistInfo={artistInfo}
         artwork={valerie}
         profile={valerie_profile}
-        fb="https://www.valeriedurant.ca"
+        fb="https://www.facebook.com/vdurant"
         ig="https://www.instagram.com/valeriedurantvancouver/?hl=en"
         yt=""
         tw=""

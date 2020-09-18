@@ -1,7 +1,23 @@
+.mobile_sky{
+  width:100%;
+  height:auto;
+}
+.desktop_sky{
+    width:100%;
+    height:auto;
+}
+
+.video_sky{
+  width:100%;
+  height:555px;
+}
+
 .sky_space{
   padding-top: 80px;
 }
-
+.sky_space2{
+  padding-top:30px;
+}
 .artTitle{
   color:#246f79;
   font-family: adonis-web, serif;
@@ -184,6 +200,12 @@
   margin-bottom: 40px;
 }
 @media screen and (max-width: 767px) {
+  .mobile_sky{
+    display:block
+  }
+  .desktop_sky{
+    display:none
+  }
   .mobile_slider_sky{
     display:block
   }
@@ -341,6 +363,12 @@
 
 
 @media screen and (min-width: 768px) {
+  .mobile_sky{
+    display:block
+  }
+  .desktop_sky{
+    display:none
+  }
   .artTitle{
     font-size: 60px;
     /* margin-bottom: 60px; */
@@ -497,6 +525,12 @@
 }
 
 @media screen and (min-width: 992px) {
+  .mobile_sky{
+    display:none
+  }
+  .desktop_sky{
+    display:block
+  }
   .artTitle{
     font-size: 60px;
     margin-bottom: 60px;
@@ -654,6 +688,12 @@
 
 
 @media screen and (min-width: 1200px) {
+  .mobile_sky{
+    display:none
+  }
+  .desktop_sky{
+    display:block
+  }
   .sky_mobile_artists{
     display:none;
   }

@@ -75,7 +75,7 @@ function SkyArtist(props) {
         <MobileShareButton togoUrl={props.shareURL}></MobileShareButton>
       </Container>
 
-      <Footer content= "&copy; 2020 TAIWANESE CANADIAN ASSOCIATION OF TORONTO"></Footer>
+      <Footer content= "&copy; 2020 加拿大亞裔活動協會"></Footer>
     </div>
   );
 }

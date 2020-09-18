@@ -1,4 +1,6 @@
-
+.notice_small{
+   font-size: 40px;
+}
 .mainSection_two_img{
   width: 100%;
   height: auto;
@@ -11,6 +13,28 @@
     margin-bottom:30px;
     font-family: "adonis-web";
     color:#246f79;
+}
+.mainSection_Row_adonis_Notice_CH{
+  margin-top:10px;
+  margin-bottom:10px;
+  /* font-family: "adonis-web"; */
+  color:#2f6e79;
+  /* font-family: adonis-web, serif; */
+  /* font-weight: normal; */
+
+  font-size: 20px;
+  white-space: pre-line;
+}
+.mainSection_Row_adonis_Notice{
+  margin-top:10px;
+  margin-bottom:10px;
+  /* font-family: "adonis-web"; */
+  color:#2f6e79;
+  /* font-family: adonis-web, serif; */
+  /* font-weight: normal; */
+
+  font-size: 20px;
+  white-space: pre-line;
 }
 .mainSection_Row_adonis{
   margin-top:10px;
@@ -147,6 +171,9 @@
 }
 
 @media screen and (max-width: 767px) {
+  .notice_small{
+     font-size: 35px;
+  }
   .main_borderline{
     margin-top: 70px;
     margin-bottom:20px;
@@ -166,6 +193,30 @@
       margin-top:50px;
       margin-bottom:10px;
       color:#0C3866;
+  }
+  .mainSection_Row_adonis_Notice_CH{
+    margin-top:10px;
+    margin-bottom:10px;
+    /* font-family: "adonis-web"; */
+    color:#2f6e79;
+    font-family: sofia-pro, Sans-serif;
+    font-size:28px;
+    /* font-weight: normal; */
+
+    font-size: 20px;
+    white-space: pre-line;
+  }
+  .mainSection_Row_adonis_Notice{
+    margin-top:10px;
+    margin-bottom:10px;
+    /* font-family: "adonis-web"; */
+    color:#2f6e79;
+    font-family: sofia-pro, Sans-serif;
+    font-size:28px;
+    /* font-weight: normal; */
+
+    font-size: 20px;
+    white-space: pre-line;
   }
   .mainSection_Row_adonis{
     margin-top:10px;
@@ -258,6 +309,9 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .notice_small{
+     font-size: 35px;
+  }
     .mainSection_Img3 {
       display: none;
     }
@@ -286,6 +340,20 @@
       margin-top:50px;
       /* margin-bottom:10px; */
       color:#2f6e79;
+    }
+    .mainSection_Row_adonis_Notice{
+      font-size: 42px;
+      margin-top:50px;
+      margin-bottom:10px;
+      color:#2f6e79;
+      font-family: sofia-pro, Sans-serif;
+    }
+    .mainSection_Row_adonis_Notice_CH{
+      font-size: 40px;
+      margin-top:50px;
+      margin-bottom:10px;
+      color:#2f6e79;
+      font-family: sofia-pro, Sans-serif;
     }
     .mainSection_Row_adonis{
       font-size: 42px;
@@ -378,6 +446,9 @@
 }
 
 @media only screen and (min-width: 992px) {
+  .notice_small{
+     font-size: 35px;
+  }
   .main_borderline{
     margin-top: 70px;
     margin-bottom:20px;
@@ -423,6 +494,9 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .notice_small{
+     font-size: 20px;
+  }
   .main_borderline{
     margin-top: 70px;
     margin-bottom:0px;
@@ -453,7 +527,21 @@
     .mainSection_Row {
         margin-top:30px;
         margin-bottom:10px;
-        font-size: 23px;
+        font-size: 20px;
+    }
+    .mainSection_Row_adonis_Notice{
+        font-size: 25px;
+      margin-top:50px;
+      margin-bottom:10px;
+      color:#2f6e79;
+      font-family: sofia-pro, Sans-serif;
+    }
+    .mainSection_Row_adonis_Notice_CH{
+        font-size: 25px;
+      margin-top:50px;
+      margin-bottom:10px;
+      color:#2f6e79;
+      font-family: sofia-pro, Sans-serif;
     }
     .mainSection_Row_adonis{
       margin-top:30px;

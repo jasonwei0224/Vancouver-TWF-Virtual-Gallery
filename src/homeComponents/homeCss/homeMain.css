@@ -251,6 +251,13 @@
     font-weight:bold;
     font-family: sofia-pro, sans-serif;
 }
+#homeMobileProjectNotice{
+  margin-top:20px;
+  /* font-family: sofia-pro, sans-serif; */
+  font-size: 40px;
+  font-weight:bold;
+  color:#EF5797
+}
 
 #homeSecondSectionContetn{
   text-align: center;
@@ -300,6 +307,10 @@
 }
 /* xs < 768 */
 @media screen and (max-width: 767px) {
+  #homeMobileProjectNotice{
+      /* font-family: sofia-pro, sans-serif; */
+    color:#EF5797
+  }
   .sm_col_desktop{
     display:none;
   }
@@ -404,6 +415,10 @@
 
 /* sm */
 @media screen and (min-width: 768px) {
+  #homeMobileProjectNotice{
+    /* font-family: sofia-pro, sans-serif; */
+    color:#EF5797
+  }
   .sm_col{
     margin-top:80px;
   }

@@ -115,7 +115,7 @@ class PeopleAndMask extends Component {
           <MobileShareButton togoUrl="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgallery.vancouvertaiwanfest.ca%2FPeopleAndMask-ch&amp;src=sdkpreparse"></MobileShareButton>
 
         </Container>
-        <Footer content= "&copy; 2020 TAIWANESE CANADIAN ASSOCIATION OF TORONTO"></Footer>
+        <Footer content= "&copy; 2020 加拿大亞裔活動協會"></Footer>
       </div>
 
 

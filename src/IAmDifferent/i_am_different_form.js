@@ -145,7 +145,7 @@ class IAmDifferentForm extends Component {
       <div>
         <Container fluid>
           <Row>
-            <Col lg={{ span: 12, offset: 0 }} xs={{ span: 12, offset: 0 }} bsPrefix="image_col">
+            <Col  xl={{span:12, offset:0}} lg={{ span: 12, offset: 0 }} xs={{ span: 12, offset: 0 }} bsPrefix="image_col">
               <img className="main_image" src={different_img}/>
             </Col>
           </Row>

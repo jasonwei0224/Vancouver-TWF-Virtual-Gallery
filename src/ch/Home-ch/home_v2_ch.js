@@ -79,7 +79,10 @@ function Home2() {
   var text2= `線上互動藝廊節目，特別感謝此技術團隊的付出`
   var creators = `Jason Wei / Gina Kim / Sangwook Yun / Eric Chang / Jessica Chu / Flemming Chow
    Yuni Hur / Sherry Guo`
-
+var info = `展覽日期 / 九月十五日至九月二十七日
+展覽場地 / 女皇劇院廣場展出
+`
+var info2=`*每晚10點熄燈`
 
     return (
 
@@ -203,7 +206,7 @@ function Home2() {
         <div id="homeThirdSectionMobile">
 
           <HomeColoredHeader title="我跟你的相同，就是我們都不同"/>
-            <HomeMobileProject url="/Sky-ch" type="裝置藝術" title="天空" image={sky_mobile}  hover={sky_mobile_hover}/>
+            <HomeMobileProject url="/Sky-ch" type="裝置藝術" title="天空" info={info}  info2={info2} image={sky_mobile}  hover={sky_mobile_hover}/>
             <HomeMobileProject url="/IAmDifferent-ch"type=" 線上互動" title="我跟你的相同，就是我們都不同" image={diff_mobile}  hover={diff_mobile_hover}/>
             <HomeMobileProject url="/UnbeingChinese-ch"type="數位創作" title="「趣」中國化" image={chinese_mobile}  hover={chinese_mobile_hover}/>
             <HomeMobileProject url="/Mirror-ch"type="插畫創作" title="鏡子" image={mirror_mobile}  hover={mirror_mobile_hover}/>

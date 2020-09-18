@@ -22,6 +22,9 @@ function HomeMobileProject(props) {
                 <div id="homeMobileProjectType">{props.type}</div>
                 <hr id="homeMobileProjectLine"/>
                 <div id="homeMobileProjectTitle">{props.title}</div>
+                  <div id="homeMobileProjectNotice" style={{whiteSpace: 'pre-line'}}>{props.info}
+                    <span style={{fontSize:"35px"}}>{props.info2}</span>
+                    </div>
             </div>
 
         </div></a>

@@ -73,7 +73,14 @@ history.listen(location => {
         <Router>
         {/* <hr id="mobileLine"/> */}
         <Switch>
-          <Route path="/" exact component={Home2} />
+          <Route exact path="/">
+            <Redirect to="/GalleryHome" />
+          </Route>
+          <Route exact path="/-ch">
+            <Redirect to="/GalleryHome-ch" />
+          </Route>
+
+          <Route path="/GalleryHome" exact component={Home2} />
           <Route path="/PaulsApple" component={PaulsApple} />
           <Route path="/PeopleAndMask" component={PeopleAndMask} />
           <Route path="/OtherSideOfMask" component={OtherSideOfMask} />
@@ -92,7 +99,7 @@ history.listen(location => {
           <Route path="/With-The-Passage-Of-Time" component={SkyArtist8}/> {/*尹顯玲*/}
           <Route path="/UnbeingChinese" component={UnbeingChinese}/>
 
-          <Route path="/-ch" exact component={Home2_ch} />
+          <Route path="/GalleryHome-ch" exact component={Home2_ch} />
           <Route path="/PaulsApple-ch" component={PaulsApple_ch}/>
           <Route path="/PeopleAndMask-ch" component={PeopleAndMask_ch}/>
           <Route path="/OtherSideOfMask-ch" component={OtherSideOfMask_ch}/>
